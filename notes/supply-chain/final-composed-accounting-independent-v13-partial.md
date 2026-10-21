@@ -1,0 +1,9 @@
+Current v13 actual09/D4 passes the bounded mechanical/source-value recount. It still does not pass the final publication word gate. No implementation correction was found in this partial scope.
+
+The own transparent-table decoder matches the held current decoded data exactly. All36,083 actual scalar values/types are covered. Independent replay matches7,588 known visible source uses; all7,308 per-unit publication maxima and571 source totals recompute. There remain46 associated over200 screens, with source-route, generated-template and quotation gates still open.
+
+D4 now stores concrete heading ID references instead of copied alternate source labels. All3,462 reference pairs resolve to their own control and488 unique existing visible summary owners; no literal ARIA/title/description/alt/placeholder copies were observed in the held attribute inventory. This does not exempt accessible text generally or certify actual browser/assistive-technology semantics. Visible caption repetitions stay charged.
+
+Actual role bodies now count155/159 words, RE-Bench paper142/repository36 and FOS150 under the conservative tokenizer. The old147 FOS label was a whitespace count. The officialnotice/mirror share only their exact dated-notice budget; the buyer-page clock remains separate. Two role bodies, one caption and13 bibliography emissions are explicitly projected, not dropped by string matching. Earlier215 role-preparation scalar moves retained exact values/types; they represent20 higher-level field branches.
+
+This is the exact09/D4 cut, not the later ROOT135/136490-plus108 changed-set decision. The historical25,539 generated-event denominator belongs to07/D3; it is not current source clearance. Own EDA/SLSA input authorship is disclosed. No Lab helper, renderer, browser, source request or native system was run. Source meaning/rights/currentness, cumulative quotation coverage and final whole-artifact/frame counts remain unaccepted.

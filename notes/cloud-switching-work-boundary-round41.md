@@ -1,0 +1,43 @@
+# Cloud-switching work boundary41: native retrieval, state equivalence and an explicit legal-source gap
+
+This bounded pass supports a narrow engineering distinction: documented native retrieval interfaces are real starting points; a new exporter earns no value merely by producing a file. A proposed migration report must test preserved application state, semantics and recovery against competent native/ordinary tools. It does **not** close a Data Act compliance or deadline assessment: the direct regulation page returned a verification gate and was not retried.
+
+## Census and exact existing route
+
+Saved software, systems, public-legal/privacy/security/protocol notes and current source-index were checked first. Systems2 already covers schema compatibility, backfill/replication, rollback and application-visible outcomes. Public-legal5 supplies one council's migration/procurement constraints, not EU cloud law or general costs. Security/protocol3 already separates access authentication from application authority and effects. No dedicated Data Act/cloud-switch-fee/functionalequivalence coverage was found in this bounded original-root census; an EHDS receipt only cross-references2023/2854. An initial recursive keyword search swept copied review workspaces and was discarded.
+
+The valid existing route is **labor-economics-enrichment-round6.json#/records/117**, ID **labor-economics-round6.project.data-platform**, raw `7dc35e1698d427e5684f7526738006662147010890f1753420f8a3e4d486d197`, canonical record `c5f43b41a46061963567eabe553830a1d56008769b5950245a3845f7fe5da389`. It already specifies synthetic multi-tenant ingestion, versions, duplicates/deletion/provider faults, independent state fixtures and migration/rollback. Positional117 in the AI catalogue is a different SmolVLA paper and was rejected. **Original hours remain NULL; no hours, second project or canonical path is allocated.**
+
+## What the three selected source surfaces establish
+
+| Surface | Evidence and limit |
+|---|---|
+| [Regulation(EU)2023/2854](https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng) | Direct read returned only a JavaScript/robot gate. Official indexed discovery excerpts supply definition(37)'s shared-feature/same-input/service-type limit and register/complexity information. Those snippets are not recovered current consolidated legislation. Full category duties, fees, timelines, exceptions and territorial application remain held. |
+| [Commission Rolling Plan2026, cloud and edge](https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/cloud-and-edge-computing-rp-2026) | Lines99–103 attribute PaaS/SaaS open-interface compatibility toArt30(3), repository creation toArt35(8), and describe preparatory mapping/gap work. Lines120–129 request standards/open-source/automation collaboration. Lines198–199 list ISO/IEC DIS19941-1 and PWI19941-2 as work in progress. This is a plan-scoped status, not a checked current standards register, adopted draft text, mandatory implementation or proof that later progress has not occurred. |
+| [AWS SageMaker Online Register](https://docs.aws.amazon.com/online-register/latest/data-formats/amazonsagemaker.html) | Lines5–13,39–43,61–76 and96–105 document native record/artifact, configuration, model/pipeline and policy retrieval entry points. Existing interfaces are a serious baseline. The mutable catalogue is not an immutable SDK pin, complete export/import procedure, consistent snapshot, compatible destination, returned schema, deletion/recovery contract or successful migration. Its access-level label does not establish harmless execution or customer permission. |
+
+There were six bounded discovery queries and exactly **three distinct direct surface attempts: two readable, one gated**. Subsequent reader windows stayed within the working AWS surface. No blocked route retry, cloud/API call, account, package/code/model/data download or execution occurred. Other official and third-party discovery results were not adopted as additional primary body reads. Receipt hashes identify our retained observations, **not publisher bytes or cryptographic source authenticity**.
+
+## Legal boundaries deliberately left open
+
+The complete operative IaaS/PaaS/SaaS mapping is not verified. The source text recovered here does not close Art1 coverage, Art23–31 duties/exceptions, Art25 notice/transition/extensions/retrieval/deletion, Art29 fee conditions or Art50 application/amendment dates. Customer-generated input/output/metadata, provider IP/trade-secret exclusions, security/confidentiality and custom/nonproduction exceptions require full context. A proposed legislative change returned in discovery cannot be treated as enacted. No date, exemption or automatic India/UK/customer/company coverage is asserted from recollection; this is not legal advice.
+
+Engineering inference: removing a particular egress or switching fee cannot by itself make **total** migration cost zero. Target compute/storage, overlap, configuration/rewrite, validation, review and recovery are separate candidate cost categories. No amount, lawful entitlement, deadline, provider compliance, paid role, headcount or integration moat was measured here.
+
+## One unactivated report attachment, without a new budget
+
+If project117 is later selected, its existing synthetic-state contract can hold **one own format/state/recovery comparison report**. This is a proposed schema/report slice, not a completed or currently authorized native migration experiment. Use newly authored abstract tenants, objects, typed values, versions, tombstones and fault events; copy no customer, provider, credential, model or real resource data. It must not impersonate a SageMaker export format.
+
+Specify expected logical state and allowed authority **before** implementing a serializer/importer. Fix one source/target schema pair, version, snapshot/event cut, initial state, permitted fields and queries. Keep expected state independent. Compare a competent ordinary typed-JSON/snapshot-plus-incremental-replay baseline; any future native comparison first needs a separately selected supported export/import/configuration contract. No native arm ran here.
+
+The report must retain every offered case and arm, including healthy success, blocked, unsupported, incomplete and unknown. Check tenant identity, typed null/empty/false/zero/unknown, order/late updates, duplicate/lost acknowledged updates, deletion and interrupted replay. Healthy legitimate cases must pass: rejecting everything is not successful portability. A specified local rollback does not establish rollback of external effects. Format roundtrip alone does not prove workload behavior, authorization equivalence or production downtime.
+
+Stop a custom layer when existing native tooling/configuration meets the contract. Narrow to source-contract work when independent state/cut/oracle or lawful native setup is unavailable. Reject a gain that changes information/semantics, weakens permissions/oracle, drops failures or silently coerces unknowns. No real receiving workflow/current need means no paid-value claim. CPU/environment feasibility and resource caps remain unmeasured; **no new time or paid allowance, network, cloud account/API, installation or deployment is activated**.
+
+## Institutions, entry and proof
+
+The Commission/Rolling Plan is a public policy/standards discovery source, not a verified grant or contact invitation. AWS's page is public technical documentation, not a vacancy, named maintainer route or model/data licence. No paper, immutable code/SDK version, dataset/model, current staff/job or funding opportunity was selected. Actual contact endpoints remain NULL; source URLs are not relabelled contacts.
+
+Project117's existing SQL/transaction/contracts, ordering/deletion, auth/provenance and profiling/SLO prerequisites remain relevant. No new degree, geography or sponsorship determination follows. Real migration needs authorized owners/data/accounts, supported source/target contracts and independent outcome evidence. A local report could establish only its actually tested fictional mechanism; it cannot establish provider compliance, production recovery, rights, personal competence or hiring. Native platforms and agents may automate the remaining mapping/checking; technical need alone proves neither more seats nor an enduring human bottleneck.
+
+The next unresolved question is a **source and receiving-contract gate**: recover the complete current legal text separately, then identify one supported source/target contract whose state/recovery requirement is actually unmet. This pass freezes the access gap instead of guessing its answer.

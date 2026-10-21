@@ -1,0 +1,1409 @@
+{
+ "schema": "developer-futures-phase2-register/1",
+ "asOfUTC": "2026-10-21T14:38:46.009025+00:00",
+ "baselineUnchanged": "a56bb02694b71bbd44a9f3d2ee9a797cf2f44fa646f55dd40a00e237816f035d",
+ "scope": "Cross-round dedup and source/claim pointers; not a CV,job forecast or completed experiment. Raw reports contain unselected audit content; only pinned publication cuts are reader-selected.",
+ "rounds": [
+  {
+   "id": "round001",
+   "questions": [
+    {
+     "id": "P2-R001-assistive-aac",
+     "field": "Assistive communication",
+     "question": "Can an accessible AAC composition/correction contribution be validated with public text fixtures before atypical-speech access or recruitment, and what additional evidence is needed for independent message delivery?",
+     "whyNewPointer": "round001/assistive-aac.json#/whyNew",
+     "report": {
+      "path": "round001/assistive-aac.json",
+      "sha256": "95a2183b10e097d437f28b54bc269423a08bbdd6a195fe96445a981aebc3a848"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/assistive-aac-review.json",
+      "sha256": "f042cba1465772bebe720426dfa1c39666cb45ff0b542c00ea3adad3cb807a8e"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "apple-live-speech-105018",
+      "doi:10.1038/s41467-024-53873-3",
+      "google-relate-help",
+      "open-aac-openboardformat",
+      "speech-accessibility-project-access"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/assistive-aac.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-climate-insurance",
+     "field": "Climate and insurance models",
+     "question": "Can an external developer supply an independently checkable event-to-loss validation fixture beyond a hazard-only demonstration, without duplicating native tools or assuming private claims access?",
+     "whyNewPointer": "round001/climate-insurance.json#/whyNew",
+     "report": {
+      "path": "round001/climate-insurance.json",
+      "sha256": "d620ff830020ee13bfd9bacf245c197bc98c59e4cf56ab54a3af2c2d1a4a8356"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/climate-insurance-review.json",
+      "sha256": "6c6c31b1f0cdbdb77f171b144f02cd3f11b06aaeb727ee7b240f94e770982836"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3"
+     ],
+     "sourceFamilyIds": [
+      "climada-framework",
+      "kenyare-2025-rfp",
+      "oasis-framework"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/climate-insurance.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-creative-3d",
+     "field": "3D asset interchange",
+     "question": "Can a rights-cleared static Gaussian-splat asset cross current SPZ/glTF and runtime boundaries without silently changing coordinate, covariance or directional-color semantics, and would a conformance fixture contribution add value beyond native tools?",
+     "whyNewPointer": "round001/creative-3d.json#/whyNew",
+     "report": {
+      "path": "round001/creative-3d.json",
+      "sha256": "45e5e73a0f9ab94a34f02760ecc4648267d3559ac2da24c35471b7ed63ad0fdb"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/creative-3d-review.json",
+      "sha256": "afaa5610c4387d6e54893ce279578f1b9ecb8622c09c57ba6a06a595f944dd6e"
+     },
+     "claimIds": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+     ],
+     "sourceFamilyIds": [
+      "graphdeco-original-3dgs",
+      "khronos-gltf-gaussian-contract",
+      "niantic-spz-codec",
+      "playcanvas-splat-transform",
+      "worldlabs-spark-runtime"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/creative-3d.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-spatial-omics",
+     "field": "Spatial biology data",
+     "question": "Which extra manifest checks are needed when joining public single-cell references to spatial assays, so schema changes and donor reuse cannot silently contaminate held-out evaluation?",
+     "whyNewPointer": "round001/spatial-omics.json#/whyNew",
+     "report": {
+      "path": "round001/spatial-omics.json",
+      "sha256": "f657ec5ebd097ee7de21808ccd48d5785f7a37846d6293d0644f4dc7058efee4"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/spatial-omics-review.json",
+      "sha256": "6a6dd3bcb770c50553f4d915d570908fa7c09906b05fcc1ff697bb926198c631"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "cxg-census-specification",
+      "cxg-curation-contract",
+      "doi:10.1038/s41467-024-51059-5",
+      "spatialdata-infrastructure"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/spatial-omics.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-open-ran",
+     "field": "Open RAN control",
+     "question": "Which OCUDU/FlexRIC slice-quota control claims require capability, population and scheduler-effect evidence before a developer can assert interoperability?",
+     "whyNewPointer": "round001/open-ran.json#/whyNew",
+     "report": {
+      "path": "round001/open-ran.json",
+      "sha256": "a0ca68448b7406263fefd0d38d7960fbd5d543f03580614f5b217f8355db81d9"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/open-ran-review.json",
+      "sha256": "e49eda714549c1db6bf6c2b49f3a00895d38e23bc0cdf4f5446e3180e9d3426f"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+     ],
+     "sourceFamilyIds": [
+      "nist-automation-study-960654",
+      "nist-testbed-issue-13",
+      "nist-testbed-tool-catalogue",
+      "ocudu-kpm-metric-reference",
+      "ocudu-near-rt-ric-guide",
+      "oran-testing-whitepaper-feb2025"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/open-ran.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-photonics",
+     "field": "Optical AI interconnects",
+     "question": "Can a software-only CPO management contribution add value beyond native tests, and what could it validate?",
+     "whyNewPointer": "round001/photonics.json#/whyNew",
+     "report": {
+      "path": "round001/photonics.json",
+      "sha256": "03506d2ac0f41cf1cab9cd9e355ade0bf670a354afa325ed7f2b724dd9c0b2f4"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/photonics-review.json",
+      "sha256": "3094da282fc807a7a77fe3a14c21a32faa474cfe49716c3442e1c9e838e0151e"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "arxiv:2509.20584",
+      "ayar-careers",
+      "fboss-management"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/photonics.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-learning-measurement",
+     "field": "Learning measurement",
+     "question": "Can an adaptive tutor’s response-prediction or mastery score under AI assistance support retained independent competence, and what separation and external outcome would test that bridge?",
+     "whyNewPointer": "round001/learning-measurement.json#/whyNew",
+     "report": {
+      "path": "round001/learning-measurement.json",
+      "sha256": "d21cd92e53c606f2eff15b6a4f98a93f6751e185da3d5f1b79e3408e5be2c7eb"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/learning-measurement-review.json",
+      "sha256": "7ea85d0df00178f6c8e1268f47178f3e798e51cc4aba8df9d417a4a3a67089b9"
+     },
+     "claimIds": [
+      "LM-C1",
+      "LM-C2",
+      "LM-C3",
+      "LM-C4",
+      "LM-C5"
+     ],
+     "sourceFamilyIds": [
+      "phase2.baker.profile",
+      "phase2.eedi.challenge2020",
+      "phase2.judge.playfavorites2025",
+      "phase2.kt.coldstart2021",
+      "phase2.pybkt.docs"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/learning-measurement.json#/openQuestions"
+    },
+    {
+     "id": "P2-R001-aec-ids",
+     "field": "BIM information contracts",
+     "question": "Can generated or migrated requirements preserve the intended object population when optional applicability, schema support and property semantics differ, even if native audits or facet scores look satisfactory?",
+     "whyNewPointer": "round001/aec-ids.json#/whyNew",
+     "report": {
+      "path": "round001/aec-ids.json",
+      "sha256": "27bc6c2b9c12ad976991405dd0fb50d53e99c7fbe25aceac3fc3d3e90873de94"
+     },
+     "pairedReview": {
+      "path": "round001/reviews/aec-ids-review.json",
+      "sha256": "d61cb44a6899436a08af60f2ccb0678de4a659d50b7bcbb9971420413e68bc60"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+     ],
+     "sourceFamilyIds": [
+      "bsi-ids-1.0-docs",
+      "ishigaki-ids-bench-v1",
+      "mottmac-role17750"
+     ],
+     "status": "BOUNDED_RESEARCH_AND_DIFFERENT_REVIEW_COMPLETE_SELECTED_CANDIDATE",
+     "runtime": "PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round001/aec-ids.json#/openQuestions"
+    }
+   ]
+  },
+  {
+   "id": "round002",
+   "questions": [
+    {
+     "id": "P2-R002-memory-telemetry",
+     "field": "Memory and AI hardware telemetry",
+     "question": "Can a versioned replay reconcile selected DDR-host and HBM-accelerator error events, counter resets and retired-capacity reports without double-counting or presenting them as manufacturing yield or lifetime-reliability evidence, and is the required check already native?",
+     "whyNewPointer": "round002/memory-telemetry.json#/whyNew",
+     "report": {
+      "path": "round002/memory-telemetry.json",
+      "sha256": "340edbff0a5c75c9dc1717137a9bb737ac797b52fa2f09bf6f665d6eb7c384c1"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/memory-telemetry-review.json",
+      "sha256": "d16a5e1faa1c3b369855a6c997db8a1338d7d44f661180ab3010e3479f90b52d"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "calchas-atc24",
+      "linux-edac-ras",
+      "micron-ddr5-ras",
+      "nvidia-memory-telemetry"
+     ],
+     "selectedSourceFamilyIds": [
+      "calchas-atc24",
+      "linux-edac-ras",
+      "nvidia-memory-telemetry"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/memory-telemetry.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-geopolitics-records",
+     "field": "AI supply-chain evidence",
+     "question": "Can a public-source decision-record contract flag missing or incommensurate evidence about an authored accelerator-supply alternative without treating structural completeness as available supply or procurement approval?",
+     "whyNewPointer": "round002/geopolitics-records.json#/whyNew",
+     "report": {
+      "path": "round002/geopolitics-records.json",
+      "sha256": "8c9f03944d127d3174784b1526adab9d7b76e00c22a1944a0a49bb57b70dacd7"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/geopolitics-records-review.json",
+      "sha256": "bcf7a873c4fb220eb9b99946d5e7d10f4fb4dfaf7a5b2531411ac4714dec4ba7"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "frictionless-table-schema-v1",
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/mapping-the-semiconductor-value-chain_5ba52971/4154cdbf-en.pdf",
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/the-chip-landscape_27ef5d87/02dbd028-en.pdf",
+      "microsoft-d365-supply-risk-docs"
+     ],
+     "selectedSourceFamilyIds": [
+      "frictionless-table-schema-v1",
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/mapping-the-semiconductor-value-chain_5ba52971/4154cdbf-en.pdf",
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/the-chip-landscape_27ef5d87/02dbd028-en.pdf",
+      "microsoft-d365-supply-risk-docs"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/geopolitics-records.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-federated-systems",
+     "field": "Federated AI systems",
+     "question": "What observable survivor-sum/abort and model-consistency contract can a developer test around native secure aggregation under dropout, without upgrading it into malicious-input, model-privacy or heterogeneous-learning guarantees?",
+     "whyNewPointer": "round002/federated-systems.json#/whyNew",
+     "report": {
+      "path": "round002/federated-systems.json",
+      "sha256": "56738acba12b6fec5e74dcad1a85f0380980a04e8b13bf058e95fd24d052c731"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/federated-systems-review.json",
+      "sha256": "40fe993827b4d005407abd260505b8c43634ca7aa2321ee5e10227a01c0c7670"
+     },
+     "claimIds": [
+      "C1",
+      "C2"
+     ],
+     "sourceFamilyIds": [
+      "flower-native-aggregation",
+      "model-inconsistency-2022"
+     ],
+     "selectedSourceFamilyIds": [
+      "flower-native-aggregation",
+      "model-inconsistency-2022"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/federated-systems.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-food-traceability",
+     "field": "Food traceability",
+     "question": "Can a read-only lot-lineage interpretation fixture expose a receiver-valued correction or visibility error beyond the native workflow and a plain relational query, while refusing to equate a possible recorded trace with complete recall truth?",
+     "whyNewPointer": "round002/food-traceability.json#/whyNew",
+     "report": {
+      "path": "round002/food-traceability.json",
+      "sha256": "5d3b76b803152414d9a44077225c33d8dd3ff33acb41f30e925c5546c39a3e0f"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/food-traceability-review.json",
+      "sha256": "03ca58d0ca237d08cdb9850a5c6d374beeafef1f4a3167b40c2461d6d85557e9"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+     ],
+     "sourceFamilyIds": [
+      "gs1-epcis-cbv-contract",
+      "gs1us-seafood-interoperability-2021",
+      "ift-gftc-services",
+      "openepcis-native-tooling"
+     ],
+     "selectedSourceFamilyIds": [
+      "gs1-epcis-cbv-contract",
+      "gs1us-seafood-interoperability-2021",
+      "openepcis-native-tooling"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/food-traceability.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-scientific-instruments",
+     "field": "Observatory software",
+     "question": "When comparing observatory exposure midpoints, which time-scale, reference-location, exposure-convention and correction-resource provenance must survive file normalization, and what can software establish without an independently calibrated instrument clock?",
+     "whyNewPointer": "round002/scientific-instruments.json#/whyNew",
+     "report": {
+      "path": "round002/scientific-instruments.json",
+      "sha256": "48dc4f998620e8d17659f819cb3ffad4d40bd1b639c3337c634de64fa70ecd78"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/scientific-instruments-review.json",
+      "sha256": "5a3953e0f37a1253d483611c7106d5ffca89e20a8e56cd027b4098d27189d40f"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "arxiv:1005.4415",
+      "phase2.astropy.manual8",
+      "phase2.astropy.project"
+     ],
+     "selectedSourceFamilyIds": [
+      "arxiv:1005.4415",
+      "phase2.astropy.manual8"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/scientific-instruments.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-bioprocess-software",
+     "field": "Bioprocess modelling",
+     "question": "Can a fermentation economic sensitivity ranking justify which yield, titer or productivity intervention matters when capacity and dependent inputs change, or only a declared model scenario?",
+     "whyNewPointer": "round002/bioprocess-software.json#/whyNew",
+     "report": {
+      "path": "round002/bioprocess-software.json",
+      "sha256": "ae8da28ae042aa194ce5797e05d7b7f42af57f8390fb80567ee13019d18a6cf3"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/bioprocess-software-review.json",
+      "sha256": "336a5a7f1873b5dbba80f74dcf1af07cad90f5fb54a219a854e26a19eeb5bc9c"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "sourceFamilyIds": [
+      "biosteam-framework",
+      "culture-careers",
+      "doi:10.1038/s41467-026-75285-1"
+     ],
+     "selectedSourceFamilyIds": [
+      "biosteam-framework",
+      "doi:10.1038/s41467-026-75285-1"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/bioprocess-software.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-water-operations",
+     "field": "Water operations",
+     "question": "Which leak-benchmark target and negative-event coverage can actually support cause/localisation claims,when native regenerated scenarios and operational proximity labels describe different observations?",
+     "whyNewPointer": "round002/water-operations.json#/whyNew",
+     "report": {
+      "path": "round002/water-operations.json",
+      "sha256": "6fab6c318b661b55b4a3ca945db9e6378c90e39fe79c980b50009978f8f287c5"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/water-operations-review.json",
+      "sha256": "7e301482f920873b083101582c846010ce604917946894a1c13961bcbdeb0bfa"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+     ],
+     "sourceFamilyIds": [
+      "epyt-leakdb-port",
+      "kios-water-testbed-page",
+      "leakdb-2018",
+      "urban-anomaly-scores-15096167",
+      "yorkshire-leakage-bid-form"
+     ],
+     "selectedSourceFamilyIds": [
+      "epyt-leakdb-port",
+      "urban-anomaly-scores-15096167",
+      "yorkshire-leakage-bid-form"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/water-operations.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    },
+    {
+     "id": "P2-R002-apprenticeship-demand",
+     "field": "Developer work and apprenticeship",
+     "question": "Does removing mentor-reviewed starter tasks after coding-AI rollout cause fewer gross junior starts, beyond demand, restructuring and outsourcing?",
+     "whyNewPointer": "round002/apprenticeship-demand.json#/whyNew",
+     "report": {
+      "path": "round002/apprenticeship-demand.json",
+      "sha256": "9621f757ef12a2da643ef2257c92605dab773d9d16e7fd58a067869fba5e2b5e"
+     },
+     "pairedReview": {
+      "path": "round002/reviews/apprenticeship-demand-review.json",
+      "sha256": "d48b5849f965cfdc4e046d7a7a24ecea2e032e5022286b0ed1db119244ae13b7"
+     },
+     "claimIds": [
+      "AD-C1",
+      "AD-C2",
+      "AD-C3",
+      "AD-C4",
+      "AD-C5"
+     ],
+     "sourceFamilyIds": [
+      "amazon-sdeii-prep",
+      "arxiv:2602.00496",
+      "govuk-become-apprentice",
+      "iza-dp17367",
+      "iza-dp18723"
+     ],
+     "selectedSourceFamilyIds": [
+      "amazon-sdeii-prep",
+      "arxiv:2602.00496",
+      "iza-dp17367",
+      "iza-dp18723"
+     ],
+     "status": "BOUNDED_RESEARCH_DIFFERENT_NARROW_SELECTION_REVIEW_AND_LOCAL_RELEASE_COMPLETE",
+     "runtime": "ALL_PROPOSED_UNRUN",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "nextOpenQuestionsPointer": "round002/apprenticeship-demand.json#/openQuestions",
+     "boundary": "Only selected cut accepted; unselected original facts/read receipts are not blanket-approved.",
+     "deliveryObservation": "round002/delivery-observation.json"
+    }
+   ]
+  },
+  {
+   "id": "round003",
+   "questions": [
+    {
+     "id": "P2-R003-memory-roles-directory",
+     "field": "Memory roles and project routes",
+     "question": "Which current direct employer role bodies and public maintainer processes establish the responsibility and entry contract for memory/RAS-adjacent software work, rather than assuming that interest in RAM or an app artifact grants hardware-career access?",
+     "report": {
+      "path": "round003/memory-roles-directory.json",
+      "sha256": "388ca0899d95f4dd21c0fbf536305b9df25bcefe42bcb1c6d20dd8d3d605b00d"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/memory-roles-directory-review.json",
+      "sha256": "a7db1d2c06e46c237e5b96b2a7d5dab73d966e72cda7c85ba7e7e0ffc9d92252"
+     },
+     "claimIds": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+     ],
+     "selectedSourceFamilyIds": [
+      "arm-role-2026-17387",
+      "arm-role-2026-19215",
+      "rasdaemon-contribution-route"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/memory-roles-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-observatory-directory",
+     "field": "Observatory contribution and research",
+     "question": "Which current public Astropy routes could take one compatible fixture/docs correction through review and sustained maintenance, and which separate gates apply to formal project roles or funded research work for a developer with unverified degree, location and observatory access?",
+     "report": {
+      "path": "round003/observatory-directory.json",
+      "sha256": "ceaf72d296530ab7b0cfbd4de554877b2e3815d3b0587db28d106b7edde47dad"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/observatory-directory-review.json",
+      "sha256": "6053874995afa4295c4e786039ff11bd984ef38d2829c163975600a2e7c07545"
+     },
+     "claimIds": [
+      "OD-C1",
+      "OD-C2",
+      "OD-C3",
+      "OD-C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "phase2.astropy.project",
+      "phase2.stsci.sasp"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/observatory-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-federated-directory",
+     "field": "Federated AI contributor and company routes",
+     "question": "What current public Flower contribution/triage route could receive one already-proposed synthetic fixture or documentation clarification, and which separate human, institutional and exact-role gates remain before maintenance or paid research work?",
+     "report": {
+      "path": "round003/federated-directory.json",
+      "sha256": "ec8aa9af117dfb732c3c75cf508d790e5cbb2359c9f4975db35df010956538a2"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/federated-directory-review.json",
+      "sha256": "26e29b950d57ce987325e0c5de89a44c99158221b85ddd3d666b99d80498babe"
+     },
+     "claimIds": [
+      "FD-C1",
+      "FD-C2",
+      "FD-C3",
+      "FD-C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "flower-native-aggregation",
+      "pasquini-official-expert-biography"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/federated-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-bioprocess-directory",
+     "field": "Bioprocess software and laboratory routes",
+     "question": "Which current official project, lab and industry routes can receive a narrow software contribution, and which independent-review, domain, degree, location and equipment gates actually apply?",
+     "report": {
+      "path": "round003/bioprocess-directory.json",
+      "sha256": "6927120e9692d5ad9776de19c7dde48781b2e2ac870bd16f3364bccc46f1a33b"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/bioprocess-directory-review.json",
+      "sha256": "507785e14d599744bc0768d83f0b9d520c11511b05ad816d7f508df10773fe49"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "biosteam-framework",
+      "illinois-guest-directory",
+      "intelligen-employment"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/bioprocess-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-water-directory",
+     "field": "Water software and supplier routes",
+     "question": "Which public project, lab and utility routes could receive a software correction, and which barriers separate contribution from independently funded access?",
+     "report": {
+      "path": "round003/water-directory.json",
+      "sha256": "d802c9580d957d97855cea6f9ba9aed79b9c5dc604df04e4617e1003acdbd9f2"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/water-directory-review.json",
+      "sha256": "8dc3ea68df0c624af8d66b9ea92acc7262c8131b07ad27885cabcb89224465ed"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3"
+     ],
+     "selectedSourceFamilyIds": [
+      "epyt-leakdb-port",
+      "hammerlab-artelt-profile",
+      "yorkshire-leakage-bid-form"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/water-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-food-directory",
+     "field": "Food software and standards routes",
+     "question": "Which current public route can receive a bounded record-regression contribution, and which additional gates separate maintainer or standards review from paid implementation work and access to partner ledgers?",
+     "report": {
+      "path": "round003/food-directory.json",
+      "sha256": "9d0a41b100647cfa30598865374f3cce7848285666082eb09226667643c861cf"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/food-directory-review.json",
+      "sha256": "54a4bc1dbbfd63ef6903d14537c6796f311960e9a0dc114bdb52d6c32250b5ab"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "gs1-epcis-cbv-contract",
+      "openepcis-native-tooling"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/food-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-supply-chain-directory",
+     "field": "AI supply-chain professional routes",
+     "question": "Which currently public route can receive a small supply-data validation contribution, and where would moving into paid policy research or enterprise implementation require a distinct mandate, data access or role qualification?",
+     "report": {
+      "path": "round003/supply-chain-directory.json",
+      "sha256": "3036ebda4bc7e51f7f4f92094f2989235500ff7f092f9a9247f3a29c8f8c64d8"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/supply-chain-directory-review.json",
+      "sha256": "bffa1cd38fffb5916e8689986ee63b874b7172532fd9218298bf4d6ad7a94340"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "frictionless-table-schema-v1",
+      "microsoft-d365-supply-risk-docs",
+      "oecd-recruitment-routes"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/supply-chain-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    },
+    {
+     "id": "P2-R003-robotics-directory",
+     "field": "Robotics contribution and laboratory routes",
+     "question": "What receiving and review gates make a small simulation or sensor-interface regression a credible public contribution, and how does that route differ from industry or academic robotics access?",
+     "report": {
+      "path": "round003/robotics-directory.json",
+      "sha256": "cf8bb3f3fd9ae9304ae6f62dd7bf9f52d32813822fee8553b09da47e0a6df600"
+     },
+     "pairedReview": {
+      "path": "round003/reviews/robotics-directory-review.json",
+      "sha256": "3d96c8ad6f6d37ee3824bcd6c08c94b78d34412cc5d8b3b8aba0d2bef9336558"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "gatech-rail-directory",
+      "gazebo-project-guidance"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round003/robotics-directory.json#/openQuestions",
+     "boundary": "Only the selected attributed cut accepted. Profiles, public contribution channels and role snapshots do not prove personal eligibility, available funding, current vacancies or future demand.",
+     "deliveryObservation": "round003/delivery-observation.json"
+    }
+   ],
+   "localRelease": {
+    "path": "round003/local-release-validation.json",
+    "sha256": "328716093395b9df17d1f2a49f375c2b355487be2de4bb5e4df0bc8dba363659"
+   }
+  },
+  {
+   "id": "round004",
+   "questions": [
+    {
+     "id": "P2-R004-assistive-directory",
+     "field": "Assistive communication contribution and research",
+     "question": "Which public AAC project contribution contract and university research route could evaluate one accessible-interface or documentation correction, without implying authority to recruit participants, access personal speech data, conduct clinical studies or enter a funded position?",
+     "report": {
+      "path": "round004/assistive-directory.json",
+      "sha256": "19be6522653a02616c740ee02a484fbc7a620cd8cefd0d508903edf7fcaf0250"
+     },
+     "pairedReview": {
+      "path": "round004/reviews/assistive-directory-review.json",
+      "sha256": "e08869811f5213217d829e358c2834ccb62b007094fd30cae08b2072a8590c37"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "cboard-contribution-and-rights",
+      "dundee-waller-directory"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round004/assistive-directory.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no current vacancy, funded access, personal eligibility, accepted contribution, physical authority or2031 demand estimate follows.",
+     "deliveryObservation": "round004/delivery-observation.json"
+    },
+    {
+     "id": "P2-R004-security-directory",
+     "field": "AI security contribution routes",
+     "question": "What human accountability and receiving conditions make one existing AI-security documentation or fixture unit a legitimate public contribution, without promoting participation into certification, a paid seat or security authority?",
+     "report": {
+      "path": "round004/security-directory.json",
+      "sha256": "0729e4eb326993632ed4a3f99fc1e1c4b3d314918d41de5266d19fee98bbd5bd"
+     },
+     "pairedReview": {
+      "path": "round004/reviews/security-directory-review.json",
+      "sha256": "6d3df27ce85e285c20ef317c6ab0357fc2c7cc15e3bd8e94da339b2bc83a624c"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "garak-contribution-governance",
+      "nvidia-derczynski-official-profile"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round004/security-directory.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no current vacancy, funded access, personal eligibility, accepted contribution, physical authority or2031 demand estimate follows.",
+     "deliveryObservation": "round004/delivery-observation.json"
+    },
+    {
+     "id": "P2-R004-energy-directory",
+     "field": "Grid software and research entry",
+     "question": "Does GridAPPS-D provide a public receiving path for one simulator/adapter/documentation regression,and what separate credential and access evidence is still required for paid grid-software work?",
+     "report": {
+      "path": "round004/energy-directory.json",
+      "sha256": "95599eef75de07878493794bf5bea1a0f1736b250878696975438e9857e75af8"
+     },
+     "pairedReview": {
+      "path": "round004/reviews/energy-directory-review.json",
+      "sha256": "9ba683faafc807091c8e7c2f973375143f37896e87a2285ac29fcb0c94d20899"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "doi:10.1109/ACCESS.2024.3374331",
+      "gridapps-d-platform",
+      "pnnl-pauling-2027-programme"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round004/energy-directory.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no current vacancy, funded access, personal eligibility, accepted contribution, physical authority or2031 demand estimate follows.",
+     "deliveryObservation": "round004/delivery-observation.json"
+    },
+    {
+     "id": "P2-R004-health-software-directory",
+     "field": "Health software and clinical role boundaries",
+     "question": "What current public frontend contribution and review route could receive one nonclinical documentation or unit-test correction, and which rights, clinical/data, research and entry authorities remain separate?",
+     "report": {
+      "path": "round004/health-software-directory.json",
+      "sha256": "12d0a09bd4c93ee4253cd7cd6e53cf1511a13978aa054cb40e423a00e66bf7cd"
+     },
+     "pairedReview": {
+      "path": "round004/reviews/health-software-directory-review.json",
+      "sha256": "4260f5f8347a41825a440c7c7a8f49aa8284c94a79a5b0db3e3259d82803b1e4"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "openmrs-contribution-and-rights",
+      "regenstrief-health-informatics-directory"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round004/health-software-directory.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no current vacancy, funded access, personal eligibility, accepted contribution, physical authority or2031 demand estimate follows.",
+     "deliveryObservation": "round004/delivery-observation.json"
+    },
+    {
+     "id": "P2-R004-nuclear-science-directory",
+     "field": "Particle simulation and research entry",
+     "question": "Which public software contribution route can receive one existing documentation or fictional-fixture unit, and what separates that participation from a funded scientific appointment and qualified physical validation?",
+     "report": {
+      "path": "round004/nuclear-science-directory.json",
+      "sha256": "9e0dba48cbe344236a9598c74e310da97ce8c69ce522dccc1e269049e6423d53"
+     },
+     "pairedReview": {
+      "path": "round004/reviews/nuclear-science-directory-review.json",
+      "sha256": "46ad7b976d296a23bbabdb6fe59a85d8e014b7d31e3589e747fa0a966aad2429"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "cern-ep-sft-2026-152-grap-role",
+      "geant4-contribution-licence"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round004/nuclear-science-directory.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no current vacancy, funded access, personal eligibility, accepted contribution, physical authority or2031 demand estimate follows.",
+     "deliveryObservation": "round004/delivery-observation.json"
+    },
+    {
+     "id": "P2-R004-space-data-directory",
+     "field": "Space-data software and placements",
+     "question": "Can an external developer obtain ordinary maintainer review for one existing Satpy documentation/test unit, while institutional entry conditions and authority over calibrated satellite products remain separate?",
+     "report": {
+      "path": "round004/space-data-directory.json",
+      "sha256": "bfbfbd4645d3874ba2077e23b135e736e3955d57dc4c765422570b704d908097"
+     },
+     "pairedReview": {
+      "path": "round004/reviews/space-data-directory-review.json",
+      "sha256": "66d45b32cdf0241261125faf0b63df150b0872febe8016113d634b5d73c6477a"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "eumetsat-internship-route",
+      "pytroll-satpy-project"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_DIRECTORY_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_AND_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round004/space-data-directory.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no current vacancy, funded access, personal eligibility, accepted contribution, physical authority or2031 demand estimate follows.",
+     "deliveryObservation": "round004/delivery-observation.json"
+    }
+   ],
+   "heldEntireNewCuts": [
+    {
+     "branchId": "chip-design-directory",
+     "rawDraftSHA256": "4efb07b06a5be8f00eff3d2a8ab9725ef7ec1e515e6d946615f190e8c87296c0",
+     "pairedReviewSHA256": "9db4b65d174dd4bf1febbb52ac0929041fabc08f00f7515978bf6e9e3a11603a",
+     "disposition": "EXCLUDE_ENTIRE_NEW_CUT_AND_REGISTRY_FROM_THIS_PASS_KEEP_FULL_DRAFTS",
+     "reason": "Unresolved cumulative publication obligation, not a technical or career rejection."
+    },
+    {
+     "branchId": "quantum-directory",
+     "rawDraftSHA256": "7f454532dd3f5de689d0187beae4ce8a092e2c35ee61f7d3c78d5670e80eea73",
+     "pairedReviewSHA256": "da4c8e09f267ba110310141fa346d45f2ca757149c5ed6da45e4e148a7065734",
+     "disposition": "EXCLUDE_ENTIRE_NEW_CUT_AND_REGISTRY_FROM_THIS_PASS_KEEP_FULL_DRAFTS",
+     "reason": "Unresolved cumulative publication obligation, not a technical or career rejection."
+    }
+   ],
+   "localRelease": {
+    "path": "round004/local-release-validation.json",
+    "sha256": "932de79f88ab91c71552269cfc544eeae34caa670cbbce96c64ccc2350122008"
+   },
+   "target": "Six-only corrected UTC v2; original failed target and all held raw drafts preserved."
+  },
+  {
+   "id": "round005",
+   "questions": [
+    {
+     "id": "P2-R005-packaging-test-entry",
+     "field": "Package and interconnect measurement software",
+     "question": "Can one receiver-valued public measurement-file documentation/test unit support entry into package/interconnect signal/power-integrity software work, and what remains separate in a specific paid customer-facing role and physical laboratory validation?",
+     "report": {
+      "path": "round005/packaging-test-entry.json",
+      "sha256": "c508ff55a0bd7e2798045589640db5d0874dbce1ac76214f1440ced8fe14aa83"
+     },
+     "pairedReview": {
+      "path": "round005/reviews/packaging-test-entry-review.json",
+      "sha256": "4bc36238704eda2bfe6c1f8d4ef87039ae02fc91b3a1519eba3ec64acfac5807"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3"
+     ],
+     "selectedSourceFamilyIds": [
+      "ansys-nport-native-options",
+      "scikit-rf-project",
+      "synopsys-si-pi-role18818"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round005/packaging-test-entry.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no physical validation,current vacancy,personal eligibility,receiver,funding,usable quota or2031demand guarantee.",
+     "deliveryObservation": "round005/delivery-observation.json"
+    },
+    {
+     "id": "P2-R005-ddr-controller-entry",
+     "field": "DDR transaction verification software",
+     "question": "Can one existing public DDR-controller frontend test accept an independently expected fictional-transaction regression, while leaving full memory-protocol/specification rights, PHY/electrical conformance and employer entry requirements unproved?",
+     "report": {
+      "path": "round005/ddr-controller-entry.json",
+      "sha256": "b2a7ab667b7a084068f43f483fd1b724b3ebcc69c7a25177b256d5314a465500"
+     },
+     "pairedReview": {
+      "path": "round005/reviews/ddr-controller-entry-review.json",
+      "sha256": "b59546d4c775ef9aea4f42497d59568f14d29bd65cd190bb64ec097662cee8d5"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "litedram-native-controller-tests",
+      "synopsys-role-18576"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round005/ddr-controller-entry.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no physical validation,current vacancy,personal eligibility,receiver,funding,usable quota or2031demand guarantee.",
+     "deliveryObservation": "round005/delivery-observation.json"
+    },
+    {
+     "id": "P2-R005-collective-recovery-entry",
+     "field": "Collective cancellation diagnostics",
+     "question": "Can one bounded expected-outcome and run-consistency diagnostic distinguish admitted cancellation, missing participation and insufficient evidence beyond the complete native diagnostic workflow?",
+     "report": {
+      "path": "round005/collective-recovery-entry.json",
+      "sha256": "a100cf6aca9afd870050ba865dda24c1fab544f8284063036d7b9d29af7053bf"
+     },
+     "pairedReview": {
+      "path": "round005/reviews/collective-recovery-entry-review.json",
+      "sha256": "572c25c2eebcec5f1dd7140c6fc665d4cc8a60791f7185d89a217445271bb01b"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+     ],
+     "selectedSourceFamilyIds": [
+      "clockwork-role-6218348004",
+      "nccl-collective-project",
+      "pytorch-distributed-native"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round005/collective-recovery-entry.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no physical validation,current vacancy,personal eligibility,receiver,funding,usable quota or2031demand guarantee.",
+     "deliveryObservation": "round005/delivery-observation.json"
+    },
+    {
+     "id": "P2-R005-power-cooling-entry",
+     "field": "Power and cooling metadata interpretation",
+     "question": "Can one read-only metadata clarification prevent an illustrative report from being treated as a calibrated observation, after the native and manual baseline?",
+     "report": {
+      "path": "round005/power-cooling-entry.json",
+      "sha256": "6cd80d2c527c3ec1ac71493783a29d1d774fb5cedbd47960018e7dabc0f7ecbf"
+     },
+     "pairedReview": {
+      "path": "round005/reviews/power-cooling-entry-review.json",
+      "sha256": "47b70ac6c3f3fcb3587db5712eb4d59a77fc3ad3fe3a574976b5b0220636b67e"
+     },
+     "claimIds": [
+      "PC-C1",
+      "PC-C2",
+      "PC-C3",
+      "PC-C4",
+      "PC-C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "dell-idrac-mrd-telemetry-guide",
+      "dmtf-redfish-validator-mockups-contribution"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round005/power-cooling-entry.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no physical validation,current vacancy,personal eligibility,receiver,funding,usable quota or2031demand guarantee.",
+     "deliveryObservation": "round005/delivery-observation.json"
+    },
+    {
+     "id": "P2-R005-industrial-metrology-entry",
+     "field": "Industrial SDK and camera emulation",
+     "question": "Can one existing no-camera parameter-test/documentation unit establish useful SDK configuration and runtime identity evidence, and what remains separate in physical calibration, certified inspection and a specific industrial support role?",
+     "report": {
+      "path": "round005/industrial-metrology-entry.json",
+      "sha256": "e0d39bcb248f49f2f1ddaa4c29918a2f8be1b7248b75e7f69aafe1665fa0065e"
+     },
+     "pairedReview": {
+      "path": "round005/reviews/industrial-metrology-entry-review.json",
+      "sha256": "39662dcb374b71a5fd0c1c0ff696e14eb306dc7afd876e4955763ab1ecfdcdb7"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "basler-pylon-doc137",
+      "basler-pypylon-project",
+      "basler-role-j1030"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round005/industrial-metrology-entry.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no physical validation,current vacancy,personal eligibility,receiver,funding,usable quota or2031demand guarantee.",
+     "deliveryObservation": "round005/delivery-observation.json"
+    },
+    {
+     "id": "P2-R005-sovereign-compute-access",
+     "field": "Sovereign AI compute access",
+     "question": "What currently published gates separate a EuroHPC AI Factory Playground application targeting LUMI-G from usable developer allocation, and can an evidence-only readiness packet establish anything beyond the native process?",
+     "report": {
+      "path": "round005/sovereign-compute-access.json",
+      "sha256": "cf78ad104ed58db8c1754a78096f8d8c129531381eeac8e6b2e734d5ee2402f8"
+     },
+     "pairedReview": {
+      "path": "round005/reviews/sovereign-compute-access-review.json",
+      "sha256": "b1b6551e077edf66db006683ba53a0aa09161985568472a1f6630fc0b030bdec"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+     ],
+     "selectedSourceFamilyIds": [
+      "eurohpc-access-policy-2025-12",
+      "eurohpc-aif-industrial-access",
+      "lumi-aif-access-native"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "PRIOR_FINAL_REFERENCE_EMISSION_OBSERVED_TRUSTED_CURRENT_CONVERSATION",
+     "runtime": "ALL_TECHNICAL_CAREER_EXPERIMENTS_PROPOSED_UNRUN",
+     "nextOpenQuestionsPointer": "round005/sovereign-compute-access.json#/openQuestions",
+     "boundary": "Selected attributed cut only; no physical validation,current vacancy,personal eligibility,receiver,funding,usable quota or2031demand guarantee.",
+     "deliveryObservation": "round005/delivery-observation.json"
+    }
+   ],
+   "heldEntireNewCuts": [
+    {
+     "branch": "ai-network-storage-entry",
+     "rawSHA256": "03318d3ea90acba3e4949fcebef0c6d2bea01f5e3bf597ef6d69bcc58540b73f",
+     "reviewSHA256": "6a086b5f8e67b787c4d33c29d1544aba7b72da56e2374480e53e51821553286d",
+     "disposition": "ENTIRE_NEW_CUT_AND_REGISTRY_EXCLUDED_FULL_DRAFTS_RETAINED",
+     "reason": "Known SPDK140 plus selected89=229; not a technical or career rejection."
+    }
+   ],
+   "localRelease": {
+    "path": "round005/local-release-validation.json",
+    "sha256": "bfc9175f499a82000756cf954d333d9cddfb52e5f6c23f3e4a626775ad6bfb24"
+   }
+  },
+  {
+   "id": "round006",
+   "questions": [
+    {
+     "id": "P2-R006-public-service-entry",
+     "field": "Public-service notification status",
+     "question": "Can one existing public notification status-example or rendering fixture preserve provider-delivery evidence without asserting human reading, service adjudication or government authority, and what receiving/use/employment gates remain?",
+     "report": {
+      "path": "round006/public-service-entry.json",
+      "sha256": "be681cecd7e43a7e2746eaaa419fc2a1317ebc5e2139854236a123fdfa61fd33"
+     },
+     "pairedReview": {
+      "path": "round006/reviews/public-service-entry-review.json",
+      "sha256": "b8784a25eb3352795dbde64535e5c390d28dd79f45d374e75f49d04ab275e14d"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "govuk-notify-hosted-service-contract",
+      "govuk-notify-public-code-process"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "CURRENT_FILE_UPDATED_SAME_TURN_INLINE_EMISSION_PENDING",
+     "runtime": "ALL_SCIENTIFIC_AND_OPERATIONAL_PROPOSALS_UNRUN",
+     "nextOpenQuestionsPointer": "round006/public-service-entry.json#/openQuestions",
+     "boundary": "Only selected attributed cut; no scientific replication,physical or financial truth,current funded role,personal eligibility or2031demand inference."
+    },
+    {
+     "id": "P2-R006-assessment-software-entry",
+     "field": "Assessment interchange and accessibility",
+     "question": "What would make one existing item-import/documentation unit a receiver-valued feature-preservation check beyond native validation, while keeping accessibility, psychometric validity, learning gains and job access separate?",
+     "report": {
+      "path": "round006/assessment-software-entry.json",
+      "sha256": "b9fcf0ce1009352761bddac71f83a0b750e56ceff46912cfd162c8e381844662"
+     },
+     "pairedReview": {
+      "path": "round006/reviews/assessment-software-entry-review.json",
+      "sha256": "2007e61616673dee93c01be84ac60ed15507c00e1e63eaedba097b46e0e6f8a5"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "qti3-accessibility-guidance",
+      "qti3-conformance-v2-guide",
+      "tao-ce-project"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "CURRENT_FILE_UPDATED_SAME_TURN_INLINE_EMISSION_PENDING",
+     "runtime": "ALL_SCIENTIFIC_AND_OPERATIONAL_PROPOSALS_UNRUN",
+     "nextOpenQuestionsPointer": "round006/assessment-software-entry.json#/openQuestions",
+     "boundary": "Only selected attributed cut; no scientific replication,physical or financial truth,current funded role,personal eligibility or2031demand inference."
+    },
+    {
+     "id": "P2-R006-financial-data-entry",
+     "field": "Financial fact classification",
+     "question": "Could one existing duplicate-classification or documentation unit preserve a source-defined identity/policy decision without mistaking structural consistency for financial truth?",
+     "report": {
+      "path": "round006/financial-data-entry.json",
+      "sha256": "ae806ed850fe79bb91449e9cd9522b87e86e2ee6d94b2e4c5583b0a453338d70"
+     },
+     "pairedReview": {
+      "path": "round006/reviews/financial-data-entry-review.json",
+      "sha256": "073dbf60a5306e6b4c54662cf0f4d9d2818ea56a61259dac9b1a5d8e210dd03d"
+     },
+     "claimIds": [
+      "FD-C1",
+      "FD-C2",
+      "FD-C3",
+      "FD-C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "arelle-xbrl-native-project",
+      "databento-role-8076835"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "CURRENT_FILE_UPDATED_SAME_TURN_INLINE_EMISSION_PENDING",
+     "runtime": "ALL_SCIENTIFIC_AND_OPERATIONAL_PROPOSALS_UNRUN",
+     "nextOpenQuestionsPointer": "round006/financial-data-entry.json#/openQuestions",
+     "boundary": "Only selected attributed cut; no scientific replication,physical or financial truth,current funded role,personal eligibility or2031demand inference."
+    },
+    {
+     "id": "P2-R006-creative-color-entry",
+     "field": "Creative color configuration",
+     "question": "Can one receiver-valued OCIO configuration/cache-identity documentation or existing test unit establish a precise metadata contract beyond native checks,without certifying transform correctness,calibrated viewing,perceptual quality or footage rights?",
+     "report": {
+      "path": "round006/creative-color-entry.json",
+      "sha256": "443dbc2b6da91520dd3471b2811f30a37b1456409ddb93cf844c704a3c20084f"
+     },
+     "pairedReview": {
+      "path": "round006/reviews/creative-color-entry-review.json",
+      "sha256": "3f6b8ef347ec1e9c0d9c59fd3416c910b5a735f2bbe9c31a86db20918d9f38df"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+     ],
+     "selectedSourceFamilyIds": [
+      "filmlight-recruitment-route",
+      "opencolorio-config-process"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "CURRENT_FILE_UPDATED_SAME_TURN_INLINE_EMISSION_PENDING",
+     "runtime": "ALL_SCIENTIFIC_AND_OPERATIONAL_PROPOSALS_UNRUN",
+     "nextOpenQuestionsPointer": "round006/creative-color-entry.json#/openQuestions",
+     "boundary": "Only selected attributed cut; no scientific replication,physical or financial truth,current funded role,personal eligibility or2031demand inference."
+    },
+    {
+     "id": "P2-R006-scientific-ml-methods",
+     "field": "Learned PDE rollout evaluation",
+     "question": "For a fixed chaotic PDE task, what does a longer reported learned rollout establish against a competent classical or hybrid solver at the same physical horizon, grid and error criterion, and which coefficient, boundary, stability and cost transfers remain untested?",
+     "report": {
+      "path": "round006/scientific-ml-methods.json",
+      "sha256": "1955d09773ac4e691239b4da287e03ef91a81dbfdb61f7451efd608228bea9cc"
+     },
+     "pairedReview": {
+      "path": "round006/reviews/scientific-ml-methods-review.json",
+      "sha256": "d5e969463bd2e18659a86a45513189666fe428f8f67953b15eb38ba930d954c5"
+     },
+     "claimIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "sciml-hybrid-cfd-paper-linked-project",
+      "sciml-refiner-paper-linked-project"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "CURRENT_FILE_UPDATED_SAME_TURN_INLINE_EMISSION_PENDING",
+     "runtime": "ALL_SCIENTIFIC_AND_OPERATIONAL_PROPOSALS_UNRUN",
+     "nextOpenQuestionsPointer": "round006/scientific-ml-methods.json#/openQuestions",
+     "boundary": "Only selected attributed cut; no scientific replication,physical or financial truth,current funded role,personal eligibility or2031demand inference."
+    },
+    {
+     "id": "P2-R006-experimental-design-methods",
+     "field": "Bayesian optimisation numerical reliability",
+     "question": "Do the reported gains of log-stabilised expected improvement establish a different scientific selection policy, or a numerical optimisation improvement whose sample-efficiency claim depends on the exact benchmark and comparator?",
+     "report": {
+      "path": "round006/experimental-design-methods.json",
+      "sha256": "c838b9ea9897ba6802a7bf4add36c393fd130605f7aa30b667e2d41477b9c4e8"
+     },
+     "pairedReview": {
+      "path": "round006/reviews/experimental-design-methods-review.json",
+      "sha256": "eecfef463bfb51f285f23114936a577fe634b6a4506ed0fb458946c46de80657"
+     },
+     "claimIds": [
+      "ED-C1",
+      "ED-C2",
+      "ED-C3",
+      "ED-C4",
+      "ED-C5"
+     ],
+     "selectedSourceFamilyIds": [
+      "botorch-native-project",
+      "botorch-neurips-2020",
+      "logei-neurips-2023"
+     ],
+     "status": "BOUNDED_DIFFERENT_REVIEWED_CUT_LOCALLY_ACCEPTED",
+     "publication": "CURRENT_FILE_UPDATED_SAME_TURN_INLINE_EMISSION_PENDING",
+     "runtime": "ALL_SCIENTIFIC_AND_OPERATIONAL_PROPOSALS_UNRUN",
+     "nextOpenQuestionsPointer": "round006/experimental-design-methods.json#/openQuestions",
+     "boundary": "Only selected attributed cut; no scientific replication,physical or financial truth,current funded role,personal eligibility or2031demand inference."
+    }
+   ],
+   "classificationRepair": {
+    "oldReview": "88d0320e",
+    "currentReview": "eecfef46",
+    "onlyDelta": "source-bound mathematical leaf kind proposal→inference; all text/refs/unrun/null values unchanged;45-word receipt charged."
+   },
+   "localRelease": {
+    "path": "round006/local-release-validation.json",
+    "sha256": "e79c53df9d2d493f02c7fcb77240e71d70cd88ccc5e1e950277843f29794d25d"
+   }
+  }
+ ],
+ "frozenSourceIndex": "../source-index.json is discovery-only; include this phase2 register for future dedup."
+}

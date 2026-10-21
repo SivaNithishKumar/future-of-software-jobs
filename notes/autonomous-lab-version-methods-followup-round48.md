@@ -1,0 +1,17 @@
+# Polybot manuscript-version follow-up: identity metadata only
+
+**No alternate methods body was recovered within this bounded search.** This is a version/access gap, not a finding that no archive, experiment, useful outcome or funding exists. The earlier reported conductivity positive retains its primary-indexed class; it is not upgraded, erased or re-estimated.
+
+Before either query, the saved question required an explicit version relation to Wang et al., *Autonomous platform for solution processing of electronic polymers*, published17February2025 in *Nature Communications*16:1498, DOI10.1038/s41467-024-55655-3. A matching title, authors or DOI would identify a candidate but would not establish that an earlier manuscript equals the final journal methods. Accepted/preprint/published versions would have remained separate.
+
+Two focused discovery queries were used. The first exact-title search across public institutional/author/archive scopes returned an official Argonne publication entry and project context. The second narrower archive/preprint query returned no results. Only the relevant [CNM2025 publication entry](https://cnm.anl.gov/publications/index/2025) was read, at line434 of the returned page. It lists the target title, sixteen abbreviated author tokens, *Nature Communications*, volume16 and year2025. Its displayed link host is Nature; the full target was not extracted or followed. The entry does not display a manuscript body, version assertion or separate author/archive download.
+
+This supplies directly read **institutional publication metadata**, not final-paper equivalence. The printed entry does not itself give the DOI, article number1498 or exact publication day. Those remain the earlier target metadata; they are not silently attributed to the CNM line. Abbreviations are not expanded into full personal identities, current appointments or employer membership.
+
+There were **zero new experimental manuscript-body reads**, **one new institutional metadata surface** and **two discovery queries**. The two-body allowance was a ceiling, not a requirement to invent candidates. No known Nature/DOI or PMC route was retried. No supporting repository, CSV, spreadsheet, notebook, software, model, asset, correction or reviewer file was opened. Search nonreturn is not an exhaustive absence result.
+
+Attempted/completed/valid physical samples, independent replicates, acquisition/stopping controls, conductivity measurement, manual intervention, recovery and full costs remain unresolved under the exact earlier round47 questions. There is no new version comparison or scientific-methods acceptance. The outcome-to-access bridge is still missing.
+
+The existing labrunner/lab20 relation remains source readiness only:30–50FIRST hours plus90–150 conditional ADDITIONAL,120–200 optional combined,4–6 diagnostic included. No allocation, new backend, project, exercise, reference keys, contact or additional hours are supplied. A future genuine manuscript could close a source gate only for its stated version; lawful implementation resources, independent scientific/physical evidence and an actual contribution receiver would still be separate gates.
+
+The question, two query outcomes, exact CNM metadata scope and held-input checks are retained in the companion JSON/receipt. Earlier round47 and all lab/science/source-index files remain frozen. This is a narrow follow-up to the same study, not an independent experimental vote or final retention decision.

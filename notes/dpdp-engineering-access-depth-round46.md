@@ -1,0 +1,35 @@
+# DPDP implementation: a concrete control contract, but no demonstrated funded entry route
+
+This pass found substantive engineering requirements and mature native mechanisms. It did **not** establish a newly accessible funded job, consultancy market or startup opportunity for this developer. The selected bridge is retention/erasure evidence: turning an owner-approved policy into correctly scoped, observable data-lifecycle behavior. That is a conditional engineering inference, separate from the legislation’s existence and from personal eligibility.
+
+## Census and scope
+
+SecurityS14 already contained the13November2025Rules notification and staggered commencement. This declared revisit inspected **Rule6/8 implementation meaning**, not a fresh broad privacy survey. The held source-index9074 has no namedDPDProw, which is index-only absence. A prespec with eight questions and seven input pins was saved before public calls (`075c06bf…`). No ConsentManager-business launch, general company applicability decision, breach/children programme or job survey was added.
+
+Exactly three direct source surfaces were attempted: the official MeitYcurrentRules landing returned **zero readable lines**; the already-known official Gazette PDF was readable; and one official S3technical page was readable. The empty landing was not retried and supplies no HTTP403/absence claim. The budget is closed. No official amendment/Act-commencement registry was recovered; later-instrument discovery remains unverified. This is **not a current consolidated-law or legal-advice determination**.
+
+## The source-specific requirement
+
+The [MeitY-hosted Gazette](https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf), G.S.R.846(E), printed13November2025, Englishprintedpage24, states inRule1 that1,2,17–21commence onpublication,4afteroneyear,and3,5–16,22–23aftereighteenmonths. Rules6/8belong to that later group; do not describe all substantive duties as already fully operative on20October2026. Calendar13November2026/13May2027is arithmetic from the printed date, not a separately verified Act/corrected-effective-date announcement. The printed13November date and CG-DLidentifier containing14112025 are both retained.
+
+Rule6(1)(c–g), printedpage26, specifies access visibility/logging/review, continuity/backups, one-year security retention with other-law qualification, processor-contract and technical/organizational measures. Rule8(1–2)/ThirdSchedule, pages27/35–36, selects large e-commerce/socialmedia entities (≥2crore registeredIndianusers) and gaming intermediaries (≥50lakh), corresponding purposes, three-year inactivity/latest-commencement basis and48hwarning; account/token-purpose and legal-retention qualifications matter. Rule8(3) adds minimum-year retention for specified SeventhSchedule purposes with further-law qualifications. These are **not one universal deletion timer**, and this pass resolves no actual organization’s coverage or retention conflict.
+
+## Native tooling already does meaningful work
+
+[AWS’s S3Lifecycle configuration documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/how-to-set-lifecycle-configuration-intro.html) documents console/CLI/SDK/API configuration, prefix/tag scope and different current/noncurrent version actions. It says configuration propagates with lag and expiration is asynchronous: an eligible object may remain for days or weeks. Billing eligibility can change before the action completes. It also documents that replacing a lifecycle configuration replaces the existing configuration, so an update needs its existing-rule/verification context. These are provider-documented semantics, **not an account or service test performed here**.
+
+The narrow implementation consequence is to distinguish policy-approved retention, eligibility, scheduled work, confirmed erasure and unknown. Configuration present, time elapsed or storage no longer billed is not confirmed completion. Correct per-version actions and independent completion evidence may matter; other copies/stores/replication/holds are not covered by this one-page read. There is no finding that AWS lacks a complete solution or that a new custom deletion product is needed. Native controls, managed privacy services and ordinary data/security teams may cover the requirement with less extra code.
+
+## Where engineering work could exist—and where the evidence stops
+
+A developer could, **if actually authorized by an owner**, integrate the specified record/purpose/version/identity rules with existing lifecycle controls, preserve processor and exception evidence, detect mismatched or unknown completion, and keep the configuration understandable through change. Policy/legal staff must supply the actual applicable meaning; the developer cannot invent it. This maps to backend/data/security reliability skills, not automatically an AI feature or a new occupation.
+
+The three selected surfaces disclose **no engineering vacancy, funded award, customer contract, public contribution intake or eligible receiving owner**. Publication of organizational duties does not measure hiring, pay, return to training, commercial willingness to pay or a permanent human moat. A company whose existing native controls and team already meet its contract is a concrete countercase to adding a vendor or role. Current degree, experience, geography, workrights and actual ability are unknown; no universal qualification waiver or India/UKremote eligibility follows.
+
+## Honest project/access gap
+
+No dedicated DPDPprivacy/security project/cap was established. Authority141 tests delegated authority and invoice/effect invariants; it does not supply this retention-policy contract, so its35–55FIRST/+70–120ADDITIONALallowance was **not transferred**. Data-platform117 contains version/deletion/recovery concepts but its original hours remainNULL and it is only adjacent. This pass creates **no new project, exercise, canonical ID, course, time allocation or30/90day readiness promise**.
+
+Before any activation, a later decision would need the current owner-reviewed policy/source basis, permitted system/data boundary, independently specified retention/version/erasure outcome, competent native baseline, approved runtime/resources/reviewer and an existing or separately authorized cap. Those are unprovided. Public source reading is accessible; production authority and a paid receiving path are different evidence units.
+
+MeitY’s document and AWS’s technical page are public professional **reference routes**, not contact endpoints, current teams, grants or applications. No personal contacts, accounts, customer data, keys, software, cloud/API calls, deployments or experiments were used. The Gazette/doc snippets are rendered source observations, not archived publisher-byte authenticity or immutable code pins. Existing notes/catalogues/index remain unchanged; author overlap with securityS14 is explicit. Source-currentness gaps, native behavior, legal applicability, personal fit and final retention remain unresolved.

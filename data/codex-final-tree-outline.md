@@ -1,0 +1,1027 @@
+# Codex final tree — outline
+
+Plain outline of the 1,022-entry tree from `data/codex-final-tree.json` (node id in brackets, then type).
+
+## Knowledge tree
+- Developer paths toward2031 `[n0000 · root]`
+  - Transferable foundations: understand and verify the work `[n0001 · field]`
+    - Programming, debugging and computer systems `[n0002 · foundation]`
+      - Python / TypeScript for applications; C++ where timing and hardware require it `[n0003 · skill]`
+        - Data structures, interfaces, types and explicit state `[n0004 · concept]`
+        - Reproduce a failure, isolate a cause, repair and regress `[n0005 · practice]`
+        - Profile CPU, memory, I/O and latency before optimising `[n0006 · practice]`
+      - Linux, processes, memory, networking and concurrency `[n0007 · skill]`
+        - Clocks, ordering, timeouts and cancellation `[n0008 · concept]`
+        - Processes, containers and resource boundaries `[n0009 · concept]`
+      - Diagnose an unfamiliar failing service `[n0010 · project]`
+        - Show the failure before the fix and the same path working afterwards `[n0011 · validation]`
+        - Explain what AI suggested incorrectly and how it was disproved `[n0012 · validation]`
+    - Mathematics that connects models to decisions `[n0013 · foundation]`
+      - Vectors, matrices, coordinate changes and numerical conditioning `[n0014 · skill]`
+      - Conditional probability, distributions and uncertainty `[n0015 · skill]`
+        - A confidence score needs empirical calibration `[n0016 · concept]`
+        - State estimation and Bayesian updating `[n0017 · concept]`
+      - Constrained optimisation, gradients and trade-offs `[n0018 · skill]`
+        - Feasible solutions before better objective values `[n0019 · concept]`
+        - Sensitivity to assumptions, costs and missing information `[n0020 · concept]`
+      - Signals, time series, feedback and stability `[n0021 · skill]`
+        - Sampling, filtering, aliasing and time alignment `[n0022 · concept]`
+        - Prediction error differs from closed-loop control error `[n0023 · concept]`
+    - Experimental judgment and falsification `[n0024 · foundation]`
+      - Choose the estimand, baseline, holdout and acceptance gate `[n0025 · skill]`
+        - Split by the source of dependence: person, site, time or object `[n0026 · concept]`
+        - Denominators, confidence intervals and power `[n0027 · concept]`
+        - Selection, pretrends, controls and alternative explanations `[n0028 · concept]`
+      - Versions, seeds, manifests, logs and reproducible runs `[n0029 · skill]`
+      - Label what each claim actually establishes `[n0030 · method]`
+        - Observed deployment or measured task outcome `[n0031 · evidence-class]`
+        - Experimental effect within a stated population `[n0032 · evidence-class]`
+        - Modelled projection or employer expectation `[n0033 · evidence-class]`
+        - Company claim with incentives and missing denominators `[n0034 · evidence-class]`
+        - Our inference; list a result that would reverse it `[n0035 · evidence-class]`
+    - Domain knowledge and economic reasoning `[n0036 · foundation]`
+      - Map a real workflow, error cost, owner and buying decision `[n0037 · skill]`
+      - Full cost: acquisition, integration, supervision, operation and failure `[n0038 · skill]`
+      - Keep superficially similar quantities separate `[n0039 · method]`
+        - Benchmark capability versus dependable workflow completion `[n0040 · concept]`
+        - Deployment versus utilisation versus financial return `[n0041 · concept]`
+        - Sector need or spending versus accessible software budget `[n0042 · concept]`
+        - Posted vacancy versus hire versus sustained career demand `[n0043 · concept]`
+          - AI labor evidence: exposure, adoption, treatment and causal estimands `[n0788 · problem]`
+      - A funded decision changes because of the system `[n0044 · validation]`
+  - Software, data and agent systems `[n0045 · field]`
+    - Durable application and backend engineering `[n0046 · subfield]`
+      - Correct execution through partial failure `[n0047 · problem]`
+        - Transactions, idempotency keys and state transitions `[n0048 · skill]`
+        - Queues, backpressure, retries and reconciliation `[n0049 · skill]`
+        - 30-day synthetic operations workflow with controlled actions `[n0050 · project]`
+          - Duplicate input, stale data, timeout and partial downstream success `[n0051 · test-design]`
+          - Count accepted outcomes and verify every external effect in a simulator `[n0052 · validation]`
+          - Interrupt and resume; ambiguous effects require reconciliation `[n0053 · validation]`
+        - 90-day extension: one bounded workflow across two authorised environments `[n0054 · project]`
+          - Compare against manual work and simple deterministic rules `[n0055 · validation]`
+          - Measure review burden, error loss, latency and total cost `[n0056 · validation]`
+      - Maintainable services and change management `[n0057 · problem]`
+        - Versioned APIs, data models, compatibility and migrations `[n0058 · skill]`
+        - Deploy, observe, rollback and debug a real service `[n0059 · skill]`
+        - Backend / product engineer with AI responsibilities `[n0060 · role-family]`
+    - Data engineering and operational state `[n0061 · subfield]`
+      - Make changing data trustworthy `[n0062 · problem]`
+        - Schema, entity identity, lineage and data-quality checks `[n0063 · skill]`
+        - Incremental ingestion, deduplication and event ordering `[n0064 · skill]`
+        - Versioned multi-tenant ingestion and retrieval service `[n0065 · project]`
+          - Replay interrupted ingestion without silent duplication `[n0066 · validation]`
+          - Prove tenant isolation, deletion and permission propagation `[n0067 · validation]`
+          - Measure freshness, join correctness and missing-data behaviour `[n0068 · validation]`
+      - Retrieval and search as evidence systems `[n0069 · problem]`
+        - Indexes, hybrid retrieval, ranking and update invalidation `[n0070 · skill]`
+        - Source versions, citations and access-aware retrieval `[n0071 · skill]`
+        - Hold out changed, missing, contradictory and restricted documents `[n0072 · validation]`
+        - When do platform-native search and connectors remove the custom layer? `[n0073 · uncertainty]`
+      - Database, CDC and schema-migration correctness contracts `[n0881 · subfield]`
+        - Snapshot cuts and copy/log reconciliation `[n0882 · problem]`
+        - Transaction visibility and ordering contract `[n0883 · problem]`
+        - Source identity, restart epoch and idempotent effects `[n0884 · skill]`
+        - Types, time, deletes and schema meaning `[n0885 · skill]`
+        - Checkpoint, repair, cutover and rollback acceptance `[n0886 · problem]`
+        - Native replication, snapshot reconciliation and validation `[n0887 · validation]`
+        - Proposed two-table synthetic migration-state oracle `[n0888 · project]`
+        - Production depth, geography and paid demand `[n0889 · uncertainty]`
+    - Agent systems as controlled workflow software `[n0074 · subfield]`
+      - Plan, execute and detect completion `[n0075 · problem]`
+        - Typed tools, explicit permissions and deterministic checks `[n0076 · skill]`
+        - Task state, provenance, context limits and state expiry `[n0077 · skill]`
+        - Durable orchestration, cancellation and bounded recovery `[n0078 · skill]`
+        - Score completed end-to-end work; detect false success and silent partial completion `[n0079 · validation]`
+      - Release decisions for probabilistic behaviour `[n0080 · problem]`
+        - Human rubrics, calibrated graders and failure taxonomies `[n0081 · skill]`
+        - Held-out workflows, repeated runs and adversarial cases `[n0082 · skill]`
+        - Evaluation suite for the same synthetic operations workflow `[n0083 · project]`
+          - Compare automated scores with independent human judgments `[n0084 · validation]`
+          - Track severity, critical forbidden effects and recovery burden `[n0085 · validation]`
+        - AI evaluation may become ordinary product engineering as tools improve `[n0086 · hypothesis]`
+          - Dedicated specialist demand falls while product teams own the same reliable outcomes `[n0087 · uncertainty]`
+        - Independent verification and specification engineering `[n0088 · problem]`
+          - Executable invariants, contracts and intended behaviour `[n0089 · skill]`
+          - Differential, metamorphic and property-based checks `[n0090 · skill]`
+          - 90-day small workflow / repository benchmark with a narrow formal extension `[n0091 · project]`
+            - Keep hidden tests and correct patches away from the actor `[n0092 · validation]`
+            - Audit wrong specifications, accepted-incorrect and rejected-correct outcomes `[n0093 · validation]`
+            - Explain formal assumptions and compare with the real environment `[n0094 · validation]`
+          - Stronger models and native tooling may commoditise custom verification `[n0095 · uncertainty]`
+      - Human oversight and operator interfaces `[n0096 · problem]`
+        - Expose evidence, uncertainty and a useful review queue `[n0097 · skill]`
+        - Give operators a way to diagnose, correct and resume `[n0098 · skill]`
+        - Measure total operator time rather than model-only latency `[n0099 · validation]`
+        - Oversight as a queueing and prioritisation problem `[n0100 · problem]`
+          - Increase concurrency under a fixed human-review budget `[n0101 · project]`
+            - Useful interventions per interruption and minutes per accepted outcome `[n0102 · validation]`
+            - Backlog, latency, severe missed errors and calibrated escalation `[n0103 · validation]`
+            - Compare asking about everything with confidence-only and calibrated policies `[n0104 · validation]`
+          - Simpler systems scale accepted work with flat attention and stable loss `[n0105 · uncertainty]`
+    - Platform engineering, reliability and distributed services `[n0106 · subfield]`
+      - Keep systems useful under load and failure `[n0107 · problem]`
+        - Service-level objectives and error budgets `[n0108 · skill]`
+        - Metrics, traces, logs and incident reconstruction `[n0109 · skill]`
+        - Failure injection for provider outages, saturation and restarts `[n0110 · project]`
+          - Identify saturation point, recovery time and user-visible degradation `[n0111 · validation]`
+          - Compare added infrastructure with a simpler service `[n0112 · validation]`
+        - Network-control observation age,cycles and effective action evidence `[n0916 · problem]`
+      - Developer experience and AI-assisted engineering `[n0113 · problem]`
+        - Repository context, build systems, CI and code-review evidence `[n0114 · skill]`
+        - Functional oracles, differential tests and reproducible defects `[n0115 · skill]`
+        - Need causal productivity, defect and learning studies across skill levels `[n0116 · uncertainty]`
+        - Faster code generation shifts the bottleneck toward specification and validation `[n0117 · hypothesis]`
+          - End-to-end agents may also automate integration and incident work `[n0118 · uncertainty]`
+        - 30-day honest personal productivity baseline `[n0119 · project]`
+          - Predefine 20–30 eligible tasks and counterbalance familiarity / difficulty `[n0120 · test-design]`
+          - Include prompting, waiting, review, repair and incomplete attempts `[n0121 · validation]`
+          - Accepted outcomes per human hour, rework, full cost and uncertainty `[n0122 · validation]`
+          - A small personal diagnostic is not a general causal productivity claim `[n0123 · boundary]`
+    - From contribution to trusted technical ownership `[n0124 · progression]`
+      - Applied / forward-deployed engineer `[n0125 · role-family]`
+      - Backend / data / platform / reliability engineer `[n0126 · role-family]`
+      - Own a difficult workflow across releases and incidents `[n0127 · gate]`
+      - Others adopt your system and can operate it without you `[n0128 · gate]`
+      - Eligibility, seniority and actual hiring vary by employer and geography `[n0129 · uncertainty]`
+    - Mature systems engineering: compilers, storage, protocols and firmware `[n0814 · subfield]`
+      - Compiler/runtime transformations, profiling and compatibility `[n0815 · problem]`
+      - Query planning, indexes, transactions, storage and recovery `[n0816 · problem]`
+      - Replication, consensus, transport and failure semantics `[n0817 · problem]`
+      - System specifications and implementation-proof linkage `[n0818 · problem]`
+    - Embedded firmware and real-time systems `[n0837 · subfield]`
+      - Interrupt contexts, atomics, ownership and deferred work `[n0838 · problem]`
+      - Sensor acquisition clocks, FIFO loss, range and calibration provenance `[n0839 · problem]`
+      - Response-time analysis, blocking, bounded memory and resource envelopes `[n0840 · problem]`
+      - Authenticated updates, tested rollback, security epochs and fleet recovery `[n0841 · problem]`
+  - Machine learning, model systems and compute `[n0130 · field]`
+    - Datasets, supervision and feedback `[n0131 · subfield]`
+      - Useful data is a design and measurement problem `[n0132 · problem]`
+        - Label definitions, annotator disagreement and negative cases `[n0133 · skill]`
+        - Patient / site / object / time aware splits `[n0134 · skill]`
+        - Licences, versions, consent and reproducible manifests `[n0135 · skill]`
+        - Evaluate new conditions and label drift, not just random records `[n0136 · validation]`
+      - Select the next useful example or experiment `[n0137 · problem]`
+        - Active learning and uncertainty-aware sampling `[n0138 · skill]`
+        - Mine costly failures without contaminating holdouts `[n0139 · skill]`
+        - How much does curated data improve accepted work per unit cost? `[n0140 · uncertainty]`
+    - Models, adaptation and research engineering `[n0141 · subfield]`
+      - Understand learning before scaling it `[n0142 · problem]`
+        - Linear / tree / classical signal baselines and simple neural models `[n0143 · skill]`
+        - Losses, optimisation, regularisation and learning curves `[n0144 · skill]`
+        - Fine-tuning, distillation and representation transfer `[n0145 · skill]`
+      - Different data impose different constraints `[n0146 · topic]`
+        - Language and structured reasoning `[n0147 · modality]`
+        - Images, video and geometry `[n0148 · modality]`
+        - Physiological, industrial and operational signals `[n0149 · modality]`
+        - Molecules, networks and relational operational state `[n0150 · modality]`
+        - Action policies and closed-loop interaction `[n0151 · modality]`
+      - Research engineer: implement, reproduce, instrument and optimise `[n0152 · role-family]`
+      - Research scientist: novel methods and a scrutinised research record `[n0153 · role-family]`
+    - Statistical evaluation and dependable model behaviour `[n0154 · subfield]`
+      - Match metrics to the decision `[n0155 · problem]`
+        - Classwise precision / recall, AUROC and AUPRC `[n0156 · skill]`
+        - Calibration, Brier score, thresholds and abstention `[n0157 · skill]`
+        - Prospective outcomes versus retrospective prediction `[n0158 · skill]`
+      - 90-day ECG evaluation and serving experiment `[n0159 · project]`
+        - PTB-XL: follow patient-respecting official folds and version notes `[n0160 · resource]`
+        - Zero patient and exact waveform overlap across partitions `[n0161 · validation]`
+        - Three seeds; noise / lead masking; patient-level confidence intervals `[n0162 · validation]`
+        - Trace preprocessing through output and load test declared hardware `[n0163 · validation]`
+        - Portfolio/research evidence; no clinical validation claim `[n0164 · boundary]`
+    - Inference performance, serving and edge deployment `[n0165 · subfield]`
+      - Cost and latency under real traffic `[n0166 · problem]`
+        - Batching, caching, queueing and admission control `[n0167 · skill]`
+        - Quantisation, memory bandwidth and device placement `[n0168 · skill]`
+        - End-to-end profiling and quality-performance trade-offs `[n0169 · skill]`
+        - Cost and energy per accepted outcome, including retries and review `[n0170 · validation]`
+        - 30-day identify one serving bottleneck on an already authorised workload `[n0171 · project]`
+          - Vary input / output length and concurrency; change one measured mechanism `[n0172 · test-design]`
+          - Time to first token, latency-constrained throughput, memory and task quality `[n0173 · validation]`
+          - Include an adverse regime where the optimisation loses `[n0174 · validation]`
+      - Compilers, kernels and accelerator systems `[n0175 · problem]`
+        - Memory hierarchy, parallel execution and numerical behaviour `[n0176 · skill]`
+        - Kernel / compiler optimisation where measurement justifies it `[n0177 · skill]`
+          - Operator-specific numerical, dtype, shape and layout contract `[n0890 · problem]`
+          - Separate compilation, device events, host requests and graph replay `[n0891 · problem]`
+          - Native compiler/autotuning controls and custom-work boundaries `[n0892 · problem]`
+        - Reproduce and improve one bounded inference workload `[n0178 · project]`
+          - Numerical / task-quality parity under the same inputs `[n0179 · validation]`
+          - Report throughput, tail latency, power proxy and hardware cost `[n0180 · validation]`
+          - Bounded softmax reference and all-attempt measurement project `[n0893 · project]`
+        - Need current role sample and prerequisite / hardware access evidence `[n0181 · uncertainty]`
+      - On-device inference and disconnected operation `[n0182 · problem]`
+        - Latency, memory, thermal and battery budgets `[n0183 · skill]`
+          - Weights, active cache, allocation capacity and task evidence share a budget `[n0894 · problem]`
+          - Trace one accepted task through native latency, memory and correctly labelled energy units `[n0897 · project]`
+        - Connectivity loss, model fallback and version compatibility `[n0184 · skill]`
+          - Join runtime, tokenizer, quantized artifacts and reused cache by immutable identity `[n0895 · problem]`
+          - Distinguish provisioning, local inference, providers and independently observed network behavior `[n0896 · problem]`
+        - Measure task failures caused by delay and stale state `[n0185 · validation]`
+    - Training and compute infrastructure `[n0186 · subfield]`
+      - Distributed execution, scheduling and storage `[n0187 · problem]`
+        - Parallelism, communication, checkpoints and failure recovery `[n0188 · skill]`
+        - Useful utilisation, contention and stragglers `[n0189 · skill]`
+        - Power-constrained scheduling connects ML infrastructure to energy `[n0190 · connection]`
+      - Semiconductor and hardware-adjacent software `[n0191 · topic]`
+        - Runtime, compiler, validation and systems tooling `[n0192 · route]`
+        - Architecture, EDA, device physics and fabrication need different depth `[n0193 · route]`
+        - Manufacturing revenue does not establish accessible generalist software hiring `[n0194 · uncertainty]`
+        - Open digital-hardware EDA, simulation and physical-flow software `[n0834 · subfield]`
+          - RTL transaction correctness and simulator semantics `[n0835 · problem]`
+          - Constrained timing/PPA and physical-flow provenance `[n0836 · problem]`
+    - Model progress does not identify the lasting scarce skill `[n0195 · uncertainty]`
+      - Data, systems and evaluation remain valuable complements `[n0196 · hypothesis]`
+      - Managed platforms may absorb much of that work `[n0197 · uncertainty]`
+      - Track adoption-linked role mix, real operating outcomes and tooling substitution `[n0198 · validation]`
+  - Robotics, autonomy and physical systems `[n0199 · field]`
+    - Perception: convert sensors into useful observations `[n0200 · subfield]`
+      - Geometry, calibration and time `[n0201 · problem]`
+        - Rigid transforms, quaternions and coordinate-frame conventions `[n0202 · skill]`
+        - Camera intrinsics, depth and sensor extrinsics `[n0203 · skill]`
+        - Clock synchronisation and delayed / out-of-order measurements `[n0204 · skill]`
+      - Detection, tracking and sensor fusion `[n0205 · problem]`
+        - Association, occupancy, uncertainty and Kalman / Bayesian methods `[n0206 · skill]`
+        - Camera / LiDAR / IMU / GNSS fusion where the platform uses them `[n0207 · skill]`
+        - Occlusion, lighting, moving objects and sensor loss `[n0208 · validation]`
+        - Perception engineer: mathematical and real-time depth `[n0209 · role-family]`
+      - Localisation, mapping and state estimation `[n0210 · problem]`
+        - Visual / inertial odometry, SLAM and estimator failure modes `[n0211 · skill]`
+          - Offset versus clock scale, observability and causal calibration `[n0865 · problem]`
+          - Gauge alignment, unique support, covariance and compute denominators `[n0866 · problem]`
+        - 30-day TUM RGB-D replay around a mature estimator `[n0212 · project]`
+          - Fix eight sequences; reserve four before implementation `[n0213 · test-design]`
+          - Pose error versus ground truth; tracking coverage and failure cases `[n0214 · validation]`
+          - p50 / p95 / p99 latency and dropped / delayed / reordered frames `[n0215 · validation]`
+          - Expired observations are invalid and cannot authorise dependent actions `[n0216 · validation]`
+        - Dataset replay does not establish field or rescue-robot reliability `[n0217 · uncertainty]`
+        - Observability, sensor degradation and validity gating `[n0775 · problem]`
+      - Tactile/contact-state sensing and calibration `[n0831 · subfield]`
+        - Whole-trial/device/force-range splits and physical-reference oracles `[n0832 · problem]`
+        - Gel/skin replacement, wear, contamination and calibration validity `[n0833 · problem]`
+    - Planning, control and action execution `[n0218 · subfield]`
+      - Navigation and motion planning `[n0219 · problem]`
+        - Graphs, collision checking, trajectories and constraints `[n0220 · skill]`
+        - Reactive replanning and recovery in changing scenes `[n0221 · skill]`
+        - Goal completion, collisions, interventions and recovery time `[n0222 · validation]`
+      - Feedback control and dynamics `[n0223 · problem]`
+        - Kinematics, dynamics, stability and constrained control `[n0224 · skill]`
+        - Actuator limits, saturation, sensing and control rates `[n0225 · skill]`
+        - Simulate a bounded controller under disturbance and timing faults `[n0226 · project]`
+          - Compare with a simple tuned controller under identical conditions `[n0227 · validation]`
+          - Report constraint violations and closed-loop stability evidence `[n0228 · validation]`
+        - Hardware validation and appropriate safety review remain separate gates `[n0229 · uncertainty]`
+      - Learned manipulation and VLA policies `[n0230 · problem]`
+        - Imitation learning, distribution shift and policy adaptation `[n0231 · skill]`
+        - Action chunking, asynchronous inference and committed actions `[n0232 · skill]`
+        - 30-day reproduction of one small policy benchmark `[n0233 · project]`
+          - Choose RoboCasa or LIBERO on MuJoCo; freeze versions and compute `[n0234 · resource]`
+          - Reproduce the baseline before adding a new layer `[n0235 · validation]`
+        - 90-day independent success detector and bounded recovery `[n0236 · project]`
+          - Atomic and composite tasks on held-out scenes and seeds `[n0237 · validation]`
+          - Nominal, delay / jitter, occlusion and changed object placement `[n0238 · validation]`
+          - Full-task success, accepted substeps, false completion and cost `[n0239 · validation]`
+          - Reject gains from leaked simulator state or resetting away failures `[n0240 · validation]`
+        - Track when improved policies remove the need for custom recovery `[n0241 · uncertainty]`
+        - Instruction selectivity versus appearance robustness `[n0777 · validation]`
+    - Robot runtime, middleware and hardware integration `[n0242 · subfield]`
+      - Run dependable software on a physical machine `[n0243 · problem]`
+        - C++ / Python, Linux, drivers and real-time constraints `[n0244 · skill]`
+        - ROS 2 messages, transforms, lifecycle and communication `[n0245 · skill]`
+        - Versioned capability, state and intent contracts `[n0246 · skill]`
+        - Restart, disconnect, stale data and incompatible subsystem versions `[n0247 · validation]`
+      - 90-day second sensor / robot adapter without rewriting consumers `[n0248 · project]`
+        - Mission replay, incident timeline and one operational integration `[n0249 · deliverable]`
+        - An operator can answer a real diagnostic question faster `[n0250 · validation]`
+        - Narrow portability claims when every site needs rewriting `[n0251 · validation]`
+      - Robotics platform / deployment engineer `[n0252 · role-family]`
+    - Fleet operations and human supervision `[n0253 · subfield]`
+      - Scheduling, congestion and task allocation `[n0254 · problem]`
+        - Graph / event-based operational representations `[n0255 · skill]`
+        - Assignment, routing and scheduling baselines `[n0256 · skill]`
+        - Accepted work per hour against a mature deterministic scheduler `[n0257 · validation]`
+        - Match data, compute, held-out sites and operational constraints `[n0258 · validation]`
+      - Telemetry, incident replay and remote assistance `[n0259 · problem]`
+        - State provenance, intervention history and failure triage `[n0260 · skill]`
+        - Utilisation, MTBI, repair, supervision ratio and all-in useful-hour cost `[n0261 · validation]`
+        - Illustrative RaaS economics depend heavily on assumed utilisation `[n0262 · uncertainty]`
+      - Documented operating envelope and release gates `[n0263 · problem]`
+        - Hazards, independent constraints and controlled stopping `[n0264 · skill]`
+        - Simulation, replay and hardware-in-the-loop complement field tests `[n0265 · skill]`
+        - Simulation success is labelled separately from physical safety `[n0266 · validation]`
+    - Choose a bounded physical workflow `[n0267 · subfield]`
+      - Industrial inspection and maintenance `[n0268 · application]`
+        - Gauges, thermal changes, leaks and misplaced components need different sensors `[n0269 · problem-map]`
+        - 30-day single inspection task with independently labelled data `[n0270 · project]`
+          - Split by equipment / site before evaluation `[n0271 · validation]`
+          - Precision / recall, calibration, abstention and review burden `[n0272 · validation]`
+        - 90-day authorised shadow mode linked to existing work orders `[n0273 · project]`
+          - Operator-defined missed-event tolerance and false-alert burden `[n0274 · validation]`
+          - No equipment, labels or workflow owner means a learning project `[n0275 · validation]`
+      - Warehouses and industrial transport `[n0276 · application]`
+        - Robot operations connected to WMS / MES / ERP `[n0277 · problem]`
+        - Large installed fleets establish deployment, not independent ROI `[n0278 · uncertainty]`
+      - Agriculture, mining and construction `[n0279 · application]`
+        - Selective treatment, inspection and resource savings `[n0280 · problem]`
+        - Structured haulage versus variable construction sites `[n0281 · problem]`
+        - Field variation, maintenance access and cheap-labour alternatives change value `[n0282 · uncertainty]`
+        - Civil, subsea and aerial inspection delivery `[n0776 · application]`
+      - Vehicles and drones `[n0283 · application]`
+        - Perception, simulation, fleet tooling and operational safety `[n0284 · problem]`
+        - Capital, regulation, geography and field access constrain entry `[n0285 · uncertainty]`
+      - Emergency-response robotics `[n0286 · application]`
+        - Mobility, sensing, dexterity, endurance, radio and operator proficiency `[n0287 · problem-map]`
+        - High mission value coexists with infrequent incidents and demanding procurement `[n0288 · uncertainty]`
+      - General humanoids and domestic autonomy `[n0289 · application]`
+        - Task composition, intervention and useful-hour economics remain key questions `[n0290 · uncertainty]`
+        - Foundation-model research / hardware manufacturing require a different route `[n0291 · barrier]`
+    - Robotics depth and leadership path `[n0292 · progression]`
+      - Reproduce and debug a simulator or sensor pipeline independently `[n0293 · gate]`
+      - Earn supervised access to a real machine and operator `[n0294 · gate]`
+      - Own failures and maintainability over repeated deployments `[n0295 · gate]`
+      - Lead releases across hardware, software and operations with independent review `[n0296 · gate]`
+  - Cybersecurity, identity and assurance `[n0297 · field]`
+    - Identity, authority and data boundaries `[n0298 · subfield]`
+      - Application and API security `[n0299 · problem]`
+        - Authentication, authorisation and least privilege `[n0300 · skill]`
+        - Tenant isolation, secrets and access-controlled data flows `[n0301 · skill]`
+        - Prove controlled workflow actions stay inside user authority `[n0302 · project]`
+          - Assert cross-user reads and unauthorised effects did not occur `[n0303 · validation]`
+          - Test expired, revoked and changed permissions `[n0304 · validation]`
+      - Machine and agent identity `[n0305 · problem]`
+        - Scoped delegation and verifiable tool permissions `[n0306 · skill]`
+        - Attribution, approval provenance and action audit trails `[n0307 · skill]`
+        - Need primary standards and deployment evidence before choosing mechanisms `[n0308 · uncertainty]`
+          - Versioned protocol properties versus application authority `[n0792 · problem]`
+        - Temporal and composed authority, beyond a per-call allowlist `[n0309 · problem]`
+          - Bind approval to requester, exact action, record version, expiry and sequence `[n0310 · skill]`
+          - Two allowed calls cannot compose into a forbidden disclosure or payment `[n0311 · validation]`
+          - Retries and concurrent calls cannot exceed aggregate approved authority `[n0312 · validation]`
+          - Mature vendor controls already cover some temporal policies; compare first `[n0313 · uncertainty]`
+        - 30-day synthetic multi-tenant refund authority boundary `[n0314 · project]`
+          - Implement a direct scripted baseline before adding an agent `[n0315 · test-design]`
+          - All writes traverse one enforcement path with no broader bypass credential `[n0316 · validation]`
+          - Stale approval, wrong audience, swapped recipient, cross-tenant ID and budget race `[n0317 · validation]`
+          - Join every write to identity, policy version, record version and outcome `[n0318 · validation]`
+          - Report benign success and blocked legitimate work separately from attacks `[n0319 · validation]`
+    - Security of model-assisted and agent systems `[n0320 · subfield]`
+      - Prompt injection and adversarial tool use `[n0321 · problem]`
+        - Trust boundaries, attacker control and consequential effects `[n0322 · skill]`
+        - Isolation and policy checks outside the model `[n0323 · skill]`
+        - Attack the synthetic workflow through retrieved text and tool arguments `[n0324 · project]`
+          - Forged approvals and unauthorised arguments are rejected `[n0325 · validation]`
+          - Restricted data stays restricted through retrieval and summarisation `[n0326 · validation]`
+          - Use fresh adversarial cases and distinguish infrastructure from model failure `[n0327 · validation]`
+      - Operational assurance and release controls `[n0328 · problem]`
+        - Calibrate automated judgments with independent human review `[n0329 · skill]`
+        - Severity-weighted failures and regression gates `[n0330 · skill]`
+        - No observed failures is a sample result, not complete protection `[n0331 · uncertainty]`
+        - 90-day evaluation-to-repair across a second workflow `[n0332 · project]`
+          - A missing tenant check or broadened permission turns a green suite red `[n0333 · validation]`
+          - Policy outage, stale read, timeout, duplicate effect and revocation `[n0334 · validation]`
+          - Reconstruct seeded attempts from state / traces and repair the first broken boundary `[n0335 · validation]`
+          - Security and product / platform reviewers assess usefulness and remaining limits `[n0336 · validation]`
+        - Supply-chain artifact and assurance-claim binding `[n0907 · subfield]`
+          - Exact artifact bytes, digest and subject identity `[n0908 · skill]`
+          - Source revision, builder mode and parameters `[n0909 · problem]`
+          - Authenticated identity versus claim/release authority `[n0910 · skill]`
+          - SBOM and vulnerability references survive transformation `[n0911 · problem]`
+          - Versioned policy, trust and exception updates `[n0912 · problem]`
+          - Native verifier and schema/merge tools first `[n0913 · validation]`
+          - Synthetic manifest oracle with separate cryptographic status `[n0914 · project]`
+          - Experience, geography and genuine adoption gates `[n0915 · uncertainty]`
+      - ML security / responsible-AI engineering exists today `[n0337 · role-family]`
+    - Cloud, software supply chain and operational security `[n0338 · subfield]`
+      - Dependencies, artifacts and build provenance `[n0339 · problem]`
+        - Dependency inventory, signing and reproducible build evidence `[n0340 · skill]`
+        - Patch prioritisation, containment and incident recovery `[n0341 · skill]`
+        - Need primary deployment and employer evidence for this branch `[n0342 · uncertainty]`
+      - Detection engineering and incident response `[n0343 · problem]`
+        - Useful events, threat hypotheses and alert validation `[n0344 · skill]`
+        - Triage, containment, recovery and post-incident learning `[n0345 · skill]`
+        - Measure missed incidents and false-alert operator cost `[n0346 · validation]`
+      - Operational technology and cyber-physical systems `[n0347 · problem]`
+        - Network segmentation, safe maintenance and constrained access `[n0348 · skill]`
+        - Lab / field experience and domain safety rules need explicit verification `[n0349 · uncertainty]`
+        - Trustworthy actuation at the model / controller boundary `[n0350 · problem]`
+          - Reject stale perception, impossible transforms, replayed commands and unsafe goals `[n0351 · validation]`
+          - Model proposes; independent constraints and controllers enforce limits `[n0352 · design-principle]`
+          - Security authority and physical functional safety remain distinct `[n0353 · boundary]`
+          - Simulation interlocks do not certify physical safety; experienced domain review is required `[n0354 · uncertainty]`
+    - Cryptographic engineering and post-quantum migration `[n0355 · subfield]`
+      - Find cryptography in protocols, certificates and long-lived data `[n0356 · problem]`
+        - Distinguish static candidate, loaded implementation and observed protected data flow `[n0855 · skill]`
+        - Track KEM, authentication, certificate/trust-store and hardware key-custody roles separately `[n0856 · problem]`
+        - Asset lifetime, peer/vendor dependency, change owner and supported update path `[n0857 · gate]`
+      - Protocol compatibility, crypto agility and migration testing `[n0357 · problem]`
+        - Supported groups, offered shares, HRR, actual group and full/resumed mode `[n0858 · skill]`
+        - Proposed fallback-policy, authentication and supported rollback checks `[n0859 · gate]`
+        - Whole-handshake bytes, buffers, retries, CPU/memory and device-transfer limits `[n0860 · problem]`
+        - Rival hypothesis: native support may remove the need for a custom layer `[n0861 · uncertainty]`
+        - Finite interoperability evidence is not primitive security or enterprise certification `[n0862 · boundary]`
+      - Standards exist; confirm current product scope, local duties and migration feasibility `[n0358 · uncertainty]`
+      - PQC migration is a software route distinct from building quantum algorithms `[n0359 · boundary]`
+      - Post-quantum migration planning and NCSC guidance `[n0360 · topic]`
+    - Accountability, records and evidence for decisions `[n0361 · subfield]`
+      - Translate obligations into testable product and operating controls `[n0362 · skill]`
+      - Data lineage, access logs, versioned decisions and retention `[n0363 · skill]`
+      - Jurisdiction-specific legal duties and dates require a dedicated current audit `[n0364 · uncertainty]`
+      - Routine compliance evidence collection may itself be automated `[n0365 · hypothesis]`
+        - Validate who still owns risk acceptance and hard technical decisions `[n0366 · uncertainty]`
+      - Signed media provenance and verification interfaces `[n0367 · problem]`
+        - Manifest signatures, issuer trust, key protection and platform preservation `[n0368 · skill]`
+        - A signed assertion is not universal truth detection; missing credentials do not prove fakery `[n0369 · validation]`
+        - Need current implementation / security-advisory and adoption checks `[n0370 · uncertainty]`
+  - Health, biology, neuroscience and scientific automation `[n0371 · field]`
+    - Clinical workflow and medical AI `[n0372 · subfield]`
+      - Evidence, documentation and system integration `[n0373 · problem]`
+        - Clinical data quality, provenance and permissioned records `[n0374 · skill]`
+          - FHIR/OMOP interoperability contracts and semantic checks `[n0872 · subfield]`
+            - Pin release, implementation-guide and native validator contracts `[n0873 · skill]`
+            - Separate source-scoped IDs from real-person linkage `[n0874 · problem]`
+            - Preserve code/system and original quantity/precision `[n0875 · skill]`
+            - Reconcile time, revision and downstream state `[n0876 · problem]`
+            - Compare native profiles, constraints and provenance first `[n0877 · validation]`
+            - Audit domain mapping, unmapped facts and loss `[n0878 · problem]`
+            - Proposed synthetic reconciliation: 24 cases and 8 withheld permutations `[n0879 · project]`
+            - Patient data, terminology and clinical review gates `[n0880 · uncertainty]`
+        - Measure whole-workflow time, rework and errors `[n0375 · skill]`
+        - Include vendor-platform editing and downstream review time `[n0376 · validation]`
+        - Authorised devices and time savings do not establish improved patient outcomes `[n0377 · uncertainty]`
+      - Clinical model evaluation `[n0378 · problem]`
+        - Prospective validation, intended use and meaningful endpoints `[n0379 · skill]`
+        - Institution, device, population and subgroup shifts `[n0380 · skill]`
+        - Separate noninferiority from a demonstrated superiority effect `[n0381 · validation]`
+        - Clinical partners, governance, procurement and data access are real gates `[n0382 · uncertainty]`
+      - Clinical workflow / data / evaluation engineer `[n0383 · role-family]`
+      - Clinical responsibility and regulated devices need distinct credentials / review `[n0384 · barrier]`
+    - Molecular and genomic modelling `[n0385 · subfield]`
+      - Structure and binder design `[n0386 · problem]`
+        - Molecular representation, assays and experimental controls `[n0387 · skill]`
+        - Prospective target selection and independent physical validation `[n0388 · skill]`
+        - Binding is not efficacy, delivery, safety or manufacturability `[n0389 · uncertainty]`
+      - Variant effects and research data products `[n0390 · problem]`
+        - Cohort curation, ancestry / tissue shifts and provenance `[n0391 · skill]`
+        - Do not turn a molecular prediction score into a patient diagnosis `[n0392 · validation]`
+        - Precomputed model portals reduce the value of a thin access layer `[n0393 · uncertainty]`
+        - Reproducible variant workflow and comparison contracts `[n0917 · subfield]`
+          - Join exact reference,truth,mask,sample andsoftware identity `[n0918 · problem]`
+          - Equivalent variant records require genotype/haplotype-aware comparison `[n0919 · concept]`
+          - Report assessed regions,unknown/no-call counts and exposure `[n0920 · boundary]`
+      - Drug discovery and development `[n0394 · problem]`
+        - Scientific data / ML / infrastructure roles can enter before drug approval `[n0395 · route]`
+        - Biological mechanism and medicinal research require deeper specialism `[n0396 · route]`
+        - Phase progression is not demonstrated approval probability or AI contribution `[n0397 · uncertainty]`
+    - Lab automation and instrument software `[n0398 · subfield]`
+      - Turn a protocol into constrained, traceable execution `[n0399 · problem]`
+        - Instrument APIs, resource reservations and validated commands `[n0400 · skill]`
+        - Experiment state, versioned inputs and immutable lineage `[n0401 · skill]`
+        - 30-day simulated lab runner with mature instrument APIs `[n0402 · project]`
+          - Opentrons simulation or PyLabRobot testing backends `[n0403 · resource]`
+          - Valid protocols accepted; impossible state, volumes and conflicts rejected `[n0404 · validation]`
+          - Timeout before / after execution, duplicate response, restart, missing resource `[n0405 · validation]`
+          - Ambiguous actions never silently succeed or blindly replay `[n0406 · validation]`
+          - Versions, hashes, action IDs and replayable pre/post logical state `[n0407 · validation]`
+      - Closed-loop experiment selection and autonomous science `[n0408 · problem]`
+        - Active learning, optimisation and negative-result capture `[n0409 · skill]`
+        - Calibration, experimental controls and independent verification `[n0410 · skill]`
+        - Compare cost per validated experiment with deterministic automation `[n0411 · validation]`
+        - Novel-to-platform is not necessarily new to science `[n0412 · uncertainty]`
+      - Lab automation / research software engineer `[n0413 · role-family]`
+      - Physical equipment, calibration and a domain operator remain essential `[n0414 · barrier]`
+    - Materials, chemistry and simulation software `[n0415 · subfield]`
+      - Predictive models that survive composition and source shifts `[n0416 · problem]`
+        - Composition-aware splits and leakage checks `[n0417 · skill]`
+        - Optional 90-day Matbench reproduction and active-learning extension `[n0418 · project]`
+          - Match task, preprocessing and metrics before claiming reproduction `[n0419 · validation]`
+          - Separate predicted properties from synthesised, measured utility `[n0420 · validation]`
+        - Numerical coherence,energy-reference semantics and end-to-end simulation validity `[n0773 · problem]`
+      - Simulation orchestration, experiment ledgers and laboratory integration `[n0421 · problem]`
+        - Mechanistic battery numerical software,identifiability and solver/event handling `[n0774 · route]`
+      - Need actual India / UK role mix and domain prerequisite audit `[n0422 · uncertainty]`
+    - Neural interfaces and assistive systems `[n0423 · subfield]`
+      - Signal processing, calibration and real-time decoding `[n0424 · problem]`
+        - Noisy signals, channel stability and session shift `[n0425 · skill]`
+        - Low-latency inference and assistive interaction `[n0426 · skill]`
+        - Measure uptime, recalibration and independent function over time `[n0427 · validation]`
+      - Small assistive trials do not establish broad consumer augmentation `[n0428 · uncertainty]`
+      - Clinical access, devices, credentials and geography constrain entry `[n0429 · barrier]`
+    - Choose the engineering or scientist route explicitly `[n0430 · progression]`
+      - Inference / scientific infrastructure engineering `[n0431 · role-family]`
+      - Research engineering with reproduced models and experiments `[n0432 · role-family]`
+      - Scientific research leadership with original scrutinised results `[n0433 · role-family]`
+      - At day 90, compare demonstrated ability with actual requirements and access constraints `[n0434 · validation]`
+  - Energy, grids, climate, water and physical infrastructure `[n0435 · field]`
+    - Grid software and demand flexibility `[n0436 · subfield]`
+      - Asset identity, data quality and operational evidence `[n0437 · problem]`
+        - Time series, missingness, units and physical constraints `[n0438 · skill]`
+        - Sensor provenance, maintenance context and replay `[n0439 · skill]`
+        - 30-day maintenance evidence pipeline using suitable public / authorised data `[n0440 · project]`
+          - Compare with existing inspection / rules workflow `[n0441 · validation]`
+          - Measure avoided rework and useful operator decisions `[n0442 · validation]`
+        - No usable telemetry or funded workflow owner means no business proof `[n0443 · uncertainty]`
+        - Event/publication/revision/retrieval manifests and historical as-of replay `[n0781 · skill]`
+      - Forecast, dispatch and verify flexible demand `[n0444 · problem]`
+        - Forecast uncertainty, baseline construction and backtesting `[n0445 · skill]`
+        - Metering, eligibility, settlement and market-specific interfaces `[n0446 · skill]`
+        - Measured delivered flexibility differs from contracted capacity `[n0447 · validation]`
+        - Current local market rules and India route need dedicated verification `[n0448 · uncertainty]`
+      - Maintenance / planning versus safety-critical real-time control `[n0449 · route-map]`
+        - Supervised planning and maintenance integration `[n0450 · route]`
+        - Protection, dispatch and live control require deeper domain assurance `[n0451 · route]`
+        - Surveyed maintenance use exceeds real-time use; not a vacancy count `[n0452 · uncertainty]`
+    - Batteries, storage and electrified assets `[n0453 · subfield]`
+      - Storage dispatch and asset health `[n0454 · problem]`
+        - Power MW versus energy MWh, duration and state of charge `[n0455 · skill]`
+        - Dispatch under price, degradation and availability constraints `[n0456 · skill]`
+        - Leakage-free backtests with transaction, degradation and missed-commitment costs `[n0457 · validation]`
+      - EV / charging integrations and flexible demand `[n0458 · problem]`
+        - Device telemetry, scheduling, billing and failure handling `[n0459 · skill]`
+        - Need deployment, interoperability and accessible role / buyer evidence `[n0460 · uncertainty]`
+      - Electrical and electrochemical research differs from software operations `[n0461 · barrier]`
+    - Useful compute under power and cooling limits `[n0462 · subfield]`
+      - Deadline-aware workload placement and admission `[n0463 · problem]`
+        - Queues, checkpoints, performance and constrained scheduling `[n0464 · skill]`
+        - Power telemetry and flexible workload classification `[n0465 · skill]`
+        - 90-day trace-driven scheduler against a fixed baseline `[n0466 · project]`
+          - Completed useful work per MW and cost per accepted outcome `[n0467 · validation]`
+          - Include SLA penalties, checkpoint cost and geographic limits `[n0468 · validation]`
+          - Reject savings that disappear after integration and deadline costs `[n0469 · validation]`
+      - Cooling and local water constraints `[n0470 · problem]`
+        - Consumption versus withdrawal; direct versus electricity-related water `[n0471 · skill]`
+        - Site, season, cooling technology and local resource stress `[n0472 · skill]`
+        - Per-prompt global averages cannot determine a local site decision `[n0473 · uncertainty]`
+      - Better energy per task can coexist with rising total demand `[n0474 · uncertainty]`
+    - Adaptation, infrastructure risk and water systems `[n0475 · subfield]`
+      - Risk information that changes a funded action `[n0476 · problem]`
+        - GIS, weather, exposure, vulnerability and uncertainty `[n0477 · skill]`
+        - Maintenance / investment decisions and false-alert costs `[n0478 · skill]`
+        - Validate one asset-level risk decision in a later period / different region `[n0479 · project]`
+          - Outperform a simple transparent planning baseline `[n0480 · validation]`
+          - Confirm an accountable buyer and action threshold `[n0481 · validation]`
+        - Adaptation funding gap is not addressable SaaS revenue `[n0482 · uncertainty]`
+        - Observed-target, basin/time-separated hydrology evaluation `[n0782 · method]`
+      - Water operations and resource optimisation `[n0483 · problem]`
+        - Telemetry, leakage / maintenance triage and constrained scheduling `[n0484 · problem-map]`
+          - Leak investigation and crew-cost evaluation distinct from control `[n0783 · method]`
+        - Requires separate operator data, procurement and role evidence `[n0485 · uncertainty]`
+        - Hydraulic observability, sensor faults and ambiguous causes `[n0921 · problem]`
+        - Demand/leak/units/coverage contracts for network simulators `[n0922 · problem]`
+      - Operational weather forecasts and decision software `[n0867 · subfield]`
+        - Reference run, publication, receipt, revisions and valid-time contracts `[n0868 · problem]`
+        - Local calibration, extremes, dependent ensembles and proper scores `[n0869 · problem]`
+        - Cost/loss, availability, physical response and operating value `[n0870 · problem]`
+        - Seasonal anomalies require multi-year matched reforecast evaluation `[n0871 · boundary]`
+    - Project-pipeline credibility and capacity planning `[n0486 · subfield]`
+      - Reconcile site identity, permits, commitments and construction stage `[n0487 · problem]`
+      - Forecast ramp and timing with uncertainty `[n0488 · problem]`
+      - Compare announced capacity with actual operational observations `[n0489 · validation]`
+      - Commercially sensitive data and jurisdiction fragmentation limit access `[n0490 · uncertainty]`
+    - Nuclear energy and fusion: specialist options `[n0491 · subfield]`
+      - Fission plant and supplier software `[n0492 · route]`
+        - Data, simulation, controls tooling and reliability under specialist supervision `[n0493 · problem-map]`
+          - Independent numerical verification and scientific validation boundaries `[n0785 · method]`
+        - Nuclear safety / reactor physics require a different credential and assurance path `[n0494 · barrier]`
+        - Construction permission is not an operating reactor `[n0495 · uncertainty]`
+      - Fusion research infrastructure and experimental control `[n0496 · route]`
+        - Experiment data, diagnostics, simulation and control systems `[n0497 · problem-map]`
+          - Scientific archive/schema/provenance engineering `[n0784 · route]`
+        - Target ignition is not facility-level net electricity or a commercial plant `[n0498 · uncertainty]`
+        - Do not base a 2031 career plan on abundant commercial fusion power `[n0499 · uncertainty]`
+      - Nuclear energy software is distinct from quantum computing `[n0500 · boundary]`
+    - Depth path: domain access before expansive platform claims `[n0501 · progression]`
+      - Learn units, constraints and operator decisions on one asset class `[n0502 · gate]`
+      - Reproduce a forecast / optimisation baseline on public data `[n0503 · gate]`
+      - Earn authorised telemetry and shadow-operation access `[n0504 · gate]`
+      - Own a measured operational outcome across sites / seasons `[n0505 · gate]`
+  - Finance, payments and commercial operations `[n0506 · field]`
+    - Payment reliability and financial state `[n0507 · subfield]`
+      - Make money-related events reconcile `[n0508 · problem]`
+        - Double-entry / ledger concepts, event identity and audit trails `[n0509 · skill]`
+        - Duplicate callbacks, partial success, dispute and settlement states `[n0510 · skill]`
+        - Balances and reconciliation invariants hold through replay / retries `[n0511 · validation]`
+        - Mandate, context, fulfillment and reconciliation lifecycle `[n0794 · problem]`
+      - Fraud, risk and exception triage `[n0512 · problem]`
+        - Asymmetric error costs, feedback delay and adversarial change `[n0513 · skill]`
+        - Measure cost-weighted false positives / negatives and reviewer time `[n0514 · validation]`
+        - Underwriting, custody and regulated services require separate local review `[n0515 · uncertainty]`
+        - Decision time, feature availability, delayed labels and selective outcomes `[n0793 · problem]`
+    - Reconciliation, billing and revenue operations `[n0516 · subfield]`
+      - 30-day read-only invoice / ledger / provider reconciliation `[n0517 · project]`
+        - One authorised, anonymised recurring exception workflow `[n0518 · prerequisite]`
+        - Deterministic joins, fuzzy matches, provenance and explanations `[n0519 · skill]`
+        - Hold out difficult exception types; compare review time and error loss `[n0520 · validation]`
+      - 90-day two-workflow-owner test of the same narrow system `[n0521 · project]`
+        - Matching precision / recall, review minutes, audit coverage and service cost `[n0522 · validation]`
+        - Reject an apparent product if each customer needs unrelated custom work `[n0523 · validation]`
+        - A credible paid budget matters more than transaction-volume headlines `[n0524 · uncertainty]`
+    - Practical entry and advancement `[n0525 · progression]`
+      - Payments / finance-operations integration engineer `[n0526 · role-family]`
+      - Risk data / ML engineer with domain partnership `[n0527 · role-family]`
+      - Own costly financial exceptions with auditable correctness `[n0528 · gate]`
+      - Large payment volume does not establish accessible vacancies or margins `[n0529 · uncertainty]`
+  - Commerce, logistics, manufacturing and field industries `[n0530 · field]`
+    - Order, inventory and exception operations `[n0531 · subfield]`
+      - Reconcile business state across old systems `[n0532 · problem]`
+        - WMS / ERP / order / return interfaces and entity identity `[n0533 · skill]`
+        - Event ordering, consistency and compensating actions `[n0534 · skill]`
+        - 30-day one-operator stuck-order / return analysis `[n0535 · project]`
+          - Authorised snapshots and labelled recurring exceptions `[n0536 · prerequisite]`
+          - Compare rules / BI with the model-assisted approach `[n0537 · validation]`
+        - 90-day second operator and later-period validation `[n0538 · project]`
+          - Exception age, missed costly cases, review time and recovered order value `[n0539 · validation]`
+          - Include integration and support burden in total economics `[n0540 · validation]`
+      - Demand forecasts, routing and resource allocation `[n0541 · problem]`
+        - Temporal splits, uncertainty and decision-aware loss `[n0542 · skill]`
+        - Constrained routing and inventory policies `[n0543 · skill]`
+        - Backtest the resulting policy, not only forecast error `[n0544 · validation]`
+    - Manufacturing data, inspection and traceability `[n0545 · subfield]`
+      - Defect detection linked to production decisions `[n0546 · problem]`
+        - Labels, rare defects, drift and per-line validation `[n0547 · skill]`
+        - Missed defects, unnecessary stops and operator review burden `[n0548 · validation]`
+        - Part thresholds, prevalence and false-reject evidence `[n0863 · problem]`
+        - Dimensional uncertainty, accepted tolerances and traceability `[n0864 · problem]`
+      - MES / instrument / robot integration and production lineage `[n0549 · problem]`
+      - Need direct SME / integrator economics and India role examples `[n0550 · uncertainty]`
+    - Agriculture and construction software `[n0551 · subfield]`
+      - Resource use, selective treatment and field observations `[n0552 · problem]`
+      - Site evidence, progress, safety and equipment operations `[n0553 · problem]`
+        - BIM/IFC interoperability and operational handover `[n0842 · subfield]`
+          - Schema, exchange view, units, coordinates and applicability `[n0843 · problem]`
+            - Pin schema/addendum/view and exporter; unsupported differs from invalid `[n0844 · gate]`
+            - Independent unit/placement/CRS tests and expected applicability counts `[n0845 · gate]`
+          - Layered validation does not establish design or physical truth `[n0846 · problem]`
+            - Syntax/schema, normative rules, IDS and use-specific geometry checks `[n0847 · skill]`
+            - Permitted property value is not engineering or installed-asset acceptance `[n0848 · gate]`
+          - Stable asset identity and explainable semantic/geometry change `[n0849 · problem]`
+            - GUID churn/reuse, federation and unresolved correspondence `[n0850 · skill]`
+            - Representation change differs from physical-shape change `[n0851 · gate]`
+          - Versioned asset-register/event integration with stale-state handling `[n0852 · problem]`
+            - Proposed asset-event replay and revision-invalidation checks `[n0853 · gate]`
+            - Accepted handover and buyer access remain unverified commercial gates `[n0854 · uncertainty]`
+      - Ground truth, field variation, buyer access and seasonal validation limit demos `[n0554 · uncertainty]`
+      - In-season crop decision data and verification `[n0923 · subfield]`
+        - Administrative yield alone does not establish field-level outcomes `[n0924 · problem]`
+    - Industry expertise through one recurring operational decision `[n0555 · progression]`
+      - Work beside a domain operator before generalising the platform `[n0556 · gate]`
+      - Own a bounded workflow with correct joins, recovery and measurable value `[n0557 · gate]`
+      - Repeat across customers / sites without bespoke rebuilding `[n0558 · gate]`
+      - Lead integration and operations with clear error accountability `[n0559 · gate]`
+  - Administration, legal work and public services `[n0560 · field]`
+    - Document and case evidence systems `[n0561 · subfield]`
+      - Source-grounded search and completeness checks `[n0562 · problem]`
+        - Versioned policies, citations and provenance `[n0563 · skill]`
+        - Case-level permissions and records boundaries `[n0564 · skill]`
+        - 30-day bounded evidence assistant with a domain expert `[n0565 · project]`
+          - Authorised known-good cases and explicitly permitted outputs `[n0566 · prerequisite]`
+          - Unsupported assertions, citation errors and missing mandatory evidence `[n0567 · validation]`
+        - 90-day blind expert review on genuinely new cases `[n0568 · project]`
+          - Review time and complete cases through the real process `[n0569 · validation]`
+          - Attempt cross-case / cross-user permission leakage `[n0570 · validation]`
+      - Case management, legacy migration and service integration `[n0571 · problem]`
+        - Decision state, appeals, revision and audit history `[n0572 · skill]`
+        - Legacy formats, accessibility and reliable service handoffs `[n0573 · skill]`
+        - OCR/layout fidelity, exact-field evidence and source traceability `[n0786 · method]`
+    - Public / legal accountability and procurement `[n0574 · subfield]`
+      - Accountable expert review and a path to contest errors `[n0575 · problem]`
+        - Real citation and textual entailment differ from correct legal application `[n0787 · boundary]`
+      - Evidence, security, accessibility and a funded owner `[n0576 · problem]`
+      - Current UK / India legal obligations require a separate primary audit `[n0577 · uncertainty]`
+      - Self-reported time savings do not establish audited savings or replacement `[n0578 · uncertainty]`
+    - Entry through an existing workflow or domain supplier `[n0579 · progression]`
+      - Case / service integration and evidence engineering `[n0580 · role-family]`
+      - Maintain trustworthy records through exceptions and policy changes `[n0581 · gate]`
+      - Access, procurement and institutional trust can dominate technical effort `[n0582 · uncertainty]`
+  - Education, training and durable human capability `[n0583 · field]`
+    - Assessment and learning measurement `[n0584 · subfield]`
+      - Measure retained, independent skill `[n0585 · problem]`
+        - Pre-test, delayed unaided test and transfer task `[n0586 · skill]`
+        - Rubric reliability, test contamination and learner differences `[n0587 · skill]`
+        - Assisted task performance can improve while unaided learning worsens `[n0588 · validation]`
+        - Unseen assessment answers and concept-family exposure `[n0811 · validation]`
+      - Learner models, curriculum data and instructor evidence `[n0589 · problem]`
+        - Feedback timing, scaffolding and educator collaboration `[n0590 · skill]`
+        - Learner privacy, consent and local rules need separate audit `[n0591 · uncertainty]`
+        - Longitudinal learner data and research engineering `[n0821 · subfield]`
+    - Adult / workplace training experiments `[n0592 · subfield]`
+      - 30-day one-skill feasibility study with an educator `[n0593 · project]`
+        - Authorised curriculum and uncontaminated independent assessment `[n0594 · prerequisite]`
+        - Small feasibility samples do not establish efficacy `[n0595 · validation]`
+      - 90-day evaluation design and pilot with a research partner `[n0596 · project]`
+        - Delayed unaided performance and transfer against existing teaching `[n0597 · validation]`
+        - Instructor time, completion, dependence and budget `[n0598 · validation]`
+        - Stop or change if only assisted scores / engagement improve `[n0599 · validation]`
+    - From educational software to trusted instructional systems `[n0600 · progression]`
+      - Assessment / learning-data / training-workflow engineer `[n0601 · role-family]`
+      - Demonstrate learning outcomes with educators, not just fluent explanations `[n0602 · gate]`
+      - Buyer and distribution evidence are unresolved `[n0603 · uncertainty]`
+    - Tutor/feedback systems and curriculum-grounded scaffolding `[n0819 · subfield]`
+      - Attempt-first hints, answer disclosure, feedback quality and learner heterogeneity `[n0822 · problem]`
+    - Teacher planning, existing-resource adaptation and curriculum integration `[n0820 · subfield]`
+      - Adapt existing lessons, review outputs and preserve curriculum/content rights `[n0823 · problem]`
+  - Creative media, games and production systems `[n0604 · field]`
+    - Production-pipeline engineering `[n0605 · subfield]`
+      - Editable and reproducible media workflows `[n0606 · problem]`
+        - Asset / version management, rights and provenance `[n0607 · skill]`
+        - Deterministic composition, rendering and output QA `[n0608 · skill]`
+        - Quality rubrics, revisions and accepted-output metrics `[n0609 · skill]`
+        - 30-day owned-asset pipeline for one repeated production task `[n0610 · project]`
+          - Fix reference scenes and compare the existing workflow `[n0611 · validation]`
+          - Users can revise and export without starting again `[n0612 · validation]`
+      - Technical art, localisation and automated QA `[n0613 · problem]`
+        - Connect generators to established editing / engine tools `[n0614 · skill]`
+        - Consistency, controllability and cost per accepted asset / minute `[n0615 · validation]`
+      - 90-day repeatability test with independent creators `[n0616 · project]`
+        - Time to accepted output, revisions, cost and repeat use `[n0617 · validation]`
+        - Reject a demo if rights, acceptance or economics fail `[n0618 · validation]`
+      - Editorial timing, interchange and reversible revision `[n0824 · problem]`
+      - Speech/audio, subtitles, localization and delivery QA `[n0825 · problem]`
+      - Identity, temporal consistency and local visual-edit control `[n0826 · problem]`
+    - Games, simulation and interactive worlds `[n0619 · subfield]`
+      - Engine, tools, networking and runtime performance `[n0620 · problem]`
+      - Simulation assets and test environments for non-game systems `[n0621 · problem]`
+      - Believable behaviour, game QA and controlled generative interaction `[n0622 · problem]`
+      - Need primary engine / deployment and role evidence beyond sector surveys `[n0623 · uncertainty]`
+      - Engine/tool integration, deterministic state and runtime performance `[n0827 · problem]`
+      - Action-dependent state, persistence and world-model evaluation `[n0828 · problem]`
+    - Creator and studio economics `[n0624 · subfield]`
+      - Audience, platform dependency, rights and repeatable demand `[n0625 · problem]`
+      - Aggregate creator payout differs sharply from typical receipts `[n0626 · validation]`
+      - Sector revenue and model advances do not establish stable individual income `[n0627 · uncertainty]`
+    - A reliable production practice adopted by other creators `[n0628 · progression]`
+      - Own a repeatable task and honest acceptance rubric `[n0629 · gate]`
+      - Improve another creator’s workflow with less revision / cost `[n0630 · gate]`
+      - Build tools, original work and distribution that survive platform change `[n0631 · gate]`
+  - Geospatial systems, Earth observation and space `[n0632 · field]`
+    - Spatial data engineering and observation `[n0633 · subfield]`
+      - Turn imagery and spatial records into usable data `[n0634 · problem]`
+        - Coordinate systems, spatial joins, resolution and geometry `[n0635 · skill]`
+        - Clouds, revisit time, sensor limits and missingness `[n0636 · skill]`
+        - Tiled processing, storage and reproducible data versions `[n0637 · skill]`
+        - Copernicus / openEO collections are a starting resource `[n0638 · resource]`
+        - SAR product levels, radiometry and terrain effects `[n0778 · skill]`
+      - Change detection and spatial modelling `[n0639 · problem]`
+        - Ground truth and label uncertainty `[n0640 · skill]`
+        - Spatial / temporal splits and seasonal shift `[n0641 · skill]`
+          - Observation/publication time and model-derived reference leakage `[n0779 · validation]`
+        - Precision / recall and false alerts per asset-period `[n0642 · validation]`
+    - A spatial product serves one recurring decision `[n0643 · subfield]`
+      - Infrastructure, agriculture, environment and insurance risk `[n0644 · problem-map]`
+      - 30-day one-decision, one-region prototype with a domain expert `[n0645 · project]`
+        - Public / authorised observations and suitable labelled truth `[n0646 · prerequisite]`
+        - Verify the event is observable at the sensor’s resolution `[n0647 · validation]`
+      - 90-day later-period and different-place validation `[n0648 · project]`
+        - Alert burden, usable coverage, analyst time and changed decisions `[n0649 · validation]`
+        - Compute / storage cost and a recurring workflow buyer `[n0650 · validation]`
+        - Ninety days cannot establish every seasonal condition `[n0651 · uncertainty]`
+    - Upstream space and mission software `[n0652 · subfield]`
+      - Mission data, simulation, embedded and ground systems `[n0653 · problem-map]`
+        - Software-in-loop, flight hardware, orbit runtime and live scientific utility `[n0780 · validation]`
+      - Hardware, nationality / export rules and procurement may constrain access `[n0654 · barrier]`
+      - Downstream space revenue is not an Earth-observation startup TAM `[n0655 · uncertainty]`
+      - Need direct role, standards and accessible contribution routes `[n0656 · uncertainty]`
+    - Earn authority through validated spatial decisions `[n0657 · progression]`
+      - Spatial data / applied ML / decision-product engineer `[n0658 · role-family]`
+      - Demonstrate transfer across place / time and quantify uncertainty `[n0659 · gate]`
+      - Domain operators trust the system for repeatable decisions `[n0660 · gate]`
+  - Human interfaces, accessibility, mobile and wearables `[n0661 · field]`
+    - Voice, vision and context-aware interaction `[n0662 · subfield]`
+      - Useful context without stale or invented state `[n0663 · problem]`
+        - Observation timestamps, confidence and explicit uncertainty `[n0664 · skill]`
+        - Turn-taking, interruption, confirmation and recovery `[n0665 · skill]`
+          - Endpointing, correction, interruption and correct-completion timing `[n0795 · validation]`
+        - Capture permissions and minimisation of sensitive context `[n0666 · skill]`
+      - Assistive and hands-busy / eyes-busy workflows `[n0667 · problem]`
+        - Accessible alternatives, user testing and task-specific constraints `[n0668 · skill]`
+          - Multi-state application keyboard/focus/error correctness `[n0898 · subfield]`
+            - Keyboard entry, activation and task completion `[n0899 · skill]`
+            - Modal, asynchronous and return-focus lifecycle `[n0900 · problem]`
+            - Field errors, conditional controls and recoverable input `[n0901 · skill]`
+            - Truthful names, roles, states and reading relationships `[n0902 · skill]`
+            - State/tool/version/exclusion coverage and unknowns `[n0903 · validation]`
+            - Native controls and AI test tooling as alternatives `[n0904 · validation]`
+            - Owned synthetic task-editor state contract `[n0905 · project]`
+            - AT/user-review and real role eligibility gates `[n0906 · uncertainty]`
+        - Task independence, errors, interruptions and sustained use `[n0669 · validation]`
+        - Nonvisual source verification, uncertainty and repair `[n0796 · problem]`
+    - Mobile-to-glasses and spatial extensions `[n0670 · subfield]`
+      - Device APIs, emulation and constrained runtime `[n0671 · problem]`
+        - Latency, battery, thermal limits and connectivity `[n0672 · skill]`
+        - Android XR tooling exists; consumer-market size is unresolved `[n0673 · resource]`
+      - 30-day extension of an already useful mobile workflow `[n0674 · project]`
+        - Define phone task and hands-busy partner before adding glasses `[n0675 · test-design]`
+        - Verify platform APIs support the task `[n0676 · validation]`
+      - 90-day authorised hardware comparison with the phone baseline `[n0677 · project]`
+        - Time, errors, interruptions, accessibility and session limits `[n0678 · validation]`
+        - Measure repeat use after novelty wears off `[n0679 · validation]`
+        - Stop if interface novelty fails to improve a valuable task `[n0680 · validation]`
+      - Camera/audio glasses, display AR and immersive headsets `[n0797 · subfield]`
+    - Cross-platform value before a device-exclusive career bet `[n0681 · progression]`
+      - Interaction / mobile / perception / assistive-systems engineer `[n0682 · role-family]`
+      - Own an interaction that measurably improves human capability `[n0683 · gate]`
+      - SDK releases do not prove a profitable app market `[n0684 · uncertainty]`
+  - Quantum computing: a deliberate specialist option `[n0685 · field]`
+    - Prerequisites before choosing a narrow route `[n0686 · subfield]`
+      - Complex linear algebra, probability and quantum information `[n0687 · skill]`
+      - Strong classical algorithms and resource accounting `[n0688 · skill]`
+      - Noise, measurement and error correction concepts `[n0689 · skill]`
+      - Assess learning time against the primary career path `[n0690 · uncertainty]`
+    - Different quantum routes require different depth `[n0691 · subfield]`
+      - Compilers and software systems `[n0692 · route]`
+        - Circuit representations, optimisation, scheduling and simulation `[n0693 · problem-map]`
+        - Compare identical tasks and count classical / quantum resources `[n0694 · validation]`
+      - Control and instrument software `[n0695 · route]`
+        - Timing, calibration, feedback and lab integration `[n0696 · problem-map]`
+        - Hardware and experimental teams are important access gates `[n0697 · barrier]`
+      - Quantum error correction and fault tolerance `[n0698 · route]`
+        - Codes, decoding, noise assumptions and resource estimates `[n0699 · problem-map]`
+        - Research depth may require formal study and scrutinised original work `[n0700 · barrier]`
+        - Decoder correctness and model correlations `[n0812 · problem]`
+          - Offered-load queue, throughput and algorithm feedback deadline `[n0813 · validation]`
+        - Logical memory, logical gates and complete useful computation are different endpoints `[n0829 · problem]`
+      - Scientific workflows and HPC integration `[n0701 · route]`
+        - Problem formulation and fair classical comparisons `[n0702 · problem-map]`
+        - Useful economic advantage by 2031 is an open question `[n0703 · uncertainty]`
+        - Input preparation, readout, non-Clifford resources and end-to-end cost `[n0830 · problem]`
+    - Explore with a falsifiable technical reproduction `[n0704 · subfield]`
+      - 30-day one-paper reproduction and its classical baseline `[n0705 · project]`
+        - Use only already available / explicitly approved tools `[n0706 · boundary]`
+        - Record assumptions, precision, compute and all resource costs `[n0707 · validation]`
+      - 90-day reproducible benchmark or reviewed technical contribution `[n0708 · project]`
+        - Explain where an advantage survives or disappears `[n0709 · validation]`
+        - Stop if fear of missing out exceeds technical interest or feasible access `[n0710 · validation]`
+    - Separate physical milestones from economic utility `[n0711 · uncertainty]`
+      - A fault-tolerant roadmap target remains an unfulfilled target `[n0712 · uncertainty]`
+      - A programme testing economic utility does not certify advantage `[n0713 · uncertainty]`
+      - Post-quantum migration is a separate, nearer software route to audit `[n0714 · connection]`
+  - Personal preparation, career scenarios and evidence of leadership `[n0715 · field]`
+    - Start from verified ability rather than an invented CV `[n0716 · method]`
+      - Known context: AI engineer / developer with broad AI, ML, software and robotics interests `[n0717 · context]`
+      - Unknown inputs that change fit and feasibility `[n0718 · uncertainty]`
+        - Independent skill evidence, seniority and responsibilities `[n0719 · input]`
+        - Mathematical depth, formal education and research record `[n0720 · input]`
+        - Weekly time, runway, compensation and hardware access `[n0721 · input]`
+        - Location, relocation and employment eligibility `[n0722 · input]`
+        - Customer delivery, systems operation, research or company building `[n0723 · input]`
+      - Collect a small evidence inventory from permitted existing work `[n0724 · project]`
+        - Observed / practised with help / independent / unknown `[n0725 · method]`
+        - Use runnable work and explanations; never expose private employer code `[n0726 · validation]`
+    - Explore broadly, then earn depth deliberately `[n0727 · method]`
+      - One deep specialty, one adjacency and literacy elsewhere `[n0728 · decision-proposal]`
+      - Choose a few bounded experiments, not every branch at once `[n0729 · decision-proposal]`
+      - Keep the branch with interest, access, demonstrated progress and demand evidence `[n0730 · validation]`
+      - No definitive personal field ranking before actual constraints and experiments `[n0731 · uncertainty]`
+    - Progression gates toward 2031 `[n0732 · progression]`
+      - Foundation: explain and debug core components with documented assistance `[n0733 · gate]`
+      - Independent build: solve and test an unfamiliar bounded problem `[n0734 · gate]`
+        - Retained independent skill, assisted operation and labor-market signaling `[n0791 · project]`
+      - Reality: support authorised users or hardware over time `[n0735 · gate]`
+      - Specialist: improve a difficult system against a credible baseline and expert review `[n0736 · gate]`
+      - Leadership: other people adopt decisions / systems with sustained outcomes `[n0737 · gate]`
+      - Leadership evidence branches beyond title or elapsed years `[n0738 · method]`
+        - Original reproducible contribution or hard-won operating knowledge `[n0739 · evidence-target]`
+        - Maintained systems / methods used by others `[n0740 · evidence-target]`
+        - Correct trade-offs, admitted failures and safe scope choices `[n0741 · evidence-target]`
+        - Mentoring, clear decisions and cross-team delivery `[n0742 · evidence-target]`
+    - Employment, applied leadership, research and founder routes `[n0743 · route-map]`
+      - Employer route: requirements, eligibility, contributions and independent delivery `[n0744 · role-family]`
+      - Research route: prerequisites, reproduction, novelty and peer scrutiny `[n0745 · role-family]`
+      - Founder route: customer access before scalable-business claims `[n0746 · route]`
+        - Workflow owner, budget, distribution and willingness to change `[n0747 · skill]`
+        - Switching, support, liability and cost to serve `[n0748 · skill]`
+        - Test whether incumbents or the model provider can bundle the value `[n0749 · validation]`
+        - Cheap code does not establish customer demand or a likely successful company `[n0750 · uncertainty]`
+    - India, UK and global access `[n0751 · method]`
+      - Separate services, domestic startups, GCCs and product / industrial employers `[n0752 · market-segment]`
+        - India delivery models: pricing, GCC ownership and transfer accounting `[n0790 · scenario]`
+      - Remote means eligible countries / payroll arrangements, not everywhere `[n0753 · boundary]`
+      - Field, lab, hardware and clinical access often require presence `[n0754 · barrier]`
+      - For each example record level, degree, onsite, location and stated eligibility `[n0755 · validation]`
+      - Selected postings are requirement examples, not representative demand `[n0756 · uncertainty]`
+    - 2031 scenarios to prepare for; no probabilities assigned `[n0757 · scenario-map]`
+      - Fast end-to-end automation `[n0758 · hypothesis]`
+        - Higher output expectations; some custom integration / evaluation work gets bundled `[n0759 · scenario-implication]`
+        - Maintain domain access, deep systems judgment and responsibility for real outcomes `[n0760 · decision-proposal]`
+      - Uneven adoption with persistent institutional / data constraints `[n0761 · hypothesis]`
+        - Existing systems, permissions and workflow change remain major bottlenecks `[n0762 · scenario-implication]`
+        - Learn integration and credible economics in one accessible domain `[n0763 · decision-proposal]`
+      - Physical / regulatory / energy constraints slow some frontiers `[n0764 · hypothesis]`
+        - Narrow dependable tools may create value before general autonomous systems `[n0765 · scenario-implication]`
+        - Own constrained workflows with measured operating envelopes `[n0766 · decision-proposal]`
+    - What changes the plan? `[n0767 · method]`
+      - Adoption-linked hiring / skill mix rather than headline layoffs `[n0768 · validation]`
+        - Entry opportunity: stocks, retained hires, exits and denominator recovery `[n0789 · problem]`
+      - Agents reliably own requirements, integration, recovery and accountability `[n0769 · validation]`
+      - Operators can supply data and pay for repeated measurable improvement `[n0770 · validation]`
+      - Interest, access, constraints or better local opportunities change `[n0771 · validation]`
+      - Revisit at evidence milestones; do not treat this map as a five-year prediction `[n0772 · boundary]`
+  - Operations research and decision software `[n0798 · field]`
+    - Decision, feasible region and objective ownership `[n0799 · subfield]`
+      - Hard constraints, soft penalties and infeasibility explanations `[n0800 · problem]`
+    - Mathematical and constraint optimization `[n0801 · subfield]`
+      - LP relaxations, dual bounds, branch-cut-price and decomposition `[n0802 · skill]`
+      - Scheduling, intervals, CP-SAT and capacity constraints `[n0803 · problem]`
+    - Sequential decisions under uncertainty `[n0804 · subfield]`
+      - Non-anticipativity, information arrival and committed actions `[n0805 · validation]`
+      - Calibrated simulation and external policy validation `[n0806 · problem]`
+    - Decision-focused learning and evaluator-guided algorithm search `[n0807 · subfield]`
+      - Matched current solvers, constraints and complete compute costs `[n0808 · validation]`
+    - Data integration, plan stability, operator review and outcome feedback `[n0809 · subfield]`
+      - Operational outcome and funded decision, beyond model objective `[n0810 · validation]`
+  - AI physical supply chain and geopolitics `[sn0000 · topic]`
+    - Workload contract before demand `[sn0001 · topic]`
+      - training `[sn0002 · topic]`
+        - accepted model/data/objective/quality and useful training throughput `[sn0003 · topic]`
+        - parameter/activation/optimizer state; parallel communication; checkpoint IO `[sn0004 · topic]`
+        - measured compute/memory/network/IO balance, not a universal compute-bound label `[sn0005 · topic]`
+      - prefill `[sn0006 · topic]`
+        - input/context/batch and time-to-first-token `[sn0007 · topic]`
+        - attention/projection/layout and weights/activations; placement/communication `[sn0008 · topic]`
+        - accepted TTFT/goodput under offered load; native fusion/layout may change limits `[sn0009 · topic]`
+      - decode `[sn0010 · topic]`
+        - output quality,context length,concurrency and token-delay distribution `[sn0011 · topic]`
+        - weights/KV/state capacity and traffic; batch/placement/interconnect `[sn0012 · topic]`
+        - accepted requests/tokens per time,errors/timeouts and full cost, not peak FLOPS alone `[sn0013 · topic]`
+      - retrieval `[sn0014 · topic]`
+        - ingestion/embedding/index and query/refresh workload `[sn0015 · topic]`
+        - host memory/cache,network,storage/index service and accelerator if used `[sn0016 · topic]`
+        - freshness/recall/latency/cost at same reference, not all retrieval requires same accelerator `[sn0017 · topic]`
+    - Physical dependencies `[sn0018 · topic]`
+      - Logic and state `[sn0019 · topic]`
+        - Execution `[sn0020 · topic]`
+          - CPU orchestration/staging/reference `[sn0021 · topic]`
+          - GPU/ASIC/TPU/NPU and supported backend `[sn0022 · topic]`
+        - Volatile memory `[sn0023 · topic]`
+          - SRAM cache/scratchpad `[sn0024 · topic]`
+          - HBMstackedDRAM vs hostDDR `[sn0025 · topic]`
+          - LPDDR/GDDR product/controller support `[sn0026 · topic]`
+        - Storage `[sn0027 · topic]`
+          - Persistent NAND/SSD controller/endurance `[sn0028 · topic]`
+          - Model/index/checkpoint/data IO,not DRAM latency `[sn0029 · topic]`
+      - Movement `[sn0030 · topic]`
+        - Inside system `[sn0031 · topic]`
+          - Chiplet/package interface `[sn0032 · topic]`
+          - Host links/NUMA/memory fabric `[sn0033 · topic]`
+          - Scale-up topology `[sn0034 · topic]`
+        - Between systems `[sn0035 · topic]`
+          - Scale-out NIC/switch/optics/cables `[sn0036 · topic]`
+          - Collectives/staging/storage and queues `[sn0037 · topic]`
+      - Make and qualify `[sn0038 · topic]`
+        - Design to wafer `[sn0039 · topic]`
+          - EDA/IP/signoff/PDK `[sn0040 · topic]`
+          - Lithography/deposition/etch/metrology/test `[sn0041 · topic]`
+          - Gooddies/yield vs waferstarts/revenue `[sn0042 · topic]`
+        - Packaging `[sn0043 · topic]`
+          - HBMstack/TSV/base die `[sn0044 · topic]`
+          - Interposer/substrate/ABF insulation `[sn0045 · topic]`
+          - Bonding/assembly/reliability/test `[sn0046 · topic]`
+        - Inputs `[sn0047 · topic]`
+          - Purity/materials/equipment/service/water `[sn0048 · topic]`
+          - Qualification,lead time and delivered output `[sn0049 · topic]`
+      - Datacenter `[sn0050 · topic]`
+        - Electrical chain `[sn0051 · topic]`
+          - Offtake vs connection/transformer/switchgear `[sn0052 · topic]`
+          - Backup/commissioning/ramp vs energized load `[sn0053 · topic]`
+        - Thermal/water `[sn0054 · topic]`
+          - Air/liquid/direct-chip and cooling plant `[sn0055 · topic]`
+          - IT/facility; withdrawal/consumption/replenishment `[sn0056 · topic]`
+    - Unit and relief tests `[sn0057 · topic]`
+      - chip/die/chiplet/device/module/board/server/rack/fleet and framework logical device `[sn0058 · topic]`
+      - resident bytes versus bandwidth; bits versus bytes; per-pin versus stack/device/system rate `[sn0059 · topic]`
+      - compute precision/sparsity and peak versus sustained accepted work `[sn0060 · topic]`
+      - power W/kW/MW versus energy Wh/kWh; device versus IT versus facility boundary `[sn0061 · topic]`
+      - nominal design/announced/qualified capacity/shipments/energized capacity/utilization `[sn0062 · topic]`
+      - revenue/market share versus good-die yield/throughput, jobs or startup margin `[sn0063 · topic]`
+      - Conditional relief `[sn0064 · topic]`
+        - Native fusion/allocation/cache/quantization `[sn0065 · topic]`
+        - Layout/batch/placement/offload at same quality/SLO `[sn0066 · topic]`
+        - Qualified capacity/yield/package and site delivery `[sn0067 · topic]`
+        - Bottleneck can move; efficiency can increase demand `[sn0068 · topic]`
+    - Geography and controls `[sn0069 · topic]`
+      - Trace each stage `[sn0070 · topic]`
+        - Design/IP/tool/material/fab/assembly/datacenter country `[sn0071 · topic]`
+        - HQ,employer and individual work rights differ `[sn0072 · topic]`
+      - Actual rule `[sn0073 · topic]`
+        - Effective version/entity/end-use/transaction conditions `[sn0074 · topic]`
+        - Review policy is not issued licence or blanket access `[sn0075 · topic]`
+        - Currentcode/HBM/tool/USperson/FDP/exceptions unclosed `[sn0076 · topic]`
+    - Developer to ownership `[sn0077 · topic]`
+      - Transferable software `[sn0078 · topic]`
+        - Units/identity/time/provenance and diagnostics `[sn0079 · topic]`
+        - Use competent native counters/configuration first `[sn0080 · topic]`
+      - Chosen depth `[sn0081 · topic]`
+        - Compiler/kernel/runtime/memory/collective `[sn0082 · topic]`
+        - Process/site/device changes need separate access/domain proof `[sn0083 · topic]`
+      - Trust through accepted work `[sn0084 · topic]`
+        - Independent same-contract reference `[sn0085 · topic]`
+        - Permitted minimized contribution accepted by receiver `[sn0086 · topic]`
+        - Maintained caller/release accountability `[sn0087 · topic]`
+        - Subsystem decisions/mentoring,not calendar promise `[sn0088 · topic]`
+    - Product stages and native compiler portability `[sn0089 · topic]`
+    - Qualified memory versus bits, revenue and runtime policy `[sn0090 · topic]`
+    - Wafer fabrication, equipment and industrial entry gates `[sn0091 · topic]`
+    - Package/input qualification and accepted output `[sn0092 · topic]`
+    - Collective/network/IO measurement and native alternatives `[sn0093 · topic]`
+    - Energized site, water boundaries and batch-software limits `[sn0094 · topic]`
+    - Full dated geography/control cut and unread current layers `[sn0095 · topic]`
+    - Storage firmware versus release infrastructure `[sn0096 · topic]`

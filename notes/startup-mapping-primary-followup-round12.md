@@ -1,0 +1,15 @@
+# Mapping AI primary-endpoint follow-up, round 12
+
+20 October2026. **Negative endpoint result; full methods remain unresolved.** One genuinely new official-reader request was used, below the three-request cap. No browser, download, wait, repeated INSEAD/SSRN route, installation or outreach was used. The round11 checkpoint and its source/claim file remain unchanged.
+
+The [official NBER SI2026 Digital Economics and Artificial Intelligence programme](https://conference.nber.org/agenda/simple_printable?conf_id=SI26PRIT) returned successfully as structured HTML text,151lines. It lists *Mapping AI into Production: A Field Experiment on Firm Performance*, Hyunjin Kim, Dahyeon Kim and Rembrand M.Koning, in the23July2026 lightning round at3:40pm (returned lines70–72). This verifies conference listing and author match. It does not verify a paper version or a statistical result.
+
+The returned representation exposes explicit slide links for some other talks, but **no paper or slides link for Mapping’s item**. Therefore no exact primary PDF endpoint was available to submit to the structured PDF reader. The remaining request allowance was not spent on guessed URLs, unrelated slides or another failed route. This is a limitation of the observed representation: it does not establish that NBER has no file, that a full browser/source view could never reveal one, or that the authors have no available paper.
+
+No full paper/appendix, revenue table, labor definition, registry record or source-file receipt returned. Accordingly, the1.9times revenue claim remains author/institution-reported only: its raw-versus-transformed estimand, population/window, zeros/tails, retransformation and uncertainty remain unaudited. The labor-demand null remains unresolved as to intended-versus-realized employment, denominator, follow-up duration and precision. No ITT/IV, attrition or multiplicity conclusion can be added. The positive summary findings are preserved; this failed endpoint neither refutes them nor supplies their missing methods.
+
+`startup-mapping-primary-followup-round12-receipts.json` records the exact request, returned content type/line count, relevant conference-entry receipt, request budget and non-findings. No PDF path or hash is invented. Hashes in that file cover only the already-saved worker notes, not a paper.
+
+**Stop disposition:** this bounded NBER endpoint route is closed at its present evidence boundary. Another repeated retrieval attempt is not the proposed next task.
+
+**Independent next question:** audit the existing2031 claim/scenario register for a distinct aggregation issue: does it separate output per firm, labor per unit of output, employment per firm, new firm entry and economy-wide developer demand? A short-run within-firm labor null can coexist with changes along the other margins. An offline source-to-claim check could repair those bridges now without obtaining or inventing this paper’s methods. It would not estimate the magnitude or direction of aggregate employment effects.

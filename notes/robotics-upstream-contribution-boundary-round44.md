@@ -1,0 +1,45 @@
+# Robotics upstream contribution: intake is not accepted work or ownership
+
+This bounded pass establishes Nav2's displayed contribution-licensing/sign-off minimum. It does **not** establish the complete current outside-contributor review process, an accepted hardware-free change, a mentor, delegated maintenance or funded work. Two other official paths failed to return the requested process. The three-endpoint allowance is closed; an access failure is not evidence that the process or opportunity does not exist.
+
+## Census and the question left open
+
+The source index, accessible-entry24, team/project37, ownership9, channel16/26 and saved robotics baselines were searched first. ROS2 skills and hardware-shipped job restrictions are already recorded. Ownership9 already audits the18March2024 ROS project charter and an official governance-source snapshot: scoped commit/release duties, project decisions and approved mentorship are separate from community participation. That historical governance evidence is not a newly verified2026 intake, a funded seat or Nav2 authority.
+
+Entry24 and team37 cover other branch-specific routes; their records contain no Nav2/MoveIt/Gazebo contribution process. The bounded named-note/index census did not find a fully audited Nav2 outside-contributor-to-stewardship chain. This is not an archive-wide absence claim. The missing question was therefore current contribution acceptance and responsibility, rather than another autonomy capability or employer survey.
+
+## Three new official surfaces, narrower actual result
+
+The initially attempted Nav2 involvement-docs URL returned404. A404 at this guessed path says nothing about the project-wide availability of contributor documentation; it was not retried or replaced through an unbounded search.
+
+The readable [Nav2 main CONTRIBUTING file](https://github.com/ros-navigation/navigation2/blob/main/CONTRIBUTING.md) states Apache2 terms for submitted contributions and requires per-commit DCO sign-off certifying the submitter's right to contribute. Repository controls show Issues, Pull requests and Discussions. That is substantive intake information, but it is not a promise to review, merge or pay. The observed file does not supply the full current triage/test/maintainer-selection protocol. Its moving `main` page exposed no immutable commit in this reader response. The displayed18lines/915Bytes are page metadata, not independently obtained raw bytes or a recomputed Git object. [Source file](https://github.com/ros-navigation/navigation2/blob/main/CONTRIBUTING.md)
+
+The final endpoint tested the adjacent [official rolling ROS2 contribution page](https://docs.ros.org/en/rolling/The-ROS2-Project/Contributing.html), hoping to distinguish shared entry guidance from Nav2-specific decisions. It returned an Anubis access-denied page, not the requested process. It is not imported as Nav2 policy. No fourth URL, small issue, raw/API workaround, clone or discussion destination was fetched. The original failed Nav2 path and blocked ROS2 page remain explicit access receipts.
+
+Code/task/configuration versions, selected file/dependency grants, AI-contribution rules, native test requirements and accepted issue scope remain unresolved. The DCO sign-off is a rights certification, not a tool that creates missing rights; no sign-off or personal details were generated here. The linked Apache/DCO destinations were not opened under this exhausted budget. No blanket licence for all robotics dependencies, data or hardware is inferred.
+
+## What would distinguish the stages
+
+A useful local contribution packet could contain an exact supported version/configuration, one small permitted input, expected versus observed output, a failing-before/passing-after regression and a restrained documentation change. Docs, diagnostics or test infrastructure may require no new robot. That is a proposed preparation route, not evidence that this particular project accepts such a change or that a defect has been found.
+
+An **accepted contribution** needs a real project decision and an identifiable accepted revision. A local green test, DCO line or prepared PR description does not establish it. Maintained responsibility additionally needs an agreed repository/component scope, review and compatibility duties, issue/release follow-through and continuing project trust. The saved ROS charter supplies an example of formally scoped authority; it does not automatically govern Nav2 or assign this developer a role. A useful maintenance or documentation contribution can have value without being a novel algorithm.
+
+Paid work is another evidence chain: a specific role, contract or funded arrangement, eligibility and accepted deliverables. No such current Nav2 arrangement was inspected. Neither “unpaid only” nor “paid route available” is established. A public professional channel provides neither a guaranteed reviewer/mentor nor India/UK employment access. Public readability in this session also does not establish account participation or work authorization for a particular person.
+
+Any navigation algorithm, collision behavior, sensor timing, controller or robot-driver change may need native stack, simulation and physical/domain validation. Passing a software-only fixture cannot establish industrial integration, field calibration, safe motion or commissioning competence. Conversely, requiring physical testing for every spelling or documentation clarification would be an unsupported blanket barrier. The exact change and current project policy must decide the required evidence.
+
+## Existing artifact only; no Nav2 execution arm
+
+The only proposed attachment is a zero-hour **source-readiness/contribution-boundary note** to existing `state-estimation-round13.project.contract30` and its dependent `...native90`. They remain the original clock/frame/support checker and conditional OpenVINS synthetic VIO adapter. No Nav2 baseline, port, new canonical project or runtime arm is introduced. No source claims that these projects currently use Nav2.
+
+Within the existing first40-hour window and included eight-hour launch gate, the meaningful cheap proof remains the existing independent clock/frame fixture: explicit malformed/duplicate/missing support, transform conventions, clock inverse and ambiguity on uninformative motion. Its existing acceptance targets remain closed-form geometry at1e-8, a noiseless informative held-out clock residual at1ms over60s, and retained attempted/support counts. A short contribution-readiness report can distinguish an owned analytic expectation from an upstream issue claim. If no current supported Nav2 process/version and real relevant reproducer can be obtained, stop at that report; do not fabricate a bug or submit a generic request for mentoring.
+
+The existing conditional90-day continuation stays at120hours **total**, with the original approved ROS-free OpenVINS recorder, actual native fixture,2GB/100MB trial bounds, twoCPU-hour sweep cap and at most ten seeds. It tests privileged synthetic initialization/features, not image tracking or navigation. It is not quietly converted to a Nav2 install. Only if a separately reviewed upstream target and compatible permitted runtime fit the original scope could a later ROOT decision substitute a specific contribution task; that decision is pending and allocates no new time now.
+
+Acceptance gates for a future contribution claim are an exact current process/maintainer-approved scope, lawful selected source/fixture, independently frozen expected behavior, a supported native reproducer where relevant, retained baseline/negative results, and a real acceptance receipt before using “accepted.” Maintenance and paid-work claims need separate later evidence. Stop or narrow when setup/access exceeds the existing gate, native reports already solve the alleged problem, the change needs unprovided hardware, contributor/AI policy is unresolved, or the only evidence is a local toy. No response, merge, ownership or employment deadline is promised.
+
+## Directory, provenance and status
+
+The public project is the `ros-navigation/navigation2` repository. Its observed contribution file is the verified policy surface for this pass. The visible Issues/Discussions controls support professional discovery; standard repository `/issues` and `/discussions` URLs are listed as destination-uninspected routes, with no issue content, current maintainer identity, support availability or funded place authenticated. The older ROS governance URL remains a separate project-scope/historical comparison, not a replacement Nav2 governance process.
+
+No source/rights/role refresh beyond the three surfaces occurred. Only own local metadata checks ran. They preserve the source index, original state-estimation records and frozen annotation43 outputs; they do not establish accepted code, native execution or a current funded bridge. The honest result is a verified intake minimum and a precise outstanding process/acceptance gate, not a completed contribution-to-paid-ownership pathway.

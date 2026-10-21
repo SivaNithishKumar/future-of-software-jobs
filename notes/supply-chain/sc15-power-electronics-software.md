@@ -1,0 +1,5 @@
+This pass supports a real power-path/control software branch, with a large gap between reading a reference and qualifying rack hardware. NVIDIA’s dated page is an800Vtransition roadmap. The most concrete selected technical result is TI’s older48Vserver protection-board bench report; it is not an800Vconverter or field-reliability measurement.
+
+The native controller, test GUI and SDK discovery route are serious baselines. Useful software would need an independently checked units/configuration/event/test contract and a maintained failure/release boundary; a custom interface alone does not establish value. A reference selected from search turned out to be residential pack balancing and remains explicitly scoped that way.
+
+ExistingH1supports source-audit discipline only. No new project, hours, converter/control arm, assets, electrical operation, certification or current job access is established. Two queries and three official body attempts are closed. This new report is outside the old publication cut until root selects and budgets it; source-family word/quote and different-review gates remain open.

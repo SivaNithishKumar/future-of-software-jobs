@@ -1,0 +1,47 @@
+# Native PQC migration and bundling boundary — round36
+
+The new evidence strengthens the **native-first** case. Platform vendors already supply hybrid key agreement, capability-aware selection, rollout/rollback and useful observability. Residual compatibility/inventory work is plausible only where a concrete owner still has an unanswered contract; these reports do not establish more jobs, a custom-dashboard opportunity or a permanent human security role.
+
+## Census and three-source boundary
+
+Read the saved quantum3, security3/current directory, PQC10/project and extracted index first. Seven exact local pins are in the JSON. Already closed: OpenSSL 3.5 native support/defaults and configuration fault, RFC 10024 wire contract, authentication versus KEM, full/resumed negotiation, policy/fallback, experimental-provider limits and existing role/project gates. This pass does not redo those, NCSC audience research or Riverlane/compiler entry.
+
+The selected unanswered question is **how much discovery→preference→rollout→telemetry is already bundled, and what the measured endpoints actually cover**. No Cloudflare/Chrome/AKE/TLS-group-field or selected HRR result was found in the five relevant prior Markdown notes; the three new exactURLs were absent from the observed extracted index. That is a bounded census, not exhaustive proof of no prior coverage. The index is a mutable locator, not source verification, and was not regenerated.
+
+Exactly three new official documents were read. Their rendered observations, dates, authors, locators and unrecovered fields are retained in [source observations](<native-pqc-migration-boundary-round36-source-observations.json>). Raw publisher bytes/code/data were not captured. The connection interruption was recovered from existing tool results; **no refetch or new source was used afterward**. Source fetch timestamps were not retained precisely; the packet was saved20 October UTC against the19 October research cutoff, with source publication dates below.
+
+## What is already bundled
+
+[Cloudflare Automatic Key Exchange,8 September 2026](https://blog.cloudflare.com/automatic-key-exchange-for-origins/) reports automatic capability/preference discovery, staged rollout, rollback and daily refresh. In its scanned origin cohort, HRRs fell **52%→3.7%**, with **>150ms p90 handshake reduction**; **99.2%** of its PQ TLS 1.3 connections completed in one round trip. Keep-alive requests were unaffected. Earlier **0.34%** probe failures came from a different prior origin study. The report's domain preference and individual-origin capability shares are distinct populations; no Internet-wide rate or quantum-arrival forecast is adopted.
+
+[Chrome's13 September 2024 explanation](https://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html) is historical implementation/release evidence: BoringSSL added ML-KEM, and Chrome 131 was to replace experimental Kyber **0x6399** with ML-KEM hybrid **0x11EC**. Its prior100% Chrome Desktop statement concernedKyber, not proof that every current browser/client uses ML-KEM. An old emerging-draft reference is not current IETF status. This is useful evidence of native distribution and version interoperability, not a fresh client inventory.
+
+[Cloudflare visibility,29 September 2026](https://blog.cloudflare.com/post-quantum-visibility/) reports about **70% of its browser traffic** using hybrid ML-KEM versus about **15% of its origins**, explicitly different denominators. Native Analytics/Logpush/Log Explorer expose **ClientTLSKeyExchangeGroup** and **OriginTLSKeyExchangeGroup**. Its “None” category can represent classical RSA agreement or noTLS; it is not universally plaintext. PQ authentication remains a separate migration dimension. Feature publication does not establish this user's account/export entitlement.
+
+The favorable native results must survive the analysis: discovery, selection, rollback, telemetry and even legacy-path adaptation are not automatically custom integrator work. The report also describes a policy that requires hybrid agreement; a peer with no overlap then fails by design. Compatible classical agreement under a different declared policy is a different allowed outcome, rather than the samePQCsuccess.
+
+## Metric and standards limits
+
+The AKE cohort is publisher-selected, undergoing rollout, not an independently randomized Internet sample. HRR/oneRTT/latency concern a **new origin TLS connection**, not every HTTPrequest, whole page, throughput, CPU, heap, energy or all-in migration cost.99.2% one RTT must not become99.2% all-attempt reliability. Exact attemptN, measurement windows/intervals and complete resource cost were not recovered. Earlier scan-failure share, domain preference, individual-origin support and later negotiated-use share cannot be combined into one growth/outage series.
+
+Connection attributes can repeat on request records under keep-alive or multiplexing. Before turning exported records into handshake coverage, establish connection/attempt identity, observation unit, full/resumed classification and time window. The exact export counter/schema semantics were not inspected here. This is a proposed reconciliation requirement, not a claim the vendor's telemetry is wrong.
+
+The saved PQC10 primary reading identifies **RFC 10024, August 2026, Standards Track**, with the earlier ECDHE-MLKEM draft historical; this round did not reopen it. It concerns hybrid key agreement, not the whole PKI. Saved OpenSSL 3.5 release/configuration evidence, including its dated patched release, is also carried rather than refreshed; no installed build/provider is known. Preserve NCSC's **large/bespoke/critical versus SME vendor-update** scope and no quantum-arrival forecast. Current crypto documentation is not legal/compliance advice or a universal deadline.
+
+## One existing artifact, no new hours
+
+Bind only **security-finance-interfaces-round7.project.pqc**, **security-finance-interfaces-enrichment-round7.json#/records/142**, canonical recordSHA **da00b3e2ac823e8602639cae10bc7c5053aa181c64531c16c8d5761d87db0c4f**. It remains draft/unlaunched. Preserve **25–40 first-period hours**, **50–90 ADDITIONAL later hours**, and its **first 4–6 h baseline/oracle gate**, all conditional and not measured availability. No new canonical path, parallel flagship or added hours is created.
+
+A small replacement **static exercise/report**, currently unrun, can map one own-fictional asset/protocol path: which termination/library/provider/configuration owns each leg; documented support versus offered/negotiated group; certificate/hostname authentication separately; opportunistic versus hybrid-required policy; full/resumed/unmeasured state; record/request/connection/attempt unit; and missing/null/None/legacy group distinctions. Expected outcomes must be written independently before interpreting any later permitted observation. No real hostname, productionlog, credential, key, scanner, packet or account is needed for this document.
+
+Use maintained native defaults and existing vendor visibility as the baseline, then compare classical/default-hybrid-capable/hybrid-required **contracts** on the same fictional application/authentication assumptions. Do not implement a new primitive, combiner, provider or downgrade mechanism. Do not call documentation a negotiation or a declared field a measured handshake. A runtime or export that is unavailable remains unrun; the static fallback is legitimate smaller evidence, not operating proof.
+
+Stop if a supported native upgrade/report already answers the question more simply; if access would require unapproved software, account, keys or traffic; if no independent asset/policy/authentication oracle exists; or if improvement relies on omitted failures, request/handshake confusion or unmeasured costs. A custom layer must earn its place. All of these activities can themselves be automated. No crypto/software interoperability test was executed in this round.
+
+## Teams, access and proof
+
+New bylines are retained as **source-time professional publication routes**: Cloudflare's Suleman Ahmad/Yawar Jamal/Alex Krivit on AKE; Andrew Depke/Sophie Park/Sharon Goldberg on visibility; and David Adrian/David Benjamin/Bob Beck/Devon O'Brien on Chrome. Public report URLs are discovery routes, not current employment, person contact, contribution permission or vacancies. Existing OpenSSL contributor/NCCoE migration/IETF TLS routes are carried with their original scope; no outreach occurred.
+
+Existing role barriers stay intact: the saved PQShield director example requires substantial development/leadership experience and listed European remote geography; the QNu Bengaluru cryptography example was closed and concerns deeper implementation skills. Neither is an India-global entry promise or a hiring outcome from this migration slice. Current roles, grant terms, personal eligibility and income remain unestablished. Classical TLS/configuration/observability skill is distinct from cryptanalysis, QEC or quantum hardware research.
+
+Public text does not grant a code/telemetry dataset or model/API licence. No exact current source/build/telemetry release or independent operational rerun was established. All seven frozen input pins remain unchanged; the dynamic index was not written, and annotation35/37 stayed untouched. Actual security, rights/compliance, native execution, learner competence, paid demand, final UI and 2031 scarcity remain outside this source-conditioned report.

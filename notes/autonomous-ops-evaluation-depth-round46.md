@@ -1,0 +1,47 @@
+# Autonomous SRE: state-changing mitigation is real evidence; durable recovery is a further claim
+
+The selected study goes beyond diagnosing an incident or producing a patch. STRATUS changes benchmark application state, checks recovery signals and can retry after undo. Its useful positive survives a methods audit. The same paper also explains why some successful benchmark mitigations cannot establish durable recovery from persistent faults. Neither result measures operator employment, a protected human role or2031 demand.
+
+The census came first. Specified software/systems/evaluation/CodeThread/SWE-EVO notes and held index9074 contained no named ITBench/AIOpsLab/SREBench full-method audit. Security2 already documents AWS’s substantial fault-injection/repeated-trial evaluation and selected customer investigation results; those native positives are carried at their original reported scope, not reopened. The distinct question here is an open state-changing mitigation system’s oracle, assumptions and cost boundary. Two discovery queries led to exactly three selected primary surfaces: [arXiv metadata](https://arxiv.org/abs/2506.02009), [STRATUS2506.02009v2](https://arxiv.org/html/2506.02009v2), revised19March2026, and its [author-linked repository landing/README](https://github.com/xlab-uiuc/stratus). No other paper or current leaderboard is adopted as new methods evidence.
+
+The v2 study reports GPT-4o solving9/13AIOpsLab and9/18ITBench mitigation tasks. It combines alert clearance, user-request responses and component health; one example catches functional HTTP errors despite healthy pods. Kubernetes reconciliation, confinement, dry-run where applicable and undo/retry are substantive automated controls. The AIOpsLab ablation reports69.2%full versus15.4%without retry and23.1%with naive retry/no undo. These are selected task/scaffold results, not production failure rates. [v2§§4–5,Tables2–3,AppendixE.](https://arxiv.org/html/2506.02009v2)
+
+## What successful mitigation means
+
+A changing live testbed is stronger evidence than a textual RCA match. It can expose a sequence that produces a bad outcome, and feedback can prevent the agent stopping when only orchestration looks healthy. Diagnosis and mitigation also need not coincide: restoring service may be useful without discovering the root cause. This is a positive countercase to reserving every recovery decision for people.
+
+But the target distribution and stopping rule matter. The authors disclose that8/18ITBench problems lose their injected fault after pods restart, because the injector no longer follows the original pod. Undo adds no success-rate gain in that suite: both full and naive retry/no undo report50%. That does not make every restart illegitimate. Restarting can be a correct response to an ephemeral fault. It means these tasks do not by themselves test persistent recurrence, durable root repair or all consequential effects. A simple competent native recovery policy remains an important comparator, not a winner measured by this review. [v2§5 andAppendixC/Table6.](https://arxiv.org/html/2506.02009v2)
+
+The health signals are stronger together than alone, yet remain partial oracles. A successful HTTP status is not automatically a correct business answer, preserved database content, tenant authorization or future latencySLO. Feedback used during solving is not a withheld semantic oracle. A benchmark may rightly permit repeated health queries, but that is a different information setting from an unassisted diagnosis test. No training contamination is proved merely because tasks and traces are public.
+
+## Formal safety versus operating scope
+
+TNR’s proof assumes one writer at a time, exact faithful undo and a bounded number of commands per transaction. It constrains the defined weighted severity at transaction boundaries. Its definition excludes intermediate transaction states; the paper’s own example permits severity to rise inside an eventually accepted or aborted transaction. This is a valid conditional abstraction, not a proof that customers never see worse service during an intervention.
+
+The distinction is practical. A bound on command count is not a wall-clock or outage bound. Serialized agent writers do not establish isolation from an unrelated deployment, external controller or business transaction. Exact restoration of resource objects does not automatically restore external effects or application data. An aggregate weighted health score need not preserve every individual invariant. The authors explicitly acknowledge limits to perfect undo and rule-based confinement. Those conditions narrow what can be claimed; they do not disprove the theorem under its assumptions. [v2§§3.1–4.1.](https://arxiv.org/html/2506.02009v2)
+
+## Attempts, selection and economics
+
+The paper allows up to nine retries and reports more steps, time and token charges for improved mitigation. Its dollar column explicitly averages **all mitigation tasks**, including failures; that positive accounting detail must survive. It is nevertheless token pricing, not full cluster, telemetry, setup, integration, operator review, support or recovery cost. The assertion that this is cheaper than people is not accompanied here by a measured human workflow baseline. Time to first correct action, final validated recovery, tail latency and sustained health are not separated.
+
+AIOpsLab reference agents, ReAct and Flash are comparators. ITBench reference numbers are imported from the earlier paper rather than a newly established matched version/cost run. Extra search and retries are part of the trade-off. No-retry also removes undo opportunities; the ablation does not isolate every mechanism at equal cost.
+
+The checklist says experiments ran multiple times with medians and calls the results significant. Exact repeatN, seeds, error intervals/tests and cross-run reset lineage were not recovered. Temperature0 is not universal runtime determinism. Temperature and step limits were selected on the evaluated tasks, with no independently verified fresh fault-family holdout. Distinct task categories/variants reuse applications and faults; they are not randomly sampled production incidents.
+
+A small arithmetic check of the13printedTable9rows gives811.94seconds,59.85steps and$0.8773mean token cost. MainTable2prints46.3steps; the aggregation/run join remains unresolved. This is not a corrected score, fraud claim or raw-data reproduction. Formal transactionK versus appendix“total step limit” also needs implementation reconciliation. Exact agent/scenario commits and reset/stop code were not read. No current ITBench bug or2026frontier ceiling is inferred.
+
+## One existing report link, not a new SRE deployment
+
+Only existing **ai-ml-round5.project.evaluation**, record146, is linked. It retains32–48first hours and96–144conditional **TOTAL** by90, including its4–6-hour first baseline/oracle fixture gate. They are unmeasured planning caps, not a new allocation or known personal availability.
+
+Its existing reproduction/discrepancy report can distinguish diagnosis from state-changing mitigation, boundary safety from continuousSLOs, exposed feedback from independent truth, retries from final acceptance and token charges from complete burden. Public source examples remain exposed analytical material, not new learner keys, a fault pack or a completed skill test. No new exercise or hours are introduced. Generic workflow115or data-platform117toy recovery does not establish distributedSRE competence.
+
+A serious native comparison would still require an authorized isolated benchmark environment, exact code/scenario/container/model grants and versions, independent durable state/SLO/authority expectations, reset/attempt accounting and a qualified receiving operator. None is supplied. Without those inside the existing gate, keep the report source-only or defer. If native recovery already meets the actual contract more simply, stop the custom layer.
+
+## Teams, rights and limits
+
+Paper-time authors span UIUC, IBMResearch and IIIS/Tsinghua; exact names and routes are in theJSON. The [public repository](https://github.com/xlab-uiuc/stratus) and its observed issues link are professional discovery, not a grant, job, response promise, contribution permission or current author-employment verification. README describesPython3.12.9and a Kubernetes/LLM-backend environment; it is not an immutable paper-matched release. No universal degree, geography, sponsorship or personal proficiency filter is inferred from a research artifact.
+
+The paper displaysCCBY-NC-SA4.0; the repo displays anApache2.0label. Full code licence text, submodules, benchmark/data/model/provider terms and runtime match were not reconciled. The rendered checklist claims compute details, but exact cluster hardware was not recovered in this bounded text pass. A one-problem agent-memory profile is not a full cluster feasibility estimate. No code, data, trace corpus, model, software, cluster, API, incident or fault was acquired or run; only arithmetic on printed rows executed.
+
+Stronger evidence could confirm the benefit on persistent faults, externally observed durable state and sustainedSLOs—or remove it under a competent matched baseline. Either would change the next technical commitment. Paid demand, maintained operating responsibility and an eligible funded role would still require separate observations; benchmark failures cannot establish a human moat.

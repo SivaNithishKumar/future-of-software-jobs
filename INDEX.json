@@ -1,0 +1,1819 @@
+{
+ "generated": "2026-10-21",
+ "fields": {
+  "labor-hiring": "Jobs, hiring & labor-market evidence",
+  "software-ai": "Software & AI engineering",
+  "supply-chain-energy": "AI hardware supply chain, energy & geopolitics",
+  "robotics-physical": "Robotics & physical systems",
+  "science-health-security-sectors": "Science, health, security & other sectors",
+  "strategy-methods": "Strategy, preparation paths, critiques & method"
+ },
+ "notes": [
+  {
+   "path": "notes/benchmark-payout-unit-audit-round34.md",
+   "field": "labor-hiring",
+   "title": "SWE-Lancer payout-unit audit, round 34",
+   "summary": "This pass resolves the task-generation and scoring units but leaves the final unique-issue/payment denominator open. It finds no duplicate-cash event or paper error. The safe description is a payout-weighted benchmark aggregate, with the underlying historical-payment claim attributed to the paper.",
+   "bytes": 8122
+  },
+  {
+   "path": "notes/census-qwi-round5-methods.md",
+   "field": "labor-hiring",
+   "title": "Census QWI audit: early-career hiring, employment and the limits of a ChatGPT event study",
+   "summary": "Primary paper and supporting Census definitions checked 19 October 2026. This is a distinct full-method pass on Lee C. Tucker, CES26-27. It does not resample vacancies, audit BLSWP591 or NBER35271, install software, use restricted records or contact anyone.",
+   "bytes": 24006
+  },
+  {
+   "path": "notes/freelance-developer-market-depth-round38.md",
+   "field": "labor-hiring",
+   "title": "A paid freelance-market study improves one evidence bridge, with a narrow population",
+   "summary": "The selected study uses recorded platform work and compensation rather than benchmark bounty weights. It therefore addresses a previously open paid-market outcome. Its principal ChatGPT comparison concerns writing services; it does **not** supply an estimate of software-developer earnings, India ...",
+   "bytes": 8534
+  },
+  {
+   "path": "notes/future-work-bundles-round18.md",
+   "field": "labor-hiring",
+   "title": "Eight conditional ways developer work could be packaged by 2031",
+   "summary": "Draft for root synthesis and independent challenge, 20 October 2026. **Every 2031 statement below is a scenario or inference.** The anchors are saved 2026 role requirements and audited capabilities/economics. No new source or vacancy scan, personal assessment, implementation or gated freshness re...",
+   "bytes": 20535
+  },
+  {
+   "path": "notes/gpu-compiler-role-proof-progression-round86.md",
+   "field": "labor-hiring",
+   "title": "AMD compiler role: source-bound progression",
+   "summary": "One indexed Beijing role, not a current hiring or personal-eligibility finding. Exact degree/preference grammar,403/crawl/version limits, native positives and source pointers remain in the JSON.",
+   "bytes": 906
+  },
+  {
+   "path": "notes/hiring-assessment-policies-round17.md",
+   "field": "labor-hiring",
+   "title": "Candidate AI use and technical assessment: six official employer examples",
+   "summary": "20 October 2026 local research date; source receipts retain actual UTC read times. These six purposeful examples establish **different assessment contracts**, including within the same employer. They support practicing independent reasoning, assisted engineering and explanation as separate capabi...",
+   "bytes": 12920
+  },
+  {
+   "path": "notes/human-verification-economics-round8.md",
+   "field": "labor-hiring",
+   "title": "Human verification, repair and accepted software: economics audit",
+   "summary": "Owner: sectors_business. Round 8. Prepared **20 October 2026**, using publications available by **19 October 2026**. Public primary-source research only; no model calls, code execution from third parties, installations, data downloads, private access, outreach or shared-catalogue changes. The exp...",
+   "bytes": 20802
+  },
+  {
+   "path": "notes/imf-new-skills-methods-round10.md",
+   "field": "labor-hiring",
+   "title": "IMF SDN 2026/001: new-skill measurement, wages and employment identification",
+   "summary": "Checked 20 October 2026, extending the earlier partial reconciliation and root evidence notes. The previously resolved scaling arithmetic is unchanged and is not new work here.",
+   "bytes": 18097
+  },
+  {
+   "path": "notes/india-services-cross-firm-boundary-round25.md",
+   "field": "labor-hiring",
+   "title": "Cross-firm boundary test: HCLTech to TCS",
+   "summary": "Checked against the actual clock on19October2026UTC. This bounded pass examines one other issuer, TCS, after a census of the saved TCS/Infosys/India-filing notes. It tests portability of measurement definitions; it is not another headline roundup, employer ranking or causalAI/jobs study. The exis...",
+   "bytes": 7209
+  },
+  {
+   "path": "notes/india-services-definition-followup-round63.md",
+   "field": "labor-hiring",
+   "title": "india services definition followup round63",
+   "summary": "The new official transcript closes part of the definition gap. It distinguishes externally reportedAI-first revenue from internally trackedAI-augmented work,describes recruitment versus a fiscal-year plan,and supplies an acquisition-perimeter statement. It does not identify an AIcausal hiring eff...",
+   "bytes": 3085
+  },
+  {
+   "path": "notes/india-services-gcc-round4.md",
+   "field": "labor-hiring",
+   "title": "India services and GCC demand: what revenue, workforce and contracts can tell a developer",
+   "summary": "Public primary sources checked 19 October 2026, Asia/Kolkata client date. This pass extends the limited TCS/Infosys checks in `root-methods-round2.md`; it does not repeat those results, collect another job sample, offer investment advice, or access private systems. Figures below retain their orig...",
+   "bytes": 25222
+  },
+  {
+   "path": "notes/india-services-hiring-output-depth-round49.md",
+   "field": "labor-hiring",
+   "title": "Infosys: reported AI revenue does not yet identify the hiring bridge",
+   "summary": "The latest usable quarter located in this bounded pass is Q1 FY2027, ended 30 June 2026. The official investor page read on 20 October still schedules Q2 FY2027 results for 23 October. The July23 filing's indexed official excerpt reports AI at 8.2% of quarter revenue, alongside $5.082 billion tot...",
+   "bytes": 8048
+  },
+  {
+   "path": "notes/labor-round2.md",
+   "field": "labor-hiring",
+   "title": "Reachable developer pathways: ordinary employer requirements and adoption-linked evidence",
+   "summary": "Checked 19 October 2026 using the client date in Asia/Kolkata. This pass reads public sources only. It complements `labor.md`; it does not replace its methods audit or make a personal qualification assessment.",
+   "bytes": 22892
+  },
+  {
+   "path": "notes/labor-round3-methods.md",
+   "field": "labor-hiring",
+   "title": "Labor methods audit: adoption, exposure, equilibrium and returns to learning",
+   "summary": "Checked against primary sources on 19 October 2026. This is a distinct follow-up to `labor.md` and `labor-round2.md`; no new job sample was collected. BIS WP1325 is deliberately outside this pass because the root researcher owns its instrumental-variable audit.",
+   "bytes": 25410
+  },
+  {
+   "path": "notes/labor.md",
+   "field": "labor-hiring",
+   "title": "Labor market evidence for developer futures, checked 2026-10-19",
+   "summary": "The defensible forecast is a changing, more uneven software profession, with pressure on repeatable implementation and entry-level hiring and continued demand for people who own production outcomes. Current evidence does not establish economy-wide AI job destruction. Nor does it establish that ex...",
+   "bytes": 34145
+  },
+  {
+   "path": "notes/late-role-proof-progression-round79.md",
+   "field": "labor-hiring",
+   "title": "Three late role-to-proof progressions",
+   "summary": "Offline source-bound proposal saved 2026-10-20T08:14:02.107455+00:00. These are conditional evidence chains, not a personal allocation, new course, job ranking or a 90-day promise. The reader’s qualifications, experience, resources and work rights are unassessed.",
+   "bytes": 5404
+  },
+  {
+   "path": "notes/new-role-proof-delta-matrix-round41.md",
+   "field": "labor-hiring",
+   "title": "Three role snapshots: what they change in the preparation decision",
+   "summary": "These snapshots refine three conditional routes; they do not establish personal eligibility, three new vacancies, a training return or sector demand. Riverlane is the **same advert already in role14**, with missing credential/experience wording now resolved. Arc adds a contrasting lab-adjacent so...",
+   "bytes": 8199
+  },
+  {
+   "path": "notes/role-proof-barriers-round14.md",
+   "field": "labor-hiring",
+   "title": "Twelve role examples: requirement → proof → remaining barrier",
+   "summary": "Curated 20 October 2026 from saved official-role receipts. **This is a set of contrasting work requirements, not twelve application recommendations or a demand estimate.** None was freshly refreshed in this pass. Most receipts were checked 19 October; Met Office and BIM material include 20 Octobe...",
+   "bytes": 13843
+  },
+  {
+   "path": "notes/root-adoption-methods-round5.md",
+   "field": "labor-hiring",
+   "title": "Adoption measurement and economic interpretation",
+   "summary": "Checked 19 October 2026. Root-owned questions, distinct from labor_market's Census/QWI methods audit.",
+   "bytes": 3978
+  },
+  {
+   "path": "notes/root-imf-partial-reconciliation-round10.md",
+   "field": "labor-hiring",
+   "title": "IMF numeric reconciliation — partial root check, round10",
+   "summary": "Checked19October2026. This closes an arithmetic ambiguity only; the full-method audit remains open.",
+   "bytes": 1404
+  },
+  {
+   "path": "notes/root-labor-demand-mechanisms-round77.md",
+   "field": "labor-hiring",
+   "title": "Task productivity does not identify developer headcount",
+   "summary": "The new contribution is a mechanism check, not another employment forecast. The exact question was saved before searching: what connects faster task execution to net developer employment and preparation value? One primary paper was readable; the selected second PDF failed. No source retry or thir...",
+   "bytes": 5833
+  },
+  {
+   "path": "notes/root-startup-organization-derived-round13.md",
+   "field": "labor-hiring",
+   "title": "Startup organization and the career inference — root round11",
+   "summary": "> Derived root-reviewed view. Original remains frozen; four guarded clarification proposals are recorded in independent-startup-organization-review-round11-proposals.json. No private data replication or causal validation.",
+   "bytes": 5026
+  },
+  {
+   "path": "notes/root-startup-organization-round11.md",
+   "field": "labor-hiring",
+   "title": "Startup organization and the career inference — root round11",
+   "summary": "This bounded check asks whether evidence that AI firms are leaner establishes either fewer total jobs or a promising personal role. It does neither by itself. Related randomized startup-mapping evidence is assigned separately to energy_infrastructure; do not substitute it for this observational d...",
+   "bytes": 4436
+  },
+  {
+   "path": "notes/skill-credential-return-round8.md",
+   "field": "labor-hiring",
+   "title": "Learning, credentials, visibility and durable returns: a causal audit",
+   "summary": "Primary methods checked 20 October 2026; publication cutoff remains 19 October. This is preparation research for the reader, whose current skill evidence, education, tenure, time, work rights and financial constraints remain unknown. Five full primary documents were inspected. Earlier reports and...",
+   "bytes": 22745
+  },
+  {
+   "path": "notes/south-asia-hiring-methods-round11.md",
+   "field": "labor-hiring",
+   "title": "India and South Asia: observed hiring signals and their limits",
+   "summary": "Checked 20 October 2026 against public material published by the research cutoff of 19 October. This pass reads the existing India-services, IMF-methods and labor-baseline reports, then audits three primary research families: the World Bank's October 2025 South Asia report, its October 2026 regio...",
+   "bytes": 21195
+  },
+  {
+   "path": "notes/startup-mapping-experiment-round11.md",
+   "field": "labor-hiring",
+   "title": "Mapping AI into Production: primary-access checkpoint, round 11",
+   "summary": "20 October 2026. Status: **full primary methods not retrieved; abstract/institutional-summary boundary**. Saved immediately after root interrupted a stalled browser download. No further network, browser, download or waiting calls were made for this checkpoint. No shared research input or catalogu...",
+   "bytes": 9112
+  },
+  {
+   "path": "notes/startup-mapping-primary-followup-round12.md",
+   "field": "labor-hiring",
+   "title": "Mapping AI primary-endpoint follow-up, round 12",
+   "summary": "20 October2026. **Negative endpoint result; full methods remain unresolved.** One genuinely new official-reader request was used, below the three-request cap. No browser, download, wait, repeated INSEAD/SSRN route, installation or outreach was used. The round11 checkpoint and its source/claim fil...",
+   "bytes": 3031
+  },
+  {
+   "path": "notes/uk-ai-workforce-methods-round13.md",
+   "field": "labor-hiring",
+   "title": "UK AI Labour Market Survey 2025: methods, denominators and career interpretation",
+   "summary": "Checked 20 October 2026 against material published by 19 October. Existing labor, UK-access and Skills England references were read first. This pass audits the complete public methods and relevant findings in DSIT 2026/002, *AI Labour Market Survey 2025*, produced by Gardiner & Theobald (G&T), pu...",
+   "bytes": 14905
+  },
+  {
+   "path": "notes/agricultural-field-robot-outcomes-depth-round58.md",
+   "field": "robotics-physical",
+   "title": "agricultural field robot outcomes depth round58",
+   "summary": "This study supplies a real physical weeding result, while leaving unattended operation and grower economics open.",
+   "bytes": 4324
+  },
+  {
+   "path": "notes/building-controls-field-outcomes-depth-round59.md",
+   "field": "robotics-physical",
+   "title": "One measured building-control deployment: effect, native automation and work boundaries",
+   "summary": "This closes part of the field-outcome gap: an open MPC toolchain actually controlled office HVAC and produced a reported energy benefit. It does **not** close the route to accessible paid developer work. The evidence is one historical site, a particular baseline and transition season, with substa...",
+   "bytes": 8312
+  },
+  {
+   "path": "notes/construction-bim-option-round9.md",
+   "field": "robotics-physical",
+   "title": "Construction option: IFC interoperability, validation and operational handover",
+   "summary": "Owner: sectors_business. Round 9; public-source research checked **20 October 2026**. This is a bounded addition to the construction software branch, not a market forecast or a selected primary specialty. Publications are dated below; live documentation snapshots are identified separately. No too...",
+   "bytes": 27248
+  },
+  {
+   "path": "notes/embedded-realtime-option-round12.md",
+   "field": "robotics-physical",
+   "title": "Embedded firmware and real-time engineering as a distinct option",
+   "summary": "Checked **20 October 2026**. This extends the existing compute-hardware, telecom-edge, robotics and systems notes after reading their relevant sections and source index. It covers MCU firmware: interrupts, concurrent state, sensor acquisition, resource/deadline contracts and recoverable authentic...",
+   "bytes": 20279
+  },
+  {
+   "path": "notes/field-robotics-round4.md",
+   "field": "robotics-physical",
+   "title": "Field robotics: the opportunity after the demo",
+   "summary": "Research cut-off: 19 October 2026. Owned scope: agriculture, civil/construction inspection, underground mining, aerial and marine inspection; degraded localization, sensing, edge execution, communications and accepted work. This is a distinct extension of the first three robotics reports. It does...",
+   "bytes": 30928
+  },
+  {
+   "path": "notes/geospatial-space-round5.md",
+   "field": "robotics-physical",
+   "title": "Geospatial, Earth observation and selected space-software paths",
+   "summary": "Research cut-off: 19 October 2026. This pass covers optical/SAR/time-series analysis, geolocation, data fusion, labels, operational data delivery, and selected onboard/simulation roles. It extends the institution-only space scan and field-robotics report without repeating their evidence. Public d...",
+   "bytes": 33395
+  },
+  {
+   "path": "notes/industrial-inspection-option-round12.md",
+   "field": "robotics-physical",
+   "title": "Industrial visual inspection and metrology: bounded option audit, round 12",
+   "summary": "Owner: robotics_physical. Checked 19 October 2026 UTC / 20 October IST. Draft evidence and project proposals; not final catalogue acceptance.",
+   "bytes": 24449
+  },
+  {
+   "path": "notes/industrial-robot-customer-outcomes-round75.md",
+   "field": "robotics-physical",
+   "title": "BMW’s customer-reported robot outcomes",
+   "summary": "BMW reports real Figure 02 participation in production at Spartanburg. Its counters describe components, vehicles, steps and operating hours; they do not provide a public ledger of accepted missions, interventions or full costs. Customer report.",
+   "bytes": 1228
+  },
+  {
+   "path": "notes/industrial-software-economics-access-round45.md",
+   "field": "robotics-physical",
+   "title": "industrial software economics access round45",
+   "summary": "Rockwell provides concrete operating evidence for industrial engineering software, but this audit does **not** identify developer job growth, AI-caused productivity or a budget accessible to a small outside team. The useful direction is conditional: investigate work around an existing industrial ...",
+   "bytes": 4764
+  },
+  {
+   "path": "notes/network-control-option-round24.md",
+   "field": "robotics-physical",
+   "title": "Network systems option: trace data age and delayed control actions",
+   "summary": "20 October 2026. Draft research option, not a selected career recommendation, mounted category, completed controller project or 2031 hiring forecast. This pass read the source index and saved telecom/edge notes first. They already cover standards, operator deployments, edge placement and broad st...",
+   "bytes": 13521
+  },
+  {
+   "path": "notes/open-ran-control-evaluation-depth-round77.md",
+   "field": "robotics-physical",
+   "title": "ColO-RAN: actual testbed actuation, with an unclosed operating/access bridge",
+   "summary": "The scoped census found a real unclosed methods question. The earlier telecom note listed ColO-RAN and its dataset; the later network audit examined NIST simulator semantics and synthetic OAI/RFsim classification. This pass follows the distinct ColO-RAN experiment. It is historical evidence, not ...",
+   "bytes": 4938
+  },
+  {
+   "path": "notes/operations-research-round6.md",
+   "field": "robotics-physical",
+   "title": "Operations research, decision science and industrial optimization — round 6",
+   "summary": "Research date: 19 October 2026. Draft evidence and proposed experiments, not a forecast of vacancies or a claim that the projects below have been executed. No solver or package was installed, no paid computation was run, and no operational plans, applications or messages were submitted. This fill...",
+   "bytes": 30949
+  },
+  {
+   "path": "notes/optimization-model-validity-depth-round44.md",
+   "field": "robotics-physical",
+   "title": "AI-generated optimization: valid decision procedures and incomplete cost scores",
+   "summary": "Bounded research, 20 October 2026 IST. This examines one previously unexamined 2026 protocol, not the 72-case scheduling demo, a new solver trial, a current model ranking or a forecast of OR employment. The original scheduling/control/catalogue inputs remain frozen. No benchmark dataset/code asse...",
+   "bytes": 12875
+  },
+  {
+   "path": "notes/physical-control-skill-transfer-round64.md",
+   "field": "robotics-physical",
+   "title": "What transfers across physical-control studies—and what does not",
+   "summary": "Four source-bound alternatives,not a new curriculum or24exercises. All proof here is source reading and local metadata;no learner,module,controller or hardware was tested. The same worker authored the four held source notes and this bridge,so it adds no independent scientific vote. No new primary...",
+   "bytes": 16534
+  },
+  {
+   "path": "notes/physical-geospatial-round6-gaps.md",
+   "field": "robotics-physical",
+   "title": "Physical/geospatial round 6 curation gaps",
+   "summary": "Draft curation only. Structural checks do not mean scientific or final acceptance. No tree or frozen-report edits.",
+   "bytes": 3492
+  },
+  {
+   "path": "notes/physical-version-deltas-round8.md",
+   "field": "robotics-physical",
+   "title": "Three substantive paper-version deltas",
+   "summary": "Audit completed 20 October 2026, Asia/Kolkata (19 October UTC). This compares DeepFleet v1→v3, Prithvi-EO-2.0 v1→v3 and TerraMind v1→v5. The separate Prithvi orbital paper, arXiv:2512.01181v1, is not a revised version of the EO-model paper and acquires no new operating evidence from these revisions.",
+   "bytes": 10380
+  },
+  {
+   "path": "notes/robot-data-transfer-access-depth-round55.md",
+   "field": "robotics-physical",
+   "title": "Robot demonstration data: transfer is real; access is a separate contract",
+   "summary": "**Open X-Embodiment reports useful real-robot transfer, but it does not establish transfer to an unseen robot or a hardware-free reproduction of that result.** A common data format is not a common physical action meaning, and an “open” aggregate is not a blanket code/data/model licence. This pass...",
+   "bytes": 9279
+  },
+  {
+   "path": "notes/robotics-autonomy-evaluation-depth-round38.md",
+   "field": "robotics-physical",
+   "title": "Robot autonomy evaluation: one unresolved protocol gap, round 38",
+   "summary": "The new evidence supports some within-policy correction and a useful physical-policy ranking method. It does **not** establish low-attention autonomous recovery or useful work per operator-hour. This is an audit of one bounded study, not a ceiling on all October 2026 policies or an argument that ...",
+   "bytes": 11042
+  },
+  {
+   "path": "notes/robotics-operator-economics-access-depth-round58.md",
+   "field": "robotics-physical",
+   "title": "AutoStore: commercial scale, service responsibility and the unproven developer-access step",
+   "summary": "AutoStore is a substantive commercial robotics business, and its current documentation makes the retained human and contractual responsibilities unusually explicit. That is stronger evidence than a policy demonstration. It does not establish full customer cost, low operator attention, AI-specific...",
+   "bytes": 6851
+  },
+  {
+   "path": "notes/robotics-round2.md",
+   "field": "robotics-physical",
+   "title": "Robotics round 2: attempt to disprove the career opportunity",
+   "summary": "Audited on 19 October 2026. This pass tests whether deployed robots imply attractive, accessible software work. It supplements `robotics.md` rather than repeating its release survey. Figures are company/operator disclosures unless identified as audited filings or independently derived arithmetic....",
+   "bytes": 28610
+  },
+  {
+   "path": "notes/robotics-round3-generalization.md",
+   "field": "robotics-physical",
+   "title": "Robotics round 3: generalization, measurement and reproducible entry projects",
+   "summary": "Research cutoff: 19 October 2026. This pass concerns robot policies and evaluation methods, not deployment totals or company economics. It distinguishes peer-reviewed work, preprints, author-reported experiments, artifact availability and experiments proposed here. No packages, code, weights or d...",
+   "bytes": 29630
+  },
+  {
+   "path": "notes/robotics-upstream-contribution-boundary-round44.md",
+   "field": "robotics-physical",
+   "title": "Robotics upstream contribution: intake is not accepted work or ownership",
+   "summary": "This bounded pass establishes Nav2's displayed contribution-licensing/sign-off minimum. It does **not** establish the complete current outside-contributor review process, an accepted hardware-free change, a mentor, delegated maintenance or funded work. Two other official paths failed to return th...",
+   "bytes": 9071
+  },
+  {
+   "path": "notes/robotics.md",
+   "field": "robotics-physical",
+   "title": "Robotics, autonomy and physical AI: developer outlook to 2031",
+   "summary": "Research cutoff: 19 October 2026. Forecasts below are judgments, not measured employment projections. Company deployment counts are attributed to their operators; they do not establish audited profitability.",
+   "bytes": 24296
+  },
+  {
+   "path": "notes/state-estimation-option-round13.md",
+   "field": "robotics-physical",
+   "title": "State estimation: clock, gauge freedom and failed-support audit, round 13",
+   "summary": "Owner: robotics_physical. Checked 19 October 2026 UTC / 20 October IST. Draft evidence and projects. No main-tree or frozen-report edits.",
+   "bytes": 27313
+  },
+  {
+   "path": "notes/tactile-contact-option-round10.md",
+   "field": "robotics-physical",
+   "title": "Tactile sensing and contact-state estimation: bounded option audit, round 10",
+   "summary": "Draft, checked 19 October 2026 UTC. Existing robotics, neuro/assistive, interfaces catalogues and `source-index.json` were searched first; no dedicated tactile-sensor/contact-state branch was present. This pass adds that missing option, rather than repeating vision/VLA generalization. Three curre...",
+   "bytes": 22480
+  },
+  {
+   "path": "notes/telecom-edge-round4.md",
+   "field": "robotics-physical",
+   "title": "Telecom, wireless and edge infrastructure: a developer's outlook through 2031",
+   "summary": "Cutoff: 19 October 2026. Scope: 5G Advanced, Open RAN, private industrial networks, edge inference, network automation and 6G readiness. This extends the earlier systems/compute work without repeating its compiler, database or hardware overview. No software/data installation or download, paid com...",
+   "bytes": 33546
+  },
+  {
+   "path": "notes/world-model-evaluation-depth-round39.md",
+   "field": "robotics-physical",
+   "title": "world model evaluation depth round39",
+   "summary": "The reader, **Physics-IQ Verified** is useful evidence that benchmark construction can change a video-model ranking. It gives a stronger physical reference than aesthetic preference alone. It does not demonstrate causal interactive control,useful robot training or a reason to pivot into world mod...",
+   "bytes": 7363
+  },
+  {
+   "path": "notes/accessibility-workflow-option-round15.md",
+   "field": "science-health-security-sectors",
+   "title": "Accessibility workflow option: keyboard, focus, errors and recoverable task state",
+   "summary": "Prepared 20 October 2026; main evidence cutoff 19 October 2026. Existing `interfaces-accessibility-round6.md`, creative and security coverage were read first. This option deepens the conventional web/application branch; it does not repeat voice/BCI/XR studies or replace their human-evaluation gap...",
+   "bytes": 19086
+  },
+  {
+   "path": "notes/agriculture-decision-option-round25.md",
+   "field": "science-health-security-sectors",
+   "title": "Agricultural decision data: was the in-season information actually available?",
+   "summary": "Bounded source audit and proposed option, 20 October 2026; `/root/bio_science`. Existing sector, climate/water, geospatial and field-robotics notes already cover irrigation simulation, crop mapping and weed perception. This pass adds one narrower problem: **an as-issued evidence contract for a su...",
+   "bytes": 16280
+  },
+  {
+   "path": "notes/assistive-interface-outcomes-depth-round32.md",
+   "field": "science-health-security-sectors",
+   "title": "assistive interface outcomes depth round32",
+   "summary": "This paper offers a useful example of selective human–agent collaboration, while leaving disabled-user independence and all-attempt cost unresolved. This is one new study audit and a proposed reporting refinement to the existing task editor, with no new project, hours, participants or execution.",
+   "bytes": 5798
+  },
+  {
+   "path": "notes/autonomous-lab-outcome-depth-round47.md",
+   "field": "science-health-security-sectors",
+   "title": "Polybot outcomes: a reported physical positive; methods and access remain gated",
+   "summary": "**This pass does not complete the experimental-methods audit.** It retains a primary-indexed physical result and directly readable supporting-repository metadata, but cannot establish attempted/completed/valid experimental denominators or the remaining human burden. The outcome-to-access bridge i...",
+   "bytes": 8449
+  },
+  {
+   "path": "notes/autonomous-lab-version-methods-followup-round48.md",
+   "field": "science-health-security-sectors",
+   "title": "Polybot manuscript-version follow-up: identity metadata only",
+   "summary": "**No alternate methods body was recovered within this bounded search.** This is a version/access gap, not a finding that no archive, experiment, useful outcome or funding exists. The earlier reported conductivity positive retains its primary-indexed class; it is not upgraded, erased or re-estimated.",
+   "bytes": 3497
+  },
+  {
+   "path": "notes/autonomous-materials-critique-archive-round67.md",
+   "field": "science-health-security-sectors",
+   "title": "A-Lab critique: legitimate archive locator, full-text gap retained",
+   "summary": "The official UCL Discovery item10188733 matches the already observed **Challenges in High-Throughput Inorganic Materials Prediction and Autonomous Synthesis**, PRX Energy3,011002, DOI10.1103/PRXEnergy.3.011002. This closes a locator/version-metadata gap, not the scientific dispute. One scoped que...",
+   "bytes": 3444
+  },
+  {
+   "path": "notes/autonomous-materials-lab-outcomes-round66.md",
+   "field": "science-health-security-sectors",
+   "title": "A-Lab: physical synthesis, phase identification and autonomy boundaries",
+   "summary": "The bounded evidence supports real robotic synthesis while leaving the discovery and operating-economics endpoints narrower. This is one original physical study, a related author correction and a published critical interpretation—not three independent experimental replications. A full methods/dis...",
+   "bytes": 5683
+  },
+  {
+   "path": "notes/bio-round2.md",
+   "field": "science-health-security-sectors",
+   "title": "Scientific, laboratory and clinical software: funded demand and reachable entry paths",
+   "summary": "Research date: 19 October 2026. Owner: `/root/bio_science`. This is the second specialist pass, not a claim that the requested 24-hour research period has elapsed. No outreach, applications, downloads, installs, private-system access or external changes were performed.",
+   "bytes": 28340
+  },
+  {
+   "path": "notes/bio.md",
+   "field": "science-health-security-sectors",
+   "title": "Bio, health, neuroscience, materials and scientific software: evidence as of 2026-10-19",
+   "summary": "For a broad ML/software/robotics engineer, the most defensible entry point is the engineering that makes models work with real experiments, instruments and clinical workflows: data provenance, orchestration, inference infrastructure, rigorous evaluation, instrument integration, observability and ...",
+   "bytes": 28447
+  },
+  {
+   "path": "notes/biomedical-data-access-readiness-depth-round53.md",
+   "field": "science-health-security-sectors",
+   "title": "MIMIC-IV3.1: public metadata is not patient-data permission",
+   "summary": "**The access process is partly established; the complete selected licence/DUA grant is not.** This pass selected exact MIMIC-IV3.1, without claiming it is latest. Public documentation and a model/paper licence do not establish access to its patient records. No account, training enrolment, approva...",
+   "bytes": 7229
+  },
+  {
+   "path": "notes/biomolecular-generalisation-depth-round32.md",
+   "field": "science-health-security-sectors",
+   "title": "Boltz-2 affinity: exactly which generalisation and prospective outcome?",
+   "summary": "This bounded primary-methods pass closes a gap in the saved molecular notes: they covered AlphaFold 3, BindCraft, AlphaGenome and atomistic materials, but not an affinity model's assay/split/generalisation contract. The question is whether Boltz-2's reported results establish new-target, new-chem...",
+   "bytes": 11467
+  },
+  {
+   "path": "notes/clinical-ai-workflow-outcomes-depth-round49.md",
+   "field": "science-health-security-sectors",
+   "title": "A distinct randomized ambient-AI rollout: benefit, estimand and access limits",
+   "summary": "**The selected trial supplies a source-qualified positive for practitioner exhaustion and documentation time. It does not establish patient-health benefit, clinician replacement or a developer employment effect.** This audit uses substantial **indexed primary manuscript text**; direct manuscript,...",
+   "bytes": 8396
+  },
+  {
+   "path": "notes/confidential-ai-work-boundary-round38.md",
+   "field": "science-health-security-sectors",
+   "title": "Confidential AI: attestation, authority and readiness boundary — round38",
+   "summary": "Native CPU/GPU confidential computing can protect data in use from an untrusted infrastructure operator. Its verifier, reference-value and key-release controls are substantial existing infrastructure. A device quote alone still does not establish which AI artifact served a request,who authorized ...",
+   "bytes": 10158
+  },
+  {
+   "path": "notes/content-provenance-software-depth-round48.md",
+   "field": "science-health-security-sectors",
+   "title": "C2PA recovery: useful provenance, several different guarantees",
+   "summary": "C2PA can help recover provenance after metadata loss or transformation. The recovered history must remain distinct from a cryptographic integrity result for the current asset. Existing native verification and configuration are strong baselines;this research does not establish a standalone product...",
+   "bytes": 5878
+  },
+  {
+   "path": "notes/creative-ai-field-outcomes-round68.md",
+   "field": "science-health-security-sectors",
+   "title": "AI advertising: measured clicks, unmeasured business return",
+   "summary": "Picture Perfect provides a methods-rich field comparison, not a whole-creator productivity trial. The structured companion retains the exact denominators and reported statistical results. A clear engagement positive survives: selected generated creatives received more clicks per impression agains...",
+   "bytes": 2174
+  },
+  {
+   "path": "notes/creative-games-round5.md",
+   "field": "science-health-security-sectors",
+   "title": "Creative media, games and production software through 2031",
+   "summary": "Cutoff: 19 October 2026. This contribution moves beyond the initial GDC/Roblox macro statistics into production engineering, controllability, editing, temporal/identity correctness, asset provenance, audio, rendering/streaming and interactive worlds. Research/design only: no media was generated, ...",
+   "bytes": 35793
+  },
+  {
+   "path": "notes/digital-public-infrastructure-access-depth-round47.md",
+   "field": "science-health-security-sectors",
+   "title": "DIGIT/SUJOG: concrete public software work, incomplete access bridge",
+   "summary": "The official procurement amendment identifies substantive maintenance and operational work around an existing open-platform deployment. It does not establish a currently accessible individual paid role. Its large-prime qualification and local-enterprise conditions make the gap between reading pub...",
+   "bytes": 6163
+  },
+  {
+   "path": "notes/domain-institutions-round2.md",
+   "field": "science-health-security-sectors",
+   "title": "Domain institutions, public research access and contribution routes — round 2",
+   "summary": "Checked 19 October 2026. This is a bounded institutions/access pass covering payments; education; legal/public administration; media/games; geospatial/space; XR; quantum; and nuclear/fusion software. It leaves `taxonomy-draft.json` unchanged. Existing specialist workers own AI/ML, robotics, bio, ...",
+   "bytes": 31466
+  },
+  {
+   "path": "notes/dpdp-engineering-access-depth-round46.md",
+   "field": "science-health-security-sectors",
+   "title": "DPDP implementation: a concrete control contract, but no demonstrated funded entry route",
+   "summary": "This pass found substantive engineering requirements and mature native mechanisms. It did **not** establish a newly accessible funded job, consultancy market or startup opportunity for this developer. The selected bridge is retention/erasure evidence: turning an owner-approved policy into correct...",
+   "bytes": 7089
+  },
+  {
+   "path": "notes/earth-representation-generalisation-depth-round42.md",
+   "field": "science-health-security-sectors",
+   "title": "Galileo representations: generalization evidence versus operational decisions",
+   "summary": "Status: bounded primary-method research, pending independent/root review. The selected version is **Learning Global and Local Features in Pretrained Remote Sensing Models**, Gabriel Tseng et al., **arXiv:2502.09356v1, 13 February 2025**. The paper family is called Galileo. A later title/revision ...",
+   "bytes": 11475
+  },
+  {
+   "path": "notes/editorial-native-profile-oracle-depth-round59.md",
+   "field": "science-health-security-sectors",
+   "title": "One editorial profile: native adequacy is an unrun question",
+   "summary": "The held editorial32 proposal already defines the machine-checkable contract. **No fresh documentation read is needed to restate it.** Native OTIO/CMX may satisfy that finite contract;whether an approved installed build actually does so remains untested. More documentation cannot substitute for t...",
+   "bytes": 4667
+  },
+  {
+   "path": "notes/editorial-software-work-boundary-round30.md",
+   "field": "science-health-security-sectors",
+   "title": "Editorial interchange to production software: role-source bridge blocked",
+   "summary": "The existing editorial artifact remains a conditional software-contribution path. A current Framestore production-software role bridge was **not established** in this bounded pass. The discovered role locator stays HELD; indexed wording is not promoted into a current vacancy, qualification rule o...",
+   "bytes": 7136
+  },
+  {
+   "path": "notes/education-learning-round5.md",
+   "field": "science-health-security-sectors",
+   "title": "Education, tutoring, assessment and adult technical learning — round 5",
+   "summary": "Checked 19 October 2026. This pass goes beyond the Turkish-mathematics PNAS example in `sectors.md` and the coding-skills RCT already audited in the software/labor notes. Those studies are cross-references, not new independent evidence here. No learners were enrolled, contacted or assessed; no pr...",
+   "bytes": 29911
+  },
+  {
+   "path": "notes/education-quantum-or-enrichment-round7-gaps.md",
+   "field": "science-health-security-sectors",
+   "title": "Education / quantum / OR enrichment gaps — round7",
+   "summary": "- **eqor-gap-01 — Directory normalization (open):** 88 original IDs retained as flat replacement/augmentation records; root must merge same IDs, not create duplicate institutions. Original contributionpath IDs now have kind project/sourceKind contributionpath.",
+   "bytes": 3236
+  },
+  {
+   "path": "notes/fair-mast-minimum-access-round14.md",
+   "field": "science-health-security-sectors",
+   "title": "FAIR-MAST minimum archive access, round 14",
+   "summary": "20 October 2026. **A tiny actual archive-metadata fixture is now verified.** Three complete Zarr v3 JSON objects for the documented shot 30421 summary group returned successfully, totaling 2442 retained body bytes. They identify plasma-current units **A**, time units **s**, matching shape **[767]...",
+   "bytes": 7773
+  },
+  {
+   "path": "notes/finance-payments-round5.md",
+   "field": "science-health-security-sectors",
+   "title": "Round 5: payment infrastructure, reconciliation, fraud and agentic transactions",
+   "summary": "Research checked 19 October 2026. Technical/funded-work pass beyond prior authentication-protocol notes. Read-only public evidence; no funds, accounts, trades, private banking data, installations, downloads of datasets/models, contact or applications. This is engineering/career research, not lega...",
+   "bytes": 33429
+  },
+  {
+   "path": "notes/genomics-workflows-option-round22.md",
+   "field": "science-health-security-sectors",
+   "title": "Genomics workflow software: reference, representation and benchmark scope — round 22",
+   "summary": "Checked 20 October 2026; owner /root/bio_science. Existing bio/molecular notes and the source index cover variant-effect models, not a reproducible small-variant comparison workflow. This pass fills that gap with one contract: **compare a germline small-variant VCF to the intended benchmark/refer...",
+   "bytes": 18332
+  },
+  {
+   "path": "notes/health-data-space-work-boundary-round39.md",
+   "field": "science-health-security-sectors",
+   "title": "EHDS: dates, specified work and the boundary of a software portfolio",
+   "summary": "EHDS specifies concrete interoperability and controlled-data infrastructure work toward2029/2031. It does not establish new job counts, a software shortage or automatic access for a UK/India developer. The defensible addition is an optional source/metadata ledger inside the existing nonclinical h...",
+   "bytes": 11933
+  },
+  {
+   "path": "notes/health-interoperability-option-round12.md",
+   "field": "science-health-security-sectors",
+   "title": "Health interoperability option: FHIR, OMOP and meaning-preserving data engineering",
+   "summary": "Research snapshot: 20 October 2026; main evidence cutoff: 19 October 2026. Research and experiment design only. No patient records, installations, validator/server execution, accounts, terminology licence acceptance, downloads of software or bulk data, or outreach. Existing `bio.md`, `bio-round2....",
+   "bytes": 21173
+  },
+  {
+   "path": "notes/interfaces-accessibility-round6.md",
+   "field": "science-health-security-sectors",
+   "title": "Interfaces, accessibility, voice and spatial computing: an outcome-first audit",
+   "summary": "Research cutoff: 19 October 2026. Round 6, distinct from the earlier general accessibility and Android XR institution notes. Public evidence only; no software installation, model/data download, microphone activation, recruitment, external posting or hardware purchase occurred. This is a research ...",
+   "bytes": 32754
+  },
+  {
+   "path": "notes/materials-science-round4.md",
+   "field": "science-health-security-sectors",
+   "title": "Materials, computational chemistry and scientific ML software",
+   "summary": "Bounded specialist pass: 19 October 2026. Owner `/root/bio_science`. No installation, model/data download, simulation, DFT calculation, hardware work, outreach, private access or external mutation was performed. Earlier notes remain unchanged. This pass deliberately excludes the A-Lab correction ...",
+   "bytes": 26213
+  },
+  {
+   "path": "notes/native-policy-verification-depth-round47.md",
+   "field": "science-health-security-sectors",
+   "title": "Native policy verification: what a learned policy generator can actually certify",
+   "summary": "AutoCedar supplies a substantive counterexample to treating policy generation or checking as an untouched human specialty. Its model proposes policies while native Cedar/SymCC/SMT machinery checks a fixed, approved target. The newly audited v1 claim is **boundary satisfaction**, not a general gua...",
+   "bytes": 8781
+  },
+  {
+   "path": "notes/native-pqc-migration-boundary-round36.md",
+   "field": "science-health-security-sectors",
+   "title": "Native PQC migration and bundling boundary — round36",
+   "summary": "The new evidence strengthens the **native-first** case. Platform vendors already supply hybrid key agreement, capability-aware selection, rollout/rollback and useful observability. Residual compatibility/inventory work is plausible only where a concrete owner still has an unanswered contract; the...",
+   "bytes": 9511
+  },
+  {
+   "path": "notes/neuro-assistive-round3.md",
+   "field": "science-health-security-sectors",
+   "title": "Neurotechnology, assistive input and biosignal software",
+   "summary": "Bounded specialist pass completed 19 October 2026. Owner: `/root/bio_science`. This pass covers participant/session generalisation, drift, latency, usable interfaces and accessible software work. It does not repeat the LIMS, procurement or automated-chemistry work in round two. No data/model down...",
+   "bytes": 24688
+  },
+  {
+   "path": "notes/pqc-migration-depth-round10.md",
+   "field": "science-health-security-sectors",
+   "title": "Practical PQC migration and crypto-agility engineering",
+   "summary": "Owner: sectors_business. Round 10, checked **20 October 2026** against the research cutoff of **19 October 2026**. Read first: `security.md` S15, the existing PQC claim/project in `security-finance-interfaces-enrichment-round7.json`, and the crypto inventory/migration taxonomy. This extends those...",
+   "bytes": 22568
+  },
+  {
+   "path": "notes/prospective-clinical-ai-outcomes-depth-round36.md",
+   "field": "science-health-security-sectors",
+   "title": "CoMET PM-IMPACCT: prediction, deployment and patient outcome are different claims",
+   "summary": "This is a bounded research-methods audit, not medical advice or clinical authority. It examines one previously uncovered 2026 prospective deployment report, with an important access limit: the **2021 published protocol was directly readable; the 2026 results were available only through a substant...",
+   "bytes": 11963
+  },
+  {
+   "path": "notes/public-legal-admin-round5.md",
+   "field": "science-health-security-sectors",
+   "title": "Public-service, legal and administrative software: attainable developer paths, round 5",
+   "summary": "Research cutoff and access date: **19 October 2026**. Scope: document ingestion/OCR, retrieval, citation checking, case workflow and decision support; funded requirements and evaluation quality. This is a bounded primary-source audit, not a census of employers or legal advice. It supplements the ...",
+   "bytes": 30623
+  },
+  {
+   "path": "notes/quantum-decoder-component-access-round67.md",
+   "field": "science-health-security-sectors",
+   "title": "AlphaQubit2 component access: a grounded dataset route,not a released reproduction",
+   "summary": "The bounded pass establishes a real source route to the reused Willow dataset. It does **not** establish a paper-matched AQ2 implementation,weights/runtime release,an accessible dataset record or complete permission. These are scoped unknowns,not a claim that code is globally absent,private or av...",
+   "bytes": 2803
+  },
+  {
+   "path": "notes/quantum-online-decoding-depth-round66.md",
+   "field": "science-health-security-sectors",
+   "title": "AlphaQubit 2: a real throughput advance and the remaining online-control boundary",
+   "summary": "AlphaQubit 2 changes the evidence: learned decoding is no longer fairly described here as only accurate but too slow. The selected paper reports real accelerator throughput and pacing-based streaming tests. It also explicitly excludes live measurement/communication hardware from its latency evalu...",
+   "bytes": 6484
+  },
+  {
+   "path": "notes/quantum-round3.md",
+   "field": "science-health-security-sectors",
+   "title": "Quantum computing: technical and career feasibility audit — round 3",
+   "summary": "Evidence checked 19 October 2026. This is a bounded technical pass, separate from the institutions directory. No simulator, package, dataset, model, cloud job, account, hardware purchase or outreach was executed. Suggested experiments below are plans, not completed work. No edit was made to the m...",
+   "bytes": 30356
+  },
+  {
+   "path": "notes/quantum-software-entry-boundary-round30.md",
+   "field": "science-health-security-sectors",
+   "title": "One quantum-sector software entry boundary, round30",
+   "summary": "The exact Riverlane Compiler Engineer advert provides a conditional classical-software route. Its body lists no formal degree/PhD or numeric minimum-years filter. It asks Python plus C++ or Rust, broad compiler/OS/architecture knowledge, and compiler interest or experience; LLVM/MLIR is not the o...",
+   "bytes": 5331
+  },
+  {
+   "path": "notes/quantum-software-entry-depth-round63.md",
+   "field": "science-health-security-sectors",
+   "title": "One quantum-role grammar contrast",
+   "summary": "The new example is **decoder research**, not another generic software entry route. Riverlane4980347101, read20October, directly names Quantum Error Correction Researcher (Decoding). It permits a relevant Master’s/PhD **or relevant industry equivalence**, but separately seeks demonstrated independ...",
+   "bytes": 4381
+  },
+  {
+   "path": "notes/regulatory-assay-archive-version-depth-round80.md",
+   "field": "science-health-security-sectors",
+   "title": "Kircher assay archive: original methods partly recovered",
+   "summary": "A legitimate public archive closes part of the previous access gap. The returned PMC journal-article text matches **DOI10.1038/s41467-019-11526-w, PMCIDPMC6687891, PMID31395865**, the exact title and8August2019date. These identifiers came from actual official metadata before the body request. No ...",
+   "bytes": 4356
+  },
+  {
+   "path": "notes/regulatory-assay-component-access-round81.md",
+   "field": "science-health-security-sectors",
+   "title": "Original MPRA deposit: one candidate component, indexed access limits",
+   "summary": "The exact GEOaccession cited by the readable paper now has a more specific public identity. The **official indexed** series record namesGSE126550, matches paperPMID31395865, and declares publication15February2019 with198sample records. It distinguishes SRAraw data from supplementary processed fil...",
+   "bytes": 4411
+  },
+  {
+   "path": "notes/regulatory-assay-reference-depth-round79.md",
+   "field": "science-health-security-sectors",
+   "title": "Regulatory assay reference: citation resolved, methods still unavailable",
+   "summary": "The original experiment is now identified as **Kircher etal., “Saturation mutagenesis of twenty disease-associated regulatory elements at single base-pair resolution,” Nature Communications10,3583(2019), DOI10.1038/s41467-019-11526-w**. AlphaGenome’s main text cites it as reference31 alongside th...",
+   "bytes": 4069
+  },
+  {
+   "path": "notes/regulatory-genomics-evaluation-depth-round60.md",
+   "field": "science-health-security-sectors",
+   "title": "AlphaGenome: one reporter-assay endpoint and an open split audit",
+   "summary": "This focused pass selects **CAGI5MPRA** rather than treating25/26benchmark wins as one generalisation result. The pre-request census found oldheadline/bibliographic/component-rights coverage, not this exact assay/split audit. The adaptive endpoint was recorded after the main paper and before requ...",
+   "bytes": 6803
+  },
+  {
+   "path": "notes/screening-ai-patient-outcomes-round70.md",
+   "field": "science-health-security-sectors",
+   "title": "MASAI: a narrow patient-endpoint methods follow-up",
+   "summary": "The new closure is the reported primary endpoint and20%noninferiority margin, not a new trial or a statistically proven interval-cancer reduction. The final MASAI abstract reports a protocol-defined analysis. Its fuller protocol and statistical-plan provenance remain unchecked.",
+   "bytes": 2999
+  },
+  {
+   "path": "notes/security-directory.md",
+   "field": "science-health-security-sectors",
+   "title": "Security research, employer and contribution directory",
+   "summary": "Verified 19 October 2026. Directory only: no outreach, applications, issue creation, subscriptions, code checkout, installation, paid calls or tenant access. Public professional channels are supplied instead of private contact information. A listed organization is not a recommendation to buy from...",
+   "bytes": 19105
+  },
+  {
+   "path": "notes/security-finance-interfaces-enrichment-round7-gaps.md",
+   "field": "science-health-security-sectors",
+   "title": "Security / finance / interfaces enrichment: curation gaps",
+   "summary": "Draft round7, checked 2026-10-19. Earlier notes/tree are frozen. Structural validation is not substantive acceptance.",
+   "bytes": 4133
+  },
+  {
+   "path": "notes/security-research-receiving-policy-round74.md",
+   "field": "science-health-security-sectors",
+   "title": "One paying security-report receiving policy",
+   "summary": "Mozilla's Client Bug Bounty describes a conditional reward mechanism,not employment or a paid seat. General eligibility requires useful original reports and imposes identity/relationship/payment-jurisdiction gates. External reports already known internally are normally ineligible,with a stalled-b...",
+   "bytes": 2195
+  },
+  {
+   "path": "notes/security-round2.md",
+   "field": "science-health-security-sectors",
+   "title": "Round 2: Can native platforms commoditize agent security and evaluation?",
+   "summary": "Working research note, checked 19 October 2026. Scope: challenge the prior trustworthy-agent integration thesis against effective native products and empirical counterevidence. No installations, account changes, cloud resources, private-system reads, contacts, purchases, or experiments were perfo...",
+   "bytes": 29644
+  },
+  {
+   "path": "notes/security-round3-protocols.md",
+   "field": "science-health-security-sectors",
+   "title": "Round 3: delegated authority across agent protocols and business commits",
+   "summary": "Bounded technical audit, checked 19 October 2026. This supplements the market/platform comparison in round 2; it does not repeat a general formal-methods overview. Source inspection only: no installations, running implementations, network scans, tenant access, outreach or exploit execution. The e...",
+   "bytes": 33080
+  },
+  {
+   "path": "notes/security.md",
+   "field": "science-health-security-sectors",
+   "title": "Security, trustworthy actuation, identity and governance: developer futures to 2031",
+   "summary": "Research working paper, not a final deliverable. Sources checked 19 October 2026. This is a scoped research track; no claim of exhaustive coverage of the internet, no implementation, purchases, installations, private-system inspection, or external writes. Recommendations and project acceptance th...",
+   "bytes": 35903
+  },
+  {
+   "path": "notes/supply-chain-evidence-option-round14.md",
+   "field": "science-health-security-sectors",
+   "title": "Supply-chain evidence option: bind the claim to the artifact and authority",
+   "summary": "Prepared 20 October 2026; main evidence cutoff 19 October 2026. Existing security, systems and funded-maintenance notes were read first. They cover identity, generic provenance and funding, without this source-to-artifact binding depth. Proposed child: `darkside2031.security.agent-security.assura...",
+   "bytes": 21488
+  },
+  {
+   "path": "notes/tokenised-settlement-evaluation-depth-round37.md",
+   "field": "science-health-security-sectors",
+   "title": "tokenised settlement evaluation depth round37",
+   "summary": "Project Agorá now has evidence beyond a mock atomic prototype: BIS reports controlled real-value payments in July2026. It still does not establish a commercial24/7service,representative operating-risk/cost advantage or an accessible paid-developer route. The useful opportunity is the surrounding ...",
+   "bytes": 8629
+  },
+  {
+   "path": "notes/agent-capability-data-round7.md",
+   "field": "software-ai",
+   "title": "Capability-data access checkpoint — round 7",
+   "summary": "Owner: sectors_business. Saved **20 October 2026** after interruption. Research scope remains the **19 October 2026** evidence cutoff. This checkpoint records observations already made; it adds no new model runs, installations, accounts, paid services, private-system access, outreach or external ...",
+   "bytes": 10021
+  },
+  {
+   "path": "notes/agent-capability-horizons-round6.md",
+   "field": "software-ai",
+   "title": "Software-agent horizons: fresh primary audit, 19 October 2026",
+   "summary": "Owner: sectors_business. Round 6, distinct from the productivity studies already in `software.md`. Research cutoff and access date: **19 October 2026**. This is a source audit and experimental design; no models were run, software installed, datasets downloaded, private systems accessed, or people...",
+   "bytes": 33134
+  },
+  {
+   "path": "notes/agent-memory-evaluation-depth-round29.md",
+   "field": "software-ai",
+   "title": "Agent memory versus stateful task correctness — round29",
+   "summary": "MemoryArena supplies useful evidence about carrying information into later actions, while leaving permission, source invalidation and committed-effect correctness as separate questions. This is one primary-methods reading and an optional report/schema clarification to an existing evaluation artif...",
+   "bytes": 13304
+  },
+  {
+   "path": "notes/ai-customer-support-outcomes-depth-round53.md",
+   "field": "software-ai",
+   "title": "Customer-support AI: the worker-level estimand behind productivity and retention",
+   "summary": "This published study supports a substantial assisted-throughput benefit,especially for newer/lower-performing support workers,under its rollout assumptions. It provides more causal structure than a company FTE-equivalence claim. It does not identify wages,jobs,full buyer ROI or durable developer ...",
+   "bytes": 6676
+  },
+  {
+   "path": "notes/ai-evaluation-source-audit-round10.md",
+   "field": "software-ai",
+   "title": "AI evaluation source audit, round 10",
+   "summary": "Prepared 20 October 2026 IST from public source retrieved on 19 October 2026 UTC; handoff check at 19:08 UTC. Bounded, read-only source audit of two already proposed portfolio paths. No framework, model, service, repository test or third-party program was executed. No repository was cloned, depen...",
+   "bytes": 31424
+  },
+  {
+   "path": "notes/ai-labs-companies-round2.md",
+   "field": "software-ai",
+   "title": "AI, ML and compute: company, institution and contribution map — round 2",
+   "summary": "Checked 19 October 2026. Bounded research pass for the ongoing 24-hour programme; not an exhaustive institution census or final career ranking. The earlier software productivity scan is intentionally not repeated. This pass inspected public team, programme, job, publication, model-card and reposi...",
+   "bytes": 39899
+  },
+  {
+   "path": "notes/ai-ml-enrichment-gaps.md",
+   "field": "software-ai",
+   "title": "AI / ML enrichment — unresolved checks and merge guidance",
+   "summary": "Checked 19 October 2026. Companion to `ai-ml-enrichment-round5.json`; ongoing research, not a final acceptance or forecast. The JSON is a separate catalogue and does not modify `taxonomy-draft.json`, `domain-institutions-round2.json` or frozen reports.",
+   "bytes": 12536
+  },
+  {
+   "path": "notes/benchmark-reuse-boundaries-round26.md",
+   "field": "software-ai",
+   "title": "Benchmark reuse, entry and version boundaries, round26",
+   "summary": "An exposed task may be useful practice, but these reads do not establish an unconditional right to reuse a selected task or attachment. No task, native evaluation or learner assessment ran. This complements root's paper-method/cost analysis; it does not accept those results or turn historical tas...",
+   "bytes": 3781
+  },
+  {
+   "path": "notes/capability-export-source-route-round16.md",
+   "field": "software-ai",
+   "title": "METR capability export: public source-route check, round 16",
+   "summary": "20 October 2026. **A source-family lead was found, but neither exact website export was retrieved or linked conclusively to repository bytes.** The raw-export gap remains open. Five new public GitHub retrievals were used and the route stopped at its cap. No browser, downloadMedia, YAML web-reader...",
+   "bytes": 6467
+  },
+  {
+   "path": "notes/cloud-switching-work-boundary-round41.md",
+   "field": "software-ai",
+   "title": "Cloud-switching work boundary41: native retrieval, state equivalence and an explicit legal-source gap",
+   "summary": "This bounded pass supports a narrow engineering distinction: documented native retrieval interfaces are real starting points; a new exporter earns no value merely by producing a file. A proposed migration report must test preserved application state, semantics and recovery against competent nativ...",
+   "bytes": 8690
+  },
+  {
+   "path": "notes/current-agent-capability-measurement-round72.md",
+   "field": "software-ai",
+   "title": "Agent measurement: an unresolved artifact join",
+   "summary": "Official text clarifies the method but does not link exact chart exports, run records and fits. No current capability estimate was recovered.",
+   "bytes": 1514
+  },
+  {
+   "path": "notes/data-migration-option-round13.md",
+   "field": "software-ai",
+   "title": "Data migration option: snapshot-to-stream and target-state correctness",
+   "summary": "Prepared 20 October 2026; main evidence cutoff 19 October 2026. Read the relevant database/state sections of `software.md` and `systems-round2.md`, and the source-evaluation audit notes before this pass. Earlier work covers generic recovery, queries and retry labs; this option narrows to copy/log...",
+   "bytes": 22292
+  },
+  {
+   "path": "notes/database-optimisation-evaluation-depth-round52.md",
+   "field": "software-ai",
+   "title": "Database query rewriting: useful speedups, narrower correctness and cost evidence",
+   "summary": "The newly audited result is GenRewrite’s exact *Query Rewriting via Large Language Models*, arXiv2403.09060v1,14March2024. It is an older unreviewed-in-this-census preprint,not a latest2026method or finalpublication claim. The PDF still has placeholder venue/DOI/artifact fields,so those do not id...",
+   "bytes": 6213
+  },
+  {
+   "path": "notes/end-user-ai-workflow-economics-depth-round49.md",
+   "field": "software-ai",
+   "title": "Klarna customer-service AI: operating evidence and the missing causal ledger",
+   "summary": "The readable official annual report documents substantial AI chat handling and a lower reported employee snapshot. The financial tables also show service expense growing more slowly than parts of the business. These are meaningful operating observations;they do not identify AI-caused layoffs or a...",
+   "bytes": 5879
+  },
+  {
+   "path": "notes/evolving-software-evaluation-depth-round27.md",
+   "field": "software-ai",
+   "title": "Evolving software evaluation: one methods audit, round27",
+   "summary": "SWE-EVO supplies a useful release-transition stress test, but its inspected protocol does not establish continuous maintenance of an agent's own successive releases. This is a source-method reading and a proposed clarification to an existing evaluation project; no benchmark, source checkout, asse...",
+   "bytes": 12255
+  },
+  {
+   "path": "notes/formal-software-verification-depth-round43.md",
+   "field": "software-ai",
+   "title": "Formal software verification: bounded methods audit",
+   "summary": "This is a worker-owned research contribution, not the final career report. It audits an older result missing from the bounded saved-note census; it does not identify the latest model frontier. The question was fixed before retrieval. Different review and root retention remain pending.",
+   "bytes": 6382
+  },
+  {
+   "path": "notes/formal-verification-option-round11.md",
+   "field": "software-ai",
+   "title": "Formal verification under AI: the statement-fidelity option",
+   "summary": "Prepared 20 October 2026 IST / 19 October UTC. Bounded source inspection; no installations, third-party code execution, clones, model/data downloads, paid calls, private access, outreach or shared-catalogue edits. Projects below are proposed, not run. Companion structured attachment proposals are...",
+   "bytes": 22369
+  },
+  {
+   "path": "notes/gpu-compiler-option-round14.md",
+   "field": "software-ai",
+   "title": "GPU kernel / compiler option — bounded source and oracle audit, round 14",
+   "summary": "Checked 20 October 2026. Owner: /root/bio_science. This adds operator-contract and measurement depth to the existing compiler/inference branch. It is a public-source inspection and conditional project design; no compiler, GPU kernel, model, external benchmark, install, device or cloud job was run...",
+   "bytes": 21627
+  },
+  {
+   "path": "notes/gpu-compiler-software-entry-depth-round71.md",
+   "field": "software-ai",
+   "title": "One AMD GPU-compiler entry boundary",
+   "summary": "The selected example is **GPU Compiler Development Engineer87501, Beijing**, from an official indexed advert whose direct URL returned a tool-reported403. The index was marked crawled three months ago; publication date, current rendered body and funded recruitment remain unknown. No retry/alias/p...",
+   "bytes": 2824
+  },
+  {
+   "path": "notes/inference-serving-slo-economics-depth-round45.md",
+   "field": "software-ai",
+   "title": "Serving economics at a fixed quality and latency target",
+   "summary": "This is a bounded systems-methods contribution, not a GPU purchase recommendation or final career conclusion. The newly audited result is the published DistServe OSDI24 proceedings paper. It is an older paper absent from the bounded serving-note census, not evidence of the latest model frontier. ...",
+   "bytes": 6429
+  },
+  {
+   "path": "notes/ml-research-engineering-entry-depth-round53.md",
+   "field": "software-ai",
+   "title": "Research engineering entry: demonstrate a specific layer of depth",
+   "summary": "Two official indexed role texts show a useful distinction: **research engineering can mean operating the evaluation platform, or developing new evaluation methods and data.** Neither is simply generic API integration. This pass did **not** establish that either vacancy is currently open: both dir...",
+   "bytes": 8132
+  },
+  {
+   "path": "notes/ml-round3-learning-inference.md",
+   "field": "software-ai",
+   "title": "ML trajectory: learning, inference and attainable original research — round 3",
+   "summary": "Checked 19 October 2026. This is a bounded technical research pass, not a completed global forecast. It examines original papers, methods/appendices and public artefacts, without repeating the productivity studies or institutional directory. No model was trained or evaluated, repository installed...",
+   "bytes": 37448
+  },
+  {
+   "path": "notes/numerics-reference-slice-round15.md",
+   "field": "software-ai",
+   "title": "Numerical ODE and event reference slice, round 15",
+   "summary": "20 October 2026. **The missing ODE/event preparation slice is now concrete and runnable with the existing Python standard library.** The demonstration uses independently derived closed-form references, checks finite-grid error and units, and exposes three plausible failures. SciPy, PyBaMM and ups...",
+   "bytes": 9465
+  },
+  {
+   "path": "notes/numerics-reference-slice-round20.md",
+   "field": "software-ai",
+   "title": "Numerical reference slice: bounded repair, round 20",
+   "summary": "20 October 2026. The separately versioned demonstration closes the two confirmed reuse gaps from the independent round16 review. It rejects changed oracle bytes rather than silently treating their parameters as supported, and it rejects invalid or incomplete time grids before numerical iteration....",
+   "bytes": 6608
+  },
+  {
+   "path": "notes/on-device-inference-option-round15.md",
+   "field": "software-ai",
+   "title": "On-device / local inference — bounded deployment option, round 15",
+   "summary": "Checked 20 October 2026; owner /root/bio_science. This pass inspects public code, model metadata and native-platform documentation. No runtime/model was installed, downloaded or executed; no device, private media, account, paid call or network isolation experiment was accessed. Only the explicitl...",
+   "bytes": 23972
+  },
+  {
+   "path": "notes/root-benchmark-to-economics-round39.md",
+   "field": "software-ai",
+   "title": "Benchmark performance is not an employment or margin estimate",
+   "summary": "Root research, 19 October 2026. This is a newly examined gap after the local Markdown census found no GDPval/SWE-Lancer coverage. These are historical protocols, not a ranking of October 2026 models. Independent methods and separate reuse-rights reviews are pending. No benchmark assets, model/API...",
+   "bytes": 6661
+  },
+  {
+   "path": "notes/root-paperbench-corpus-route-round25.md",
+   "field": "software-ai",
+   "title": "PaperBench corpus denominator: a narrower resolved question",
+   "summary": "Bounded source-only follow-up to the operational-knowledge audit,19October2026. No PaperBench/ARA program, model or benchmark ran. Seven small public source texts were read; own standard-library verification recomputed every declared Git blob SHA and byte size. See root-paperbench-corpus-route-ro...",
+   "bytes": 3039
+  },
+  {
+   "path": "notes/software.md",
+   "field": "software-ai",
+   "title": "Software, ML systems and AI agents: research track",
+   "summary": "Status: working notes from the initial extended research pass, checked 19 October 2026. This is one input to the ongoing 24-hour research programme, not a completed forecast or final mind map. No experiments below have been executed. Public primary sources were read; model campaigns and study ana...",
+   "bytes": 46890
+  },
+  {
+   "path": "notes/systems-round2.md",
+   "field": "software-ai",
+   "title": "Mature computing specialties: systems depth, modern transitions and routes to contribution",
+   "summary": "Cutoff: 19 October 2026. Owner scope: compilers/performance, databases/storage, distributed/network systems, embedded/firmware, formal verification, accessibility, and legacy enterprise migration. This complements the earlier sector scan; it does not repeat finance, creative or space market resea...",
+   "bytes": 44513
+  },
+  {
+   "path": "notes/workflow-extension-round23.md",
+   "field": "software-ai",
+   "title": "One controlled-workflow extension: changed inputs, reconciled effects and complete cost",
+   "summary": "Proposed design, 20 October 2026; owner `/root/bio_science`. This is a new conditional later-stage slice for `labor-economics-round6.project.workflow`, not a claim that the original source authored this phase. No workflow, model, native framework, account or external action was run. Only saved ev...",
+   "bytes": 16209
+  },
+  {
+   "path": "notes/adversarial-2031-scenarios-round9.md",
+   "field": "strategy-methods",
+   "title": "Adversarial 2031 scenarios: can the preparation strategy survive its own success?",
+   "summary": "Round 9, written 20 October 2026. This reviews the existing corpus and provisional claim register, rather than repeating the native-platform, protocol or directory audits. No new broad web search, implementation, installation, private access, recruitment, outreach or external mutation. Earlier re...",
+   "bytes": 39898
+  },
+  {
+   "path": "notes/adversarial-baseline.md",
+   "field": "strategy-methods",
+   "title": "Adversarial baseline: where the early 2031 developer thesis can fail",
+   "summary": "Independent review, 19 October 2026. This is an initial falsification pass, not the final research or a claim that 24 hours of investigation have elapsed. Reviewed STATE, root-evidence, labor, robotics, energy, sectors, bio and security; software was not yet saved at the last file check. Newly re...",
+   "bytes": 13559
+  },
+  {
+   "path": "notes/ai-assisted-contribution-policy-depth-round58.md",
+   "field": "strategy-methods",
+   "title": "AI-generated contribution intake: two scoped project rules",
+   "summary": "QEMU and NetBSD both restrict generated contributions, with different boundaries. Neither policy is a general ban on learning with AI, a court finding about every generated work, or a forecast of engineering jobs. Two purposeful examples are not a maintainer census.",
+   "bytes": 3992
+  },
+  {
+   "path": "notes/ai-assisted-unaided-transfer-depth-round50.md",
+   "field": "strategy-methods",
+   "title": "Bastani methods follow-up: immediate independence is not delayed transfer",
+   "summary": "**This is a methods follow-up to an already-cited trial, not a new independent study.** The question was fixed before retrieval: what do the unaided exam’s clock, task distance and control conditions establish, and what does the safeguard contrast isolate? Learning34, education5, Trio27, delayed-...",
+   "bytes": 7332
+  },
+  {
+   "path": "notes/ai-learning-transfer-depth-round34.md",
+   "field": "strategy-methods",
+   "title": "ai learning transfer depth round34",
+   "summary": "This bounded pass did **not** establish a new methods-complete controlled trial of delayed unassisted learning. Three primary endpoints were used after checking the saved education/retention/Trio sources: one readable candidate failed the causal/timing gate, and two plausible controlled candidate...",
+   "bytes": 5465
+  },
+  {
+   "path": "notes/ai-use-pathway-policy-round22.md",
+   "field": "strategy-methods",
+   "title": "Six source-bound AI-use pathways, round 22",
+   "summary": "These six alternatives connect **local evidence preparation, community contribution and technical assessment as separate gates**. They are not six curricula, employer referrals or employment pipelines. The employer examples compare assessment contracts; nothing here establishes that a community f...",
+   "bytes": 14459
+  },
+  {
+   "path": "notes/autonomous-ops-evaluation-depth-round46.md",
+   "field": "strategy-methods",
+   "title": "Autonomous SRE: state-changing mitigation is real evidence; durable recovery is a further claim",
+   "summary": "The selected study goes beyond diagnosing an incident or producing a patch. STRATUS changes benchmark application state, checks recovery signals and can retry after undo. Its useful positive survives a methods audit. The same paper also explains why some successful benchmark mitigations cannot es...",
+   "bytes": 9496
+  },
+  {
+   "path": "notes/continuation-routing-audit-round49.md",
+   "field": "strategy-methods",
+   "title": "Continuation routing audit49",
+   "summary": "The current LATEST snapshot (`278413d6…`) preserves the repaired root58 five-review and quantum30/later38 joins, but lacks the adopted root54–57 and root59 outputs. It also omits the supplied newer method/source handoffs. The companion JSON is an **unapplied routing proposal** with exact full SHA...",
+   "bytes": 4386
+  },
+  {
+   "path": "notes/contribution-novelty-round9.md",
+   "field": "strategy-methods",
+   "title": "Contribution and prior-art audit — round 9",
+   "summary": "Checked 20 October 2026 IST. Four bounded candidate questions, based on existing catalogue projects. No implementation, benchmark, software/data download, install, issue, PR, contact, account, publication or paid run occurred. This file does not edit the catalogues, tree or frozen reports. Bio co...",
+   "bytes": 24499
+  },
+  {
+   "path": "notes/cross-field-transfer-round15.md",
+   "field": "strategy-methods",
+   "title": "Six conditional cross-field transfer paths, round 15",
+   "summary": "Derived 20 October 2026 from saved projects, preparation modules and role contracts. No fresh web research, learner assessment or implementation. These are proposed crosslinks, not a personalized ranking, curriculum or claim of lower hiring barriers.",
+   "bytes": 14979
+  },
+  {
+   "path": "notes/evidence-dependence-round12.md",
+   "field": "strategy-methods",
+   "title": "Evidence dependence and triangulation — round 12",
+   "summary": "Checked 20 October 2026, preserving the 19 October publication cutoff. This is a synthesis of the completed methods audits, keyed to all ten IDs in `claim-register.json`. It is not another set of empirical studies, a meta-analysis or a causal re-estimation. Original reports and claims remain unch...",
+   "bytes": 11361
+  },
+  {
+   "path": "notes/exploration-router-round19.md",
+   "field": "strategy-methods",
+   "title": "One-probe exploration router",
+   "summary": "Draft decision specification, 20 October 2026. This connects the eight work bundles to the existing preparation DAG, experiment policy, six transfer bridges, root-reviewed reading slices and ownership evidence. It does **not** choose a field or assess this person. Starting competence, time, prefe...",
+   "bytes": 15718
+  },
+  {
+   "path": "notes/field-first-action-readiness-round42.md",
+   "field": "strategy-methods",
+   "title": "Field first-action readiness R42",
+   "summary": "Every core family has a source-bound entry below, but these are alternatives and none is an administered skill test or an approved implementation. The immediate output is a reading/design/preflight artifact. If a source requires a lawful fixture, approved runtime or independent oracle, a written ...",
+   "bytes": 32867
+  },
+  {
+   "path": "notes/final-fact-recheck-queue-round15.md",
+   "field": "strategy-methods",
+   "title": "Final fact recheck queue — plan only",
+   "summary": "**Execute no earlier than `2026-10-20T17:30:00Z` (20 October, 23:00 India time).** This file and the 28-item structured queue contain planned checks, not completed freshness verification. No source was refreshed, timer dispatched or automation created in this pass.",
+   "bytes": 9380
+  },
+  {
+   "path": "notes/final-methods-retention-coverage-round46.md",
+   "field": "strategy-methods",
+   "title": "New-method retention and final-check coverage reconciliation, round 46",
+   "summary": "**Planning proposal only. No source check or final review ran.** Every candidate is locked until **20 October 2026 17:30 UTC AND root-selected/adopted scope**, with null execution times and empty evidence. This document neither selects final stories nor adds a source quota, hours, automation, rea...",
+   "bytes": 12089
+  },
+  {
+   "path": "notes/final-science-recheck-queue-round17.md",
+   "field": "strategy-methods",
+   "title": "Final science/technical recheck queue, round 17",
+   "summary": "Prepared 20 October 2026 from saved local research only. **All 16 items are planned and unexecuted. Execute not before 2026-10-20T17:30:00Z** (20 October, 23:00 IST). This is neither completed final verification nor an automatic dispatch. No current-time read,wait,timer,automation,network/source ...",
+   "bytes": 6743
+  },
+  {
+   "path": "notes/funded-oss-maintenance-round11.md",
+   "field": "strategy-methods",
+   "title": "Funded open-source maintenance and public-interest software pathways",
+   "summary": "Owner: sectors_business. Round 11, checked **20 October 2026**. Seven purposefully selected mechanisms, not an exhaustive funding directory or an application recommendation. Dated calls and historical awards are separated from undated live instructions. User residence, work rights, contracting st...",
+   "bytes": 23721
+  },
+  {
+   "path": "notes/funded-route-terms-depth-round23.md",
+   "field": "strategy-methods",
+   "title": "CodeSupply: from portfolio evidence to an agreed funded result",
+   "summary": "This pass partly closes **one bridge** left open in the funded-maintenance directory: how an existing software-metadata proof relates to future milestones, publication and upstream acceptance. The public material distinguishes completed evidence from future funded work and asks about coordination...",
+   "bytes": 8226
+  },
+  {
+   "path": "notes/independent-root-methods-round4.md",
+   "field": "strategy-methods",
+   "title": "Independent audit of root-methods-round2 — round 4",
+   "summary": "Checked 19 October 2026. Assignment: challenge the root interpretation of BIS Working Paper 1325, then verify only the necessary dates/definitions in its TCS/Infosys examples. This is independent validation, not an independent dataset replication or an additional labor-market survey. The National...",
+   "bytes": 15093
+  },
+  {
+   "path": "notes/interim-findings-report-2026-10-20.md",
+   "field": "strategy-methods",
+   "title": "Developer futures interim findings",
+   "summary": "The strongest preparation direction so far is to combine your breadth with **demonstrable depth in one useful system**: understand its constraints, use capable AI and existing tools, and show that the result works for a real recipient. This is a working recommendation, not evidence that these ski...",
+   "bytes": 6825
+  },
+  {
+   "path": "notes/lab-runner-extension-round20.md",
+   "field": "strategy-methods",
+   "title": "A new conditional extension for the laboratory runner",
+   "summary": "Research/design only,19October2026 UTC /20October India. The frozen `science-enrichment-round5.project.labrunner` authors a **30-day /30–50-hour** software proposal. Its reference to stronger evidence within90days is not an authored90-day implementation phase. This file proposes a new extension; ...",
+   "bytes": 17202
+  },
+  {
+   "path": "notes/late-career-hypothesis-monitoring-round66.md",
+   "field": "strategy-methods",
+   "title": "Evidence that would change the existing career hypotheses",
+   "summary": "These are monitoring conditions for the original fast/uneven/physical hypotheses and their six existing children. They add no scenarios, probabilities, rankings or curriculum. Current technical positives remain positive; none alone establishes a2031 career payoff. No monitoring is scheduled and n...",
+   "bytes": 7781
+  },
+  {
+   "path": "notes/late-evidence-dependence-round73.md",
+   "field": "strategy-methods",
+   "title": "Three late-evidence lineage chains",
+   "summary": "- AlphaGenome/CAGI/2019assay/GEOare model analysis,challenge,experiment and deposit metadata—not four independent new experiments. Exact subsets remain unknown;20/21regions,24libraries,three cultures and198records are separate units. - AQ2variants/timing/Willowaccuracy differ. Exact trial identit...",
+   "bytes": 853
+  },
+  {
+   "path": "notes/late-family-placement-proposals-round70.md",
+   "field": "strategy-methods",
+   "title": "Three late-family placement proposals",
+   "summary": "This blueprint covers only GenRewrite/database optimisation, BIRAC funding and Open RAN control. It leaves the reviewed773-node base and143+9unmounted proposals unchanged. No placement is mounted,retained or independently accepted.",
+   "bytes": 4246
+  },
+  {
+   "path": "notes/late-institution-preparation-chains-round76.md",
+   "field": "strategy-methods",
+   "title": "Late institutions and preparation: four source-bound joins",
+   "summary": "Bounded offline proposal saved 2026-10-20T07:31:35.738636+00:00. Four editorial joins, not new canonical institutions, studies or paid routes. No new primary requests, assets, contacts, projects, hours, identity merges or UI. Quantum66 was not consumed because no stable handoff had been read at t...",
+   "bytes": 4413
+  },
+  {
+   "path": "notes/late-method-prerequisite-links-round63.md",
+   "field": "strategy-methods",
+   "title": "Four late methods → existing prerequisites",
+   "summary": "These four case links add no curriculum, exercises, answer keys, projects or hours. They identify what matters if a corresponding task is actually chosen and a relevant gap is demonstrated. Existing module IDs are content references, not passed prerequisites. Skip established depth. No personal c...",
+   "bytes": 6439
+  },
+  {
+   "path": "notes/later-systems-institution-preparation-round87.md",
+   "field": "strategy-methods",
+   "title": "Three later systems preparation joins",
+   "summary": "These are later editorial joins, not additions to directory76’s historical four-row cut. Quantum keeps paper-affiliated Google actors separate from the Riverlane research advert;179 CPU proof does not supply Trillium/QPU access or independent theory. AMD keeps indexed hiring text separate from na...",
+   "bytes": 891
+  },
+  {
+   "path": "notes/learning-resources-round8-map-gaps.md",
+   "field": "strategy-methods",
+   "title": "Official learning resources: bounded preparation map",
+   "summary": "Checked 20 October 2026, Asia/Kolkata. Companion: `learning-resources-round8.json`. This is a resource catalog with **18 official resources**, not a popularity ranking, a personal readiness assessment or a second curriculum. `bio_science` owns the prerequisite/pathway DAG; stable IDs use `learnin...",
+   "bytes": 11043
+  },
+  {
+   "path": "notes/learning-transfer-depth-round16.md",
+   "field": "strategy-methods",
+   "title": "Delayed independent competence after AI assistance — round 16",
+   "summary": "Checked 20 October 2026, retaining the 19 October publication cutoff. Existing education-learning, skill-return, human-method reviews and the source index were read first. This pass examines **three primary evidence families**: a delayed software-design pilot, a two-week programming thesis and a ...",
+   "bytes": 16592
+  },
+  {
+   "path": "notes/legitimate-contribution-receiving-paths-round59.md",
+   "field": "strategy-methods",
+   "title": "Receiving paths: permission, acceptance and money are separate gates",
+   "summary": "These cases expose different receiving mechanisms, not interchangeable routes to a paid role. Public access to a project, a mentor listing, a merged patch, a release tag and an award announcement each establish something different. The matrix is offline reuse of held evidence; it adds no primary ...",
+   "bytes": 5727
+  },
+  {
+   "path": "notes/mentored-contribution-access-depth-round54.md",
+   "field": "strategy-methods",
+   "title": "LFX mentorship: a real mechanism, with a closed published intake and unresolved terms",
+   "summary": "LFX/CNCF documents a structured contribution route with project approval, mentors, applicant selection, evaluations and conditional stipends. Its accepted 2026 Term3 list includes a concrete Apicurio Registry MCP-validation project. **The published application window ended 18 August.** This is no...",
+   "bytes": 6869
+  },
+  {
+   "path": "notes/mentored-oss-program-access-round63.md",
+   "field": "strategy-methods",
+   "title": "GSoC2026: AI-authorship and calendar access, with formal rules still unread",
+   "summary": "This is a **narrow follow-up**, not a new programme discovery. Route9 already coveredGSoC/NumFOCUS,eligibility,stipends and the2026deadline. The new question was saved before requests: what program-levelAI guidance actually permits,how it interacts with receiving-project rules,and what “closed” m...",
+   "bytes": 5659
+  },
+  {
+   "path": "notes/method-to-prerequisite-links-round32.md",
+   "field": "strategy-methods",
+   "title": "New methods bottlenecks → existing prerequisites",
+   "summary": "These are five proposed links to existing project branches, not five projects to launch. Each adds one possible explain/predict/repair worksheet inside the already selected artifact. No hours, module, canonical identity, learner assessment or scientific acceptance is added. Choose only a demonstr...",
+   "bytes": 12801
+  },
+  {
+   "path": "notes/new-capability-preparation-stress-round56.md",
+   "field": "strategy-methods",
+   "title": "New automation capabilities: preliminary preparation stress56",
+   "summary": "The newer cases do not justify a global field ranking. They do remove a default assumption that specifications, verification, integration or physical responsibility preserve paid human work. The candidate “one system, one domain, one sustained artifact” remains an unranked experiment. A competent...",
+   "bytes": 6537
+  },
+  {
+   "path": "notes/new-institution-preparation-chains-round71.md",
+   "field": "strategy-methods",
+   "title": "new institution preparation chains round71",
+   "summary": "Eight saved-source chains now connect institutions/resources to concrete technical problems and preparation boundaries. These are new editorialjoins,not new canonicalidentities,currentjobs or activated projects.",
+   "bytes": 4122
+  },
+  {
+   "path": "notes/new-institution-problem-chains-round45.md",
+   "field": "strategy-methods",
+   "title": "Four later institution–problem–possible-contribution chains",
+   "summary": "This is an **editorial directory proposal**, not a set of jobs, funded placements, four projects or independent study replications. All references come from held packets; this pass made **zero public requests**. Current appointments, qualified receivers, contribution permission, degree/workright ...",
+   "bytes": 14222
+  },
+  {
+   "path": "notes/new-source-discovery-delta-round57.md",
+   "field": "strategy-methods",
+   "title": "Bounded source-discovery navigation delta57",
+   "summary": "This separate delta covers a fixed cut of24 stable local source/reportJSON packets. The held source index remains untouched. Its98 distinct new literal candidates are absent from that index; this is a navigation observation, not98 new studies, verified sources or career signals.",
+   "bytes": 8392
+  },
+  {
+   "path": "notes/newer-opportunity-addendum-round23.md",
+   "field": "strategy-methods",
+   "title": "Newer opportunity addendum, round 23",
+   "summary": "Status: curated data draft for independent meaning/omission review and later root disposition. No source publication, scientific result, role, buyer, personal plan, navigation mount, UI or final size has been accepted here. Earlier kernels and budget contracts are unchanged. Root38's separate sup...",
+   "bytes": 9890
+  },
+  {
+   "path": "notes/newer-source-temporal-screen-round23.md",
+   "field": "strategy-methods",
+   "title": "Newer source families: bounded temporal/provenance screen",
+   "summary": "Local metadata screen started19October2026 at21:51:37UTC,20October India. Eight named families are included: network24,genomics22,editorial19,lab20,workflow23,buyer22,newchannels26 andlegal28. Agriculture25 is explicitly excluded pending a stable handoff; its filenames were located but no body/re...",
+   "bytes": 10726
+  },
+  {
+   "path": "notes/physical-source-audit-round9.md",
+   "field": "strategy-methods",
+   "title": "MINERVA and GEOID-Flood: public source and manifest audit, round 9",
+   "summary": "Draft curation for the developer-futures research; checked 19 October 2026, 19:05 UTC. This is source inspection, not benchmark replication. No third-party code ran; no repository was cloned, package installed, or model/raster downloaded. Only public source, documentation and text metadata were r...",
+   "bytes": 25255
+  },
+  {
+   "path": "notes/preliminary-synthesis-challenge-round31.md",
+   "field": "strategy-methods",
+   "title": "Preliminary adversarial synthesis challenge",
+   "summary": "The draft already treats its strategy as a decision under uncertainty, rejects measured training returns and promised scarcity, preserves native competitors, and separates a useful contribution from sustained ownership. Those are supported boundaries and should survive editing. The main repairs a...",
+   "bytes": 10586
+  },
+  {
+   "path": "notes/preparation-pathways-round8.md",
+   "field": "strategy-methods",
+   "title": "Preparation pathways: shared foundations, four conditional routes",
+   "summary": "Prepared 20 October 2026 from the existing research. Companion: `preparation-dependencies-round8.json`. No diagnostic, implementation, installation, model/data fetch, user study or external action was performed. The frozen taxonomy and reports remain unchanged.",
+   "bytes": 19533
+  },
+  {
+   "path": "notes/preparation-strategy-delta-challenge-round39.md",
+   "field": "strategy-methods",
+   "title": "Preliminary preparation-strategy delta challenge — round39",
+   "summary": "The new cases **do not justify a field pivot or make “one system/domain/artifact” a proven better allocation**. They strengthen native/AI-assisted and ordinary maintenance as real alternatives. The useful change is to make the first probe's decision about further work explicit,so a native win can...",
+   "bytes": 9487
+  },
+  {
+   "path": "notes/preparation-strategy-stress-test-round45.md",
+   "field": "strategy-methods",
+   "title": "Preliminary preparation-strategy stress test, round 45",
+   "summary": "This is an offline adversarial review of `root-reviewed-preliminary-synthesis-round54/synthesis-argument-draft-round50.md`, not the final actionability/eligibility review. No primary paper was reopened, network request made, learner assessed, project run or source/rights/hiring/UI acceptance gran...",
+   "bytes": 16406
+  },
+  {
+   "path": "notes/progression-path-stress-test-round28.md",
+   "field": "strategy-methods",
+   "title": "Eight proof-to-ownership paths: preliminary stress test, round28",
+   "summary": "20 October 2026. robotics_physical. This is a joined-route stress test of existing reviewed bundles, router, source contracts and ownership/contribution notes. **All eight can describe conditional learning or contribution paths; none of their 30/90-day proofs establishes funded responsibility, a ...",
+   "bytes": 14621
+  },
+  {
+   "path": "notes/research-engineering-proof-progression-round50.md",
+   "field": "strategy-methods",
+   "title": "Three role profiles: what an existing artifact could actually prove",
+   "summary": "These are three unranked requirement profiles, not current application recommendations or three projects to launch. The artifacts remain proposals. A useful small result can support one requirement component; it cannot manufacture tenure, credentials, customer access or senior ownership. Your cur...",
+   "bytes": 6855
+  },
+  {
+   "path": "notes/research-software-progression-framework-round61.md",
+   "field": "strategy-methods",
+   "title": "Research-software progression: old evidence and one precise remaining gap",
+   "summary": "The general RSE progression question was already covered by the held Princeton case study. This round narrowed to UCL ARC’s explicit grade/assessment and qualification rules. It found the official publication route, but did **not** obtain that framework’s body. No new UCL grade, credential, locat...",
+   "bytes": 5137
+  },
+  {
+   "path": "notes/research-transition-routes-round9.md",
+   "field": "strategy-methods",
+   "title": "Funded research transitions: eight additional mechanisms",
+   "summary": "Checked **20 October 2026**. This is a bounded audit of access mechanisms, not a directory of prestigious organisations, a ranking, an application recommendation or an estimate of admission odds. The accompanying structured records contain eligibility, dated funding, public channels, source limit...",
+   "bytes": 13429
+  },
+  {
+   "path": "notes/root-evidence.md",
+   "field": "strategy-methods",
+   "title": "Root evidence and open questions",
+   "summary": "Mainda6328a7/782411B,standalone7318c548/949532B. Six reviewed cuts:four software domains and two substantive measured-method/reproduction branches; six dated passes/base exact.103active families,max recorded182; repaired source-bound math inference explicitly charged,old88history/old sourceobliga...",
+   "bytes": 24348
+  },
+  {
+   "path": "notes/root-human-oversight-work-implications-round28.md",
+   "field": "strategy-methods",
+   "title": "Human oversight duties do not determine developer employment",
+   "summary": "Bounded primary-text/career-inference check,19October2026. Question: can regulation rescue the claim that human accountability guarantees developer jobs? This examines specified provisions,not a product's legal classification or a whole-law compliance assessment. Existing securityS13 owns the sep...",
+   "bytes": 3464
+  },
+  {
+   "path": "notes/root-methods-round2.md",
+   "field": "strategy-methods",
+   "title": "Root methods and regional evidence audit",
+   "summary": "19 October 2026. This pass addresses distinct unresolved questions, rather than repeating the sector scans. Findings remain inputs to the final synthesis.",
+   "bytes": 5507
+  },
+  {
+   "path": "notes/rounds.md",
+   "field": "strategy-methods",
+   "title": "Research rounds",
+   "summary": "Mainda6328a7/782411B,standalone7318c548/949532B. Six reviewed cuts:four software domains and two substantive measured-method/reproduction branches; six dated passes/base exact.103active families,max recorded182; repaired source-bound math inference explicitly charged,old88history/old sourceobliga...",
+   "bytes": 54756
+  },
+  {
+   "path": "notes/rse-framework-access-followup-round67.md",
+   "field": "strategy-methods",
+   "title": "UCL RSE framework: exact-version metadata-route follow-up",
+   "summary": "The new metadata route did not return a body. No actual framework document path was established, so the UCL grade/qualification/regrading rules remain unread. This is a bounded additional access observation, not a fresh framework review or evidence that the item or repository is unavailable elsew...",
+   "bytes": 3060
+  },
+  {
+   "path": "notes/science-enrichment-gaps.md",
+   "field": "strategy-methods",
+   "title": "Science enrichment: validation, gaps and launch decisions",
+   "summary": "Owner `/root/bio_science`; curation date 19 October 2026. Companion: `science-enrichment-round5.json`. This is a candidate enrichment layer for coordinator deduplication and independent review. It is not final-tree acceptance or evidence that the requested research period has elapsed.",
+   "bytes": 11442
+  },
+  {
+   "path": "notes/science-source-oracle-audit-round10.md",
+   "field": "strategy-methods",
+   "title": "Scientific software oracles: source audit at two existing versions",
+   "summary": "Checked **20 October 2026**. This pass read the existing science metadata repairs, science/physical/energy semantic review, SE-01 independent methods review and actionability R4 before tracing public source. It adds no market or hiring claim. Earlier catalogues, reports and tree remain unchanged.",
+   "bytes": 25496
+  },
+  {
+   "path": "notes/scientific-software-proof-progression-round54.md",
+   "field": "strategy-methods",
+   "title": "Scientific-software proof progression: two alternatives",
+   "summary": "This is a **new editorial proposal**, using held sources only. It maps the existing lab-runner and battery-contract proposals to stronger kinds of evidence. Neither project has been executed by the reader here. No project, exercise, key, course, native backend, data access or hours are added. The...",
+   "bytes": 14407
+  },
+  {
+   "path": "notes/sectors.md",
+   "field": "strategy-methods",
+   "title": "Developer opportunities across business, public services, creative and frontier sectors",
+   "summary": "Research cutoff: 19 October 2026. Horizon: approximately 2031. This is a research contribution, not the final mind map. No software was installed, no private systems were inspected, and no customers or other people were contacted for this contribution.",
+   "bytes": 24053
+  },
+  {
+   "path": "notes/selected-effort-calendar-audit-round68.md",
+   "field": "strategy-methods",
+   "title": "Selected effort is not a calendar promise",
+   "summary": "The upper lab20 plan cannot be presented as completed within90days under an illustrative8–12focused hours/week. The source already calls day90a checkpoint and gives12–20weeks at10hours/week. This audit reconciles six exact contracts; it does not change their hours or assess your availability.",
+   "bytes": 6477
+  },
+  {
+   "path": "notes/serving-model-access-terms-followup-round55.md",
+   "field": "strategy-methods",
+   "title": "OPT component terms: code permission does not identify the paper asset",
+   "summary": "The inspected OPT-13B provider repository exposes actual research-restricted model terms, distinct from DistServe’s Apache code licence. The exact paper checkpoint/tokenizer and historical applicable terms remain unknown. This is a component-source finding, not a legal opinion, blanket commercial...",
+   "bytes": 3984
+  },
+  {
+   "path": "notes/serving-replication-rights-followup-round54.md",
+   "field": "strategy-methods",
+   "title": "DistServe replication: exact component licence, separate asset gates",
+   "summary": "The previous licence-label gap is now closed for one exact component: DistServe’s root `LICENSE` is actual Apache2.0 text at an observed immutable commit. That does not establish complete replication rights, a paper-matched release, commercial suitability or a runnable environment. No new serving...",
+   "bytes": 4185
+  },
+  {
+   "path": "notes/software-maintenance-outcomes-depth-round31.md",
+   "field": "strategy-methods",
+   "title": "Software maintenance after initial AI completion: a bounded primary-methods audit",
+   "summary": "Prepared 20 October 2026; historical publication cutoff 19 October 2026. Author `/root/labor_market`. This is source inspection and a proposed report refinement, not a reproduced benchmark or executed maintenance study.",
+   "bytes": 12137
+  },
+  {
+   "path": "notes/source-evaluation-audit-round11.md",
+   "field": "strategy-methods",
+   "title": "Source evaluation audit: delayed fraud labels and legal evidence spans",
+   "summary": "Bounded code-to-claim review, 20 October 2026. Earlier finance, security and public/legal notes were read first. This pass inspects public source text at the previously recorded immutable revisions. It does not clone repositories, install dependencies, retrieve datasets/models, run upstream code,...",
+   "bytes": 28047
+  },
+  {
+   "path": "notes/supplemental-branch-dispositions-round14.md",
+   "field": "strategy-methods",
+   "title": "Supplemental option pack: adapter, validation and unresolved gates",
+   "summary": "Draft data only. The formal, tactile/contact, EDA, embedded/realtime, BIM and PQC option packets remain source-authored proposals. No branch, claim, project, identity or career ranking was accepted or integrated. The current graph, catalogues, indexes and fixed graph builder were not edited.",
+   "bytes": 7385
+  },
+  {
+   "path": "notes/supplemental-cohort2-dispositions-round16.md",
+   "field": "strategy-methods",
+   "title": "Supplemental cohort 2: structural adaptation and remaining gates",
+   "summary": "Status: draft, unapplied, unmounted, and not substantively accepted. This is a local data-preparation result, not a new source review or a readiness decision. The validated core builder, cohort 1 pack, cohort 1 display projection, and its compactor remain unchanged.",
+   "bytes": 8908
+  },
+  {
+   "path": "notes/supplemental-cohort3-dispositions-round19.md",
+   "field": "strategy-methods",
+   "title": "Supplemental cohort 3: adaptation, gates, and joint budget",
+   "summary": "Four stable option packets are adapted without changing their evidence or identity meaning: GPU compiler work, on-device inference, supply-chain evidence binding, and accessibility workflows. This is an unapplied, unmounted pack. No source, role, scientific claim, currentness, resource access, or...",
+   "bytes": 9353
+  },
+  {
+   "path": "notes/supplemental-priority-kernel-round21.md",
+   "field": "strategy-methods",
+   "title": "Supplemental priority kernel, round 21",
+   "summary": "Status: source-bound draft for independent semantic and actionability review. This is a new curated display selection, not a claim that every authored packet field is inline, a scientific acceptance decision, a personal plan, a navigation mount, or final UI acceptance.",
+   "bytes": 7451
+  },
+  {
+   "path": "notes/synthesis-argument-draft-round50.md",
+   "field": "strategy-methods",
+   "title": "Preliminary synthesis argument — not the final deliverable",
+   "summary": "This is an integration draft for later skeptical review. It introduces no new evidence, ranking, learning allocation or claim of personal readiness. Source freshness and the final conclusion/actionability review remain locked until 20 October 2026 at 17:30 UTC. Each branch's source-local qualific...",
+   "bytes": 6412
+  },
+  {
+   "path": "notes/targeted-learning-slices-round16.md",
+   "field": "strategy-methods",
+   "title": "Eight targeted learning slices for newly deepened paths",
+   "summary": "Checked 20 October 2026. Companion: structured slices. These extend the existing resource map and preparation DAG; they do not replace either or create a second curriculum. No shared catalog was edited.",
+   "bytes": 22261
+  },
+  {
+   "path": "notes/taxonomy-gaps.md",
+   "field": "strategy-methods",
+   "title": "Recursive taxonomy draft: handoff and gaps",
+   "summary": "`taxonomy-draft.json` is a **draft scaffold**, not the final mind map or a field ranking. It contains 773 stable-ID nodes across 16 top-level branches, reaches seven levels including the root, and has 42 validated cross-links plus 65 references into the saved research notes. Every node and cross-...",
+   "bytes": 3818
+  },
+  {
+   "path": "notes/technical-ownership-pathways-round9.md",
+   "field": "strategy-methods",
+   "title": "Accountable technical ownership: public frameworks and transferable proof",
+   "summary": "Primary sources checked 20 October 2026. This comparison follows the learning-returns audit, preparation pathways and selection-policy rationale. It adds evidence about responsibility and recognition to those preparation paths; it adds no curriculum, hiring forecast, application or new time budge...",
+   "bytes": 18749
+  },
+  {
+   "path": "notes/ai-workload-flexibility-depth-round40.md",
+   "field": "supply-chain-energy",
+   "title": "AI workload flexibility: field evidence and the remaining acceptance contract",
+   "summary": "Status: bounded primary-method research, not independent replication, final-day freshness verification, a deployed controller, or a paid-role finding. Local preparation date: 20 October 2026 IST; receipt creation clock: 19 October 2026 23:06:05 UTC. Three primary endpoint reads were attempted and...",
+   "bytes": 11406
+  },
+  {
+   "path": "notes/battery-health-generalisation-depth-round63.md",
+   "field": "supply-chain-energy",
+   "title": "Later-generated battery cells: a positive forecast result with a bounded transfer claim",
+   "summary": "Round63 is held for different review/root disposition. It asks whether the original Severson study demonstrates later-cohort/out-of-cell validation at the claimed early cutoff. This is a historical methods/control audit,not a new2026model result. Battery13 covered subsequent benchmark pipelines; ...",
+   "bytes": 7661
+  },
+  {
+   "path": "notes/battery-health-option-round13.md",
+   "field": "supply-chain-energy",
+   "title": "Battery health and BMS-adjacent software option, round 13",
+   "summary": "20 October 2026. **A plausible software entry is battery-data contracts and evaluation, before embedded control or a new life-prediction model.** That is an actionable option to test, not a claim about available vacancies or future wages. No battery, cycler, BMS, model, dataset archive or upstrea...",
+   "bytes": 14754
+  },
+  {
+   "path": "notes/battery-prediction-validity-depth-round41.md",
+   "field": "supply-chain-energy",
+   "title": "Battery prediction validity R41: bounded candidate and methods-access gap",
+   "summary": "No new methods-complete paper was accepted in this pass. The selected2025 paper is relevant and its indexed primary text reports useful experimental/native-model evidence, but the three allowed direct surfaces did not provide an adequate methods read. This is an access/review gap, not evidence th...",
+   "bytes": 9777
+  },
+  {
+   "path": "notes/battery-replication-access-followup-round66.md",
+   "field": "supply-chain-energy",
+   "title": "Severson2019 replication access: repository identity and model request mechanism,not a cleared dataset",
+   "summary": "Round66 answers an access/identity question,not the63prediction-method question. Three new official metadata surfaces and two focused queries close a useful part of the chain. They do not recover an exact rawdata version,selected-file grant,byte/checksum manifest or physical-cell split. The old b...",
+   "bytes": 5286
+  },
+  {
+   "path": "notes/climate-water-round3.md",
+   "field": "supply-chain-energy",
+   "title": "Round 3: climate adaptation, water and operational environmental software",
+   "summary": "Owner: energy_infrastructure. Evidence cutoff and access date: 19 October 2026. Scope: hydrology, flood/drought decisions, water-network leakage, irrigation and related operational software. This deliberately excludes the earlier electricity/compute scan and the taxonomy worker's broad geospatial...",
+   "bytes": 31380
+  },
+  {
+   "path": "notes/compute-hardware-round3.md",
+   "field": "supply-chain-energy",
+   "title": "Compute hardware and unconventional computing: software opportunities after a system-level audit",
+   "summary": "Cutoff: 19 October 2026. Scope: memory/interconnect/accelerators, photonic computing, analog/in-memory computing and neuromorphic systems. Quantum is deliberately separate. This extends the systems research without repeating its general compiler/database overview. No software/model/data downloads...",
+   "bytes": 39394
+  },
+  {
+   "path": "notes/eda-evaluation-endpoint-depth-round33.md",
+   "field": "supply-chain-energy",
+   "title": "AHRR: which endpoint improved, on which design cohort?",
+   "summary": "This pass extends the saved EDA work through one previously uncovered case, rather than repeating AuDoPEDA, PostEDA's scorer or the educational-PDK/manufacturing distinction. The case is Zijian Ding, Yang Zou, Yizhou Sun and Jason Cong, **“Can Agents Design Better Chips with a Higher Level Abstra...",
+   "bytes": 11900
+  },
+  {
+   "path": "notes/eda-hardware-software-option-round11.md",
+   "field": "supply-chain-energy",
+   "title": "EDA and open digital-hardware software: option audit, round 11",
+   "summary": "Checked 19 October 2026 UTC; draft, not a runnable implementation. `compute-hardware-round3.md`, `formal-verification-option-round11.md`, the taxonomy and source index were read first. Existing coverage concerns accelerator/runtime economics and specification fidelity; it does not supply a practi...",
+   "bytes": 25899
+  },
+  {
+   "path": "notes/elexon-api-endpoint-grounding-round70.md",
+   "field": "supply-chain-energy",
+   "title": "Elexon endpoint grounding70: bounded query negative,without a guessed request",
+   "summary": "The two allowed focused official-domain searches returned no sourcecandidate. Literal currentAPIbase/version and the documented pathjoin remain unresolved. No candidate dataURL was constructed,officialdataGET attempted,or69probe reopened. This is a small method-specific search outcome,not evidenc...",
+   "bytes": 2545
+  },
+  {
+   "path": "notes/elexon-endpoint-hypothesis-check-round71.md",
+   "field": "supply-chain-energy",
+   "title": "Elexon endpoint hypothesis71: official interface text found,literal base still unresolved",
+   "summary": "The rememberedbase was used only as a search hypothesis,never as a proved URL or GET. Two allowed searches found a newofficial Elexoninterface document and a possible officialexample article. The former was readable;the latter returned a reader403. The returnedofficialtext does not expose the lit...",
+   "bytes": 3688
+  },
+  {
+   "path": "notes/elexon-literal-link-grounding-round72.md",
+   "field": "supply-chain-energy",
+   "title": "Literal Elexon documentation links72: recovered exactly,without fetching their targets",
+   "summary": "One publicGitHubfile request returned the exact previously observed `elexon-data/insights-docs` documentation at `docs/insights_data_platform.md`,ref`main`. The complete returnedUTF8text is5,471bytes/110lines. Its recomputedGitblobSHA1 matches the connector's `5f711c6aaff8a454ee5665ffb332fa1c6b58...",
+   "bytes": 2948
+  },
+  {
+   "path": "notes/energy-forecast-archive-access-depth-round67.md",
+   "field": "supply-chain-energy",
+   "title": "NESO historical demand forecasts: catalogue and licence identified; publication-vintage gate remains open",
+   "summary": "Round67 checks one access/readiness gate in exact energy94,not a new forecasting or economics project. The fixed question preceded primary calls. The selected source is NESO's 2–14days-ahead national-demand forecast family,rather than importing a USweather archive into a contract limited to one E...",
+   "bytes": 6050
+  },
+  {
+   "path": "notes/energy-funded-work-boundary-round32.md",
+   "field": "supply-chain-energy",
+   "title": "Energy software: a costed publication change and its entry boundary",
+   "summary": "Bounded round 32, 20 October 2026. The selected case is Elexon/NESO P480: regional demand-forecast/restoration-data publication. It identifies a concrete systems-integration release with an ex-ante cost estimate and an official indexed implementation report. Actual contract, final spend, acceptan...",
+   "bytes": 8590
+  },
+  {
+   "path": "notes/energy-native-operational-access-depth-round58.md",
+   "field": "supply-chain-energy",
+   "title": "Building-control native software: useful counterevidence, operating bridge still open",
+   "summary": "The readable native project already documents substantial infrastructure that a generic building telemetry/controller wrapper would duplicate. This bounded pass **did not establish an operational deployment-to-funded-work path**. The intended lab surface was inaccessible; the second surface suppl...",
+   "bytes": 7176
+  },
+  {
+   "path": "notes/energy-public-enrichment-gaps.md",
+   "field": "supply-chain-energy",
+   "title": "Energy/public enrichment round 6: validation and unresolved gaps",
+   "summary": "Date: 19 October 2026. Owner: `energy_infrastructure`. Companion: `energy-public-enrichment-round6.json`. This is a **draft curation handoff**, not final acceptance, a new source survey or an executed portfolio project.",
+   "bytes": 14952
+  },
+  {
+   "path": "notes/energy-round2.md",
+   "field": "supply-chain-energy",
+   "title": "Energy round 2: funded work, attainable roles, research entry paths",
+   "summary": "Researcher: energy_infrastructure. Evidence checked 19 October 2026. Scope: energy-specific technical/budget evidence, India/UK entry paths, vendor competition, public tools and institutional channels. This is a purposive evidence sample, not a representative employment survey. Root owns the comb...",
+   "bytes": 28330
+  },
+  {
+   "path": "notes/energy-software-entry-depth-round65.md",
+   "field": "supply-chain-energy",
+   "title": "One Kraken energy-data software entry boundary",
+   "summary": "The selected public advert is **Data Platform Engineer I**, full-time/hybrid in London or Manchester. Its indexed description concerns utility data services, pipelines and sources. It requests an experienced engineer, emphasises code quality/processes, then frames cloud/data-stack experience as h...",
+   "bytes": 3264
+  },
+  {
+   "path": "notes/energy.md",
+   "field": "supply-chain-energy",
+   "title": "Energy, compute infrastructure and climate: developer work through 2031",
+   "summary": "Evidence cutoff: 19 October 2026. Findings below separate observations, projections and career inferences. This is a sector research module, not a quantified forecast of software vacancies.",
+   "bytes": 11903
+  },
+  {
+   "path": "notes/funded-deeptech-entry-mechanism-round73.md",
+   "field": "supply-chain-energy",
+   "title": "BIRAC BIG: a conditional mechanism, one closed intake, eligibility gaps",
+   "summary": "Research cut:20October2026. Two focused discovery queries and three official bodies; no application, account, contact, laboratory work, download or new project/hour allocation.",
+   "bytes": 3302
+  },
+  {
+   "path": "notes/funded-deeptech-guideline-terms-round74.md",
+   "field": "supply-chain-energy",
+   "title": "BIG guideline terms: company route and biotechnology software fit",
+   "summary": "Bounded follow-up to73,20 October2026. The previously observed official BIG page’s guideline anchor returned a13-page PDF labelled Version9,October2025. One new primary body was read; no search, alternate route, assets, form, account or contact. The current linked PDF is not an immutable historic...",
+   "bytes": 3274
+  },
+  {
+   "path": "notes/fusion-control-software-access-depth-round62.md",
+   "field": "supply-chain-energy",
+   "title": "Neural-emulator plasma control: a physical MAST-U feasibility result and a separate software-access boundary",
+   "summary": "Round62 is held for a different reviewer/root disposition. The question was frozen before requests: what actually ran on a tokamak,under what state,target,shot and safeguard conditions,and what software layer is reachable? The earlier nuclear4 note contained abstract-level pointers; this pass aud...",
+   "bytes": 9729
+  },
+  {
+   "path": "notes/neuromorphic-edge-compute-depth-round60.md",
+   "field": "supply-chain-energy",
+   "title": "Neuromorphic edge compute: measured inference is a narrower claim than an always-on device advantage",
+   "summary": "Held round60 methods/access note; preliminary and pending a different reviewer/root disposition. The fixed question preceded primary reads: does a demonstrated NeuroBench system comparison support a whole edge-system energy advantage at matched quality/deadline?",
+   "bytes": 7960
+  },
+  {
+   "path": "notes/neuromorphic-software-entry-depth-round76.md",
+   "field": "supply-chain-energy",
+   "title": "SynSense software entry: one role, separate from the energy benchmark",
+   "summary": "The official role body supplies a concrete software-work signal, but it does not close a general-developer entry route into Xylo or neuromorphic compilers. This is one purposively selected employer/role, not a vacancy census or confirmed funded seat. The readable listing is undated; the existence...",
+   "bytes": 4690
+  },
+  {
+   "path": "notes/nuclear-fusion-software-round4.md",
+   "field": "supply-chain-energy",
+   "title": "Round 4: nuclear and fusion software paths an AI/software engineer can actually enter",
+   "summary": "Owner: energy_infrastructure. Evidence cutoff/check date: 19 October 2026. Distinct scope: actual software tasks, numerical/data verification, occupational access and bounded public-software proofs. The taxonomy worker owns the broader institution map. Earlier research files remain unchanged. No ...",
+   "bytes": 29135
+  },
+  {
+   "path": "notes/nuclear-software-work-boundary-round27.md",
+   "field": "supply-chain-energy",
+   "title": "One nuclear software work boundary: Arabelle engineering tools",
+   "summary": "The inspected role describes maintaining software used by engineering teams, with specific numerical, desktop and domain requirements. The existing fixed-case numerical exercise supports preparation but does not represent that product work. This note attaches only to `energy-public-round6.project...",
+   "bytes": 7632
+  },
+  {
+   "path": "notes/open-silicon-firmware-access-depth-round51.md",
+   "field": "supply-chain-energy",
+   "title": "Open silicon: boot authority versus firmware/runtime assurance",
+   "summary": "OpenTitan offers a concrete native security and public software ecosystem; the accessible-work bridge is still discovery-only. Boot authentication and transparent design do not establish arbitrary runtime policy, legitimate caller authority, physical attack coverage or personal employability. No ...",
+   "bytes": 4529
+  },
+  {
+   "path": "notes/supply-chain/directory-route-gap-research.md",
+   "field": "supply-chain-energy",
+   "title": "directory route gap research",
+   "summary": "Five official bodies were readable and support bounded additive resource links; the pinned MCUboot contribution guide returned a cache miss and stays unresolved. No search query was needed: the exact routes were already in the held source records, but absent from the selected directory fields.",
+   "bytes": 1935
+  },
+  {
+   "path": "notes/supply-chain/final-companion-2031.md",
+   "field": "supply-chain-energy",
+   "title": "final companion 2031",
+   "summary": "A useful preparation hypothesis for 2031 is to own accepted outcomes: understand the system, choose appropriate AI and native tools, integrate them, measure failures and cost, and maintain what others depend on. More automation could mean smaller teams, cheaper software, expanded demand or differ...",
+   "bytes": 3597
+  },
+  {
+   "path": "notes/supply-chain/final-composed-accounting-independent-v13-partial.md",
+   "field": "supply-chain-energy",
+   "title": "final composed accounting independent v13 partial",
+   "summary": "Current v13 actual09/D4 passes the bounded mechanical/source-value recount. It still does not pass the final publication word gate. No implementation correction was found in this partial scope.",
+   "bytes": 1945
+  },
+  {
+   "path": "notes/supply-chain/final-six-physical-source-attribution-proposal.md",
+   "field": "supply-chain-energy",
+   "title": "final six physical source attribution proposal",
+   "summary": "This is an unapplied exact-field accounting proposal for the six remaining control/tactile/IITM publication URLs, outside the earlier40native-code source groups. No source, reader, ledger or source grant changed.",
+   "bytes": 2619
+  },
+  {
+   "path": "notes/supply-chain/sc01-compute-and-accelerators.md",
+   "field": "supply-chain-energy",
+   "title": "sc01 compute and accelerators",
+   "summary": "The compute opportunity is understanding an accepted workload across its whole execution path. More arithmetic can leave the bottleneck in memory movement, collectives, compilation, CPU staging or queueing. These are conditional engineering explanations, not a measured vendor ranking or a 2031 jo...",
+   "bytes": 5564
+  },
+  {
+   "path": "notes/supply-chain/sc02-memory.md",
+   "field": "supply-chain-energy",
+   "title": "SC02 — Memory supply and the software work around it",
+   "summary": "Memory is a useful systems specialism, but a career bet on a permanent shortage is poorly supported. The strongest practical route is learning to identify a workload’s actual capacity, bandwidth, latency and correctness constraint, then testing the native solution before adding custom work. Suppl...",
+   "bytes": 14667
+  },
+  {
+   "path": "notes/supply-chain/sc03-foundry-and-tooling.md",
+   "field": "supply-chain-energy",
+   "title": "Foundry, tooling and software access",
+   "summary": "Advanced logic depends on qualified fabrication and an international equipment chain, not merely an announced fab or a smaller node label. TSMC’s report distinguishes production from expansion plans. Capacity, shipments, revenue shares and qualitative yield statements are different denominators. ...",
+   "bytes": 1552
+  },
+  {
+   "path": "notes/supply-chain/sc04-packaging-and-materials.md",
+   "field": "supply-chain-energy",
+   "title": "Packaging and materials: qualified integration",
+   "summary": "The engineering boundary is design/test automation,data validation and correlation with measurements. Physical package qualification is a different proof. This is a first scoped A→Bpass; current OSAT yield,cycle and qualified-output denominators remain open.",
+   "bytes": 1929
+  },
+  {
+   "path": "notes/supply-chain/sc05-network-storage-and-systems.md",
+   "field": "supply-chain-energy",
+   "title": "SC05 — networks, storage and useful AI throughput",
+   "summary": "The physical chain has real vendor-reported shipping components. Faster links or SSDs nevertheless do not guarantee more useful AI work. A credible software path starts with the actual workload, topology, data path and correctness; bandwidth growth does not establish scarce jobs.",
+   "bytes": 5661
+  },
+  {
+   "path": "notes/supply-chain/sc06-datacenter-dependencies.md",
+   "field": "supply-chain-energy",
+   "title": "SC06: datacenter dependencies and developer work",
+   "summary": "AnnouncedMW, energy contracts and chips are not an energized, cooled and accepted site. The JSON preserves six official citations, physical branches and source limitations; no named-site energizedMW/PUE census was verified.",
+   "bytes": 1804
+  },
+  {
+   "path": "notes/supply-chain/sc07-geopolitics-dependencies.md",
+   "field": "supply-chain-energy",
+   "title": "SC07 — geopolitics, physical dependencies and developer access",
+   "summary": "Selected evidence checked 20 October 2026. This is a dated supply-chain analysis with an incomplete current-law read, not an export decision or a country ranking.",
+   "bytes": 6545
+  },
+  {
+   "path": "notes/supply-chain/sc08-actionability-and-gap-notes.md",
+   "field": "supply-chain-energy",
+   "title": "SC08 integration notes",
+   "summary": "A fixed the workload/units/physical topology before B selected preparation paths. No new public request was used. All owner records here are scoped author reports or checkpoints, not independently reaccepted facts. SC03/05 and SC07B remain pending at this bounded cut; later owner updates should b...",
+   "bytes": 4371
+  },
+  {
+   "path": "notes/supply-chain/sc09-memory-software-entry.md",
+   "field": "supply-chain-energy",
+   "title": "SC09 — Memory/storage software entry: two role layers and a public native route",
+   "summary": "The concrete software paths here are SSD simulation/firmware and the tooling that builds, validates and releases firmware. They have different entry requirements. Neither requires inventing a memory device, but neither is established by an application-level LLM demo. The two official role descrip...",
+   "bytes": 7286
+  },
+  {
+   "path": "notes/supply-chain/sc11-controls-depth-report.md",
+   "field": "supply-chain-energy",
+   "title": "SC11 — selected HBM, tool/software, U.S.-person and FDP layers",
+   "summary": "Read 20 October 2026. This closes selected published-text questions, **not the complete current-law gap** from SC07. Different dates, objects and predicates must remain separate.",
+   "bytes": 6067
+  },
+  {
+   "path": "notes/supply-chain/sc12-alternative-accelerator-software.md",
+   "field": "supply-chain-energy",
+   "title": "sc12 alternative accelerator software",
+   "summary": "Public Ascend software provides a real compatibility path and substantial native automation. It does not demonstrate drop-in substitution for a CUDA workload. Two focused queries and three official bodies were read, then the source budget closed. No software, model, data, SDK or hardware was acqu...",
+   "bytes": 2327
+  },
+  {
+   "path": "notes/supply-chain/sc13-india-semiconductor-entry.md",
+   "field": "supply-chain-energy",
+   "title": "SC13 — India semiconductor software entry through institutions",
+   "summary": "The useful distinction is organizational tool access versus an individual opportunity. Checked at the 21 October 2026 India cut; no citizenship, degree or institutional affiliation is assumed for you.",
+   "bytes": 5004
+  },
+  {
+   "path": "notes/supply-chain/sc14-photonics-software.md",
+   "field": "supply-chain-energy",
+   "title": "SC14: photonic computation versus optical transport",
+   "summary": "This pass found a new access boundary rather than a validated performance comparison. Indexed university material reports LightGen optical image,3D and video-generation experiments. The selected Science paper could not be read: its route returned403, while the lab homepage timed out. That does no...",
+   "bytes": 1781
+  },
+  {
+   "path": "notes/supply-chain/sc15-power-electronics-software.md",
+   "field": "supply-chain-energy",
+   "title": "sc15 power electronics software",
+   "summary": "This pass supports a real power-path/control software branch, with a large gap between reading a reference and qualifying rack hardware. NVIDIA’s dated page is an800Vtransition roadmap. The most concrete selected technical result is TI’s older48Vserver protection-board bench report; it is not an8...",
+   "bytes": 1117
+  },
+  {
+   "path": "notes/water-systems-option-round17.md",
+   "field": "supply-chain-energy",
+   "title": "Water-system software: validate the sensing/model before classifying a leak",
+   "summary": "Owner: robotics_physical. Checked 20 October 2026. Draft for independent review; not self-accepted. This is a narrow extension to `climate-water-round3.md` and the existing `energy-public-round6` records, not another water-sector survey. Existing reports, catalogues and trees are unchanged.",
+   "bytes": 21139
+  },
+  {
+   "path": "notes/weather-decision-option-round13.md",
+   "field": "supply-chain-energy",
+   "title": "Operational weather decisions: issue-time evidence before another model",
+   "summary": "Checked **20 October 2026** after reading the climate-water, geospatial and independent hydrology notes and source index. Those reports already cover basin models, reanalysis leakage and operator decisions. The uncovered question is narrower: **can a developer reconstruct a forecast that was actu...",
+   "bytes": 18220
+  },
+  {
+   "path": "notes/weather-energy-decision-evidence-round88.md",
+   "field": "supply-chain-energy",
+   "title": "Weather forecasts to energy decisions: a reserve-allocation source with an unresolved methods boundary",
+   "summary": "This pass identifies a relevant 2026 probabilistic forecasting study but does not close the operational-value bridge. The source budget is exhausted, and no full methods body was returned. The stronger claim must remain held.",
+   "bytes": 3879
+  }
+ ]
+}

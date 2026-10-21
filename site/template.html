@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future of Developer Work</title>
+<meta name="description" content="Interactive mind map of a multi-day research investigation into developer jobs and skills through 2031.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --ink: #1d1d1f; --muted: #6b6b70; --line: #d9d7d0; --soft: #eeece6;
+  --accent: #3b5bdb;
+  --b0: #7048e8; --b1: #e8590c; --b2: #1c7ed6; --b3: #2b8a3e; --b4: #c2255c; --b5: #0c8599;
+  --strong: #2b8a3e; --mixed: #e67700; --weak: #c92a2a; --speculative: #868e96;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121214; --surface: #1c1c1f; --ink: #ececef; --muted: #9a9aa2; --line: #34343a; --soft: #26262b;
+  --accent: #748ffc;
+  --b0: #9775fa; --b1: #ff922b; --b2: #4dabf7; --b3: #51cf66; --b4: #f06595; --b5: #3bc9db;
+  --strong: #51cf66; --mixed: #fcc419; --weak: #ff6b6b; --speculative: #adb5bd;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #121214; --surface: #1c1c1f; --ink: #ececef; --muted: #9a9aa2; --line: #34343a; --soft: #26262b;
+  --accent: #748ffc;
+  --b0: #9775fa; --b1: #ff922b; --b2: #4dabf7; --b3: #51cf66; --b4: #f06595; --b5: #3bc9db;
+  --strong: #51cf66; --mixed: #fcc419; --weak: #ff6b6b; --speculative: #adb5bd;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { min-height: 100vh; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, -apple-system, sans-serif; display: flex; flex-direction: column; }
+a { color: var(--accent); }
+header { padding: 18px 24px 12px; border-bottom: 1px solid var(--line); background: var(--surface); }
+.top { display: flex; align-items: flex-start; gap: 16px; justify-content: space-between; flex-wrap: wrap; }
+h1 { margin: 0; font-size: 22px; letter-spacing: -0.01em; }
+.sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; max-width: 760px; }
+.tools { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.tools input { font: inherit; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); width: 220px; }
+button { font: inherit; font-size: 13px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); cursor: pointer; }
+button:hover { background: var(--soft); }
+button:focus-visible, input:focus-visible, .node:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.answer { display: flex; gap: 10px; margin-top: 12px; overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 8px; }
+.answer .card { flex: 1 0 210px; max-width: 320px; scroll-snap-align: start; }
+.card { background: var(--bg); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 10px; padding: 9px 12px; font-size: 13px; line-height: 1.4; cursor: pointer; text-align: left; }
+.card .t { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--c); margin-bottom: 2px; }
+main { flex: 1; display: flex; min-height: 520px; position: relative; }
+#chart { flex: 1; min-width: 0; overflow: hidden; touch-action: none; }
+#chart svg { width: 100%; height: 100%; display: block; cursor: grab; }
+.link { fill: none; stroke: var(--line); stroke-width: 1.6px; }
+.node circle { stroke-width: 2px; }
+.node text { font-size: 13px; fill: var(--ink); paint-order: stroke; stroke: var(--bg); stroke-width: 4px; stroke-linejoin: round; }
+.node.root text { font-size: 17px; font-weight: 700; }
+.node.branch text { font-size: 15px; font-weight: 600; }
+.node.theme text { font-weight: 600; }
+.node { cursor: pointer; }
+.node.dim { opacity: .25; }
+.node.hit text { fill: var(--accent); font-weight: 700; }
+.node.sel circle { stroke-width: 4px; }
+.count { font-size: 10.5px !important; fill: var(--muted) !important; font-weight: 500 !important; }
+aside { width: 380px; max-width: 100%; border-left: 1px solid var(--line); background: var(--surface); overflow-y: auto; padding: 20px 22px 32px; }
+aside h2 { margin: 6px 0 8px; font-size: 19px; line-height: 1.3; }
+aside .crumbs { font-size: 12px; color: var(--muted); }
+.badges { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 12px; }
+.badge { font-size: 11.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px; border: 1px solid currentColor; }
+aside p { margin: 0 0 12px; }
+aside h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 18px 0 6px; }
+aside ul { margin: 0; padding-left: 18px; font-size: 13.5px; }
+aside li { margin: 4px 0; overflow-wrap: anywhere; }
+.kids button { display: block; width: 100%; text-align: left; margin: 4px 0; border-left: 3px solid var(--c); }
+.legend { border-top: 1px solid var(--line); margin-top: 22px; padding-top: 14px; font-size: 12.5px; color: var(--muted); }
+.legend div { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 6px 0; }
+.legend span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; background: var(--d); vertical-align: 0; }
+.hint { position: absolute; left: 16px; bottom: 12px; font-size: 12px; color: var(--muted); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 5px 10px; }
+footer { font-size: 12px; color: var(--muted); padding: 8px 24px; border-top: 1px solid var(--line); background: var(--surface); }
+@media (max-width: 820px) {
+  header { padding: 14px 16px 10px; }
+  .tools input { width: 100%; }
+  .tools { width: 100%; }
+  main { flex-direction: column; }
+  #chart { min-height: 62vh; flex: none; height: 62vh; }
+  aside { width: 100%; border-left: 0; border-top: 1px solid var(--line); padding: 16px; }
+  .answer .card { flex: 0 0 78%; max-width: none; }
+  main { min-height: 0; }
+  .hint { display: none; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <div>
+      <h1>Future of developer work → 2031</h1>
+      <p class="sub">A plain-language map of a multi-day, source-checked AI research run. Click any branch to open it; every claim links back to its notes and sources. These are findings and hypotheses, not a forecast.</p>
+    </div>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Search e.g. HBM, entry-level, ROS" aria-label="Search the map">
+      <button id="expand">Expand all</button>
+      <button id="collapse">Collapse</button>
+      <button id="theme" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </div>
+  <div class="answer" id="answer"></div>
+</header>
+<main>
+  <div id="chart" role="tree" aria-label="Mind map"></div>
+  <aside id="panel" aria-live="polite"></aside>
+  <div class="hint">Drag to pan · scroll to zoom · click a node to open it</div>
+</main>
+<footer>Research by an 8-agent Codex run (19–21 Oct 2026), condensed by Claude. Raw notes: <a href="https://github.com/SivaNithishKumar/future-of-software-jobs">github.com/SivaNithishKumar/future-of-software-jobs</a></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const REPO = "https://github.com/SivaNithishKumar/future-of-software-jobs/blob/main/notes/";
+const KIND = { finding: "Finding", evidence: "Evidence", counter: "Counter-evidence", job: "Kind of work", skill: "Skill",
+  action: "Try this", org: "Organisation", risk: "Risk", theme: "Theme" };
+const CONF = { strong: "Strong evidence", mixed: "Mixed evidence", weak: "Weak evidence", speculative: "Speculative" };
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+const root = d3.hierarchy(DATA);
+let uid = 0;
+root.each(d => { d.id = ++uid; d.b = d.depth === 0 ? -1 : (d.depth === 1 ? d.parent.children.indexOf(d) : d.ancestors().slice(-2)[0].parent.children.indexOf(d.ancestors().slice(-2)[0])); });
+root.descendants().forEach(d => { d._children = d.children; if (d.depth >= 1) d.children = null; });
+const color = d => d.b < 0 ? css("--ink") : css("--b" + d.b);
+
+const chart = document.getElementById("chart");
+const svg = d3.select(chart).append("svg");
+const g = svg.append("g");
+const gl = g.append("g"), gn = g.append("g");
+const zoom = d3.zoom().scaleExtent([0.25, 2.5]).on("zoom", e => g.attr("transform", e.transform));
+svg.call(zoom).on("dblclick.zoom", null);
+const DX = 30, DY = 250;
+const tree = d3.tree().nodeSize([DX, DY]);
+let selected = root, query = "";
+
+// root.descendants() skips collapsed nodes (kept in _children), so walk _children for search/expand-all.
+function everyNode() { const out = []; (function w(d) { out.push(d); (d._children || []).forEach(w); })(root); return out; }
+
+function matches(d) {
+  if (!query) return false;
+  const t = (d.data.label + " " + (d.data.summary || "")).toLowerCase();
+  return t.includes(query);
+}
+
+function update(src, center) {
+  tree(root);
+  const nodes = root.descendants(), links = root.links();
+  // Column width = widest visible label at that depth, so labels never run into the next column.
+  const colW = [];
+  nodes.forEach(d => { const w = d.depth === 0 ? 60 : d.data.label.length * (d.depth === 1 ? 8.6 : 7.4) + 58; colW[d.depth] = Math.max(colW[d.depth] || 0, w); });
+  const colX = colW.reduce((acc, w, i) => (acc.push(i ? acc[i - 1] + colW[i - 1] : 0), acc), []);
+  nodes.forEach(d => { d.y = colX[d.depth]; });
+  const t = svg.transition().duration(350);
+  const link = gl.selectAll("path").data(links, d => d.target.id);
+  const diag = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+  link.join(
+    en => en.append("path").attr("class", "link").attr("d", () => { const o = { x: src.x0 ?? src.x, y: src.y0 ?? src.y }; return diag({ source: o, target: o }); }),
+    up => up, ex => ex.transition(t).remove().attr("d", () => { const o = { x: src.x, y: src.y }; return diag({ source: o, target: o }); })
+  ).transition(t).attr("d", diag).attr("stroke", d => color(d.target)).attr("stroke-opacity", .45);
+
+  const node = gn.selectAll("g.node").data(nodes, d => d.id);
+  const en = node.enter().append("g")
+    .attr("transform", () => `translate(${src.y0 ?? src.y},${src.x0 ?? src.x})`)
+    .attr("tabindex", 0).attr("role", "treeitem")
+    .on("click", (e, d) => { toggle(d); select(d); })
+    .on("keydown", (e, d) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(d); select(d); } });
+  en.append("circle");
+  en.append("text").attr("class", "lbl").attr("dy", "0.32em");
+  const all = en.merge(node);
+  all.attr("class", d => "node " + (d.depth === 0 ? "root" : d.depth === 1 ? "branch" : (d.data.kind || "")) +
+      (d === selected ? " sel" : "") + (query ? (matches(d) ? " hit" : " dim") : ""))
+    .attr("aria-expanded", d => d._children ? !!d.children : null)
+    .attr("aria-label", d => d.data.label);
+  all.select("circle")
+    .attr("r", d => d.depth === 0 ? 9 : d.depth === 1 ? 8 : 6)
+    .attr("fill", d => d._children && !d.children ? color(d) : css("--surface"))
+    .attr("stroke", color);
+  all.select(".lbl")
+    .attr("x", d => d.depth === 0 ? 0 : 12).attr("y", d => d.depth === 0 ? -20 : 0).attr("text-anchor", d => d.depth === 0 ? "middle" : "start")
+    .text(d => d.data.label);
+  all.select(".lbl").selectAll("tspan").remove();
+  all.filter(d => d._children && !d.children && d.depth > 0).select(".lbl")
+    .append("tspan").attr("class", "count").attr("dx", 6).text(d => `+${d._children.length}`);
+  all.transition(t).attr("transform", d => `translate(${d.y},${d.x})`);
+  node.exit().transition(t).remove().attr("transform", `translate(${src.y},${src.x})`);
+  root.each(d => { d.x0 = d.x; d.y0 = d.y; });
+  if (center) focusOn(center);
+}
+
+function focusOn(d) {
+  const w = chart.clientWidth, h = chart.clientHeight;
+  const k = d3.zoomTransform(svg.node()).k || 1;
+  const x = d.depth === 0 ? Math.max(125, Math.min(210, w * 0.2)) : Math.min(w * 0.3, 260, w < 600 ? 24 : 260);
+  svg.transition().duration(450).call(zoom.transform, d3.zoomIdentity.translate(x - d.y * k, h / 2 - d.x * k).scale(k));
+}
+
+function toggle(d) {
+  if (!d._children) return;
+  if (d.children) { d.children = null; }
+  else {
+    if (d.parent) d.parent.children.forEach(s => { if (s !== d && s.children) s.children = null; });
+    d.children = d._children;
+  }
+  update(d, d);
+}
+
+function openPath(d) {
+  d.ancestors().reverse().forEach(a => { if (a._children) a.children = a._children; });
+}
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+function select(d) {
+  selected = d;
+  gn.selectAll("g.node").classed("sel", n => n === d);
+  const p = document.getElementById("panel"), x = d.data, c = color(d);
+  const crumbs = d.ancestors().reverse().slice(0, -1).map(a => esc(a.data.label)).join(" › ");
+  let h = `<div class="crumbs">${crumbs || "Start here"}</div><h2 style="color:${c}">${esc(x.label)}</h2><div class="badges">`;
+  if (x.kind && d.depth > 1) h += `<span class="badge" style="color:${c}">${KIND[x.kind] || x.kind}</span>`;
+  if (x.confidence) h += `<span class="badge" style="color:var(--${x.confidence})">${CONF[x.confidence]}</span>`;
+  h += `</div><p>${esc(x.summary || "")}</p>`;
+  if (x.headlines) h += `<h3>Key takeaways</h3><ul>${x.headlines.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`;
+  if (x.sources && x.sources.length) h += `<h3>Sources</h3><ul>${x.sources.map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 70))}</a></li>`).join("")}</ul>`;
+  if (x.notes && x.notes.length) h += `<h3>Research notes</h3><ul>${x.notes.map(n => `<li><a href="${REPO + esc(n)}" target="_blank" rel="noopener">${esc(n)}</a></li>`).join("")}</ul>`;
+  if (d._children) h += `<h3>Inside this branch</h3><div class="kids">${d._children.map((k, i) => `<button data-i="${i}" style="--c:${color(k)}">${esc(k.data.label)}</button>`).join("")}</div>`;
+  h += `<div class="legend"><b>Colours</b> are the six branches. <b>Filled dots</b> have more inside.<div>${Object.entries(CONF).map(([k, v]) => `<span style="--d:var(--${k})">${v}</span>`).join("")}</div></div>`;
+  p.innerHTML = h;
+  p.querySelectorAll(".kids button").forEach(b => b.onclick = () => { const k = d._children[+b.dataset.i]; openPath(k); update(k, k); select(k); });
+}
+
+function renderAnswer() {
+  const box = document.getElementById("answer");
+  root._children.forEach((b, i) => {
+    const el = document.createElement("button");
+    el.className = "card"; el.style.setProperty("--c", `var(--b${i})`);
+    el.innerHTML = `<b>${esc(b.data.label)}</b><span class="t">${esc(b.data.headlines ? b.data.headlines[0] : b.data.summary)}</span>`;
+    el.onclick = () => { root.children.forEach(s => { if (s !== b) s.children = null; }); openPath(b); b.children = b._children; update(b, b); select(b); };
+    box.appendChild(el);
+  });
+}
+
+document.getElementById("q").addEventListener("input", e => {
+  query = e.target.value.trim().toLowerCase();
+  if (query) everyNode().forEach(d => { if (matches(d)) d.ancestors().slice(1).forEach(a => a.children = a._children); });
+  update(root);
+  if (query) { const first = everyNode().find(matches); if (first) { select(first); focusOn(first); } }
+});
+document.getElementById("expand").onclick = () => { everyNode().forEach(d => { if (d._children) d.children = d._children; }); update(root); svg.transition().call(zoom.transform, d3.zoomIdentity.translate(40, chart.clientHeight / 2).scale(0.45)); };
+document.getElementById("collapse").onclick = () => { everyNode().forEach(d => { if (d.depth >= 1) d.children = null; }); root.children = root._children; update(root, root); select(root); };
+document.getElementById("theme").onclick = () => {
+  const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+  const cur = document.documentElement.dataset.theme || (dark ? "dark" : "light");
+  document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark";
+  try { localStorage.setItem("theme", document.documentElement.dataset.theme); } catch (e) {}
+  update(root); select(selected);
+};
+try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+
+root.children = root._children;
+renderAnswer();
+root.x0 = 0; root.y0 = 0;
+update(root, root);
+select(root);
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+ "status": "provisional_claims_for_adversarial_review",
+ "updated_on": "2026-10-19",
+ "claims": [
+  {
+   "id": "labor-entry-pressure",
+   "claim": "Some early-career hiring may be under disproportionate pressure in AI-exposed work.",
+   "evidence_type": "descriptive association with competing results",
+   "sources": [
+    "labor.md"
+   ],
+   "counterevidence": "Yale macro null; Danish adoption-linked null through 2024; pretrends, education and employer-panel selection.",
+   "open_bridge": "AI causation versus other shocks, India/UK transfer and effects on established engineers.",
+   "test": "Compare actual adoption-linked cohorts, hiring/separations, geography and observation windows; avoid interpreting the Stanford19percent gap as19percent of all jobs destroyed.",
+   "status": "qualified_signal"
+  },
+  {
+   "id": "coding-productivity",
+   "claim": "AI increases software throughput in some contexts while adding time in others.",
+   "evidence_type": "heterogeneous randomized experiments",
+   "sources": [
+    "software.md"
+   ],
+   "counterevidence": "Different tools/years, tasks, estimands, adoption compliance, review and quality proxies.",
+   "open_bridge": "Task throughput does not establish total project output, customer value, labor demand or safe long-term code quality.",
+   "test": "Verify full Cui IV versus ITT design, METR denominator and follow-up selection before using headline effect sizes.",
+   "status": "methods_audit_in_progress"
+  },
+  {
+   "id": "long-horizon-to-jobs",
+   "claim": "Longer model task horizons could change work allocation substantially by2031.",
+   "evidence_type": "benchmark trends and scenario inference",
+   "sources": [
+    "software.md",
+    "agent-capability-horizons-round6.md",
+    "agent-capability-data-round7.md"
+   ],
+   "counterevidence": "50percent success thresholds, unmeasured human baselines, distribution choice, correction sensitivity and production context gaps.",
+   "open_bridge": "Capability curves do not directly predict replacement of complete jobs or high-reliability deployment dates.",
+   "test": "Use latest completed horizon/economic-task audit and raw-data provenance. January2026 doubling assumptions are not current calibrated whole-job predictions; never invent p80/p95 or extrapolate unsupported long tasks.",
+   "status": "scenario_only_latest_measurement_reconciliation_pending"
+  },
+  {
+   "id": "integration-skill-value",
+   "claim": "Production integration, verification and domain ownership may remain valuable complements to stronger AI.",
+   "evidence_type": "cross-field inference, selected current role requirements",
+   "sources": [
+    "software.md",
+    "labor.md",
+    "robotics.md",
+    "bio.md",
+    "energy.md",
+    "security.md"
+   ],
+   "counterevidence": "The same work can be automated, bundled by vendors or concentrated in few experts; integration can be low-margin consulting.",
+   "open_bridge": "Current difficulty is not durable scarcity or proof of future hiring volume.",
+   "test": "Seek prospective autonomous integrations, closed-loop repair and vendor-native governance; compare total cost and paid adoption with human-led baseline.",
+   "status": "primary_thesis_under_attack"
+  },
+  {
+   "id": "robotics-access",
+   "claim": "Robotics platform/runtime/observability work may be a reachable adjacent path for a broad software/ML engineer.",
+   "evidence_type": "operational data, technical methods, illustrative vacancies",
+   "sources": [
+    "robotics.md",
+    "labor.md"
+   ],
+   "counterevidence": "Onsite geography, seniority, C++/real-time requirements, physical validation and safety; simulation does not establish field competence.",
+   "open_bridge": "No verified assessment of the reader's hardware/math/control depth, and no representative vacancy sample.",
+   "test": "Separate platform, perception, controls, autonomy research and field roles; test a reproducible typed-state and recovery project against real role criteria.",
+   "status": "exploration_option"
+  },
+  {
+   "id": "physical-sector-budget",
+   "claim": "Energy, industrial and scientific adoption could create valuable software work around physical bottlenecks.",
+   "evidence_type": "deployment and survey evidence plus commercial inference",
+   "sources": [
+    "energy.md",
+    "bio.md",
+    "robotics.md"
+   ],
+   "counterevidence": "Capital intensity, procurement, data rights, vendor concentration, no budget despite need, and low product margins.",
+   "open_bridge": "Need versus funded buyer and scalable product, operating assets versus announced capacity.",
+   "test": "Trace a concrete operational decision to a budget owner, existing solution, measurable accepted outcome and procurement route.",
+   "status": "commercial_bridge_unproven"
+  },
+  {
+   "id": "clinical-outcomes",
+   "claim": "Some clinical AI improves specified workflows or diagnostic endpoints.",
+   "evidence_type": "randomized trials and authorizations",
+   "sources": [
+    "bio.md"
+   ],
+   "counterevidence": "Device counts are not outcomes; MASAI interval-cancer reduction not statistically established; scribe total time may be mismeasured; drug safety endpoints and small arms.",
+   "open_bridge": "Patient benefit, long-term safety, external validity and scaled commercial employment.",
+   "test": "Use prospective outcome endpoints, confidence intervals and total workflow time, with replication and failure capture.",
+   "status": "narrow_observed_claims_only"
+  },
+  {
+   "id": "agent-security-market",
+   "claim": "Delegated authority, identity and containment are substantive engineering needs for deployed agents.",
+   "evidence_type": "technical red-team evidence, standards activity, incident evidence",
+   "sources": [
+    "security.md"
+   ],
+   "counterevidence": "Lab ASR is not production frequency; threat-model access varies; cloud IAM may absorb product demand.",
+   "open_bridge": "Skill demand does not automatically establish a new venture category or large accessible vacancy pool.",
+   "test": "Inspect real threat models and incidents, compare native cloud controls, and test scoped authority under adaptive attack and tool changes.",
+   "status": "technical_need_market_uncertain"
+  },
+  {
+   "id": "generalist-depth",
+   "claim": "Cross-field breadth is useful when anchored by demonstrated technical depth and a real domain.",
+   "evidence_type": "career hypothesis",
+   "sources": [
+    "labor.md",
+    "robotics.md",
+    "bio.md"
+   ],
+   "counterevidence": "Specialist credential filters and shallow breadth can block access; transfer across fields may be overstated.",
+   "open_bridge": "Unknown current competence, learning time, desired geography, resources and preferred work style.",
+   "test": "Offer reversible depth experiments with measurable gates and opportunity costs rather than choosing identity from interests.",
+   "status": "personalization_requires_care"
+  },
+  {
+   "id": "frontier-sector-option",
+   "claim": "Quantum, nuclear/fusion, BCI and wearables deserve selective exploration rather than an automatic career pivot.",
+   "evidence_type": "technical progress versus deployment and business uncertainty",
+   "sources": [
+    "sectors.md",
+    "energy.md",
+    "bio.md"
+   ],
+   "counterevidence": "A major scalable breakthrough or accessible employer platform could accelerate demand; conservative advice can miss asymmetric opportunities.",
+   "open_bridge": "Precise attainable software layer, prerequisites and opportunity cost for this user.",
+   "test": "Find concrete open tooling, current role requirements, credible30/90day proof project and decision threshold before recommending investment.",
+   "status": "compare_entry_paths"
+  }
+ ]
+}

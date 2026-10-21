@@ -1,0 +1,4096 @@
+{
+ "label": "Future of developer work → 2031",
+ "summary": "Plain-language map of a multi-day AI research investigation. Every claim links to its source notes and URLs.",
+ "children": [
+  {
+   "id": "strategy",
+   "label": "How to prepare (and risks)",
+   "summary": "Aim to deliver systems that others accept and keep using, not just write code. This is a hypothesis to test with small experiments, not a promise of jobs in 2031.",
+   "headlines": [
+    "Core bet: own accepted outcomes. Understand a real system, use AI and native tools well, measure failures and cost, and maintain what others rely on.",
+    "Cloud vendors already bundle evals, agents and incident tools, and AI research-engineering results are strong. Neither custom integration nor research is automatically safe.",
+    "Useful skills, paid roles, high pay and a startup moat are four separate things. More output with fewer people is a realistic 2031 outcome.",
+    "Start with one 30-day experiment against a strong native baseline. Stop if the native tool wins or no independent check of the right answer exists.",
+    "Leadership comes from a real project accepting your work, you maintaining it through change, then being trusted with responsibility. No dates or titles are promised."
+   ],
+   "children": [
+    {
+     "label": "Core thesis",
+     "kind": "theme",
+     "summary": "Prepare to own outcomes that others accept and maintain, using AI and native tools sensibly.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "Own accepted outcomes",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Understand the system, pick AI vs ready-made tools, integrate, measure failures and cost, maintain what others depend on. A hypothesis to test, not a forecast.",
+       "sources": [],
+       "notes": [
+        "synthesis-argument-draft-round50.md",
+        "supply-chain/final-companion-2031.md",
+        "interim-findings-report-2026-10-20.md"
+       ]
+      },
+      {
+       "label": "Code alone is a weaker identity",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Inference: producing plausible code matters less. Choosing the problem, directing automation and maintaining accepted work matters more. AI can automate those too.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "synthesis-argument-draft-round50.md"
+       ]
+      },
+      {
+       "label": "Ordinary backend work stays valid",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Backend, data and platform engineering remains a fine path. There is no protected human niche and no guaranteed scarce job here.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "adversarial-baseline.md"
+       ]
+      },
+      {
+       "label": "Pick one depth, not five courses",
+       "kind": "action",
+       "summary": "Choose one route and compare it to a competent ready-made tool. If the native tool solves it, drop the extra custom work.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "preparation-pathways-round8.md",
+        "preparation-strategy-stress-test-round45.md"
+       ]
+      },
+      {
+       "label": "Keep four outcomes separate",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Useful skill, number of paid roles, high wages and a defensible startup are different. Evidence for one is not evidence for the others.",
+       "sources": [],
+       "notes": [
+        "adversarial-baseline.md",
+        "adversarial-2031-scenarios-round9.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "2031 scenarios",
+     "kind": "theme",
+     "summary": "Three possible worlds, not predictions. Different sectors can sit in different worlds at once.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "Slower, uneven adoption",
+       "kind": "finding",
+       "confidence": "speculative",
+       "summary": "Procurement, data access and acceptance slow deployment. Risk: years spent on a frontier specialty nobody can adopt. Response: improve an accessible workflow.",
+       "sources": [],
+       "notes": [
+        "adversarial-2031-scenarios-round9.md"
+       ]
+      },
+      {
+       "label": "Platforms absorb the work",
+       "kind": "finding",
+       "confidence": "speculative",
+       "summary": "Big platforms and employers automate the whole loop; a smaller expert group supervises more. Risk: becoming good at a feature vendors bundle.",
+       "sources": [],
+       "notes": [
+        "adversarial-2031-scenarios-round9.md"
+       ]
+      },
+      {
+       "label": "Cheap autonomy for everyone",
+       "kind": "finding",
+       "confidence": "speculative",
+       "summary": "Strong tools are widely usable and many people build products. Risk: your output is not scarce; distribution, not code, limits income.",
+       "sources": [],
+       "notes": [
+        "adversarial-2031-scenarios-round9.md"
+       ]
+      },
+      {
+       "label": "More output, fewer people",
+       "kind": "risk",
+       "confidence": "speculative",
+       "summary": "Made-up example: 100 jobs at 20 hours becomes 300 jobs at 2 hours; total human hours fall from 2,200 to 650. Accountability alone does not guarantee more seats.",
+       "sources": [],
+       "notes": [
+        "adversarial-2031-scenarios-round9.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Counter-arguments",
+     "kind": "theme",
+     "summary": "Evidence that weakened early recommendations, and evidence pushing back the other way.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "Vendors already bundle evals and agents",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Cloud platforms ship managed agents, policy, evaluation and incident tools. Demand can rise while human effort per deployment falls.",
+       "sources": [],
+       "notes": [
+        "adversarial-baseline.md",
+        "adversarial-2031-scenarios-round9.md"
+       ],
+       "children": [
+        {
+         "label": "AWS AgentCore release notes",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "Documents managed execution, policy and identity, online and batch evaluation, custom evaluators and A/B tests. Product availability is shown; real adoption is not.",
+         "sources": [
+          "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/release-notes.html"
+         ],
+         "notes": [
+          "adversarial-baseline.md"
+         ]
+        },
+        {
+         "label": "AWS DevOps Agent generally available",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Targets incident investigation and SRE work, announced 31 March 2026. Vendor claim, not independent proof it replaces engineers.",
+         "sources": [
+          "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-devops-agent-generally-available/"
+         ],
+         "notes": [
+          "adversarial-baseline.md"
+         ]
+        },
+        {
+         "label": "Palantir platform already has agents",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Its platform includes workflow, agent and evaluation tools while it also hires customer-facing engineers. Weakens 'any custom integration layer will be valuable'.",
+         "sources": [
+          "https://investors.palantir.com/files/2026%20Q2%20PLTR%2010-Q.pdf"
+         ],
+         "notes": [
+          "interim-findings-report-2026-10-20.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Research is not safe from automation",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Moving into research does not escape AI. Several results show agents doing research-engineering tasks well, within narrow limits.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "adversarial-2031-scenarios-round9.md"
+       ],
+       "children": [
+        {
+         "label": "RE-Bench kernel beat all humans",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "An AI kernel solution beat all nine human attempts on one task. But: 7 selected tasks, 2024 models, 71 attempts by 61 people; not a whole research job.",
+         "sources": [
+          "https://arxiv.org/html/2411.15114v2"
+         ],
+         "notes": [
+          "interim-findings-report-2026-10-20.md"
+         ]
+        },
+        {
+         "label": "Epoch automated its own chart task",
+         "kind": "evidence",
+         "confidence": "weak",
+         "summary": "A chart-restyling task was removed after AI handled it. Eleven selected tasks, one run per model; partial scores are not jobs automated.",
+         "sources": [
+          "https://epoch.ai/publications/can-ai-automate-epoch"
+         ],
+         "notes": [
+          "adversarial-2031-scenarios-round9.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Entry-level ladder is narrowing",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "At one fast-growing lab, junior technical hires fell from 27% to 9% of hires while headcount grew. Exceptional employer, observational data.",
+       "sources": [
+        "https://www.anthropic.com/research/employment-at-anthropic"
+       ],
+       "notes": [
+        "adversarial-2031-scenarios-round9.md"
+       ]
+      },
+      {
+       "label": "AI coding gains cut both ways",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Company experiments (mostly 2022-24) show developer gains; a small study of experienced maintainers found a slowdown. Different people and tools; neither measures 5-year jobs.",
+       "sources": [
+        "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
+        "https://arxiv.org/html/2507.09089v2"
+       ],
+       "notes": [
+        "interim-findings-report-2026-10-20.md"
+       ]
+      },
+      {
+       "label": "No clear job losses yet",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "A survey of about 6,000 executives found roughly 9 in 10 saw no past employment effect; a BIS study found 4% productivity gain, no job loss. Expectations, not 2031.",
+       "sources": [
+        "https://wfhresearch.com/wp-content/uploads/2026/03/Firm-Data-on-AI-March-2026.pdf",
+        "https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms"
+       ],
+       "notes": [
+        "adversarial-baseline.md"
+       ]
+      },
+      {
+       "label": "Skill shortages are not funded jobs",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "ISC2 survey of 16,029 people: 33% say teams cannot be staffed, 29% cannot afford needed skills. Need does not mean vacancies.",
+       "sources": [
+        "https://www.isc2.org/Insights/2025/12/2025-ISC2-Cybersecurity-Workforce-Study"
+       ],
+       "notes": [
+        "adversarial-baseline.md"
+       ]
+      },
+      {
+       "label": "Plan may just echo your interests",
+       "kind": "risk",
+       "confidence": "weak",
+       "summary": "Recommending the robotics-AI-software overlap because it matches your history is a fit guess. Compare real alternatives: systems depth, enterprise domain, research, sales.",
+       "sources": [],
+       "notes": [
+        "adversarial-baseline.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Career progression ladder",
+     "kind": "theme",
+     "summary": "Five proposed milestones from learner to trusted owner. Milestones, not promised dates, titles or pay.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "1. Prove basics on one fresh test",
+       "kind": "action",
+       "summary": "Show prerequisites on one independent test case before widening scope. Skip anything you already know. Stop if no independent check exists.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "preparation-pathways-round8.md"
+       ]
+      },
+      {
+       "label": "2. Reproduce a known result",
+       "kind": "action",
+       "summary": "Re-create a published or native-tool result within its stated versions, rights and resources. A reproduced result is a checkpoint, not novelty.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "progression-path-stress-test-round28.md"
+       ]
+      },
+      {
+       "label": "3. Explain a gap, prepare a contribution",
+       "kind": "action",
+       "summary": "Explain a leftover discrepancy using untouched cases and total effort, then prepare a change that fits a real project's review rules.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "contribution-novelty-round9.md"
+       ]
+      },
+      {
+       "label": "4. Get accepted, then maintain it",
+       "kind": "action",
+       "summary": "After a real project accepts your work, keep it working through changes, triage regressions and document decisions so others can continue.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "technical-ownership-pathways-round9.md"
+       ]
+      },
+      {
+       "label": "5. Take entrusted responsibility",
+       "kind": "action",
+       "summary": "Seek accountability for an outcome, budget, reliability boundary or small team only when a real receiver entrusts it. Merged code, pay and leadership are separate.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "technical-ownership-pathways-round9.md"
+       ]
+      },
+      {
+       "label": "What leadership frameworks reward",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Public frameworks reward sustained scope, reviews, handoffs and trusted decisions, not titles or commit counts.",
+       "sources": [],
+       "notes": [
+        "technical-ownership-pathways-round9.md"
+       ],
+       "children": [
+        {
+         "label": "Dropbox: next-level impact over time",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "Promotion needs demonstrated next-level impact sustained over time, not promise. Includes keeping systems maintainable by others. Internal framework, not a portable title.",
+         "sources": [
+          "https://dropbox.github.io/dbx-career-framework/promotion_principles.html"
+         ],
+         "notes": [
+          "technical-ownership-pathways-round9.md"
+         ]
+        },
+        {
+         "label": "NumPy steering council entry",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "Needs substantial contributions for at least a year, plus nomination and consensus. Review, docs and helping others count, not just commits.",
+         "sources": [
+          "https://numpy.org/doc/stable/dev/governance/governance.html"
+         ],
+         "notes": [
+          "technical-ownership-pathways-round9.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "No calendar promises a title",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "No defensible timeline gives a title, reputation or wage by 2031. Public repo, accepted patch, paid work and entrusted ownership are different wins.",
+       "sources": [],
+       "notes": [
+        "synthesis-argument-draft-round50.md",
+        "progression-path-stress-test-round28.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Routes into open-source and funded work",
+     "kind": "theme",
+     "summary": "Real routes exist, but nearly all need a receiving project, open dates and eligibility. Check the gate before preparing.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "Start with a requested test",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Most credible entry: a regression test or benchmark fix a maintainer has asked for. Example: PyVRP maintainers asked about short CI benchmarks. No pay or acceptance guaranteed.",
+       "sources": [
+        "https://github.com/PyVRP/PyVRP/issues/1040"
+       ],
+       "notes": [
+        "contribution-novelty-round9.md"
+       ]
+      },
+      {
+       "label": "Paid maintenance needs a project",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Funding buys scoped work, services or milestones, not a salary. Sovereign Tech Fund needs work over 50,000 euros; LFX 2026 window closed 18 August.",
+       "sources": [
+        "https://www.sovereign.tech/programs/fund",
+        "https://github.com/cncf/mentoring/blob/main/programs/lfx-mentorship/2026/03-Sep-Nov/README.md"
+       ],
+       "notes": [
+        "funded-oss-maintenance-round11.md",
+        "mentored-contribution-access-depth-round54.md"
+       ]
+      },
+      {
+       "label": "Research routes hinge on eligibility",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Funded research entry exists in different forms. Each has a first gate: degree, work rights, location or enrolment. None is shown best for you.",
+       "sources": [],
+       "notes": [
+        "research-transition-routes-round9.md"
+       ],
+       "children": [
+        {
+         "label": "Anthropic Fellows",
+         "kind": "org",
+         "summary": "Four-month mentored research stipend. No PhD or publications required, but needs US, UK or Canada work authorization and offers no visa sponsorship.",
+         "sources": [
+          "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
+         ],
+         "notes": [
+          "research-transition-routes-round9.md"
+         ]
+        },
+        {
+         "label": "STFC graduate programme",
+         "kind": "org",
+         "summary": "Two-year permanent-contract development programme with computing pathways; 2027 opening announced. Role, site and sponsorship unverified.",
+         "sources": [
+          "https://stfccareers.co.uk/graduates/"
+         ],
+         "notes": [
+          "research-transition-routes-round9.md"
+         ]
+        },
+        {
+         "label": "Bristol AI doctoral programme",
+         "kind": "org",
+         "summary": "Funded four-year PhD for 2027, applications open; needs coding evidence and a case study. Offer and funding are separate decisions.",
+         "sources": [
+          "https://www.bristol.ac.uk/cdt/practice-oriented-ai/"
+         ],
+         "notes": [
+          "research-transition-routes-round9.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "'AI engineer' jobs differ widely",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "One saved ad stresses production software and GPU infrastructure; another stresses research track record. Indexed ads, not verified vacancies.",
+       "sources": [
+        "https://jobs.ashbyhq.com/mistral.ai/ff382d26-285e-499d-973f-3d789d995ff9",
+        "https://jobs.ashbyhq.com/cohere/cb5d588c-5637-423a-968b-bf637ee2caf9/"
+       ],
+       "notes": [
+        "interim-findings-report-2026-10-20.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Starter experiments",
+     "kind": "theme",
+     "summary": "Five alternative 30/90-day experiments. Pick one; each stops if the native tool wins or no independent truth exists.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "Rule for every experiment",
+       "kind": "action",
+       "summary": "First check prerequisites and access. Then test one baseline against an independent answer key. Success: a result a stranger could verify.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "supply-chain/final-companion-2031.md"
+       ]
+      },
+      {
+       "label": "Workflow state and recovery",
+       "kind": "action",
+       "summary": "30 days: trace request to simulated effect, testing duplicates, stale inputs, lost acknowledgements against an independent ledger. 90 days: schema changes, recovery, full-cost comparison. Stop if native workflow suffices.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "synthesis-argument-draft-round50.md"
+       ]
+      },
+      {
+       "label": "Evaluation and scorer tooling",
+       "kind": "action",
+       "summary": "30 days: use a mature harness; test 25-50 deliberate scorer cases, including wrong answers accepted. 90 days: reproduce one result or explain a discrepancy. Stop if harness covers it.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "preparation-pathways-round8.md"
+       ]
+      },
+      {
+       "label": "As-of data platform",
+       "kind": "action",
+       "summary": "30 days: study one permitted dataset's units, publication times and revisions; plain SQL is the baseline. 90 days: analyst task only if real data and a reviewer exist. Stop otherwise.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md"
+       ]
+      },
+      {
+       "label": "Health or lab software (synthetic)",
+       "kind": "action",
+       "summary": "30 days: write a lab-runner state contract, or reconcile synthetic non-clinical health records. 90 days: re-run across interruptions and version changes. Stop without independent truth; simulation is not lab validity.",
+       "sources": [],
+       "notes": [
+        "interim-findings-report-2026-10-20.md",
+        "cross-field-transfer-round15.md"
+       ]
+      },
+      {
+       "label": "AI serving memory ledger",
+       "kind": "action",
+       "summary": "First 4-6 hours: hand-count weights vs KV cache memory. Then 32-48 hours comparing one native setup. Continue only for a reproducible gap; native win stops. Hour totals still unsettled.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Foundations that transfer",
+     "kind": "theme",
+     "summary": "Six skills reused across routes. Show them with a real artifact; stronger AI may do some of them too.",
+     "sources": [],
+     "notes": [],
+     "children": [
+      {
+       "label": "Read and debug unfamiliar code",
+       "kind": "skill",
+       "summary": "Explain the dataflow, predict a broken rule, find evidence for the cause, fix it, then handle a new variant.",
+       "sources": [],
+       "notes": [
+        "preparation-pathways-round8.md"
+       ]
+      },
+      {
+       "label": "Identity, state, time, provenance",
+       "kind": "skill",
+       "summary": "Trace any output to its source and version. Handle duplicates, late revisions, unknown values and units.",
+       "sources": [],
+       "notes": [
+        "preparation-pathways-round8.md"
+       ]
+      },
+      {
+       "label": "Independent correctness checks",
+       "kind": "skill",
+       "summary": "Audit both the tool and the answer key. Find cases where wrong answers pass and right answers fail.",
+       "sources": [],
+       "notes": [
+        "preparation-pathways-round8.md"
+       ]
+      },
+      {
+       "label": "Measurement and honest comparison",
+       "kind": "skill",
+       "summary": "Match conditions, keep failed attempts and total effort, explain uncertainty. Product, ML and science decisions all need this.",
+       "sources": [],
+       "notes": [
+        "preparation-pathways-round8.md"
+       ]
+      },
+      {
+       "label": "Authority, handoff, collaboration",
+       "kind": "skill",
+       "summary": "Name the real owner and error consequences, keep permissions aligned with effects, and hand the system over so others can run it.",
+       "sources": [],
+       "notes": [
+        "preparation-pathways-round8.md",
+        "technical-ownership-pathways-round9.md"
+       ]
+      },
+      {
+       "label": "New fields add real depth",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Switching fields reuses habits but adds depth: health data adds FHIR identity and clinical meaning; GPU work adds C++ and numerics. Job ads still set degree and location filters.",
+       "sources": [],
+       "notes": [
+        "cross-field-transfer-round15.md"
+       ]
+      },
+      {
+       "label": "AI help and real learning",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "Evidence on whether AI-assisted learners keep skills is thin and mixed; measure unaided ability separately.",
+       "sources": [],
+       "notes": [
+        "learning-transfer-depth-round16.md",
+        "ai-assisted-unaided-transfer-depth-round50.md"
+       ],
+       "children": [
+        {
+         "label": "Delayed design task study",
+         "kind": "evidence",
+         "confidence": "weak",
+         "summary": "Small student study: median delayed score 32.67% AI vs 51.83% control, not statistically significant. Unclear harm, not proof of none.",
+         "sources": [
+          "https://sanadlab.org/assets/pdf/MahmoudCHASE2026.pdf"
+         ],
+         "notes": [
+          "learning-transfer-depth-round16.md"
+         ]
+        },
+        {
+         "label": "Predict before you ask AI",
+         "kind": "action",
+         "summary": "Predict or explain unaided first, then use AI. A week later, try a new task without help. Success: you can repair it alone. Stop if you cannot.",
+         "sources": [],
+         "notes": [
+          "preparation-pathways-round8.md",
+          "learning-transfer-depth-round16.md"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "labor",
+   "label": "Jobs & hiring evidence",
+   "summary": "Hiring of young workers in AI-exposed jobs looks weak, but nobody has proven AI is the cause, and no study shows mass developer job loss. Experienced, production-owning engineers still look safest.",
+   "headlines": [
+    "Young (22-25) workers in AI-exposed jobs are 19% below peers in US payroll data, mostly through less hiring, but the authors say this is descriptive, not proof AI caused it.",
+    "Studies disagree on AI's causal effect: Danish and US macro data show little aggregate damage, while one Danish firm study finds adopters hired less than their trend.",
+    "Employers still ask for ordinary strong backend, data and testing skills plus AI integration; eligibility (country, visas, clearance) often blocks more than skills do."
+   ],
+   "children": [
+    {
+     "label": "Entry-level squeeze",
+     "kind": "theme",
+     "summary": "Several independent datasets show weaker hiring of young workers in AI-exposed work. Others show no clear AI footprint overall.",
+     "sources": [],
+     "notes": [
+      "labor.md",
+      "census-qwi-round5-methods.md"
+     ],
+     "children": [
+      {
+       "label": "US payroll: 22-25s are 19% below peers",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Stanford/ADP payroll data to June 2026: young workers in AI-exposed jobs trail comparison peers by 19%, via less hiring. Older workers show no gap. Authors call it descriptive, not causal.",
+       "sources": [
+        "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/"
+       ],
+       "notes": [
+        "labor.md"
+       ],
+       "children": [
+        {
+         "label": "It is a relative gap, not 19% fired",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "The 19% compares exposed jobs with less-exposed peers. It shrinks with education controls, has some pretrend differences, and the sample only includes firms that survived the whole period.",
+         "sources": [],
+         "notes": [
+          "labor.md"
+         ]
+        },
+        {
+         "label": "Census data also shows young-worker weakness",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "An independent Census study (administrative records) confirms weak young-worker employment and hiring in highly exposed industries. It does not prove AI caused a 12% job loss.",
+         "sources": [
+          "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-27.html"
+         ],
+         "notes": [
+          "census-qwi-round5-methods.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Ads: entry share fell 29% to 10%",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "Indeed: in the most AI-exposed salaried US ads, entry-level share fell 29% to 10% while senior rose 22% to 47%. Sample skews senior; ads are not hires.",
+       "sources": [
+        "https://hiringlab.indeed.com/2026/09/17/ai-exposure-isnt-squeezing-advertised-pay-in-the-us-its-boosting-it/"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "US macro data shows no clear AI footprint",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Yale Budget Lab (Oct 2026): job mix and unemployment are not changing in line with AI. But its data is too thin to rule out narrow entry-level damage.",
+       "sources": [
+        "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "Danish worker survey: no earnings or hours hit",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "25k Danish workers linked to payroll records through 2024: chatbot-adopting firms did not drive early-career declines, and average earnings effects are ruled out above 2%. Window is older and Danish.",
+       "sources": [
+        "https://www.brookings.edu/articles/still-waters-rapid-currents-early-labor-market-transformation-under-generative-ai/"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Does AI actually cause it?",
+     "kind": "theme",
+     "summary": "No study cleanly proves AI is the cause. Results flip depending on country, period, and whether you measure adoption or exposure.",
+     "sources": [],
+     "notes": [
+      "labor-round2.md",
+      "labor-round3-methods.md"
+     ],
+     "children": [
+      {
+       "label": "Danish firms that adopted AI hired less",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Danmarks Nationalbank: firms adopting AI in 2023 had 11% lower employment growth than non-adopters by late 2025, mostly small firms cutting recruitment. Employment still grew overall.",
+       "sources": [
+        "https://www.nationalbanken.dk/en/news-and-knowledge/publications-and-speeches/working-paper/2026/ai-adoption-and-firm-size-employment-effects-in-monthly-administrative-data"
+       ],
+       "notes": [
+        "labor-round2.md",
+        "labor-round3-methods.md"
+       ],
+       "children": [
+        {
+         "label": "Authors say it is descriptive, not causal",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "The result compares firms to their own pre-AI trend. A slowdown, restructuring or demand shock at adopting firms could look identical.",
+         "sources": [],
+         "notes": [
+          "labor-round3-methods.md"
+         ]
+        },
+        {
+         "label": "Europe-wide survey points the other way",
+         "kind": "counter",
+         "confidence": "weak",
+         "summary": "ECB analysis of about 5,300 euro-area firms: heavy AI users were about 4 percentage points more likely to add workers. Profitable firms may just adopt more.",
+         "sources": [
+          "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260304~d9e34fc95f.en.html"
+         ],
+         "notes": [
+          "labor-round2.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Most executives report no effect yet",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "NBER survey of nearly 6,000 executives (US/UK/Germany/Australia): about nine in ten see no employment or productivity effect so far. Executives expect -0.7% jobs, employees +0.5%.",
+       "sources": [
+        "https://www.nber.org/papers/w34836?utmCampaign=ApolloAcademy&utmMedium=AATraffic&utmSource=ApolloAcademy"
+       ],
+       "notes": [
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Faster work does not equal fewer jobs",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "If each unit takes 20% fewer human hours, total hours can fall, stay flat or rise depending on how much more output gets funded. Speed gains alone cannot predict headcount.",
+       "sources": [
+        "https://economics.mit.edu/sites/default/files/inline-files/Automation%20and%20New%20Tasks%20-%20How%20Technology%20Displaces%20and%20Reinstates%20Labor.pdf"
+       ],
+       "notes": [
+        "root-labor-demand-mechanisms-round77.md"
+       ]
+      },
+      {
+       "label": "Adoption numbers are not automation numbers",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "US estimates range from 18% of firms to 78% of employment-weighted firms using AI, depending on definition. None means that share of work is automated.",
+       "sources": [
+        "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html"
+       ],
+       "notes": [
+        "labor-round2.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Official forecasts and surveys",
+     "kind": "theme",
+     "summary": "Government and institutional projections say developer demand keeps growing in the US, while narrow coding-only roles shrink.",
+     "sources": [],
+     "notes": [
+      "labor.md"
+     ],
+     "children": [
+      {
+       "label": "US developers: +10% growth to 2035",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "BLS (Aug 2026): software developers, QA and testers go from 1,905,400 to 2,090,800 jobs, with 106,100 openings a year. Developer median pay $135,980. US only, not entry-level odds.",
+       "sources": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "Pure programmers: -7% projected",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "BLS projects the narrower programmer occupation falling from 110,800 to 102,700, blaming automation of repetitive coding. Whole-system developers are projected to grow instead.",
+       "sources": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "Neighbouring roles grow faster",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "BLS: data scientists +35%, information-security analysts +21%. High percentages come from smaller bases; general software still has far more openings.",
+       "sources": [
+        "https://www.bls.gov/ooh/math/data-scientists.htm",
+        "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "Global surveys: churn, not collapse",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "WEF employers expect 170m jobs created and 92m displaced by 2030, with developers among fastest growing. ILO says 25% of global jobs are exposed. Both are expectations, not measured losses.",
+       "sources": [
+        "https://www.weforum.org/publications/the-future-of-jobs-report-2025",
+        "https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "India hiring",
+     "kind": "theme",
+     "summary": "India's tech export base is still growing, but big services firms show flat or falling headcount while AI revenue rises. Aggregates say little about one developer's odds.",
+     "sources": [],
+     "notes": [
+      "india-services-gcc-round4.md",
+      "south-asia-hiring-methods-round11.md"
+     ],
+     "children": [
+      {
+       "label": "Software exports $221.4bn, up 8.2%",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "RBI FY2025-26: grossed-up exports $221.4bn. US takes 54.1%, Europe 31.8% (UK 15.4%). Covers IT services, BPO and engineering, not developer employment.",
+       "sources": [
+        "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63625"
+       ],
+       "notes": [
+        "india-services-gcc-round4.md"
+       ]
+      },
+      {
+       "label": "Big services firms: AI up, headcount flat",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Infosys reports AI at 8.2% of revenue yet closing staff fell 532 in the quarter. Wipro fell 6,716 in a quarter. HCLTech added 6,450 net, 6,136 of them freshers.",
+       "sources": [
+        "https://www.infosys.com/investors.html",
+        "https://www.hcltech.com/sites/default/files/en/investors/3098/InvestorRelease_1.pdf"
+       ],
+       "notes": [
+        "india-services-hiring-output-depth-round49.md",
+        "india-services-gcc-round4.md"
+       ],
+       "children": [
+        {
+         "label": "Headcount changes are not layoff counts",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "Closing staff mixes hires, exits, acquisitions, transfers and contractors. A drop does not show AI caused job cuts, and a rise does not show AI created jobs.",
+         "sources": [],
+         "notes": [
+          "india-services-gcc-round4.md",
+          "india-services-cross-firm-boundary-round25.md"
+         ]
+        },
+        {
+         "label": "Contracts are leaving the hourly model",
+         "kind": "finding",
+         "confidence": "mixed",
+         "summary": "Wipro already books 52.4% of revenue as fixed-price. If AI cuts hours per task, firms that bill by the hour lose revenue while fixed-price firms keep margin.",
+         "sources": [],
+         "notes": [
+          "india-services-gcc-round4.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "GCCs: 2,117 centres, 2.36m staff",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "Zinnov-Nasscom counts 2,117 captive centres with 2.36m workforce. Vendors also build and run these centres, so a GCC can move jobs between employers without creating any.",
+       "sources": [
+        "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/"
+       ],
+       "notes": [
+        "india-services-gcc-round4.md"
+       ]
+      },
+      {
+       "label": "AI skills rising in Indian job ads",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "World Bank ads: AI-related share went 2.89% (Jan 2023) to 6.51% (Mar 2025); AI-skill ads advertised about 28% higher pay. Ads skew urban white-collar; pay is advertised only.",
+       "sources": [
+        "https://documents1.worldbank.org/curated/en/099520310212533663/pdf/IDU-1bf9cfe2-ce51-4c62-b46e-613807362ae4.pdf"
+       ],
+       "notes": [
+        "south-asia-hiring-methods-round11.md"
+       ]
+      },
+      {
+       "label": "Indian firms use AI less than US firms",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "World Bank 2026 survey of 1,355 Indian establishments: 23.36% use any AI versus 42.68% in the US. 'Any AI' includes basic chatbots, so it is a loose measure.",
+       "sources": [
+        "https://openknowledge.worldbank.org/bitstreams/ee96089a-6bc3-400d-a0e6-c0dd853a5de5/download"
+       ],
+       "notes": [
+        "south-asia-hiring-methods-round11.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "UK and remote eligibility",
+     "kind": "theme",
+     "summary": "UK and global-remote demand exists, but residence, visa and clearance rules often decide who can apply, regardless of skill.",
+     "sources": [],
+     "notes": [
+      "uk-ai-workforce-methods-round13.md",
+      "labor-round2.md"
+     ],
+     "children": [
+      {
+       "label": "UK survey: 97% report an AI skills gap",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "UK government survey: 97% of 119 AI-active firms report some skills gap. Only 3% of invited organisations replied, and 111 of 119 were small firms. Not a national shortage estimate.",
+       "sources": [
+        "https://www.gov.uk/government/publications/ai-labour-market-survey-2025-report"
+       ],
+       "notes": [
+        "uk-ai-workforce-methods-round13.md"
+       ]
+      },
+      {
+       "label": "UK entry routes: graduates and career-changers",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "In the same survey, 60% of organisations hired career starters and 74% hired from non-AI roles. Apprenticeships were used by 19% of organisations but only 3% of the AI workforce.",
+       "sources": [],
+       "notes": [
+        "uk-ai-workforce-methods-round13.md"
+       ]
+      },
+      {
+       "label": "Remote does not mean worldwide",
+       "kind": "risk",
+       "confidence": "strong",
+       "summary": "GitLab's agent-backend role is open to Canada, Poland and UK, not India. Atlassian's responsible-AI role is remote only within India. A UK security-cleared role needs five years' UK residence.",
+       "sources": [
+        "https://job-boards.greenhouse.io/gitlab/jobs/8704363002",
+        "https://www.atlassian.com/company/careers/details/27643"
+       ],
+       "notes": [
+        "labor.md",
+        "labor-round2.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "What employers actually ask for",
+     "kind": "theme",
+     "summary": "Real postings want solid backend, data and testing fundamentals, with AI work layered on top. Frontier-lab roles and pay are rare outliers.",
+     "sources": [],
+     "notes": [
+      "labor-round2.md",
+      "role-proof-barriers-round14.md",
+      "hiring-assessment-policies-round17.md"
+     ],
+     "children": [
+      {
+       "label": "Sample of 15 roles at 11 employers",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "Hand-picked India/UK roles: backend, data engineering, DevOps, test automation, applied AI, robotics. Only four showed a posting date and four showed pay. Not a demand estimate.",
+       "sources": [],
+       "notes": [
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Agent roles rest on ordinary backend skills",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "GitLab's agent role wants APIs, async jobs, tests, evaluations and on-call, with no PhD listed. Its India backend role asks candidates to validate AI-generated code.",
+       "sources": [
+        "https://job-boards.greenhouse.io/gitlab/jobs/8704363002",
+        "https://job-boards.greenhouse.io/gitlab/jobs/8775507002"
+       ],
+       "notes": [
+        "labor.md",
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Frontier-lab forward-deployed engineer",
+       "kind": "job",
+       "confidence": "weak",
+       "summary": "Anthropic London: production agents, evaluations, customer discovery, 25-50% travel, GBP 225k-255k. The ad says both 4+ and 8+ years. An outlier comparator, not a normal pay benchmark.",
+       "sources": [
+        "https://job-boards.greenhouse.io/anthropic/jobs/5423029008"
+       ],
+       "notes": [
+        "labor.md",
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Robotics roles need depth, not just ROS",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Aeva's Bangalore perception role wants 3+ years, an MS/PhD, C++, geometry and sensor fusion; ROS is only nice-to-have. A ROS2 course alone does not cover it.",
+       "sources": [
+        "https://jobs.lever.co/aeva/142f731c-7de5-4978-8d64-33e1132f5570"
+       ],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "Interview AI rules differ by company and round",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Six employers differ: some rounds expect AI use (Canva, Datadog's designated rounds), most default to none. Anthropic allowed AI only in one named take-home. Always check the specific stage.",
+       "sources": [
+        "https://www.anthropic.com/candidate-ai-guidance",
+        "https://careers.datadoghq.com/candidate-experience/interviewing-at-datadog-ai-guidelines/"
+       ],
+       "notes": [
+        "hiring-assessment-policies-round17.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Credentials and bootcamps",
+     "kind": "theme",
+     "summary": "Courses can raise measured skill, but job and pay gains are small, uneven or unproven. Diagnose your actual bottleneck before buying one.",
+     "sources": [],
+     "notes": [
+      "skill-credential-return-round8.md"
+     ],
+     "children": [
+      {
+       "label": "Easy-to-share credentials: +1 point new jobs",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Randomised test of a credential-sharing nudge: new job reports rose about 1.0 percentage point at one month. The 4-month effect is not clearly different from zero.",
+       "sources": [
+        "https://arxiv.org/pdf/2405.00247v2"
+       ],
+       "notes": [
+        "skill-credential-return-round8.md"
+       ]
+      },
+      {
+       "label": "Coding bootcamp RCT: skills up, jobs mixed",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "World Bank trial with 803 women in Argentina and Colombia: test scores rose and coding employment +6.7 points, but overall employment fell 7.2 points and no clear earnings gain.",
+       "sources": [
+        "https://documents1.worldbank.org/curated/en/670761624977598623/pdf/Coding-Bootcamps-for-Female-Digital-Employment-Evidence-from-an-RCT-in-Argentina-and-Colombia.pdf"
+       ],
+       "notes": [
+        "skill-credential-return-round8.md"
+       ]
+      },
+      {
+       "label": "10-year US training study: IT provider faded",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "MDRC randomised 2,564 adults. The IT provider's earnings gain was +$1,971 and not significant at year 10; one non-IT provider showed +$8,580. Low-income adults, not developers.",
+       "sources": [
+        "https://www.mdrc.org/sites/default/files/WorkAdvance_10-Year_Report_MDRC.pdf"
+       ],
+       "notes": [
+        "skill-credential-return-round8.md"
+       ]
+      },
+      {
+       "label": "No study prices a course for you",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "None of this estimates the return to buying a particular course for an employed AI engineer. A fix must match the gap: skill, proof of skill, or access.",
+       "sources": [],
+       "notes": [
+        "skill-credential-return-round8.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Freelancing",
+     "kind": "theme",
+     "summary": "The best paid-market study covers writers, not developers, and found fewer jobs and lower pay after ChatGPT. Developer freelance evidence is missing.",
+     "sources": [],
+     "notes": [
+      "freelance-developer-market-depth-round38.md"
+     ],
+     "children": [
+      {
+       "label": "Writers: jobs and pay fell after ChatGPT",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Platform data on 79,322 freelancers: writing-exposed freelancers saw a 1.2 point drop in landing any job and lower pay versus other occupations after ChatGPT's release.",
+       "sources": [
+        "https://www.aeaweb.org/conference/2025/program/paper/T485kaTk"
+       ],
+       "notes": [
+        "freelance-developer-market-depth-round38.md"
+       ]
+      },
+      {
+       "label": "No developer-specific freelance data",
+       "kind": "risk",
+       "confidence": "strong",
+       "summary": "The study gives no estimate of developer earnings or 2031 demand. Rival explanations like a post-COVID demand unwind are not ruled out.",
+       "sources": [],
+       "notes": [
+        "freelance-developer-market-depth-round38.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Jobs and skills to build toward",
+     "kind": "theme",
+     "summary": "The evidence favours roles that own a system in production, with evaluation, security and customer ownership, over roles that only turn tickets into code.",
+     "sources": [],
+     "notes": [
+      "labor.md",
+      "labor-round2.md",
+      "future-work-bundles-round18.md"
+     ],
+     "children": [
+      {
+       "label": "Backend/data engineer who owns recovery",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Production services, databases, migrations and debugging appear across ordinary employers. Still exposed to AI-assisted coding, so the edge is reliable independent ownership.",
+       "sources": [
+        "https://job-boards.greenhouse.io/gitlab/jobs/8775507002"
+       ],
+       "notes": [
+        "labor-round2.md",
+        "future-work-bundles-round18.md"
+       ]
+      },
+      {
+       "label": "Applied AI engineer on a solid backend",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Models inside real workflows with a plain baseline, held-out tests and recovery. Capgemini's AI data role explicitly does not require all AI experience up front.",
+       "sources": [
+        "https://careers.capgemini.com/job/London-AI-Data-Engineer/1387989133/"
+       ],
+       "notes": [
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Evaluation and security specialist",
+       "kind": "job",
+       "confidence": "speculative",
+       "summary": "Atlassian's senior responsible-AI role shows software, ML and security combined. It needs 7+ years, so treat it as a later destination, not a first job.",
+       "sources": [
+        "https://www.atlassian.com/company/careers/details/27643"
+       ],
+       "notes": [
+        "labor.md",
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Production reliability and testing",
+       "kind": "skill",
+       "summary": "Tests, observability, failure injection, incident write-ups and design trade-offs travel across tools and model generations better than any one framework.",
+       "sources": [],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "Statistics and evaluation design",
+       "kind": "skill",
+       "summary": "Held-out data, leakage, baselines and calibrating graders are needed to prove an AI feature works. A slick demo with no denominator is not evidence.",
+       "sources": [],
+       "notes": [
+        "labor.md",
+        "labor-round2.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Concrete next steps",
+     "kind": "theme",
+     "summary": "Cheap ways to test where you stand and which role family fits, each with a clear sign it is working or should stop.",
+     "sources": [],
+     "notes": [
+      "labor.md",
+      "labor-round2.md",
+      "india-services-hiring-output-depth-round49.md"
+     ],
+     "children": [
+      {
+       "label": "30 days: run four diagnostic exercises",
+       "kind": "action",
+       "summary": "Build a failure-prone integration service, a holdout model comparison, an incident postmortem and a customer-interview-to-test. Log what AI got wrong. Working: you can verify answers unaided. Stop: gaps stay unfixed.",
+       "sources": [],
+       "notes": [
+        "labor.md"
+       ]
+      },
+      {
+       "label": "30 days: filter roles by eligibility first",
+       "kind": "action",
+       "summary": "List 10 roles. Cross out those blocked by country, visa, clearance or hard degree filters before comparing skills. Working: 3-4 reachable role families remain. Stop: none remain, so widen geography.",
+       "sources": [],
+       "notes": [
+        "labor-round2.md",
+        "uk-ai-workforce-methods-round13.md"
+       ]
+      },
+      {
+       "label": "90 days: add AI beside a baseline",
+       "kind": "action",
+       "summary": "Put a model beside a manual or rule-based baseline. Measure errors, cost, latency, recovery on held-out cases. Working: it beats baseline. Stop if a native tool already does it.",
+       "sources": [],
+       "notes": [
+        "labor-round2.md",
+        "india-services-hiring-output-depth-round49.md"
+       ]
+      },
+      {
+       "label": "Ongoing: watch hiring rates, not layoffs",
+       "kind": "action",
+       "summary": "Track hiring and employment by age and tenure, entry share in ads, and funded output at your own employer. Reduced hiring hurts opportunity before headcount falls. Revise if hiring recovers.",
+       "sources": [],
+       "notes": [
+        "labor.md",
+        "root-labor-demand-mechanisms-round77.md"
+       ]
+      },
+      {
+       "label": "GitLab: contributions are asked for",
+       "kind": "org",
+       "summary": "Its India backend application form asks for open-source project links, so a maintained contribution is inspectable proof. Its roles also stress validating AI-generated code.",
+       "sources": [
+        "https://job-boards.greenhouse.io/gitlab/jobs/8775507002"
+       ],
+       "notes": [
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Monzo: learns-the-stack, no-degree policy",
+       "kind": "org",
+       "summary": "UK bank says it supports learning its stack rather than requiring every listed technology, and has a stated no-degree policy for engineering. Relocation and sponsorship possible; pay GBP 85k-110k base.",
+       "sources": [
+        "https://job-boards.greenhouse.io/monzo/jobs/6635595"
+       ],
+       "notes": [
+        "labor-round2.md"
+       ]
+      },
+      {
+       "label": "Risk: platforms absorb the specialist loop",
+       "kind": "risk",
+       "confidence": "speculative",
+       "summary": "If native tools or agents handle requirements, integration, evaluation and incident response cheaply, one small team covers more output and the specialist niche shrinks.",
+       "sources": [],
+       "notes": [
+        "future-work-bundles-round18.md",
+        "root-labor-demand-mechanisms-round77.md"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "software-ai",
+   "label": "Software & AI engineering",
+   "summary": "AI agents are getting much better at long, checkable software tasks, but evidence that they raise real-world output or replace engineers is mixed. Work with cheap, trustworthy checking automates first; owning the checking loop looks most durable.",
+   "headlines": [
+    "Agents can now do long, well-specified coding tasks, but the headline numbers are fragile: bad graders, cheating attempts and wide error bars distort them.",
+    "Real-world productivity evidence conflicts: one study found 19% slowdown, another 26% more pull requests, and METR's 2026 follow-up was inconclusive.",
+    "Tasks with a cheap, trustworthy way to check the answer (ports, migrations, clear specs) automate first; building and auditing the checks is the safest skill to own.",
+    "Entry paths exist (eval, inference/serving, GPU/compiler, migrations), but most sampled employer roles want 5+ years, so build a public, checkable artifact first."
+   ],
+   "children": [
+    {
+     "label": "How capable are coding agents now?",
+     "kind": "theme",
+     "summary": "Task length agents can finish is rising fast, but every measurement has known holes.",
+     "sources": [],
+     "notes": [
+      "agent-capability-horizons-round6.md",
+      "software.md"
+     ],
+     "children": [
+      {
+       "label": "Task horizon doubling every ~131 days",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "METR: the task length (human time) that models finish half the time doubled every 131 days since 2023, versus about seven months on the longer history.",
+       "sources": [
+        "https://metr.org/blog/2026-01-29-time-horizon-1-1/"
+       ],
+       "notes": [
+        "software.md"
+       ],
+       "children": [
+        {
+         "label": "Only 5 long tasks had real human timings",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "Of 31 tasks of 8+ hours, just five had measured human baselines; the rest are estimates. Fits change a lot with the period chosen.",
+         "sources": [
+          "https://metr.org/blog/2026-01-29-time-horizon-1-1/",
+          "https://metr.org/notes/2026-03-20-impact-of-modelling-assumptions-on-time-horizon-results/"
+         ],
+         "notes": [
+          "software.md",
+          "agent-capability-horizons-round6.md"
+         ]
+        },
+        {
+         "label": "A 50% success horizon is not reliable work",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "Half-the-time success on a task length is not dependable unattended work. No current 95% reliability horizon was found; METR's chart stopped updating in September 2026.",
+         "sources": [
+          "https://metr.org/time-horizons/"
+         ],
+         "notes": [
+          "agent-capability-horizons-round6.md",
+          "current-agent-capability-measurement-round72.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Cheating attempts can swing results 25x",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "METR on GPT-5.6 Sol: counting cheats as failures gives about 11.3 hours; as successes, over 270; dropping them, about 71. METR says none is a robust measure.",
+       "sources": [
+        "https://metr.org/blog/2026-06-26-gpt-5-6-sol/"
+       ],
+       "notes": [
+        "agent-capability-horizons-round6.md"
+       ]
+      },
+      {
+       "label": "Exact reimplementation of programs works",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "MirrorCode: agents rebuild command-line programs from documentation plus a runnable reference, with hidden tests. The Pkl program stayed unsolved after extensive debugging.",
+       "sources": [
+        "https://epoch.ai/publications/mirrorcode-preliminary-results",
+        "https://epoch.ai/benchmarks/mirrorcode"
+       ],
+       "notes": [
+        "software.md",
+        "agent-capability-horizons-round6.md"
+       ]
+      },
+      {
+       "label": "FrontierSWE v2: 34 hard tasks, 20 hours each",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Top scores: GPT-6 Astra 65.5%, Claude Opus 5.5 62.3%. These are partial-credit averages, not share of jobs or tasks fully solved. One run cost about $97.",
+       "sources": [
+        "https://www.frontierswe.com/",
+        "https://www.frontierswe.com/blog/v2"
+       ],
+       "notes": [
+        "agent-capability-horizons-round6.md"
+       ]
+      },
+      {
+       "label": "Benchmarks can be wrong both ways",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "OpenAI found at least 59.4% of 138 audited SWE-bench Verified problems had tests rejecting correct fixes. Epoch flagged 23 of 113 DeepSWE tasks as defective.",
+       "sources": [
+        "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+        "https://epoch.ai/benchmarks/deepswe/review"
+       ],
+       "notes": [
+        "software.md",
+        "agent-capability-horizons-round6.md"
+       ]
+      },
+      {
+       "label": "Messy office work: about 65% rubric score",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "Epoch's 11 real tasks: top models score 65% against employee standards. That is partial credit, not 65% of jobs automated. Epoch automated one easy task internally.",
+       "sources": [
+        "https://epoch.ai/publications/can-ai-automate-epoch"
+       ],
+       "notes": [
+        "agent-capability-horizons-round6.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Does AI actually make developers faster?",
+     "kind": "theme",
+     "summary": "Studies disagree because they measure different things in different settings.",
+     "sources": [],
+     "notes": [
+      "software.md"
+     ],
+     "children": [
+      {
+       "label": "Copilot field trials: 26% more pull requests",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Three company experiments (4,867 developers): +26.08% PRs, but this is a weighted estimate for adopters. Early-window gains were small and not significant (about +4.7%).",
+       "sources": [
+        "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Experienced devs were 19% slower (2025)",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "METR: 16 veterans, 246 issues in familiar repos took 19% longer with AI (CI +2% to +39%). Early-2025 tools, narrow setting.",
+       "sources": [
+        "https://arxiv.org/html/2507.09089v2"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "2026 follow-up was inconclusive",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Newer METR study: -18% and -4% time, both intervals include no effect. Developers refused no-AI tasks, so METR calls the signal unreliable.",
+       "sources": [
+        "https://metr.org/blog/2026-02-24-uplift-update/"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Anthropic: junior technical hires 27% to 9%",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "Share of junior technical hires fell while technical headcount still grew. A single fast-growing company, observational data; not a forecast for all employers.",
+       "sources": [
+        "https://www.anthropic.com/research/employment-at-anthropic"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Support agents resolved 15% more per hour",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Study of 5,172 support agents (2019-2021, not randomized): +15.2% resolutions per hour, biggest gains for novices, small quality dips for top performers.",
+       "sources": [
+        "https://academic.oup.com/qje/article/140/2/889/7990658"
+       ],
+       "notes": [
+        "ai-customer-support-outcomes-depth-round53.md"
+       ]
+      },
+      {
+       "label": "Klarna: 80% of chats, but no clean cause",
+       "kind": "counter",
+       "confidence": "weak",
+       "summary": "Company says AI handles 80% of chats; employees fell by 591. Support cost went $203M to $207M. Filings do not show AI caused the job cuts.",
+       "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2003292/000162828026038366/annualreport2025.htm"
+       ],
+       "notes": [
+        "end-user-ai-workflow-economics-depth-round49.md",
+        "ai-customer-support-outcomes-depth-round53.md"
+       ]
+      },
+      {
+       "label": "AI help can cost you learning",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "RCT of 52 coders: AI-assisted group scored 4.15 points lower (of 27) on an unaided quiz; finishing time was not significantly faster. Small, one-library test.",
+       "sources": [
+        "https://arxiv.org/html/2601.20245v1"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "What makes work easier or harder to automate?",
+     "kind": "theme",
+     "summary": "Cheap, trustworthy checking looks like the deciding factor, not just task length.",
+     "sources": [],
+     "notes": [
+      "software.md",
+      "agent-capability-horizons-round6.md"
+     ],
+     "children": [
+      {
+       "label": "Work with a cheap correctness check goes first",
+       "kind": "finding",
+       "confidence": "speculative",
+       "summary": "A long port with a runnable reference may automate before a short ambiguous customer decision. This is the research's own hypothesis, not a proven law.",
+       "sources": [],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Agents can still ace the grader and fail",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "A hardcoded expected path can reject correct work, and a final-state check can accept a forbidden action. Verifiers need auditing too.",
+       "sources": [
+        "https://arxiv.org/html/2406.12045v1"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Repeat success is much lower than one-shot",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "tau-bench 2024: 61.2% single-run retail success but under 25% when all eight runs must succeed. Old models, but the measuring lesson holds.",
+       "sources": [
+        "https://arxiv.org/html/2406.12045v1",
+        "https://arxiv.org/html/2602.16666v1"
+       ],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Code written by agents may age worse",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "CodeThread: later agent fixes failed more often on agent-written code (12 worse, 3 better, 1 tied in the main table, up to 13 points). Agent-only test, no human maintainers.",
+       "sources": [
+        "https://arxiv.org/html/2606.21804v1"
+       ],
+       "notes": [
+        "software-maintenance-outcomes-depth-round31.md"
+       ]
+      },
+      {
+       "label": "Evolving-codebase tests are still immature",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "SWE-EVO uses 48 release-to-release upgrades in seven Python repos. It tests single upgrades, not months of continuous maintenance. SlopCodeBench is similar.",
+       "sources": [
+        "https://arxiv.org/html/2512.18470v6",
+        "https://arxiv.org/abs/2603.24755"
+       ],
+       "notes": [
+        "evolving-software-evaluation-depth-round27.md",
+        "software.md"
+       ]
+      },
+      {
+       "label": "Agent memory is tested; permission is not",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "MemoryArena (701 task groups) tests carrying info between sessions. It does not test deleting or correcting memory, or whether the agent is allowed to act.",
+       "sources": [
+        "https://arxiv.org/html/2602.16313v2"
+       ],
+       "notes": [
+        "agent-memory-evaluation-depth-round29.md"
+       ]
+      },
+      {
+       "label": "Database tuning by LLM: real gains, narrow proof",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "GenRewrite (2024) sped up some TPC-DS queries, but on one benchmark, with failures scored as no speedup and equivalence only partly checked.",
+       "sources": [
+        "https://arxiv.org/pdf/2403.09060v1"
+       ],
+       "notes": [
+        "database-optimisation-evaluation-depth-round52.md"
+       ]
+      },
+      {
+       "label": "Proof-writing is automating; meaning-checking is not",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "AlphaVerus and Verus-SpecGym (77.8% pass@1) show AI writes code plus proofs. Whether the statement matches the real requirement still needs independent checks.",
+       "sources": [
+        "https://arxiv.org/html/2412.06176v1",
+        "https://arxiv.org/html/2605.26457v1"
+       ],
+       "notes": [
+        "formal-software-verification-depth-round43.md",
+        "formal-verification-option-round11.md"
+       ]
+      },
+      {
+       "label": "Platforms keep absorbing the easy layer",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "AWS DMS already offers optional AI schema conversion; vLLM and Inspect already cover many 'missing' features. Custom tools must beat native ones at lower total cost.",
+       "sources": [
+        "https://docs.aws.amazon.com/dms/latest/userguide/schema-conversion-settings.html"
+       ],
+       "notes": [
+        "data-migration-option-round13.md",
+        "ai-evaluation-source-audit-round10.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Roles that exist",
+     "kind": "theme",
+     "summary": "Sampled public job pages show where the work is; most want years of experience.",
+     "sources": [],
+     "notes": [
+      "software.md",
+      "systems-round2.md",
+      "ai-labs-companies-round2.md"
+     ],
+     "children": [
+      {
+       "label": "Evaluation / AI reliability engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Designs tasks, scorers and checks; finds failures benchmarks miss. Mistral's eval-platform role wants 4+ years and a Master's or equivalent; Cohere's wants a senior evaluation record.",
+       "sources": [
+        "https://jobs.ashbyhq.com/mistral.ai/ff382d26-285e-499d-973f-3d789d995ff9",
+        "https://jobs.ashbyhq.com/cohere/cb5d588c-5637-423a-968b-bf637ee2caf9/"
+       ],
+       "notes": [
+        "ml-research-engineering-entry-depth-round53.md"
+       ]
+      },
+      {
+       "label": "Inference / serving engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Make models serve more requests at a latency target per GPU. Needs memory, scheduling and profiling skills; senior roles expect multi-node experience.",
+       "sources": [
+        "https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf"
+       ],
+       "notes": [
+        "inference-serving-slo-economics-depth-round45.md",
+        "ai-labs-companies-round2.md"
+       ]
+      },
+      {
+       "label": "ML research engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Reproduce and extend research with honest negative results. Generic API wiring does not count; research-scientist titles may need a doctorate.",
+       "sources": [],
+       "notes": [
+        "software.md",
+        "ml-round3-learning-inference.md"
+       ]
+      },
+      {
+       "label": "Forward-deployed / applied AI engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Integrate AI into messy customer workflows and prove accepted outcomes with measured human effort and cost. One narrow end-to-end system is a credible entry proof.",
+       "sources": [],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "GPU kernel / compiler engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Numerical correctness and speed on accelerators. Sampled roles: Arm runtime role accepts open-source C++ evidence; NVIDIA compiler role wants 8+ years.",
+       "sources": [
+        "https://careers.arm.com/job/cambridge/machine-learning-framework-runtime-software-engineer-c/33099/100703560400"
+       ],
+       "notes": [
+        "gpu-compiler-option-round14.md",
+        "on-device-inference-option-round15.md",
+        "systems-round2.md"
+       ]
+      },
+      {
+       "label": "Migration and data-correctness owner",
+       "kind": "job",
+       "confidence": "speculative",
+       "summary": "Own what the target data must match and how failed runs resume. AI drafts the SQL; a well-specified migration test gets more valuable, not less.",
+       "sources": [
+        "https://job-boards.greenhouse.io/gitlab/jobs/8716271002"
+       ],
+       "notes": [
+        "data-migration-option-round13.md"
+       ]
+      },
+      {
+       "label": "Formal verification engineer",
+       "kind": "job",
+       "confidence": "speculative",
+       "summary": "Rare and experience-heavy: Arm's role wants 5+ years in chip verification. Could grow if AI code spreads, or be automated in-house; the evidence cannot say.",
+       "sources": [
+        "https://careers.arm.com/job/cambridge/formal-verification-engineer/33099/100739285472"
+       ],
+       "notes": [
+        "formal-verification-option-round11.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Skills worth learning",
+     "kind": "theme",
+     "summary": "Skills that let you check, measure and diagnose, not just prompt.",
+     "sources": [],
+     "notes": [
+      "software.md",
+      "ml-round3-learning-inference.md"
+     ],
+     "children": [
+      {
+       "label": "Write tests that can fail themselves",
+       "kind": "skill",
+       "summary": "Build graders, hidden variants and fault injection; measure false accepts and false rejects. Report all attempts, not only successes.",
+       "sources": [],
+       "notes": [
+        "agent-capability-horizons-round6.md",
+        "ai-evaluation-source-audit-round10.md"
+       ]
+      },
+      {
+       "label": "Systems profiling: memory, caches, latency",
+       "kind": "skill",
+       "summary": "Explain a bottleneck before changing code; compare at matched quality, latency and cost. Needed for serving, compilers and databases.",
+       "sources": [],
+       "notes": [
+        "software.md",
+        "systems-round2.md"
+       ]
+      },
+      {
+       "label": "Stats for evals: error bars, repeats",
+       "kind": "skill",
+       "summary": "Clean 100 test cases still allows roughly a 3% real failure rate. Learn confidence intervals, clustering and repeated-trial metrics.",
+       "sources": [],
+       "notes": [
+        "software.md"
+       ]
+      },
+      {
+       "label": "Keep unaided coding and debugging sharp",
+       "kind": "skill",
+       "summary": "Test yourself without the assistant. The RCT shows finished output can hide weak understanding.",
+       "sources": [],
+       "notes": [
+        "software.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "What to do next",
+     "kind": "theme",
+     "summary": "Small, checkable projects with a stop rule beat open-ended courses.",
+     "sources": [],
+     "notes": [
+      "agent-capability-horizons-round6.md",
+      "ai-labs-companies-round2.md"
+     ],
+     "children": [
+      {
+       "label": "30 days: build a scorer that tests itself",
+       "kind": "action",
+       "summary": "Make 12 small tasks with hidden variants plus planted bad solutions; inject grader faults. Worked if every planted fault is caught; stop if grader and candidate share a bug.",
+       "sources": [
+        "https://github.com/UKGovernmentBEIS/inspect_ai"
+       ],
+       "notes": [
+        "agent-capability-horizons-round6.md",
+        "ai-evaluation-source-audit-round10.md"
+       ]
+      },
+      {
+       "label": "90 days: compare cheap proxy to accepted outcome",
+       "kind": "action",
+       "summary": "Expand to 24-40 held-out tasks with a later change request. Worked if test-pass rate and strict acceptance diverge measurably; stop if savings vanish after review.",
+       "sources": [],
+       "notes": [
+        "agent-capability-horizons-round6.md"
+       ]
+      },
+      {
+       "label": "30 days: profile one serving workload",
+       "kind": "action",
+       "summary": "Pick one supported model, fixed request trace; measure time-to-first-token, p95/p99 latency and quality; explain a bottleneck. Worked if a fix beats baseline at matched budget.",
+       "sources": [],
+       "notes": [
+        "ai-labs-companies-round2.md",
+        "ai-evaluation-source-audit-round10.md"
+       ]
+      },
+      {
+       "label": "Report one reproducible benchmark defect",
+       "kind": "action",
+       "summary": "Find a score that changes under a specific flaw; write a minimal reproduction and corrected test. Worked if maintainers confirm it; stop if a simpler explanation fits.",
+       "sources": [],
+       "notes": [
+        "agent-capability-horizons-round6.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Teams to learn from or contribute to",
+     "kind": "theme",
+     "summary": "Open evaluation and serving projects accept public contributions; none promises a job.",
+     "sources": [],
+     "notes": [
+      "agent-capability-horizons-round6.md",
+      "ai-labs-companies-round2.md",
+      "gpu-compiler-option-round14.md"
+     ],
+     "children": [
+      {
+       "label": "METR and Epoch AI",
+       "kind": "org",
+       "summary": "Run the time-horizon and automation benchmarks. Learn how task design, cost curves and audits work; contribute through public repositories.",
+       "sources": [
+        "https://metr.org/time-horizons/",
+        "https://epoch.ai/benchmarks/epoch-automation-reports"
+       ],
+       "notes": [
+        "agent-capability-horizons-round6.md"
+       ]
+      },
+      {
+       "label": "vLLM, SGLang and Inspect AI",
+       "kind": "org",
+       "summary": "Open serving and evaluation code with public issues. Good places for a small regression test or measurement fix.",
+       "sources": [
+        "https://github.com/vllm-project/vllm",
+        "https://github.com/UKGovernmentBEIS/inspect_ai"
+       ],
+       "notes": [
+        "ai-labs-companies-round2.md",
+        "ai-evaluation-source-audit-round10.md"
+       ]
+      },
+      {
+       "label": "Triton, MLX and llama.cpp",
+       "kind": "org",
+       "summary": "Kernel and on-device runtime communities; contributions require a minimal regression test and maintainer review.",
+       "sources": [
+        "https://github.com/ml-explore/mlx-lm",
+        "https://github.com/ggml-org/llama.cpp"
+       ],
+       "notes": [
+        "gpu-compiler-option-round14.md",
+        "on-device-inference-option-round15.md"
+       ]
+      },
+      {
+       "label": "Debezium and PostgreSQL communities",
+       "kind": "org",
+       "summary": "Public routes into data-migration correctness; start with a minimized snapshot or replication test case.",
+       "sources": [
+        "https://debezium.io/community/contribute/",
+        "https://www.postgresql.org/developer/"
+       ],
+       "notes": [
+        "data-migration-option-round13.md"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supply-chain",
+   "label": "AI hardware, power & geopolitics",
+   "summary": "AI runs on a chain of physical things: chips, memory, fabs, packaging, networks, power. Chips are being shipped, but the real limits are often power and workload fit. Developers can help in specific software corners; none is guaranteed.",
+   "headlines": [
+    "AI needs a long physical chain (chips, HBM memory, fabs, packaging, networking, power); being announced is not the same as being built, qualified and powered.",
+    "Which part limits you depends on the workload, and memory shortage is not a safe permanent career bet; both chip makers and software can relieve it.",
+    "Reachable developer work is real but narrow: serving/memory software, accelerator compilers, open EDA, SSD firmware tooling, energy and grid data. Native tools and AI already automate much of it.",
+    "Export controls and country dependence are layered and change often; the research could not confirm full current law or your personal eligibility."
+   ],
+   "children": [
+    {
+     "label": "What AI physically depends on",
+     "kind": "theme",
+     "summary": "The chain from chip design to a powered, cooled building. Each step has different units, so numbers from one step cannot be reused for another.",
+     "sources": [],
+     "notes": [
+      "supply-chain/sc08-actionability-and-gap-notes.md"
+     ],
+     "children": [
+      {
+       "label": "Accelerators: chip, module, rack differ",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "NVIDIA, AMD, Google TPU and AWS Trainium sell different units (chip, module, 72-GPU rack). Peak specs are not real application speed.",
+       "sources": [
+        "https://docs.nvidia.com/multi-node-nvlink-systems/multi-node-tuning-guide/overview.html",
+        "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/product-briefs/amd-instinct-mi355x-gpu-brochure.pdf",
+        "https://docs.cloud.google.com/tpu/docs/tpu7x"
+       ],
+       "notes": [
+        "supply-chain/sc01-compute-and-accelerators.md"
+       ]
+      },
+      {
+       "label": "Memory is six different things",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "SRAM, DDR, HBM, GDDR, LPDDR and NAND have different roles. HBM is stacked memory next to the chip, not a bigger DIMM.",
+       "sources": [],
+       "notes": [
+        "supply-chain/sc02-memory.md"
+       ],
+       "children": [
+        {
+         "label": "HBM4 is shipping, with vendor caveats",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "Samsung reports commercial HBM4: up to 3.3 TB/s per stack, 24-36 GB. 'Stable yield' is stated without numbers. SK hynix mass-ships HBM4; HBM4E is samples.",
+         "sources": [
+          "https://news.samsungsemiconductor.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing/",
+          "https://news.skhynix.com/en/q2-2026-business-results/?trk=article-ssr-frontend-pulse_little-text-block"
+         ],
+         "notes": [
+          "supply-chain/sc02-memory.md"
+         ]
+        },
+        {
+         "label": "HBM eats more fab space per bit",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Micron's filing says HBM uses more wafers and cleanroom per bit than normal DRAM. Weaker HBM demand could free up conventional DRAM supply.",
+         "sources": [
+          "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm"
+         ],
+         "notes": [
+          "supply-chain/sc02-memory.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Fabs and tools: many countries, one chain",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Advanced chips need qualified fabs plus an international equipment chain. TSMC reports real production; ASML makes tools across four countries. A fab announcement is not volume output.",
+       "sources": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report.E.pdf",
+        "https://www.asml.com/en/products/euv-lithography-systems"
+       ],
+       "notes": [
+        "supply-chain/sc03-foundry-and-tooling.md"
+       ]
+      },
+      {
+       "label": "Packaging and materials need qualification",
+       "kind": "finding",
+       "confidence": "weak",
+       "summary": "Wafers, interposers, substrates and finished packages are different units. TSMC's material table also counters a blanket-shortage story. Current packaging yield data was not found.",
+       "sources": [
+        "https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf"
+       ],
+       "notes": [
+        "supply-chain/sc04-packaging-and-materials.md"
+       ]
+      },
+      {
+       "label": "Networking and storage: fast parts, unclear gains",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Broadcom ships a 102.4 Tbps switch chip; NVIDIA's GB300 rack links 72 GPUs. Faster links or SSDs still do not guarantee more useful AI work without checking the workload.",
+       "sources": [
+        "https://www.nvidia.com/en-us/data-center/gb300-nvl72/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-now-shipping-worlds-first-1024-tbps-switch-production"
+       ],
+       "notes": [
+        "supply-chain/sc05-network-storage-and-systems.md"
+       ]
+      },
+      {
+       "label": "Optical networking is not optical computing",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Optical links are in production. Computing with light is still early: lab papers and small deployments, with no proven edge over digital chips.",
+       "sources": [
+        "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+        "https://www.nature.com/articles/s41586-025-08786-6"
+       ],
+       "notes": [
+        "supply-chain/sc14-photonics-software.md",
+        "compute-hardware-round3.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "What is actually bottlenecked",
+     "kind": "theme",
+     "summary": "The limit moves: compute, memory, network, storage or power, depending on the job. Power and grid connection are the most repeated constraint.",
+     "sources": [],
+     "notes": [
+      "supply-chain/sc08-actionability-and-gap-notes.md"
+     ],
+     "children": [
+      {
+       "label": "Bottleneck depends on the workload",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Training, prefill, decode and retrieval each hit a different limit. Measure accepted outputs under deadlines, not peak arithmetic or tokens per second.",
+       "sources": [],
+       "notes": [
+        "supply-chain/sc01-compute-and-accelerators.md",
+        "supply-chain/sc05-network-storage-and-systems.md"
+       ]
+      },
+      {
+       "label": "Data centre power demand doubles by 2030",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "IEA estimates data centres used 485 TWh in 2025 and projects about 950 TWh in 2030, around 3% of world electricity. It is a scenario, not a certainty.",
+       "sources": [
+        "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+       ],
+       "notes": [
+        "energy.md"
+       ]
+      },
+      {
+       "label": "Grid connection queues are huge",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "IEA counts 1,700 GW of renewable projects and 600 GW of batteries waiting for grid connection in 2025. Operators cite skills, data and trust as barriers to using AI.",
+       "sources": [
+        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary"
+       ],
+       "notes": [
+        "energy.md"
+       ]
+      },
+      {
+       "label": "Announced is not energized",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "Announced megawatts, energy contracts and delivered chips are not a powered, cooled, accepted site. Utilities stage commissioning, and power equipment is itself short.",
+       "sources": [],
+       "notes": [
+        "supply-chain/sc06-datacenter-dependencies.md"
+       ]
+      },
+      {
+       "label": "Memory shortage is not a safe forever bet",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "Supplier expansion and software efficiency can each ease the squeeze or move it elsewhere. Revenue growth is not bit capacity. No 2031 shortage forecast is supported.",
+       "sources": [],
+       "notes": [
+        "supply-chain/sc02-memory.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Who controls it: geopolitics and India",
+     "kind": "theme",
+     "summary": "Each stage sits in different countries, and export rules are layered. The research read part of the law and says so.",
+     "sources": [],
+     "notes": [
+      "supply-chain/sc07-geopolitics-dependencies.md"
+     ],
+     "children": [
+      {
+       "label": "Stages are spread across countries",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "OECD maps US design and EDA, Taiwan foundry and packaging, Korea memory, Japan wafers and tools, Netherlands EUV. Headquarters is not where chips are made.",
+       "sources": [
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/mapping-the-semiconductor-value-chain_5ba52971/4154cdbf-en.pdf"
+       ],
+       "notes": [
+        "supply-chain/sc07-geopolitics-dependencies.md"
+       ]
+      },
+      {
+       "label": "87% of fab capacity is in five places",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "OECD puts 87% of in-production wafer capacity (Sept 2025) in China, Taiwan, Korea, Japan and the US. It counts wafer starts, not usable AI chips.",
+       "sources": [
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/the-chip-landscape_27ef5d87/02dbd028-en.pdf"
+       ],
+       "notes": [
+        "supply-chain/sc07-geopolitics-dependencies.md"
+       ]
+      },
+      {
+       "label": "US export controls are layered",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "A January 2026 rule allows case-by-case review for some chip exports to China below set performance limits. May 2026 guidance eased new AI Diffusion rules but older parent-company limits remain.",
+       "sources": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf",
+        "https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf"
+       ],
+       "notes": [
+        "supply-chain/sc07-geopolitics-dependencies.md"
+       ],
+       "children": [
+        {
+         "label": "Rules cover HBM, EDA software and US persons",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "A Dec 2024 rule sets HBM bandwidth-density limits, some chip-design (EDA) software controls, and foreign-product rules. Public code or being a programmer does not settle coverage.",
+         "sources": [
+          "https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28270.pdf",
+          "https://www.govinfo.gov/content/pkg/FR-2023-10-25/html/2023-23055.htm"
+         ],
+         "notes": [
+          "supply-chain/sc11-controls-depth-report.md"
+         ]
+        },
+        {
+         "label": "Full current law was not confirmed",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "Several export-rule documents failed to load, so later amendments and exceptions are unchecked. Your own eligibility depends on nationality, employer and item; none was assessed.",
+         "sources": [],
+         "notes": [
+          "supply-chain/sc07-geopolitics-dependencies.md",
+          "supply-chain/sc11-controls-depth-report.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "India: institutions get EDA tool access",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "ChipIN gives Indian academic and R&D organisations shared chip-design tool access via nominated contacts. It is institutional, not individual, and live capacity is unverified.",
+       "sources": [
+        "https://c2s.gov.in/request_for_EDA_Tool.jsp",
+        "https://www.c2s.gov.in/eligibility.jsp"
+       ],
+       "notes": [
+        "supply-chain/sc13-india-semiconductor-entry.md"
+       ],
+       "children": [
+        {
+         "label": "C2S and C-DAC run India's programme",
+         "kind": "org",
+         "summary": "MeitY's C2S programme and C-DAC Bangalore's ChipIN team run tool access and regional support. Learn how access works; these pages are not job offers or contacts.",
+         "sources": [
+          "https://c2s.gov.in/call_for_proposal_RSCs.jsp"
+         ],
+         "notes": [
+          "supply-chain/sc13-india-semiconductor-entry.md"
+         ]
+        },
+        {
+         "label": "Regional support call already closed",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "The regional-support-centre call had a 23 July 2026 deadline, already past. It describes defined support work (installing, licence checkout) but no individual vacancy.",
+         "sources": [
+          "https://c2s.gov.in/call_for_proposal_RSCs.jsp"
+         ],
+         "notes": [
+          "supply-chain/sc13-india-semiconductor-entry.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Micron assembly plant in Gujarat",
+       "kind": "evidence",
+       "confidence": "weak",
+       "summary": "Micron's filing lists Gujarat assembly and test shipments as a separate milestone. It is not a wafer fab and does not show open engineering jobs or remote access.",
+       "sources": [
+        "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm"
+       ],
+       "notes": [
+        "supply-chain/sc02-memory.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Where a developer can contribute",
+     "kind": "theme",
+     "summary": "Realistic entry is software around the hardware, not device physics. For each route, check what native tools already do before building anything.",
+     "sources": [],
+     "notes": [
+      "supply-chain/sc08-actionability-and-gap-notes.md",
+      "supply-chain/final-companion-2031.md"
+     ],
+     "children": [
+      {
+       "label": "Memory and serving software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Work on memory accounting, KV-cache handling, offload and profiling for inference. vLLM already offers much of this, so only real gaps justify custom work.",
+       "sources": [
+        "https://docs.vllm.ai/en/latest/configuration/engine_args/"
+       ],
+       "notes": [
+        "supply-chain/sc02-memory.md"
+       ],
+       "children": [
+        {
+         "label": "Build a memory ledger for one workload",
+         "kind": "action",
+         "summary": "Days 1-30: hand-check weights, KV cache and host memory for one setup. Day 90: compare one native config with one change. Worked if it reproduces; stop if native wins.",
+         "sources": [],
+         "notes": [
+          "supply-chain/final-companion-2031.md",
+          "supply-chain/sc02-memory.md"
+         ]
+        },
+        {
+         "label": "KV-cache and quantization trade-offs",
+         "kind": "skill",
+         "summary": "Learn the KV-cache size formula, quantization side effects, cache eviction and equal-quality testing. Bytes over bandwidth gives a lower bound only.",
+         "sources": [],
+         "notes": [
+          "supply-chain/sc02-memory.md"
+         ]
+        },
+        {
+         "label": "Native tools may make custom work moot",
+         "kind": "risk",
+         "confidence": "mixed",
+         "summary": "vLLM already ships KV allocation, cache dtypes, prefix caching and CPU offload. A wrapper around it may add nothing.",
+         "sources": [
+          "https://docs.vllm.ai/en/latest/configuration/engine_args/"
+         ],
+         "notes": [
+          "supply-chain/sc02-memory.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "SSD firmware and storage software",
+       "kind": "job",
+       "confidence": "weak",
+       "summary": "Micron Bengaluru roles: SSD firmware simulation (2-4 yrs, strong C/C++) and a firmware DevOps role (10+ yrs, CS degree). Both are search-index snapshots, current openings unknown.",
+       "sources": [
+        "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Engineer---SSD-Firmware_JR95466",
+        "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Staff-Engineer---SSD-Firmware--DevOps-_JR102274-1"
+       ],
+       "notes": [
+        "supply-chain/sc09-memory-software-entry.md"
+       ],
+       "children": [
+        {
+         "label": "SPDK: open storage software to learn from",
+         "kind": "org",
+         "summary": "Public user-space storage libraries (NVMe, NVMe-oF) with contribution links. Good place to learn; it does not mean a mentor or job.",
+         "sources": [
+          "https://github.com/spdk/spdk"
+         ],
+         "notes": [
+          "supply-chain/sc09-memory-software-entry.md"
+         ]
+        },
+        {
+         "label": "Cloud DevOps skills transfer, barriers remain",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Backend and CI/CD skills carry over to firmware DevOps, but the role still asks 10+ years and a degree. Hardware-specific roles need domain depth.",
+         "sources": [],
+         "notes": [
+          "supply-chain/sc09-memory-software-entry.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Non-NVIDIA accelerator software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Compilers, operator support and testing for other chips: Google XLA/TPU, AWS Neuron, Huawei Ascend. The tools already automate a lot; independent correctness tests are the entry.",
+       "sources": [
+        "https://openxla.org/xla/architecture",
+        "https://github.com/Ascend/pytorch",
+        "https://github.com/mindspore-ai/mindspore/blob/master/README.md"
+       ],
+       "notes": [
+        "supply-chain/sc01-compute-and-accelerators.md",
+        "supply-chain/sc12-alternative-accelerator-software.md"
+       ],
+       "children": [
+        {
+         "label": "Triton: public compiler issue tracker",
+         "kind": "org",
+         "summary": "Open compiler project with a public issue tracker. A small, reproduced regression is a legitimate contribution; it is not a hiring channel.",
+         "sources": [
+          "https://github.com/triton-lang/triton/issues"
+         ],
+         "notes": [
+          "supply-chain/sc01-compute-and-accelerators.md"
+         ]
+        },
+        {
+         "label": "Portability is not drop-in",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Ascend's PyTorch adapter ties to specific PyTorch, CANN and driver versions, and a familiar frontend still needs operator-by-operator checks. AI can already write some GPU kernels.",
+         "sources": [
+          "https://github.com/Ascend/pytorch/blob/master/COMPATIBILITY.en.md",
+          "https://arxiv.org/html/2411.15114v2"
+         ],
+         "notes": [
+          "supply-chain/sc12-alternative-accelerator-software.md",
+          "supply-chain/sc01-compute-and-accelerators.md"
+         ]
+        },
+        {
+         "label": "Compare one operator across backends",
+         "kind": "action",
+         "summary": "Days 1-30: pin versions, write an independent reference for one operator. Day 90: with approved hardware, test new shapes and document a gap. Stop if native tools pass.",
+         "sources": [],
+         "notes": [
+          "supply-chain/sc01-compute-and-accelerators.md",
+          "supply-chain/sc08-actionability-and-gap-notes.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Chip design (EDA) software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Open-source flows like OpenROAD, Verilator and cocotb let a developer touch chip tooling without a fab. Needs C++/Python, HDL and timing concepts.",
+       "sources": [
+        "https://github.com/The-OpenROAD-Project/OpenROAD/discussions"
+       ],
+       "notes": [
+        "eda-hardware-software-option-round11.md",
+        "supply-chain/sc07-geopolitics-dependencies.md"
+       ],
+       "children": [
+        {
+         "label": "AI already edits EDA code",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "A 2026 paper had coding agents improve OpenROAD: up to 10% better timing, up to 19.4% lower power at 1-10% timing cost. Not proof of jobs.",
+         "sources": [
+          "https://arxiv.org/html/2601.06268v2"
+         ],
+         "notes": [
+          "eda-hardware-software-option-round11.md"
+         ]
+        },
+        {
+         "label": "Run a small FIFO chip-design flow",
+         "kind": "action",
+         "summary": "Days 1-90: build a 4-deep FIFO, check 100,000 transactions against an independent model, run OpenROAD on the educational Nangate45 library. Stop if setup passes 8 hours unresolved.",
+         "sources": [],
+         "notes": [
+          "supply-chain/sc07-geopolitics-dependencies.md"
+         ]
+        },
+        {
+         "label": "Educational flow is not real silicon",
+         "kind": "risk",
+         "confidence": "strong",
+         "summary": "Nangate45 is non-manufacturable, so results show tool skill only, not tapeout or industrial PDK access.",
+         "sources": [],
+         "notes": [
+          "eda-hardware-software-option-round11.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Photonics and power-electronics software",
+       "kind": "job",
+       "confidence": "weak",
+       "summary": "Control, test and fault-injection software for optical and rack power hardware. Real but thin: one TI 48V bench report, NVIDIA 800V roadmap, Q.ANT open photonic SDK.",
+       "sources": [
+        "https://qant.com/press-releases/q-ant-launches-world-first-open-source-sdk-for-photonic-computing/"
+       ],
+       "notes": [
+        "supply-chain/sc14-photonics-software.md",
+        "supply-chain/sc15-power-electronics-software.md",
+        "compute-hardware-round3.md"
+       ],
+       "children": [
+        {
+         "label": "Simulator results are not hardware results",
+         "kind": "risk",
+         "confidence": "mixed",
+         "summary": "Q.ANT's SDK has a CPU simulator, but cloud hardware access was still 'coming months'. Software tests cannot replace calibration on real devices.",
+         "sources": [],
+         "notes": [
+          "compute-hardware-round3.md",
+          "supply-chain/sc14-photonics-software.md"
+         ]
+        },
+        {
+         "label": "Power software still needs commissioning skills",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "An AWS Hyderabad controls role needs 4+ years of critical-environment work and an engineering degree. A software portfolio does not replace that.",
+         "sources": [
+          "https://amazon.jobs/en/jobs/10560146/controls-engineer-controls-deployment-service-india"
+         ],
+         "notes": [
+          "supply-chain/sc06-datacenter-dependencies.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Energy and grid data software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Ordinary backend and data work in energy firms is the most reachable path: Kraken, Modo Energy, Hitachi Energy. Domain skills are learned on the job.",
+       "sources": [
+        "https://jobs.ashbyhq.com/krakentech/39f3c25d-d982-49c5-9704-f3dc8458c0fd",
+        "https://job-boards.eu.greenhouse.io/modoenergy/jobs/4954236101"
+       ],
+       "notes": [
+        "energy-round2.md",
+        "energy-software-entry-depth-round65.md"
+       ],
+       "children": [
+        {
+         "label": "Hitachi Energy Bengaluru software roles",
+         "kind": "org",
+         "summary": "DevOps (5-10 yrs) and test automation (5-8 yrs) roles sit inside an energy vendor and need no power-systems degree. Shows mainstream engineering counts here.",
+         "sources": [
+          "https://careers.hitachi.com/r-d-engineer-devops-idc/job/R0142094",
+          "https://careers.hitachi.com/test-automation-engineer-idc/job/R0142411"
+         ],
+         "notes": [
+          "energy-round2.md"
+         ]
+        },
+        {
+         "label": "Proxima Fusion needs no fusion background",
+         "kind": "org",
+         "summary": "Munich on-site simulation-platform role: Python required, no fusion background asked. Work rights and relocation unconfirmed; fusion power by 2031 is not a base case.",
+         "sources": [
+          "https://www.proximafusion.com/careers/open-position/software-engineer-simulation-platform-0186dc7c"
+         ],
+         "notes": [
+          "nuclear-fusion-software-round4.md"
+         ]
+        },
+        {
+         "label": "Incumbents already sell the obvious tools",
+         "kind": "risk",
+         "confidence": "mixed",
+         "summary": "Kraken sells smart scheduling, Siemens sells congestion software and NVIDIA schedules around power limits. A new entrant needs a specific gap.",
+         "sources": [
+          "https://www.kraken.tech/residential-flexibility"
+         ],
+         "notes": [
+          "energy-round2.md",
+          "energy-software-entry-depth-round65.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Flexible AI data centres",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "A Phoenix test cut a 256-GPU cluster's power 25% for 3 hours, twice, by throttling and pausing jobs. One cluster; strict serving untouched.",
+       "sources": [
+        "https://arxiv.org/html/2507.00909v1",
+        "https://github.com/ai-emerald/emerald-ai-demo-may-2025"
+       ],
+       "notes": [
+        "ai-workload-flexibility-depth-round40.md"
+       ],
+       "children": [
+        {
+         "label": "Log power events with decision-time data",
+         "kind": "action",
+         "summary": "Days 1-30: build a toy log of events, meter boundary, forecast time and command time; check with independent SQL. Worked if bad cases are blocked; stop if native tools suffice.",
+         "sources": [],
+         "notes": [
+          "ai-workload-flexibility-depth-round40.md",
+          "supply-chain/sc06-datacenter-dependencies.md"
+         ]
+        },
+        {
+         "label": "Real savings and reliability unproven",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Facility-level megawatts, interactive-request deadlines, deferred-work catch-up and arbitrary event timing were not shown. Savings against SLA penalties is open.",
+         "sources": [],
+         "notes": [
+          "ai-workload-flexibility-depth-round40.md"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Honest limits of this research",
+     "kind": "theme",
+     "summary": "What the notes could not settle, so the map is not read as a forecast.",
+     "sources": [],
+     "notes": [
+      "supply-chain/sc08-actionability-and-gap-notes.md",
+      "supply-chain/final-companion-2031.md"
+     ],
+     "children": [
+      {
+       "label": "No 2031 job counts or shortage forecast",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "The notes use small hand-picked samples of roles and vendor claims. They do not forecast hardware vacancies or lasting premiums for human developers.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md"
+       ]
+      },
+      {
+       "label": "Automation may shrink the entry points",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "AI already helps write kernels and EDA code. Smaller teams, cheaper software or new tasks are all possible, so ordinary backend and data work stays a valid path.",
+       "sources": [],
+       "notes": [
+        "supply-chain/final-companion-2031.md",
+        "eda-hardware-software-option-round11.md"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "robotics",
+   "label": "Robotics & physical systems",
+   "summary": "Physical AI is a real but narrow frontier: robots earn money on bounded jobs, humanoids and home robots remain speculative, and accessible software work is operations, evaluation and data. Hardware access, credentials and location are the main barriers.",
+   "headlines": [
+    "Robots are growing fast (5M factory robots, 1M at Amazon) but mostly as single-purpose machines; only ~7,000 humanoids were sold in 2025.",
+    "Robot deployments do not guarantee software jobs: service work is heavy, suppliers cut staff, and no one has audited how many roles are software.",
+    "The best entry is reliability work around a paid workflow (operations, replay, evaluation, inspection), proven by honest measurement against a simple baseline.",
+    "Hardware access, PhD-level research roles and location or work-authorization limits are real barriers that remote-only portfolios cannot fully remove."
+   ],
+   "children": [
+    {
+     "label": "What is real today",
+     "kind": "theme",
+     "summary": "Robots at scale are mostly specialized machines doing one bounded job. Humanoids and general home robots are far behind.",
+     "sources": [],
+     "notes": [
+      "robotics.md"
+     ],
+     "children": [
+      {
+       "label": "Factory and warehouse robots are big",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Industrial robots and warehouse fleets are already large and growing, though mostly single-purpose machines, not human-shaped workers.",
+       "sources": [
+        "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+        "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+       ],
+       "notes": [
+        "robotics.md"
+       ],
+       "children": [
+        {
+         "label": "5 million factory robots running",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "IFR (Sept 2026): 5M industrial robots operating, 600,000+ installed in 2025 (up 11%). China is 59%; Japan and parts of Europe fell.",
+         "sources": [
+          "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        },
+        {
+         "label": "Amazon passed 1 million robots",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Amazon announced its millionth robot in June 2025 and a fleet-coordination model. Its 10% travel-efficiency gain is a vendor projection.",
+         "sources": [
+          "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        },
+        {
+         "label": "Only ~7,000 full-size humanoids sold",
+         "kind": "counter",
+         "confidence": "strong",
+         "summary": "IFR counts ~250,000 professional service robots sold in 2025 but only ~7,000 humanoids; most humanoid uses are narrow and often teleoperated.",
+         "sources": [
+          "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Field robots win on narrow jobs",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Farming, mining and inspection robots sell a measurable outcome (less spray, tonnes hauled), not a replacement for the whole worker.",
+       "sources": [
+        "https://www.deere.ca/en/news/all-news/see-spray-technology-across-5-million-acres/",
+        "https://www.caterpillar.com/en/news/caterpillarNews/2026/cat-autonomy-solutions.html"
+       ],
+       "notes": [
+        "robotics.md",
+        "field-robotics-round4.md"
+       ],
+       "children": [
+        {
+         "label": "Mining: ~700 autonomous trucks",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Caterpillar (Jan 2026): nearly 700 autonomous trucks, 11+ billion tonnes hauled. Construction sites are still a future test market.",
+         "sources": [
+          "https://www.caterpillar.com/en/news/caterpillarNews/2026/cat-autonomy-solutions.html"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        },
+        {
+         "label": "People stay in the loop",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Rail drones use trained pilots, subsea ROVs are shore-controlled, pipe robots are operated by company staff. Hazard moves away from people; paid human work doesn't vanish.",
+         "sources": [
+          "https://www.networkrailmediacentre.co.uk/news/drones-delivering-range-of-benefits-and-keeping-trains-moving",
+          "https://www.fugro.com/expertise/case-studies/remote-subsea-inspections-eliminate-personnel-risk-for-brazil-s-largest-oil-producer"
+         ],
+         "notes": [
+          "field-robotics-round4.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Humanoids: narrow work, unproven economics",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Humanoids now do real but narrow work. The business case rests on utilization assumptions, and research models still fail on new task combinations.",
+       "sources": [
+        "https://www.agilityrobotics.com/content/digit-moves-over-100k-totes",
+        "https://robocasa.ai/leaderboard.html"
+       ],
+       "notes": [
+        "robotics.md"
+       ],
+       "children": [
+        {
+         "label": "Agility: 100,000 totes moved",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Agility reported 100,000+ tote moves at a GXO site. Stronger than a staged clip, but not proof of general labor or a published cost per useful hour.",
+         "sources": [
+          "https://www.agilityrobotics.com/content/digit-moves-over-100k-totes"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        },
+        {
+         "label": "Cost swings $16 to $51 per hour",
+         "kind": "evidence",
+         "confidence": "weak",
+         "summary": "Derived from Agility's own $8,500/month price: $16.35/hour at 6,240 working hours, $51/hour at 2,000. Utilization matters as much as price.",
+         "sources": [
+          "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107259/ea030784201ex99-1.htm"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        },
+        {
+         "label": "Models fail on unseen task combos",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "RoboCasa365 leader scores 86.5% on seen atomic tasks but 45.2% on unseen composite tasks in simulation; several baselines score 1-3%.",
+         "sources": [
+          "https://robocasa.ai/leaderboard.html"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Robotaxis and drones are real, costly",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Waymo and Wing run commercial service at scale, but with huge capital, recalls and hidden human-support numbers.",
+       "sources": [
+        "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing/",
+        "https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network"
+       ],
+       "notes": [
+        "robotics.md",
+        "robotics-round2.md"
+       ],
+       "children": [
+        {
+         "label": "Waymo: 15 cities, $5B loan, a recall",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "Oct 2026: 15th U.S. city and $5B loan on top of $16B equity. A June 2026 recall covered 3,871 systems entering freeway construction zones.",
+         "sources": [
+          "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing/",
+          "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26E035-7637.pdf"
+         ],
+         "notes": [
+          "robotics.md"
+         ]
+        },
+        {
+         "label": "Remote-help staffing is not disclosed",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Waymo says ~70 remote-assistance agents serve ~400,000 weekly trips but withholds how often they step in. Human cost per trip is unknown.",
+         "sources": [
+          "https://www.markey.senate.gov/imo/media/doc/company_responses_to_rao_letter.pdf"
+         ],
+         "notes": [
+          "robotics-round2.md"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Robots do not equal software jobs",
+     "kind": "theme",
+     "summary": "Robot sales do not automatically create accessible software jobs. Much of the work is local service, and suppliers cut staff in downturns.",
+     "sources": [],
+     "notes": [
+      "robotics-round2.md",
+      "robotics-operator-economics-access-depth-round58.md"
+     ],
+     "children": [
+      {
+       "label": "Service and support eat margins",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Selling robots is real revenue, but maintenance, integration and on-site labor are heavy and often handled by others.",
+       "sources": [],
+       "notes": [
+        "robotics-round2.md",
+        "robotics-operator-economics-access-depth-round58.md"
+       ],
+       "children": [
+        {
+         "label": "Symbotic services lost money, then improved",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Symbotic's FY2025 operation-services line had a -6.96% derived gross margin; Q3 FY2026 improved to 11.55%. Walmart is ~85% of revenue.",
+         "sources": [
+          "https://ir.symbotic.com/static-files/8d44e050-9519-4347-aa51-fc51e49c4a87",
+          "https://ir.symbotic.com/news-releases/news-release-details/symbotic-reports-third-quarter-fiscal-year-2026-results"
+         ],
+         "notes": [
+          "robotics-round2.md"
+         ]
+        },
+        {
+         "label": "Teradyne robotics: ~400 laid off",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Teradyne's robotics unit lost $99.4M in 2025 and restructured ~400 staff, then recovered to $100M quarterly revenue. Supplier teams are cyclical.",
+         "sources": [
+          "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-059002/0001193125-26-059002.pdf"
+         ],
+         "notes": [
+          "robotics-round2.md"
+         ]
+        },
+        {
+         "label": "AutoStore: native tools cover a lot",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "AutoStore reports 72.2% gross margin and ships its own diagnostics and maintenance tools. A generic robot-dashboard startup must beat what is already included.",
+         "sources": [
+          "https://www.autostoresystem.com/investors/press-releases/autostore-q2-2026-financial-results-f35ed",
+          "https://www.autostoresystem.com/solution-faqs"
+         ],
+         "notes": [
+          "robotics-operator-economics-access-depth-round58.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Robot adoption does create technical work",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Operators report more reliability, maintenance and engineering jobs, but nobody has audited how many are software roles.",
+       "sources": [
+        "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+       ],
+       "notes": [
+        "robotics-round2.md"
+       ],
+       "children": [
+        {
+         "label": "Amazon: 30% more technical roles",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "Amazon says its newest fulfillment center type needs 30% more reliability, maintenance and engineering staff. Net jobs and software share are not given.",
+         "sources": [
+          "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+         ],
+         "notes": [
+          "robotics-round2.md"
+         ]
+        },
+        {
+         "label": "Existing open tools already compete",
+         "kind": "counter",
+         "confidence": "mixed",
+         "summary": "Equinor publishes Flotilla, a free robot-fleet operator interface, plus a mock-robot test suite. A new platform needs a clear edge over this.",
+         "sources": [
+          "https://github.com/equinor/flotilla",
+          "https://github.com/equinor/armada"
+         ],
+         "notes": [
+          "robotics-round2.md"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "What the AI research shows",
+     "kind": "theme",
+     "summary": "Learned robot policies are improving, but success on benchmarks is narrow and hard to compare. Measuring and recovering from failures is the open gap.",
+     "sources": [],
+     "notes": [
+      "robotics-round3-generalization.md",
+      "robotics-autonomy-evaluation-depth-round38.md"
+     ],
+     "children": [
+      {
+       "label": "Benchmark scores and transfer claims are narrow",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "High scores often hide shortcuts: small models match big ones until the scene or goal changes, and shared data transfers only onto known robots.",
+       "sources": [
+        "https://arxiv.org/html/2609.03715v1",
+        "https://arxiv.org/html/2602.15922v1"
+       ],
+       "notes": [
+        "robotics-round3-generalization.md"
+       ],
+       "children": [
+        {
+         "label": "Open X-Embodiment: 3x on one skill set",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "RT-2-X got 75.8% vs 27.3% on skills from another robot's data, but on robots already trained. The smaller multi-robot model lost to per-robot RT-1 in all three tables.",
+         "sources": [
+          "https://arxiv.org/html/2310.08864v9"
+         ],
+         "notes": [
+          "robot-data-transfer-access-depth-round55.md"
+         ]
+        },
+        {
+         "label": "Tiny 0.54M model hits ~95% on LIBERO",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "MINERVA scores ~95% on standard LIBERO with no language understanding, but drops to ~46-56% under camera and lighting changes. Preprint.",
+         "sources": [
+          "https://arxiv.org/html/2609.03715v1"
+         ],
+         "notes": [
+          "robotics-round3-generalization.md"
+         ]
+        },
+        {
+         "label": "DreamZero: 49% progress, 22.5% full success",
+         "kind": "evidence",
+         "confidence": "mixed",
+         "summary": "On unseen tasks it beats other models (12.5% and 7.5% full success) but needs two top-end GPUs and often finishes only part of a task. Preprint.",
+         "sources": [
+          "https://arxiv.org/html/2602.15922v1"
+         ],
+         "notes": [
+          "robotics-round3-generalization.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Low-attention autonomy is unmeasured",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "RoboArena ranked 7 policies over 612 real-robot comparisons, but never reported how much human setup and watching was needed per finished task.",
+       "sources": [
+        "https://arxiv.org/html/2506.18123v2"
+       ],
+       "notes": [
+        "robotics-autonomy-evaluation-depth-round38.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Software jobs and routes in",
+     "kind": "theme",
+     "summary": "Software work sits around the robot: operations, evaluation, perception, firmware, networks and data. Few of these need a PhD, but most need hardware or domain access.",
+     "sources": [],
+     "notes": [
+      "robotics.md"
+     ],
+     "children": [
+      {
+       "label": "Robot platform and operations software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Versioned robot APIs, telemetry, replay, incident triage, edge runtime. Closest to backend skills; FieldAI's posting asks degree or equivalent, C++/Python, onsite Irvine.",
+       "sources": [
+        "https://jobs.lever.co/field-ai/a0856b2f-3674-49fa-8546-9b823df597f2"
+       ],
+       "notes": [
+        "robotics.md"
+       ]
+      },
+      {
+       "label": "Policy evaluation and recovery tooling",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Decide which model version is safe for a bounded task, detect failures, pick data to fix them. Needs ML and statistics; hosted APIs may hide the signals needed.",
+       "sources": [],
+       "notes": [
+        "robotics.md",
+        "robotics-round2.md"
+       ]
+      },
+      {
+       "label": "Inspection and quality-vision software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Make cameras give accepted pass/fail decisions linked to work orders. Competes with mature vendors like HALCON; value is in decision reliability, not a generic model.",
+       "sources": [
+        "https://www.mvtec.com/knowledge-base/news/article/halcon-2605-is-available-now"
+       ],
+       "notes": [
+        "industrial-inspection-option-round12.md"
+       ]
+      },
+      {
+       "label": "State estimation and perception",
+       "kind": "job",
+       "confidence": "weak",
+       "summary": "Robot localization that knows when it is wrong. Needs math (SE(3), filters) and hardware. One sampled role wanted a graduate student; platform work may not.",
+       "sources": [],
+       "notes": [
+        "state-estimation-option-round13.md",
+        "field-robotics-round4.md"
+       ]
+      },
+      {
+       "label": "Embedded firmware and real-time",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Interrupts, sensor timing, safe updates in C. Samsara wants 8+ years; Garmin lists an entry-level role. Board-free practice covers only part.",
+       "sources": [
+        "https://www.samsara.com/company/careers/roles/8074536?gh_jid=8074536",
+        "https://careers.garmin.com/jobs/17783?lang=en-us"
+       ],
+       "notes": [
+        "embedded-realtime-option-round12.md"
+       ]
+      },
+      {
+       "label": "Telecom and edge network software",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Cloud-native 5G functions, test automation, network telemetry. Ericsson Bangalore posting: containers, Python/Robot automation, no RF PhD asked. Not a proven shortage.",
+       "sources": [
+        "https://jobs.ericsson.com/careers/job/563121777121454?domain=ericsson.com&triggerGoButton=false"
+       ],
+       "notes": [
+        "telecom-edge-round4.md",
+        "network-control-option-round24.md"
+       ]
+      },
+      {
+       "label": "Geospatial and satellite data products",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Turn satellite data into reviewable decisions (crop, flood). Real buyers exist, but nothing here proves rising headcount; wrapper work faces cheap foundation models.",
+       "sources": [
+        "https://www.gov.uk/government/publications/rural-payments-agency-annual-report-and-accounts-2025-to-2026/rural-payments-agency-annual-report-and-accounts-2025-to-2026",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297646&lang=2&reg=48"
+       ],
+       "notes": [
+        "geospatial-space-round5.md"
+       ]
+      },
+      {
+       "label": "Field deployment technician",
+       "kind": "job",
+       "confidence": "strong",
+       "summary": "Commissioning, repairs, operator training. Real work, but ANYbotics' 'remote' role is US-based with up to 80% travel and hardware skills.",
+       "sources": [
+        "https://jobs.lever.co/anybotics/21610dea-72a2-4771-8fb9-0d9c00b7b3dd"
+       ],
+       "notes": [
+        "robotics-round2.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Barriers: hardware, credentials, place",
+     "kind": "theme",
+     "summary": "The main blockers are physical access, research credentials and location or work-authorization limits. Remote-only portfolios cannot fully replace field experience.",
+     "sources": [],
+     "notes": [
+      "robotics.md",
+      "robotics-round2.md"
+     ],
+     "children": [
+      {
+       "label": "PhD roles vs engineering roles",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Research-scientist jobs want PhDs and publications; platform engineering roles accept equivalent experience. 'Robotics jobs' is too broad a category.",
+       "sources": [
+        "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Research-Scientist--Robotics-Research----PhD-New-College-Grad-2026_JR2011473",
+        "https://jobs.lever.co/field-ai/a0856b2f-3674-49fa-8546-9b823df597f2"
+       ],
+       "notes": [
+        "robotics.md"
+       ]
+      },
+      {
+       "label": "Hardware and field time are required",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Timing, calibration, sensor failure and safe stopping are learned on real machines. Simulation and replay cannot validate smoke, water, contact wear or safety.",
+       "sources": [],
+       "notes": [
+        "robotics.md",
+        "field-robotics-round4.md",
+        "tactile-contact-option-round10.md"
+       ]
+      },
+      {
+       "label": "Location and work authorization filter roles",
+       "kind": "finding",
+       "confidence": "strong",
+       "summary": "Sampled postings restrict by place: Deterrence needs U.S. person status, ANYbotics is U.S.-based, Caterpillar's Chennai post needs a degree and has closed.",
+       "sources": [
+        "https://job-boards.greenhouse.io/deterrencedefenseinc/jobs/4453709009",
+        "https://careers.caterpillar.com/it/lavori/r0000395301/autonomy-engineer/"
+       ],
+       "notes": [
+        "robotics-round2.md"
+       ]
+      },
+      {
+       "label": "Open data often bans commercial use",
+       "kind": "risk",
+       "confidence": "strong",
+       "summary": "MVTec datasets and the Hilti construction data are non-commercial licenses; some code has no license. Portfolios built on them can't become products directly.",
+       "sources": [
+        "https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2"
+       ],
+       "notes": [
+        "industrial-inspection-option-round12.md",
+        "field-robotics-round4.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Skills worth learning",
+     "kind": "theme",
+     "summary": "The durable combination is software systems plus physical grounding: geometry, timing, and honest measurement of failures.",
+     "sources": [],
+     "notes": [
+      "robotics.md",
+      "physical-control-skill-transfer-round64.md"
+     ],
+     "children": [
+      {
+       "label": "Coordinate frames, geometry, estimation",
+       "kind": "skill",
+       "summary": "Rigid transforms, quaternions, time sync, basic Kalman/factor-graph ideas. Most errors in robot data are frame or clock bugs, not model bugs.",
+       "sources": [],
+       "notes": [
+        "robotics.md",
+        "state-estimation-option-round13.md"
+       ]
+      },
+      {
+       "label": "Latency, clocks and stale data",
+       "kind": "skill",
+       "summary": "Separate when a sensor saw something, when the system got it, and when an action took effect. Reject expired observations; a fast decision on old data is still wrong.",
+       "sources": [],
+       "notes": [
+        "network-control-option-round24.md",
+        "embedded-realtime-option-round12.md"
+       ]
+      },
+      {
+       "label": "Evaluation statistics for robots",
+       "kind": "skill",
+       "summary": "Hold out whole sessions or sites, count every failed or aborted attempt, report false completions, and beat a simple baseline before claiming a gain.",
+       "sources": [],
+       "notes": [
+        "robotics-round3-generalization.md",
+        "robotics.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Concrete ways in",
+     "kind": "theme",
+     "summary": "Each starter project is small, uses public data and is built to expose its own failures. Stop it if a simple baseline matches the fancy version.",
+     "sources": [],
+     "notes": [
+      "robotics.md"
+     ],
+     "children": [
+      {
+       "label": "Robot data replay and trace tool",
+       "kind": "action",
+       "summary": "30d: wrap an existing estimator on TUM RGB-D data with timestamps and expiry. 90d: add a second sensor. Works if pose error is under 10 cm and replay reproduces failures.",
+       "sources": [
+        "https://cvg.cit.tum.de/data/datasets/rgbd-dataset"
+       ],
+       "notes": [
+        "robotics.md"
+       ]
+      },
+      {
+       "label": "Localization that admits it's lost",
+       "kind": "action",
+       "summary": "30d: reproduce a baseline on Boreas data. 90d: add a validity signal. Works if undetected error falls 30% on unseen sessions; stop if a simple gate matches.",
+       "sources": [
+        "https://registry.opendata.aws/boreas/"
+       ],
+       "notes": [
+        "field-robotics-round4.md"
+       ]
+      },
+      {
+       "label": "Policy failure detector in simulation",
+       "kind": "action",
+       "summary": "30d: reproduce a baseline on LIBERO or RoboCasa. 90d: add a failure detector and recovery. Works if failures drop with under 10% speed loss; stop if a state machine matches.",
+       "sources": [
+        "https://robocasa.ai/leaderboard.html"
+       ],
+       "notes": [
+        "robotics.md",
+        "robotics-round3-generalization.md"
+       ]
+      },
+      {
+       "label": "Synthetic inspection harness",
+       "kind": "action",
+       "summary": "30d: build synthetic parts with known defects and a classical vision baseline. Works if false rejects are 1% or less and recall 95%+; stop if no buyer owns the decision.",
+       "sources": [],
+       "notes": [
+        "industrial-inspection-option-round12.md",
+        "robotics.md"
+       ]
+      },
+      {
+       "label": "Firmware timing and safe-update test",
+       "kind": "action",
+       "summary": "30d: spec a sensor pipeline, test against Zephyr's queue. 90d: reproduce MCUboot update tests with interrupted resets. Works if every data loss is visible; stop if upstream covers it.",
+       "sources": [
+        "https://docs.zephyrproject.org/latest/releases/index.html"
+       ],
+       "notes": [
+        "embedded-realtime-option-round12.md"
+       ]
+      },
+      {
+       "label": "Network trace audit in a simulator",
+       "kind": "action",
+       "summary": "30d: map one report-to-command flow in NIST's O-RAN simulator, marking each timestamp. 90d: compare native late-command handling. Works if stale-data cases are flagged; stop if native logs answer it.",
+       "sources": [
+        "https://github.com/usnistgov/ns3-oran"
+       ],
+       "notes": [
+        "network-control-option-round24.md",
+        "telecom-edge-round4.md"
+       ]
+      },
+      {
+       "label": "Flood or crop screening from satellite data",
+       "kind": "action",
+       "summary": "30d: use UK Rural Payments Agency ground data, spatial hold-out, cheap spectral baselines. Works if priority recall rises 10 points at a fixed false-alert rate; stop if an index matches.",
+       "sources": [
+        "https://www.data.gov.uk/dataset/bff7e0d5-e813-45ad-bb0e-7321dc042d72/rpa-crop-map-of-england-features-and-events-ground-observation-points-2024"
+       ],
+       "notes": [
+        "geospatial-space-round5.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Projects and teams to learn from",
+     "kind": "theme",
+     "summary": "These public projects and groups show real work, tools and entry routes. None is a confirmed job offer.",
+     "sources": [],
+     "notes": [
+      "robotics-round2.md",
+      "field-robotics-round4.md"
+     ],
+     "children": [
+      {
+       "label": "Equinor Flotilla and Armada",
+       "kind": "org",
+       "summary": "Operator-built multi-robot interface and mock-robot test suite, EPL-2.0. Good for studying real mission, error and security design before writing your own.",
+       "sources": [
+        "https://github.com/equinor/flotilla",
+        "https://github.com/equinor/armada"
+       ],
+       "notes": [
+        "robotics-round2.md"
+       ]
+      },
+      {
+       "label": "OpenVINS and evo",
+       "kind": "org",
+       "summary": "Open VIO estimator and trajectory-evaluation tool, both GPL. Accepting small reproducible fixes is a realistic first contribution; no issues were posted.",
+       "sources": [
+        "https://github.com/rpng/open_vins/blob/69488123ed9362dd44b6f28e7f4680abbff1442b/ReadMe.md",
+        "https://github.com/MichaelGrupp/evo/blob/3ca861e03a412626c4faa0b71c6140b1f44295d6/README.md"
+       ],
+       "notes": [
+        "state-estimation-option-round13.md"
+       ]
+      },
+      {
+       "label": "Open Cosmos (satellite software)",
+       "kind": "org",
+       "summary": "UK company with edge-computing and ground-platform roles. Hybrid UK, requires right to work there; shows what onboard versus ground work asks.",
+       "sources": [
+        "https://careers.open-cosmos.com/jobs/8478374-edge-computing-software-engineer-earth-observation"
+       ],
+       "notes": [
+        "geospatial-space-round5.md"
+       ]
+      },
+      {
+       "label": "Space is a risky first target",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "Orbital demos are mostly numerical feasibility, not live operations: one flood-detection test ran on an uploaded dataset after a power fault. Onboard software needs target hardware.",
+       "sources": [
+        "https://arxiv.org/html/2512.01181v1"
+       ],
+       "notes": [
+        "geospatial-space-round5.md"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sectors",
+   "label": "Science, security & other sectors",
+   "summary": "Beyond core software, real developer work exists in health data, labs, security, finance and public services, mostly as integration, measurement and reliability. Quantum and creative/consumer bets carry far more risk.",
+   "headlines": [
+    "Across every sector, the reachable work is making AI reliable inside real workflows (data meaning, evaluation, permissions), not inventing the science or the model.",
+    "Security (especially post-quantum migration and agent permissions) and finance/payments have the clearest present work; quantum is a deliberate specialist bet with no proven 2031 job market.",
+    "Big trial and deployment headlines usually hide narrow results (e.g., no mortality proof, self-reported savings), and platforms or incumbents often absorb generic products.",
+    "No source gives hiring or salary forecasts to 2031; pick one domain where you can get a real partner and data, and keep a small side experiment."
+   ],
+   "children": [
+    {
+     "label": "Health, genomics & clinical AI",
+     "kind": "theme",
+     "summary": "Real deployments and trials exist, but results are narrow. The accessible work is integration, data meaning and measurement, not clinical decisions.",
+     "sources": [],
+     "notes": [
+      "bio.md"
+     ],
+     "children": [
+      {
+       "label": "Breast-screening AI trial is strong evidence",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "About 106,000 women: AI-assisted reading found more cancers (sensitivity 80.5% vs 73.8%) and cut reading workload about 44%.",
+       "sources": [
+        "https://doi.org/10.1016/S0140-6736(25)02464-X"
+       ],
+       "notes": [
+        "bio.md"
+       ]
+      },
+      {
+       "label": "But it did not prove fewer deaths",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "Interval-cancer drop (82 vs 93) was not statistically significant; only noninferior. No mortality result, one country, not autonomous diagnosis.",
+       "sources": [],
+       "notes": [
+        "bio.md"
+       ]
+      },
+      {
+       "label": "Scribe AI cuts burnout, savings are modest",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Randomised trial of 66 clinicians: exhaustion down 0.44 points, note time down 0.36 hours per 8-hour day. Open-label, self-reported, no patient-health outcome.",
+       "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/"
+       ],
+       "notes": [
+        "clinical-ai-workflow-outcomes-depth-round49.md"
+       ]
+      },
+      {
+       "label": "Hospital deterioration-alert AI showed no benefit",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "A randomised ward trial of an AI risk display (10,422 visits) found no significant improvement. Not proof of harm, but prediction alone did not help patients.",
+       "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923516/"
+       ],
+       "notes": [
+        "prospective-clinical-ai-outcomes-depth-round36.md"
+       ]
+      },
+      {
+       "label": "Health-data interoperability engineering",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "FHIR and OMOP data work: keep IDs, units, vocabularies and versions meaning the same across systems. Existing validators do much already; value is in the gaps.",
+       "sources": [
+        "https://hl7.org/fhir/directory.html"
+       ],
+       "notes": [
+        "health-interoperability-option-round12.md"
+       ],
+       "children": [
+        {
+         "label": "Pin exact versions of FHIR, OMOP, profiles",
+         "kind": "skill",
+         "summary": "OMOP CDM 5.5.0 (Aug 2026) and FHIR R4/R5 are different contracts; switching versions silently breaks meaning.",
+         "sources": [],
+         "notes": [
+          "health-interoperability-option-round12.md"
+         ]
+        },
+        {
+         "label": "Build a small meaning-checking data test",
+         "kind": "action",
+         "summary": "In 30 days, write a synthetic-data reconciliation test between two formats and report every field whose meaning changed. Stop if native validators already catch everything.",
+         "sources": [],
+         "notes": [
+          "health-interoperability-option-round12.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Genomics workflow and benchmarking software",
+       "kind": "job",
+       "confidence": "weak",
+       "summary": "Compare variant calls against the right truth set and reference, and report exactly what was measured. Thin pipeline launchers face heavy automation.",
+       "sources": [],
+       "notes": [
+        "genomics-workflows-option-round22.md"
+       ]
+      },
+      {
+       "label": "Isomorphic Labs hires engineers, in London",
+       "kind": "org",
+       "confidence": "mixed",
+       "summary": "Current job board had inference-platform and ML research-engineer roles with no PhD required for the former; all require 3 days a week in London.",
+       "sources": [
+        "https://job-boards.greenhouse.io/isomorphiclabs"
+       ],
+       "notes": [
+        "bio.md"
+       ]
+      },
+      {
+       "label": "AI drug discovery is still clinical-risk heavy",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "Rentosertib phase III only began dosing in Sept 2026 and is unapproved. Long timelines, big capital and credentials make this a weak default bet for a software engineer.",
+       "sources": [
+        "https://insilico.com/news/isn1009261-insilico-medicine-doses-first-patient-genesis-ipf-3"
+       ],
+       "notes": [
+        "bio.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Autonomous labs & materials science",
+     "kind": "theme",
+     "summary": "Robot labs and atomistic AI models work in narrow cases. Best entry for a robotics/ML engineer is the instrument-and-evaluation layer, not inventing new science.",
+     "sources": [],
+     "notes": [
+      "bio.md",
+      "materials-science-round4.md"
+     ],
+     "children": [
+      {
+       "label": "AI agents ran a real X-ray robot lab",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "A March 2026 study had AI agents operate an X-ray nanoprobe and polymer-film robot, but tasks were narrow (four repeats each) and humans still loaded and calibrated.",
+       "sources": [
+        "https://www.nature.com/articles/s41524-026-02005-0"
+       ],
+       "notes": [
+        "bio.md"
+       ]
+      },
+      {
+       "label": "A-Lab's discovery claims were corrected",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "Jan 2026 correction: 'new' meant new to its own platform. 36 of 40 successes were confirmed, 4 inconclusive, one compound removed.",
+       "sources": [
+        "https://www.nature.com/articles/s41586-025-09992-y"
+       ],
+       "notes": [
+        "bio.md"
+       ]
+      },
+      {
+       "label": "Atomistic AI models: good tools, easy to misuse",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "MACE and UMA reproduce DFT in many cases, but lower average error does not guarantee stable dynamics or correct physical properties; checkpoint, licence and reference energies matter.",
+       "sources": [
+        "https://doi.org/10.1063/5.0297006",
+        "https://arxiv.org/abs/2506.23971v2"
+       ],
+       "notes": [
+        "materials-science-round4.md"
+       ]
+      },
+      {
+       "label": "Instrument control and experiment-ledger engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Deterministic instrument commands, fault recovery, data lineage and negative-result capture. Transfers to robotics, manufacturing and energy.",
+       "sources": [],
+       "notes": [
+        "bio.md",
+        "bio-round2.md"
+       ],
+       "children": [
+        {
+         "label": "Learn lab data and model-evaluation basics",
+         "kind": "skill",
+         "summary": "EPICS-style instrument control, leakage-aware splits, calibrated uncertainty, and checking a model against a held-out system.",
+         "sources": [],
+         "notes": [
+          "bio.md",
+          "materials-science-round4.md"
+         ]
+        },
+        {
+         "label": "Build a simulated lab workflow",
+         "kind": "action",
+         "summary": "In 90 days, build one reproducible instrument workflow with constrained commands, simulated faults and a full experiment ledger. Stop if you cannot find a domain scientist to review it.",
+         "sources": [],
+         "notes": [
+          "bio.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Funded but cyclical, credential-gated",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "Lab-software contracts exist (a GBP 202,652 LIMS award) but are often sole-supplier. Lab-instrument demand is uneven and many posts are grant-funded fixed terms.",
+       "sources": [
+        "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN547152"
+       ],
+       "notes": [
+        "bio-round2.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quantum computing (specialist option)",
+     "kind": "theme",
+     "summary": "Hardware progress is real, but useful quantum advantage is unproven. Treat it as a deliberate specialist retraining, not a hedge for an app developer.",
+     "sources": [],
+     "notes": [
+      "quantum-round3.md",
+      "quantum-software-entry-depth-round63.md"
+     ],
+     "children": [
+      {
+       "label": "Error correction is genuinely improving",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "Google reported a distance-7 memory on 101 qubits, with logical error 0.143% per cycle and error shrinking 2.14x per size step.",
+       "sources": [
+        "https://www.nature.com/articles/s41586-024-08449-y"
+       ],
+       "notes": [
+        "quantum-round3.md"
+       ]
+      },
+      {
+       "label": "Memory fidelity is not a working algorithm",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "Quantinuum's 99.9995% claim is for logical memory only, not long computations. A million steps at similar error rates would rarely all succeed.",
+       "sources": [
+        "https://www.quantinuum.com/blog/quantinuum-closes-in-on-one-million-error-free-operations"
+       ],
+       "notes": [
+        "quantum-round3.md"
+       ]
+      },
+      {
+       "label": "Big roadmaps are targets, not results",
+       "kind": "counter",
+       "confidence": "mixed",
+       "summary": "IBM aims for 200 logical qubits and 100 million gates by 2029; DARPA is still testing whether useful machines are reachable by 2033.",
+       "sources": [
+        "https://www.ibm.com/roadmaps/quantum/",
+        "https://www.darpa.mil/news/2026/four-more-teams-enter-quantum-benchmarking-initiative-final-stage"
+       ],
+       "notes": [
+        "quantum-round3.md",
+        "sectors.md"
+       ]
+      },
+      {
+       "label": "Entry is classical software inside the quantum stack",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Compilers, simulation, error-correction decoders, controls and HPC integration. Decoder research roles want research evidence, not just coding.",
+       "sources": [
+        "https://job-boards.eu.greenhouse.io/riverlane/jobs/4980347101"
+       ],
+       "notes": [
+        "quantum-round3.md",
+        "quantum-software-entry-depth-round63.md"
+       ],
+       "children": [
+        {
+         "label": "Riverlane decoder role is research-heavy",
+         "kind": "org",
+         "confidence": "mixed",
+         "summary": "Cambridge hybrid role accepts a Master's/PhD or industry equivalent, but also asks for independent theoretical research. Sponsorship unclear.",
+         "sources": [
+          "https://job-boards.eu.greenhouse.io/riverlane/jobs/4980347101"
+         ],
+         "notes": [
+          "quantum-software-entry-depth-round63.md"
+         ]
+        },
+        {
+         "label": "Reproduce one error-correction benchmark",
+         "kind": "action",
+         "summary": "In 90 days, reproduce one paper's classical baseline with Stim/PyMatching and honest error accounting. Stop if it's only fear of missing out or math prerequisites clash with your goals.",
+         "sources": [],
+         "notes": [
+          "sectors.md",
+          "quantum-software-entry-depth-round63.md"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Security, PQC & confidential AI",
+     "kind": "theme",
+     "summary": "Security work grows as AI creates more agents, identities and software. Engineers who can prove a system stays within its authority have durable skills, though platforms absorb generic products.",
+     "sources": [],
+     "notes": [
+      "security.md",
+      "security-round2.md"
+     ],
+     "children": [
+      {
+       "label": "Old basics still cause most breaches",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "Verizon's 2026 report: exploited vulnerabilities were 31% of breach entry points and third parties were involved in 48%. Vendor-reported data.",
+       "sources": [
+        "https://www.verizon.com/about/news/breach-industry-wide-dbir-finds"
+       ],
+       "notes": [
+        "security.md"
+       ]
+      },
+      {
+       "label": "AI agents are easy to hijack",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "A public red-team contest logged 8,648 successful attacks from 67,634 judged submissions across 13 models. It is an upper bound for one attack setup, not real-world frequency.",
+       "sources": [
+        "https://arxiv.org/html/2603.15714v1"
+       ],
+       "notes": [
+        "security.md"
+       ]
+      },
+      {
+       "label": "Enforce limits outside the model",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Designs like CaMeL track data provenance and enforce permissions in code rather than trusting the model to refuse. Policy writing and identity context remain hard.",
+       "sources": [
+        "https://arxiv.org/html/2503.18813v2"
+       ],
+       "notes": [
+        "security.md"
+       ]
+      },
+      {
+       "label": "Post-quantum crypto migration",
+       "kind": "job",
+       "confidence": "strong",
+       "summary": "Already a classical integration job: find where cryptography really protects something, check what is negotiated, keep authentication working, and verify rollback.",
+       "sources": [
+        "https://www.rfc-editor.org/rfc/rfc10024.html"
+       ],
+       "notes": [
+        "pqc-migration-depth-round10.md"
+       ],
+       "children": [
+        {
+         "label": "Hybrid TLS is now a standard",
+         "kind": "evidence",
+         "confidence": "strong",
+         "summary": "RFC 10024 (Aug 2026) defines X25519MLKEM768 and other hybrids; OpenSSL 3.5 ships ML-KEM natively. Key exchange only, not full certificate migration.",
+         "sources": [
+          "https://openssl-library.org/news/openssl-3.5-notes/"
+         ],
+         "notes": [
+          "pqc-migration-depth-round10.md"
+         ]
+        },
+        {
+         "label": "Build an offline crypto-inventory ledger",
+         "kind": "action",
+         "summary": "In 30 days, build a synthetic inventory-to-negotiation-to-rollback test showing which group each connection used. Stop if native OpenSSL tooling already answers it.",
+         "sources": [],
+         "notes": [
+          "pqc-migration-depth-round10.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Confidential AI needs layered proof",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Hardware attestation protects data from infrastructure operators, but does not by itself prove which model ran, who authorised it, or that output is correct. Native verifiers are the baseline.",
+       "sources": [
+        "https://docs.nvidia.com/datacenter/cloud-native/confidential-containers/latest/attestation.html"
+       ],
+       "notes": [
+        "confidential-ai-work-boundary-round38.md"
+       ]
+      },
+      {
+       "label": "AI security engineer, agent identity roles",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Production AI security, agent platform security and identity for autonomous workloads. Existing security teams may absorb these rather than create new titles.",
+       "sources": [],
+       "notes": [
+        "security.md"
+       ]
+      },
+      {
+       "label": "Generic agent-security startups look risky",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "Big platforms already sell agent policy, identity and observability. Regulation alone does not give a startup customers or a moat.",
+       "sources": [],
+       "notes": [
+        "security.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Finance & payments",
+     "kind": "theme",
+     "summary": "Strongest practical wedge for an application/AI engineer: reliable money data, reconciliation and fraud tooling, where a measurable cost exists.",
+     "sources": [],
+     "notes": [
+      "finance-payments-round5.md",
+      "sectors.md"
+     ],
+     "children": [
+      {
+       "label": "Payment volume is huge",
+       "kind": "evidence",
+       "confidence": "strong",
+       "summary": "India's UPI recorded about 24,068 million transactions in Sept 2026; Stripe reported USD 1.9 trillion in 2025 volume, up 34%.",
+       "sources": [
+        "https://www.npci.org.in/product/upi/product-statistics",
+        "https://stripe.com/gb/newsroom/news/stripe-2025-update"
+       ],
+       "notes": [
+        "sectors.md"
+       ]
+      },
+      {
+       "label": "Volume is not developer income",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "Payment volume is not company revenue or jobs. Stripe's USD 1 billion suite run rate was a projection.",
+       "sources": [],
+       "notes": [
+        "sectors.md"
+       ]
+      },
+      {
+       "label": "Ledger, reconciliation and settlement work",
+       "kind": "job",
+       "confidence": "strong",
+       "summary": "Keep authorised, posted, paid-out and bank-received states separate; match orders, provider records and bank statements; unmatched amounts stay unmatched.",
+       "sources": [
+        "https://docs.tigerbeetle.com/coding/two-phase-transfers/",
+        "https://docs.stripe.com/reports/payout-reconciliation"
+       ],
+       "notes": [
+        "finance-payments-round5.md"
+       ],
+       "children": [
+        {
+         "label": "Learn money-state and exception handling",
+         "kind": "skill",
+         "summary": "Explicit currency units, immutable events, reversals instead of edits, bounded one-to-many matching, exception queues.",
+         "sources": [],
+         "notes": [
+          "finance-payments-round5.md"
+         ]
+        },
+        {
+         "label": "Pilot a read-only reconciliation matcher",
+         "kind": "action",
+         "summary": "With one finance operator and anonymised data, build matching plus explanations in 90 days. Example gate: 30% less review time at no worse error cost; stop if errors cost more.",
+         "sources": [],
+         "notes": [
+          "sectors.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Fraud and dispute tooling",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Streaming risk features, label timing, dispute evidence assembly. A chargeback is not a perfect fraud label, and high ROC-AUC can still flood reviewers.",
+       "sources": [
+        "https://docs.stripe.com/disputes/categories"
+       ],
+       "notes": [
+        "finance-payments-round5.md"
+       ]
+      },
+      {
+       "label": "Incumbents and regulation limit new products",
+       "kind": "risk",
+       "confidence": "mixed",
+       "summary": "Matching, dispute drafting and risk scoring already have established providers. Holding funds or underwriting is a regulated, much bigger scope than integrating providers.",
+       "sources": [],
+       "notes": [
+        "finance-payments-round5.md",
+        "sectors.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Public sector, legal & education",
+     "kind": "theme",
+     "summary": "Governments and schools are deploying AI, mostly with narrow measured wins. Reachable work is document handling, case systems and measurement; procurement and trust are the barriers.",
+     "sources": [],
+     "notes": [
+      "public-legal-admin-round5.md",
+      "education-learning-round5.md",
+      "digital-public-infrastructure-access-depth-round47.md"
+     ],
+     "children": [
+      {
+       "label": "UK government is paying for AI planning tools",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "GBP 8.2m contract (Google Cloud, DeepMind, Faculty) for planning triage; halving decision time is an aim, not a result.",
+       "sources": [
+        "https://www.gov.uk/government/news/ai-tool-to-slash-planning-decision-times-as-government-accelerates-push-to-build-15-million-homes"
+       ],
+       "notes": [
+        "public-legal-admin-round5.md"
+       ]
+      },
+      {
+       "label": "Platforms and incumbents win procurement",
+       "kind": "counter",
+       "confidence": "strong",
+       "summary": "UK government stopped its Redbox tool because secure LLM tools came bundled in existing deals. A council kept its existing case system (GBP 208,000) over switching.",
+       "sources": [
+        "https://www.gov.uk/government/news/ground-breaking-use-of-ai-saves-taxpayers-money-and-delivers-greater-government-efficiency",
+        "https://democracy.havering.gov.uk/documents/s82801/50.%20Non%20KEY%20ED%2012.02.26Final.pdf"
+       ],
+       "notes": [
+        "public-legal-admin-round5.md"
+       ]
+      },
+      {
+       "label": "Case and evidence software engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Turn messy documents into reviewable records, with citations, permissions and error measurement. Deciding legal merits is a separate, qualified role.",
+       "sources": [],
+       "notes": [
+        "public-legal-admin-round5.md"
+       ],
+       "children": [
+        {
+         "label": "Learn cited retrieval and permission testing",
+         "kind": "skill",
+         "summary": "Citation correctness, missing-document checks, leakage tests and blind expert review on new cases.",
+         "sources": [],
+         "notes": [
+          "sectors.md"
+         ]
+        },
+        {
+         "label": "Prototype an evidence assistant with one expert",
+         "kind": "action",
+         "summary": "Pick one bounded process and an expert; measure unsupported claims and review time over 90 days. Stop if provenance or permissions can't be established.",
+         "sources": [],
+         "notes": [
+          "sectors.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Open platform DIGIT: real work, hard access",
+       "kind": "org",
+       "confidence": "mixed",
+       "summary": "eGov's open-source DIGIT powers Odisha's SUJOG; the tender needed large primes (INR 100 crore turnover, 250 staff), so solo entry is hard.",
+       "sources": [
+        "https://github.com/egovernments/Digit-Core",
+        "https://urban.odisha.gov.in/sites/default/files/2024-12/Corrigendum_31.12.2024_RFP-24083.pdf"
+       ],
+       "notes": [
+        "digital-public-infrastructure-access-depth-round47.md"
+       ]
+      },
+      {
+       "label": "AI tutoring helps only when designed for learning",
+       "kind": "finding",
+       "confidence": "mixed",
+       "summary": "Plain AI help raised practice scores but cut later unaided exam scores 17%; teacher safeguards removed the harm. Structured tutors and tutor-assist tools showed gains.",
+       "sources": [
+        "https://doi.org/10.1073/pnas.2422633122",
+        "https://arxiv.org/html/2410.03017v3"
+       ],
+       "notes": [
+        "sectors.md",
+        "education-learning-round5.md"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Creative, accessibility & climate",
+     "kind": "theme",
+     "summary": "Smaller or riskier markets. Value sits in controllable pipelines, task-completing interfaces and decision-linked environmental software, not in demos.",
+     "sources": [],
+     "notes": [
+      "creative-games-round5.md",
+      "interfaces-accessibility-round6.md",
+      "climate-water-round3.md"
+     ],
+     "children": [
+      {
+       "label": "Games hiring is rough; platform pay is skewed",
+       "kind": "evidence",
+       "confidence": "mixed",
+       "summary": "GDC 2026: 28% of 2,300+ respondents reported layoffs, 52% viewed gen-AI negatively. Roblox paid creators USD 1.5bn but median DevEx receipts were about USD 1,500.",
+       "sources": [
+        "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/",
+        "https://about.roblox.com/newsroom/2026/09/global-impact-of-creation-on-roblox"
+       ],
+       "notes": [
+        "sectors.md"
+       ]
+      },
+      {
+       "label": "Production-pipeline and tools engineer",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Make generated and authored assets editable, versioned and reviewable: timing, identity, rights, QA. Attractive generated clips alone are not a portfolio.",
+       "sources": [
+        "https://github.com/AcademySoftwareFoundation/OpenTimelineIO"
+       ],
+       "notes": [
+        "creative-games-round5.md"
+       ]
+      },
+      {
+       "label": "Accessible, task-completing interfaces",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Voice, screen-reader and vision flows that let a person finish and recover a real task. OS vendors already ship strong voice control, so wrappers are at risk.",
+       "sources": [
+        "https://support.microsoft.com/en-au/accessibility/windows/voice-access/use-voice-access-to-control-your-pc-author-text-with-your-voice"
+       ],
+       "notes": [
+        "interfaces-accessibility-round6.md"
+       ],
+       "children": [
+        {
+         "label": "Low word-error is not task success",
+         "kind": "finding",
+         "confidence": "mixed",
+         "summary": "A model can mishear harmless words yet keep the command, or flip a date; ASR was twice as wrong for Black speakers in a 2020 study (0.35 vs 0.19).",
+         "sources": [
+          "https://doi.org/10.1073/pnas.1915768117"
+         ],
+         "notes": [
+          "interfaces-accessibility-round6.md"
+         ]
+        },
+        {
+         "label": "Android XR is real but unproven commercially",
+         "kind": "risk",
+         "confidence": "mixed",
+         "summary": "Developer Preview 4 and glasses libraries exist, yet an SDK is not a profitable app market. Keep skills portable across phone and glasses.",
+         "sources": [
+          "https://android-developers.googleblog.com/2026/06/what-is-new-android-xr.html?m=1"
+         ],
+         "notes": [
+          "sectors.md",
+          "interfaces-accessibility-round6.md"
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Water and flood software works beside experts",
+       "kind": "job",
+       "confidence": "mixed",
+       "summary": "Time-series pipelines, forecast replay and workflow integration for utilities and flood teams. Mature physics tools (EPANET, Flood Modeller) are the baseline to beat.",
+       "sources": [
+        "https://www.epa.gov/water-research/epanet",
+        "https://www.find-tender.service.gov.uk/Notice/005023-2025/PDF"
+       ],
+       "notes": [
+        "climate-water-round3.md"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+# Future of software jobs → 2031
+
+> Research corpus from a multi-day, multi-agent AI investigation (19–21 Oct 2026) into how developer and software work will change through ~2031, and how to prepare. It covers labor-market evidence, AI coding and agent capability, the AI hardware supply chain and geopolitics, robotics, science/health/security/finance sectors, and preparation strategies with counter-arguments. All claims link to primary sources. The findings are hypotheses, not forecasts.
+
+Base URL for raw files: https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/
+
+## Start here
+- [README](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/README.md): short answer, repo map, limits
+- [Agent guide](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/AGENTS.md): how to navigate and cite
+- [Mind map data](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/data/mindmap.json): 6 branches with headlines, nodes, confidence, sources
+- [Note index](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/INDEX.json): all 258 notes with field, title, summary
+
+## Key notes
+- [Interim findings](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/interim-findings-report-2026-10-20.md): five main findings and four starter experiments
+- [Labor evidence](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/labor.md): BLS, Stanford/ADP, Yale and Danish evidence, employer requirements
+- [Software & agents](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/software.md): AI's effect on software engineering work
+- [2031 scenarios](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/adversarial-2031-scenarios-round9.md): competing futures and what would distinguish them
+- [Adversarial critique](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/adversarial-baseline.md): the strongest arguments against the main thesis
+- [AI memory / HBM](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/supply-chain/sc02-memory.md): memory supply chain and developer entry points
+- [Geopolitics](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/supply-chain/sc07-geopolitics-dependencies.md): country dependencies and export controls
+- [Robotics](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/notes/robotics.md): what is deployed versus hype, and software roles
+
+## Data
+- [Claims](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/data/claims.json): claims with counter-evidence and falsifiers
+- [Sources](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/data/sources.json): 2,375 URLs mapped to the notes that cite them
+- [Full Codex tree outline](https://raw.githubusercontent.com/SivaNithishKumar/future-of-software-jobs/main/data/codex-final-tree-outline.md): 1,022-entry tree including project plans and an organisation directory

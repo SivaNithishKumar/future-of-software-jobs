@@ -1,0 +1,9 @@
+Five official bodies were readable and support bounded additive resource links; the pinned MCUboot contribution guide returned a cache miss and stays unresolved. No search query was needed: the exact routes were already in the held source records, but absent from the selected directory fields.
+
+- **CMU variant:** [DataShop description](https://www.cmu.edu/datalab/tools/datashop.html), only as a qualified named-ID resource. Its minimal reused variant does not identify the separate robotics/AirLab unit. Withhold if that distinction cannot appear beside the link.
+- **MPI-SWS/LiME:** [official project route](https://lime.mpi-sws.org/about/) confirms the precise group/project relation and public contribution mechanism. Generic qualified-candidate language is not a verified individual funded opening.
+- **IFC paper:** [institutional final copy](https://repository.tudelft.nl/file/File_53bc6e1a-b2ee-4d06-bd70-b9d911484fe0?preview=1) matches the title, four authors, DOI and final version. Article CC BY4.0 does not grant the practitioner models.
+- **BatteryML:** [repository](https://github.com/microsoft/BatteryML) matches the source pin and is archived/read-only. It is a reference route, not an active upstream participation promise.
+- **ECMWF:** [Anemoi inference repository](https://github.com/ecmwf/anemoi-inference) is the matched code resource. This does not verify every ECMWF/AIFS programme, job, model asset or contribution policy.
+
+The six original entries remain unchanged. Five guarded additions are proposed, including the conditional CMU pointer; one gap remains. Repository licence labels were not substituted for legal-text or all-asset rights checks. Reader cache dates are retained separately from origin freshness. Public routes do not authorize messaging, applications or submissions. Different review and root selection are required before publication; no code, data, model, account or native run occurred.

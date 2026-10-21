@@ -1,0 +1,11 @@
+Public Ascend software provides a real compatibility path and substantial native automation. It does not demonstrate drop-in substitution for a CUDA workload. Two focused queries and three official bodies were read, then the source budget closed. No software, model, data, SDK or hardware was acquired or run.
+
+The [TorchNPU compatibility document](https://github.com/Ascend/pytorch/blob/master/COMPATIBILITY.en.md) ties the adapter to PyTorch, CANN, Python and device-dependent drivers/firmware. Product releases and package versions differ; a post suffix cannot identify the product release by itself. This moving source is not an immutable or tested environment.
+
+The [official adapter mirror](https://github.com/Ascend/pytorch) describes native graph compilation, distributed collectives, profiling and memory reuse, with specialised SIGs. These are credible alternatives to custom work. A familiar frontend leaves selected operator, dtype, shape, backward, graph and fallback behaviour to verify. Full licence, SDK/firmware and contribution-policy bodies were not read; neither a paid receiver nor accessible device is established.
+
+The [MindSpore README](https://github.com/mindspore-ai/mindspore/blob/master/README.md) describes another native compiler/parallel framework and declares Apache-2.0. Its displayed installation and maintenance examples are old. They cannot establish a current2026 support matrix or current comparison with PyTorch compilers; they also do not establish that MindSpore is inactive. CPU examples cannot validate Ascend device semantics or performance.
+
+The existing preparation fit is H1 in compute-hardware-round3.md, lines151–159: retain its whole-workload comparison contract and not-run reproducibility fallback. Native execution remains conditional on separately approved resources, rights and an independent numerical/task-quality oracle. If native tools answer the frozen question, reject extra custom work. No new project, hours, backend arm or serving145 allowance is added.
+
+Public repository access is distinct from SDK/device/model/data rights. Branding does not establish manufacturing geography or legal eligibility. No current-job or2031 employment inference is made. This packet remains held for a different review and root selection; the older publication cut is unchanged.

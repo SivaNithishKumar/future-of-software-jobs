@@ -1,0 +1,15 @@
+# UCL RSE framework: exact-version metadata-route follow-up
+
+The new metadata route did not return a body. No actual framework document path was established, so the UCL grade/qualification/regrading rules remain unread. This is a bounded additional access observation, not a fresh framework review or evidence that the item or repository is unavailable elsewhere.
+
+The question was saved before requests. The candidate article 25196066/version 1 came from the already observed institution-linked DOI10.5522/04/25196066.v1. I used one known public Figshare version-detail metadata route, not a retry of Labor 61's DOI or UCL repository pages. The [exact API path](https://api.figshare.com/v2/articles/25196066/versions/1) returned only a tool-inaccessible message. No origin HTTP status, error cause, title, publisher, version, file ID, size or licence was returned.
+
+The second surface was explicitly conditional: one actual returned public framework document, with verified identity/type and a bounded provider-declared size. Since there was no metadata body, there was no eligible document URL to select. I did not fill the unused slot by guessing a file path, mirror, alternate API route or another framework. No document, software package, data asset, account, application or native run was acquired or used. The 5 MiB reading bound was not a project budget.
+
+The old DOI/title/destination remain held Labor 61observations, not newly verified facts about this API response. Null file entries mean unknown, not an empty repository. A tool access failure also does not establish origin 404,a service outage, login requirement, closed licence or global absence. No additional discovery query or retry was made.
+
+No UCL grade numbers, essential/desirable qualification grammar, degree-equivalent rule, tenure requirement, regrading process, effective date or current HR condition can be added. Unread requirements are not waived. Postal or institutional identity would not by itself establish onsite work, India-remote access, sponsorship or personal eligibility even if it had returned here.
+
+Princeton's already inspected normative ladder remains its own closed source case. It is not a substitute UCL rubric. Likewise, the existing evidence progression—from a bounded artifact to actual receiving use, accepted contribution, sustained delegated ownership and institutional assessment—remains a conditional map grounded in its own sources. This pass supplies no new institutional acceptance, current paid role, promotion odds, credential return or 2031 timetable.
+
+The source search stops at its stated gap. A later exact readable witness could close only its actual documentary fields, but no further request is scheduled here. One preplanned primary route was attempted;zero framework bodies and zero new projects, hours, exercises or personal-readiness claims resulted. Finite checks preserve exact old inputs and the conditional request scope;they do not validate policy or origin availability. Different review and ROOT disposition remain separate.

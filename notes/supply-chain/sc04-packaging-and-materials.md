@@ -1,0 +1,9 @@
+# Packaging and materials: qualified integration
+
+The engineering boundary is design/test automation,data validation and correlation with measurements. Physical package qualification is a different proof. This is a first scoped A→Bpass; current OSAT yield,cycle and qualified-output denominators remain open.
+
+[TSMC’s2025annual chapter](https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf) distinguishes integration routes and production from later qualification plans. Its material-supply table also counters a blanket shortage narrative,within its2025scope. The [SoIC page](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/SoIC.htm) states known-good-die/wafer-stacking premises. [Ajinomoto’s March2026interview](https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience) explains ABF’s insulation role. Film,substrate,interposer,wafer and finished package remain different units; roadmap/market-share/tool-purchase claims cannot silently bridge them.
+
+Native analytics,dispatch,metrology and certified design flows are serious baselines. One PENDING30/90proposal uses a synthetic typed qualification/output ledger,native SQL and an independent hand-reference. No hours,fixture,keys,reviewer,runtime or factorydata are secured. It cannot qualify hardware,infer actualyield or prove customerROI.
+
+Four queries/six conservative official resources are closed. Shin-Etsu’s exact chapter timed out and ASEIRreturned403; no retry or third-party transcript was promoted to primary evidence. Exact hybrid-bond methods,currentOSAToperating denominators and role access are gaps,not absence. Public docs grant no commercialEDA/PDK/customer models or lab access. Geography/export questions stay withSC07. No installation,asset,chemical procedure,simulation or physical operation occurred.
